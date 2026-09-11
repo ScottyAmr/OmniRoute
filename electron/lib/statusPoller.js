@@ -164,6 +164,10 @@ class StatusPoller {
     }
   }
 
+  poll() {
+    return this._poll();
+  }
+
   get() {
     return { ...this._status };
   }

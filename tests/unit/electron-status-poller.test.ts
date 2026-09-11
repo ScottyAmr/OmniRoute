@@ -203,10 +203,8 @@ describe("StatusPoller call-log reading (DATA_DIR override)", () => {
 
       process.env.DATA_DIR = dir;
       const poller = new StatusPoller(() => {});
-      // start() calls _poll() immediately; with no server, health="unhealthy" but
-      // log stats still load from the filesystem.
-      poller.start();
-      await new Promise<void>((resolve) => setTimeout(resolve, 200));
+      // poll() awaits one full cycle (health + log read) without starting the interval.
+      await poller.poll();
       poller.stop();
 
       const s = poller.get();
@@ -247,8 +245,7 @@ describe("StatusPoller call-log reading (DATA_DIR override)", () => {
 
       process.env.DATA_DIR = dir;
       const poller = new StatusPoller(() => {});
-      poller.start();
-      await new Promise<void>((resolve) => setTimeout(resolve, 200));
+      await poller.poll();
       poller.stop();
       assert.equal(poller.get().sessionTotal, 0, "health/models calls should not count");
     } finally {
@@ -279,8 +276,7 @@ describe("StatusPoller call-log reading (DATA_DIR override)", () => {
 
       process.env.DATA_DIR = dir;
       const poller = new StatusPoller(() => {});
-      poller.start();
-      await new Promise<void>((resolve) => setTimeout(resolve, 200));
+      await poller.poll();
       poller.stop();
       assert.equal(poller.get().sessionTotal, 0, "4xx/5xx responses should not count");
     } finally {
@@ -297,8 +293,7 @@ describe("StatusPoller call-log reading (DATA_DIR override)", () => {
       // No call_logs subdirectory — poller should handle gracefully
       process.env.DATA_DIR = dir;
       const poller = new StatusPoller(() => {});
-      poller.start();
-      await new Promise<void>((resolve) => setTimeout(resolve, 200));
+      await poller.poll();
       poller.stop();
       const s = poller.get();
       assert.equal(s.sessionTotal, 0);
@@ -333,8 +328,7 @@ describe("StatusPoller call-log reading (DATA_DIR override)", () => {
 
       process.env.DATA_DIR = dir;
       const poller = new StatusPoller(() => {});
-      poller.start();
-      await new Promise<void>((resolve) => setTimeout(resolve, 200));
+      await poller.poll();
       poller.stop();
       const s = poller.get();
       assert.ok(
@@ -364,8 +358,7 @@ describe("StatusPoller call-log reading (DATA_DIR override)", () => {
       const changes: unknown[] = [];
       process.env.DATA_DIR = dir;
       const poller = new StatusPoller((s: unknown) => changes.push(s));
-      poller.start();
-      await new Promise<void>((resolve) => setTimeout(resolve, 200));
+      await poller.poll();
       poller.stop();
       assert.ok(changes.length >= 1, "onChange should have been called at least once");
     } finally {
