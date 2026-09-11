@@ -70,6 +70,7 @@
       "lib/remoteServerPreferences.js",
       "lib/serverReadiness.js",
       "lib/windowClosePolicy.js",
+      "lib/statusPoller.js",
       "assets/remoteServerPrompt.html",
       "package.json",
       "node_modules/**/*"
