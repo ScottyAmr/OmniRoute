@@ -102,8 +102,81 @@ let routingStatus = {
   sessionCost: 0,
   warning: null,
 };
-let paidFallbackLocked = true; // Default: locked (safe)
+let paidFallbackLocked = true; // Default: locked (SAFE MODE)
+let qualityModeRelockTimer = null; // Auto-relock timer for QUALITY MODE
 let statusPoller = null;
+
+// ── SAFE / QUALITY MODE persistence ───────────────────────
+// Persists paidFallbackLocked to ~/.omniroute/safe-mode.json across restarts.
+function getSafeModePrefPath() {
+  return path.join(resolveDataDir(null, process.env), "safe-mode.json");
+}
+
+function loadSafeModePref() {
+  try {
+    const data = JSON.parse(fs.readFileSync(getSafeModePrefPath(), "utf8"));
+    if (typeof data.paidFallbackLocked === "boolean") {
+      paidFallbackLocked = data.paidFallbackLocked;
+    }
+  } catch {
+    // No saved state — keep default (locked).
+  }
+}
+
+function saveSafeModePref() {
+  try {
+    fs.mkdirSync(path.dirname(getSafeModePrefPath()), { recursive: true });
+    fs.writeFileSync(getSafeModePrefPath(), JSON.stringify({ paidFallbackLocked }, null, 2));
+  } catch {
+    // Non-fatal — preference simply won't persist.
+  }
+}
+
+// Cancel any pending auto-relock and schedule a new one for QUALITY MODE.
+// qualityModeMins=0 means: relock immediately (manual relock path).
+const QUALITY_MODE_RELOCK_MINS = 60; // Auto-relock after 60 minutes
+
+function scheduleQualityModeRelock(mins = QUALITY_MODE_RELOCK_MINS) {
+  clearQualityModeRelock();
+  if (mins <= 0) return;
+  qualityModeRelockTimer = setTimeout(
+    () => {
+      if (!paidFallbackLocked) {
+        paidFallbackLocked = true;
+        saveSafeModePref();
+        createTray();
+        new Notification({
+          title: "OmniRoute — SAFE MODE restored",
+          body: `Quality Mode expired after ${mins} min. Paid fallback is locked again.`,
+        }).show();
+      }
+    },
+    mins * 60 * 1000
+  );
+}
+
+function clearQualityModeRelock() {
+  if (qualityModeRelockTimer) {
+    clearTimeout(qualityModeRelockTimer);
+    qualityModeRelockTimer = null;
+  }
+}
+
+// Fires a one-time notification when a PAID route is detected while locked.
+let lastPaidWarningAt = 0;
+const PAID_WARNING_COOLDOWN_MS = 30_000; // at most once per 30 s
+
+function maybePaidRouteWarning(routeClass) {
+  if (!paidFallbackLocked) return;
+  if (routeClass !== "PAID") return;
+  const now = Date.now();
+  if (now - lastPaidWarningAt < PAID_WARNING_COOLDOWN_MS) return;
+  lastPaidWarningAt = now;
+  new Notification({
+    title: "OmniRoute — PAID route detected!",
+    body: "A paid provider was used while SAFE MODE is active. Check tray for details.",
+  }).show();
+}
 
 // ── Remote Server Mode ──────────────────────────────────────
 // Lets the desktop shell attach to an already-running OmniRoute server (e.g. a
@@ -589,12 +662,16 @@ function createTray() {
 
   const routeLabel =
     s.routeClass === "FREE"
-      ? "Free Route Active"
+      ? "✓ Free Route Active"
       : s.routeClass === "PAID"
-        ? "⚠ Paid Route Active"
+        ? paidFallbackLocked
+          ? "⚠ PAID route detected (SAFE MODE on)"
+          : "⚠ Paid Route Active (Quality Mode)"
         : "Route: Unknown";
 
-  const fallbackLabel = paidFallbackLocked ? "Paid Fallback: LOCKED ✓" : "Paid Fallback: ARMED ⚠";
+  const modeLabel = paidFallbackLocked
+    ? "🔒 SAFE MODE (free-only)"
+    : `🔓 QUALITY MODE (relocks ${QUALITY_MODE_RELOCK_MINS}m)`;
 
   const lastReqLabel = s.lastRequestAt
     ? `Last request: ${formatElapsed(s.lastRequestAt)}`
@@ -610,9 +687,9 @@ function createTray() {
   const contextMenu = Menu.buildFromTemplate([
     // ── Server status header ─────────────────────────────
     { label: serverStateLabel, enabled: false },
+    { label: modeLabel, enabled: false },
     { label: providerLabel, enabled: false },
     { label: routeLabel, enabled: false },
-    { label: fallbackLabel, enabled: false },
     { type: "separator" },
 
     // ── Request stats ────────────────────────────────────
@@ -657,30 +734,37 @@ function createTray() {
     },
     { type: "separator" },
 
-    // ── Paid-fallback lock ───────────────────────────────
+    // ── SAFE / QUALITY MODE ──────────────────────────────
     {
-      label: paidFallbackLocked ? "Unlock Paid Fallback…" : "Lock Paid Fallback",
+      label: paidFallbackLocked
+        ? "🔒 SAFE MODE — Enable Quality Mode…"
+        : `🔓 QUALITY MODE — Relock in ${QUALITY_MODE_RELOCK_MINS} min (click to lock now)`,
       click: () => {
         if (!paidFallbackLocked) {
+          // Manual relock: switch back to SAFE MODE immediately.
+          clearQualityModeRelock();
           paidFallbackLocked = true;
+          saveSafeModePref();
           createTray();
           return;
         }
-        // Require deliberate confirmation to unlock.
+        // Require deliberate confirmation before allowing paid providers.
         const { dialog } = require("electron");
         dialog
           .showMessageBox({
             type: "warning",
-            title: "Unlock Paid Fallback?",
-            message:
-              "Unlocking allows OmniRoute to fall back to paid providers (Anthropic, Gemini, Groq) when free routes are unavailable. This may incur API costs.",
-            buttons: ["Keep Locked", "Unlock"],
+            title: "Enable Quality Mode?",
+            message: `Quality Mode allows paid providers (Anthropic, Gemini, Groq) when free routes are unavailable.\n\nThis may incur API costs. Quality Mode will automatically relock after ${QUALITY_MODE_RELOCK_MINS} minutes.`,
+            detail: "You can lock again manually at any time from the tray menu.",
+            buttons: ["Keep Safe Mode", `Enable Quality Mode (${QUALITY_MODE_RELOCK_MINS} min)`],
             defaultId: 0,
             cancelId: 0,
           })
           .then(({ response }) => {
             if (response === 1) {
               paidFallbackLocked = false;
+              saveSafeModePref();
+              scheduleQualityModeRelock(QUALITY_MODE_RELOCK_MINS);
               createTray();
             }
           });
@@ -1374,9 +1458,14 @@ app.whenReady().then(async () => {
   setupIpcHandlers();
   setupAutoUpdater();
 
+  // Load persisted SAFE MODE preference before first tray render.
+  loadSafeModePref();
+
   // Start the routing status poller — refreshes the tray every ~8s.
   statusPoller = new StatusPoller((newStatus) => {
     routingStatus = newStatus;
+    // Warn visibly when a PAID route fires while the lock is engaged.
+    maybePaidRouteWarning(newStatus.routeClass);
     // Rebuild the tray menu when status changes.
     if (tray && !tray.isDestroyed()) {
       createTray();
@@ -1426,6 +1515,7 @@ app.on("window-all-closed", () => {
 
 // Clean up before quit
 app.on("before-quit", async (event) => {
+  clearQualityModeRelock();
   if (statusPoller) {
     statusPoller.stop();
     statusPoller = null;
