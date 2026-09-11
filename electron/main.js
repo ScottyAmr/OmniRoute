@@ -51,6 +51,7 @@ const {
   normalizeCloseBehavior,
   resolveRendererUrl,
 } = require("./lib/windowClosePolicy");
+const { StatusPoller } = require("./lib/statusPoller");
 
 // ── Single Instance Lock ───────────────────────────────────
 const gotTheLock = app.requestSingleInstanceLock();
@@ -85,6 +86,24 @@ let isServerStopped = false;
 let remoteServerPromptWindow = null;
 let keepAliveWithoutWindows = false;
 let lastRendererUrl = null;
+
+// ── Routing Status ─────────────────────────────────────────
+// Tracks the last known routing state for tray display.
+let routingStatus = {
+  health: "unknown",
+  provider: null,
+  model: null,
+  routeClass: "UNKNOWN",
+  lastRequestAt: null,
+  lastLatencyMs: null,
+  sessionTotal: 0,
+  sessionFree: 0,
+  sessionPaid: 0,
+  sessionCost: 0,
+  warning: null,
+};
+let paidFallbackLocked = true; // Default: locked (safe)
+let statusPoller = null;
 
 // ── Remote Server Mode ──────────────────────────────────────
 // Lets the desktop shell attach to an already-running OmniRoute server (e.g. a
@@ -485,6 +504,49 @@ function setCloseBehavior(nextBehavior) {
   createTray();
 }
 
+// ── Status helpers ─────────────────────────────────────────
+
+/** Single unicode circle for the menu-bar dot. On macOS template images don't
+ *  support color — we use setTitle() with ANSI-free unicode dots instead. */
+function statusDot(health) {
+  if (health === "healthy") return "●"; // solid — represents "on"
+  if (health === "unhealthy") return "○"; // hollow — represents "off"
+  return "◌"; // dotted — represents "unknown"
+}
+
+function formatElapsed(isoTimestamp) {
+  if (!isoTimestamp) return "never";
+  const ms = Date.now() - new Date(isoTimestamp).getTime();
+  const s = Math.floor(ms / 1000);
+  if (s < 60) return `${s}s ago`;
+  const m = Math.floor(s / 60);
+  if (m < 60) return `${m}m ago`;
+  return `${Math.floor(m / 60)}h ago`;
+}
+
+function formatCost(cents) {
+  if (!cents || cents === 0) return "$0.00";
+  const dollars = cents / 100;
+  return `~$${dollars.toFixed(4)}`;
+}
+
+function providerDisplayName(provider, model) {
+  if (!provider) return "None";
+  const names = {
+    opencode: "OpenCode",
+    "opencode-zen": "OpenCode Zen",
+    "opencode-go": "OpenCode Go",
+    anthropic: "Anthropic",
+    gemini: "Gemini",
+    groq: "Groq",
+    openai: "OpenAI",
+    mistral: "Mistral",
+    cohere: "Cohere",
+  };
+  const display = names[provider.toLowerCase()] || provider;
+  return model ? `${display} / ${model}` : display;
+}
+
 // ── System Tray ────────────────────────────────────────────
 function createTray() {
   // Fix #4: Destroy old tray before recreating
@@ -508,16 +570,138 @@ function createTray() {
 
   tray = new Tray(icon);
 
+  // ── Build status section ──────────────────────────────────
+  const s = routingStatus;
+  const isHealthy = s.health === "healthy";
+  const serverStateLabel = isServerStopped
+    ? "OmniRoute Stopped"
+    : s.health === "healthy"
+      ? "OmniRoute Online"
+      : s.health === "unhealthy"
+        ? "OmniRoute Offline"
+        : "OmniRoute Starting…";
+
+  const providerLabel = s.provider
+    ? providerDisplayName(s.provider, s.model)
+    : isHealthy
+      ? "No requests yet"
+      : "—";
+
+  const routeLabel =
+    s.routeClass === "FREE"
+      ? "Free Route Active"
+      : s.routeClass === "PAID"
+        ? "⚠ Paid Route Active"
+        : "Route: Unknown";
+
+  const fallbackLabel = paidFallbackLocked ? "Paid Fallback: LOCKED ✓" : "Paid Fallback: ARMED ⚠";
+
+  const lastReqLabel = s.lastRequestAt
+    ? `Last request: ${formatElapsed(s.lastRequestAt)}`
+    : "No requests today";
+
+  const latencyLabel = s.lastLatencyMs != null ? `Latency: ${s.lastLatencyMs}ms` : null;
+
+  const sessionLabel = `Session: ${s.sessionTotal} req (${s.sessionFree} free, ${s.sessionPaid} paid)`;
+  const costLabel = `Est. cost: ${formatCost(s.sessionCost)}`;
+
+  const warningItems = s.warning ? [{ label: `⚠ ${s.warning}`, enabled: false }] : [];
+
   const contextMenu = Menu.buildFromTemplate([
+    // ── Server status header ─────────────────────────────
+    { label: serverStateLabel, enabled: false },
+    { label: providerLabel, enabled: false },
+    { label: routeLabel, enabled: false },
+    { label: fallbackLabel, enabled: false },
+    { type: "separator" },
+
+    // ── Request stats ────────────────────────────────────
+    { label: lastReqLabel, enabled: false },
+    ...(latencyLabel ? [{ label: latencyLabel, enabled: false }] : []),
+    { label: sessionLabel, enabled: false },
+    { label: costLabel, enabled: false },
+    ...warningItems,
+    { type: "separator" },
+
+    // ── Actions ──────────────────────────────────────────
+    { label: "Open Dashboard", click: () => showMainWindow() },
+    { label: "Open in Browser", click: () => shell.openExternal(getServerUrl()) },
+    { type: "separator" },
     {
-      label: "Open OmniRoute",
-      click: () => showMainWindow(),
+      label: "Start OmniRoute",
+      enabled: isServerStopped || !isHealthy,
+      click: () => {
+        startNextServer();
+        createTray();
+      },
     },
     {
-      label: "Open Dashboard",
-      click: () => shell.openExternal(getServerUrl()),
+      label: "Stop OmniRoute",
+      enabled: !isServerStopped,
+      click: () => {
+        stopNextServer();
+        isServerStopped = true;
+        createTray();
+      },
+    },
+    {
+      label: "Restart OmniRoute",
+      click: async () => {
+        const old = nextServer;
+        stopNextServer();
+        await waitForServerExit(old);
+        startNextServer();
+        await waitForServer(getServerReadinessUrl());
+        createTray();
+      },
     },
     { type: "separator" },
+
+    // ── Paid-fallback lock ───────────────────────────────
+    {
+      label: paidFallbackLocked ? "Unlock Paid Fallback…" : "Lock Paid Fallback",
+      click: () => {
+        if (!paidFallbackLocked) {
+          paidFallbackLocked = true;
+          createTray();
+          return;
+        }
+        // Require deliberate confirmation to unlock.
+        const { dialog } = require("electron");
+        dialog
+          .showMessageBox({
+            type: "warning",
+            title: "Unlock Paid Fallback?",
+            message:
+              "Unlocking allows OmniRoute to fall back to paid providers (Anthropic, Gemini, Groq) when free routes are unavailable. This may incur API costs.",
+            buttons: ["Keep Locked", "Unlock"],
+            defaultId: 0,
+            cancelId: 0,
+          })
+          .then(({ response }) => {
+            if (response === 1) {
+              paidFallbackLocked = false;
+              createTray();
+            }
+          });
+      },
+    },
+
+    // ── Auto-start ───────────────────────────────────────
+    {
+      label: "Launch at Login",
+      type: "checkbox",
+      checked: app.getLoginItemSettings().openAtLogin,
+      click: (item) => {
+        if (item.checked) {
+          app.setLoginItemSettings({ openAtLogin: true, openAsHidden: true, args: ["--hidden"] });
+        } else {
+          app.setLoginItemSettings({ openAtLogin: false });
+        }
+      },
+    },
+
+    // ── Misc ─────────────────────────────────────────────
     {
       label: "Server Port",
       submenu: [
@@ -563,10 +747,7 @@ function createTray() {
       ],
     },
     { type: "separator" },
-    {
-      label: "Check for Updates",
-      click: () => checkForUpdates(false),
-    },
+    { label: "Check for Updates", click: () => checkForUpdates(false) },
     { type: "separator" },
     {
       label: "Quit",
@@ -577,9 +758,22 @@ function createTray() {
     },
   ]);
 
-  tray.setToolTip("OmniRoute");
-  tray.setContextMenu(contextMenu);
+  // Set tooltip summary
+  const tooltip = [
+    serverStateLabel,
+    providerLabel !== "None" && providerLabel !== "No requests yet" ? providerLabel : null,
+    s.routeClass !== "UNKNOWN" ? routeLabel : null,
+  ]
+    .filter(Boolean)
+    .join(" · ");
+  tray.setToolTip(tooltip);
 
+  // On macOS, show a compact status dot + "OmniRoute" as the title next to the icon.
+  if (process.platform === "darwin") {
+    tray.setTitle(` ${statusDot(s.health)}`);
+  }
+
+  tray.setContextMenu(contextMenu);
   tray.on("double-click", () => showMainWindow());
 }
 
@@ -1180,6 +1374,16 @@ app.whenReady().then(async () => {
   setupIpcHandlers();
   setupAutoUpdater();
 
+  // Start the routing status poller — refreshes the tray every ~8s.
+  statusPoller = new StatusPoller((newStatus) => {
+    routingStatus = newStatus;
+    // Rebuild the tray menu when status changes.
+    if (tray && !tray.isDestroyed()) {
+      createTray();
+    }
+  });
+  statusPoller.start();
+
   // If readiness timed out (e.g. very long first-launch migrations), don't leave the
   // window stuck on a hanging connection — keep polling and reload once it responds (#2460).
   if (!isDev && !serverReady && !isHeadless && !startHidden) {
@@ -1222,6 +1426,11 @@ app.on("window-all-closed", () => {
 
 // Clean up before quit
 app.on("before-quit", async (event) => {
+  if (statusPoller) {
+    statusPoller.stop();
+    statusPoller = null;
+  }
+
   if (nextServer && !isServerStopped) {
     event.preventDefault(); // Stop immediate quit
     app.isQuitting = true;
