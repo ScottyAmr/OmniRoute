@@ -29,6 +29,7 @@ import {
   resolveAdobeAccessToken,
   exchangeAdobeCookieForAccessToken,
 } from "./adobeFireflyClient.ts";
+import { matchAdobeForterTimestamp } from "./adobeFireflySecurity.ts";
 
 export interface AdobeFireflySession {
   accessToken: string;
@@ -133,7 +134,7 @@ const FORTER_PROACTIVE_WARM_MS = 3 * 60_000;
  * "1" still enables it; any other value (including unset) now also enables it.
  */
 export function adobeFireflyBrowserEnabled(): boolean {
-  return process.env.ADOBE_FIREFLY_BROWSER_REFRESH !== "0";
+  return browserRefreshEnabled();
 }
 /** Persist sessions under DATA_DIR so restarts keep JWT + last cookie. */
 const SESSION_DIR_NAME = "adobe-firefly-sessions";
@@ -202,8 +203,7 @@ export function extractAdobeForterTimestampMs(cookieOrBlob: string): number {
     normalizeAdobeForterToken(getAdobeCookieValue(cookieOrBlob, "forterToken")) ||
     normalizeAdobeForterToken(getAdobeCookieValue(cookieOrBlob, "forter")) ||
     "";
-  const m = ftr.match(/_(\d{13})__/);
-  return m ? Number(m[1]) : 0;
+  return matchAdobeForterTimestamp(ftr);
 }
 
 export function getAdobeForterAgeMs(cookieOrBlob: string): number {
@@ -367,10 +367,7 @@ export function resolveAdobeArpSessionIdSmart(
       }
     })();
     // Prefer the ARP whose forter timestamp is newer (…_ms__UDF43…).
-    const ts = (ftr: string) => {
-      const m = ftr.match(/_(\d{13})__/);
-      return m ? Number(m[1]) : 0;
-    };
+    const ts = (ftr: string) => matchAdobeForterTimestamp(ftr);
     if (ts(rebuiltFtr) >= ts(extractedFtr)) return rebuilt;
     return extracted;
   }
@@ -428,6 +425,19 @@ export function estimateAdobeTokenExpiry(accessToken: string): number {
   if (created > 0 && expiresIn > 0) return created + expiresIn;
   // Fallback: treat as 20h from now if claims missing
   return Date.now() + 20 * 60 * 60_000;
+}
+
+/**
+ * Spawning a real Chrome is never valid under a unit-test runner. The browser holds
+ * an OS handle on its profile directory under DATA_DIR, so a test that rmSync()s its
+ * temp DATA_DIR in teardown fails with EPERM on Windows, and the CDP socket keeps the
+ * runner alive for the full 75s warm timeout.
+ */
+function browserRefreshEnabled(): boolean {
+  if (process.env.ADOBE_FIREFLY_BROWSER_REFRESH === "0") return false;
+  if (process.env.NODE_ENV === "test") return false;
+  if (process.env.VITEST || process.env.NODE_TEST_CONTEXT) return false;
+  return true;
 }
 
 function diskSessionsEnabled(): boolean {
@@ -954,8 +964,7 @@ export async function rotateAdobeFireflySessionOnError(
   clearAdobeFireflyWorkingArp(session.fingerprint);
   noteAdobeFireflySubmitFailure();
 
-  const tryBrowser =
-    opts?.tryBrowser !== false && process.env.ADOBE_FIREFLY_BROWSER_REFRESH !== "0";
+  const tryBrowser = opts?.tryBrowser !== false && browserRefreshEnabled();
   if (tryBrowser) {
     opts?.log?.info?.(
       "ADOBE-FIREFLY",

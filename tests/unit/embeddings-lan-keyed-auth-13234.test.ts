@@ -160,6 +160,6 @@ test("#13234: LAN node with a keyless connection record still sends no Authoriza
   assert.equal(
     fetchStub.captured!.headers.Authorization,
     undefined,
-    "empty stored key must not fabricate Authorization",
+    "empty stored key must not fabricate Authorization"
   );
 });

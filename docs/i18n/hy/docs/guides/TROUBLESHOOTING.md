@@ -1,204 +1,266 @@
-# TROUBLESHOOTING (Հայերեն)
+# Troubleshooting (Հայերեն)
 
-🌐 **Languages:** 🇺🇸 [English](../../../../guides/TROUBLESHOOTING.md) · 🇪🇹 [am](../../../am/docs/guides/TROUBLESHOOTING.md) · 🇸🇦 [ar](../../../ar/docs/guides/TROUBLESHOOTING.md) · 🇦🇿 [az](../../../az/docs/guides/TROUBLESHOOTING.md) · 🇧🇬 [bg](../../../bg/docs/guides/TROUBLESHOOTING.md) · 🇧🇩 [bn](../../../bn/docs/guides/TROUBLESHOOTING.md) · 🇨🇿 [cs](../../../cs/docs/guides/TROUBLESHOOTING.md) · 🇩🇰 [da](../../../da/docs/guides/TROUBLESHOOTING.md) · 🇩🇪 [de](../../../de/docs/guides/TROUBLESHOOTING.md) · 🇬🇷 [el](../../../el/docs/guides/TROUBLESHOOTING.md) · 🇪🇸 [es](../../../es/docs/guides/TROUBLESHOOTING.md) · 🇪🇪 [et](../../../et/docs/guides/TROUBLESHOOTING.md) · 🇮🇷 [fa](../../../fa/docs/guides/TROUBLESHOOTING.md) · 🇫🇮 [fi](../../../fi/docs/guides/TROUBLESHOOTING.md) · 🇫🇷 [fr](../../../fr/docs/guides/TROUBLESHOOTING.md) · 🇮🇪 [ga](../../../ga/docs/guides/TROUBLESHOOTING.md) · 🇮🇳 [gu](../../../gu/docs/guides/TROUBLESHOOTING.md) · 🇳🇬 [ha](../../../ha/docs/guides/TROUBLESHOOTING.md) · 🇮🇱 [he](../../../he/docs/guides/TROUBLESHOOTING.md) · 🇮🇳 [hi](../../../hi/docs/guides/TROUBLESHOOTING.md) · 🇭🇷 [hr](../../../hr/docs/guides/TROUBLESHOOTING.md) · 🇭🇺 [hu](../../../hu/docs/guides/TROUBLESHOOTING.md) · 🇮🇩 [id](../../../id/docs/guides/TROUBLESHOOTING.md) · 🇳🇬 [ig](../../../ig/docs/guides/TROUBLESHOOTING.md) · 🇮🇹 [it](../../../it/docs/guides/TROUBLESHOOTING.md) · 🇯🇵 [ja](../../../ja/docs/guides/TROUBLESHOOTING.md) · 🇬🇪 [ka](../../../ka/docs/guides/TROUBLESHOOTING.md) · 🇰🇭 [km](../../../km/docs/guides/TROUBLESHOOTING.md) · 🇮🇳 [kn](../../../kn/docs/guides/TROUBLESHOOTING.md) · 🇰🇷 [ko](../../../ko/docs/guides/TROUBLESHOOTING.md) · 🇱🇹 [lt](../../../lt/docs/guides/TROUBLESHOOTING.md) · 🇱🇻 [lv](../../../lv/docs/guides/TROUBLESHOOTING.md) · 🇮🇳 [ml](../../../ml/docs/guides/TROUBLESHOOTING.md) · 🇮🇳 [mr](../../../mr/docs/guides/TROUBLESHOOTING.md) · 🇲🇾 [ms](../../../ms/docs/guides/TROUBLESHOOTING.md) · 🇲🇹 [mt](../../../mt/docs/guides/TROUBLESHOOTING.md) · 🇲🇲 [my](../../../my/docs/guides/TROUBLESHOOTING.md) · 🇳🇵 [ne](../../../ne/docs/guides/TROUBLESHOOTING.md) · 🇳🇱 [nl](../../../nl/docs/guides/TROUBLESHOOTING.md) · 🇳🇴 [no](../../../no/docs/guides/TROUBLESHOOTING.md) · 🇮🇳 [or](../../../or/docs/guides/TROUBLESHOOTING.md) · 🇮🇳 [pa](../../../pa/docs/guides/TROUBLESHOOTING.md) · 🇵🇭 [phi](../../../phi/docs/guides/TROUBLESHOOTING.md) · 🇵🇱 [pl](../../../pl/docs/guides/TROUBLESHOOTING.md) · 🇵🇹 [pt](../../../pt/docs/guides/TROUBLESHOOTING.md) · 🇧🇷 [pt-BR](../../../pt-BR/docs/guides/TROUBLESHOOTING.md) · 🇷🇴 [ro](../../../ro/docs/guides/TROUBLESHOOTING.md) · 🇷🇺 [ru](../../../ru/docs/guides/TROUBLESHOOTING.md) · 🇱🇰 [si](../../../si/docs/guides/TROUBLESHOOTING.md) · 🇸🇰 [sk](../../../sk/docs/guides/TROUBLESHOOTING.md) · 🇸🇮 [sl](../../../sl/docs/guides/TROUBLESHOOTING.md) · 🇷🇸 [sr](../../../sr/docs/guides/TROUBLESHOOTING.md) · 🇸🇪 [sv](../../../sv/docs/guides/TROUBLESHOOTING.md) · 🇰🇪 [sw](../../../sw/docs/guides/TROUBLESHOOTING.md) · 🇮🇳 [ta](../../../ta/docs/guides/TROUBLESHOOTING.md) · 🇮🇳 [te](../../../te/docs/guides/TROUBLESHOOTING.md) · 🇹🇭 [th](../../../th/docs/guides/TROUBLESHOOTING.md) · 🇹🇷 [tr](../../../tr/docs/guides/TROUBLESHOOTING.md) · 🇺🇦 [uk-UA](../../../uk-UA/docs/guides/TROUBLESHOOTING.md) · 🇵🇰 [ur](../../../ur/docs/guides/TROUBLESHOOTING.md) · 🇺🇿 [uz](../../../uz/docs/guides/TROUBLESHOOTING.md) · 🇻🇳 [vi](../../../vi/docs/guides/TROUBLESHOOTING.md) · 🇳🇬 [yo](../../../yo/docs/guides/TROUBLESHOOTING.md) · 🇨🇳 [zh-CN](../../../zh-CN/docs/guides/TROUBLESHOOTING.md) · 🇹🇼 [zh-TW](../../../zh-TW/docs/guides/TROUBLESHOOTING.md)
-
----
+🌐 **Languages:** 🇺🇸 [English](../../../../guides/TROUBLESHOOTING.md) · 🇪🇹 [am](../../../am/docs/guides/TROUBLESHOOTING.md) · 🇸🇦 [ar](../../../ar/docs/guides/TROUBLESHOOTING.md) · 🇦🇿 [az](../../../az/docs/guides/TROUBLESHOOTING.md) · 🇧🇬 [bg](../../../bg/docs/guides/TROUBLESHOOTING.md) · 🇧🇩 [bn](../../../bn/docs/guides/TROUBLESHOOTING.md) · 🇧🇦 [bs](../../../bs/docs/guides/TROUBLESHOOTING.md) · 🇨🇿 [cs](../../../cs/docs/guides/TROUBLESHOOTING.md) · 🇩🇰 [da](../../../da/docs/guides/TROUBLESHOOTING.md) · 🇩🇪 [de](../../../de/docs/guides/TROUBLESHOOTING.md) · 🇬🇷 [el](../../../el/docs/guides/TROUBLESHOOTING.md) · 🇪🇸 [es](../../../es/docs/guides/TROUBLESHOOTING.md) · 🇪🇪 [et](../../../et/docs/guides/TROUBLESHOOTING.md) · 🇮🇷 [fa](../../../fa/docs/guides/TROUBLESHOOTING.md) · 🇫🇮 [fi](../../../fi/docs/guides/TROUBLESHOOTING.md) · 🇫🇷 [fr](../../../fr/docs/guides/TROUBLESHOOTING.md) · 🇮🇪 [ga](../../../ga/docs/guides/TROUBLESHOOTING.md) · 🇮🇳 [gu](../../../gu/docs/guides/TROUBLESHOOTING.md) · 🇳🇬 [ha](../../../ha/docs/guides/TROUBLESHOOTING.md) · 🇮🇱 [he](../../../he/docs/guides/TROUBLESHOOTING.md) · 🇮🇳 [hi](../../../hi/docs/guides/TROUBLESHOOTING.md) · 🇭🇷 [hr](../../../hr/docs/guides/TROUBLESHOOTING.md) · 🇭🇺 [hu](../../../hu/docs/guides/TROUBLESHOOTING.md) · 🇮🇩 [id](../../../id/docs/guides/TROUBLESHOOTING.md) · 🇳🇬 [ig](../../../ig/docs/guides/TROUBLESHOOTING.md) · 🇮🇹 [it](../../../it/docs/guides/TROUBLESHOOTING.md) · 🇯🇵 [ja](../../../ja/docs/guides/TROUBLESHOOTING.md) · 🇬🇪 [ka](../../../ka/docs/guides/TROUBLESHOOTING.md) · 🇰🇭 [km](../../../km/docs/guides/TROUBLESHOOTING.md) · 🇮🇳 [kn](../../../kn/docs/guides/TROUBLESHOOTING.md) · 🇰🇷 [ko](../../../ko/docs/guides/TROUBLESHOOTING.md) · 🇱🇹 [lt](../../../lt/docs/guides/TROUBLESHOOTING.md) · 🇱🇻 [lv](../../../lv/docs/guides/TROUBLESHOOTING.md) · 🇮🇳 [ml](../../../ml/docs/guides/TROUBLESHOOTING.md) · 🇮🇳 [mr](../../../mr/docs/guides/TROUBLESHOOTING.md) · 🇲🇾 [ms](../../../ms/docs/guides/TROUBLESHOOTING.md) · 🇲🇹 [mt](../../../mt/docs/guides/TROUBLESHOOTING.md) · 🇲🇲 [my](../../../my/docs/guides/TROUBLESHOOTING.md) · 🇳🇵 [ne](../../../ne/docs/guides/TROUBLESHOOTING.md) · 🇳🇱 [nl](../../../nl/docs/guides/TROUBLESHOOTING.md) · 🇳🇴 [no](../../../no/docs/guides/TROUBLESHOOTING.md) · 🇮🇳 [or](../../../or/docs/guides/TROUBLESHOOTING.md) · 🇮🇳 [pa](../../../pa/docs/guides/TROUBLESHOOTING.md) · 🇵🇭 [phi](../../../phi/docs/guides/TROUBLESHOOTING.md) · 🇵🇱 [pl](../../../pl/docs/guides/TROUBLESHOOTING.md) · 🇵🇹 [pt](../../../pt/docs/guides/TROUBLESHOOTING.md) · 🇧🇷 [pt-BR](../../../pt-BR/docs/guides/TROUBLESHOOTING.md) · 🇷🇴 [ro](../../../ro/docs/guides/TROUBLESHOOTING.md) · 🇷🇺 [ru](../../../ru/docs/guides/TROUBLESHOOTING.md) · 🇱🇰 [si](../../../si/docs/guides/TROUBLESHOOTING.md) · 🇸🇰 [sk](../../../sk/docs/guides/TROUBLESHOOTING.md) · 🇸🇮 [sl](../../../sl/docs/guides/TROUBLESHOOTING.md) · 🇷🇸 [sr](../../../sr/docs/guides/TROUBLESHOOTING.md) · 🇸🇪 [sv](../../../sv/docs/guides/TROUBLESHOOTING.md) · 🇰🇪 [sw](../../../sw/docs/guides/TROUBLESHOOTING.md) · 🇮🇳 [ta](../../../ta/docs/guides/TROUBLESHOOTING.md) · 🇮🇳 [te](../../../te/docs/guides/TROUBLESHOOTING.md) · 🇹🇭 [th](../../../th/docs/guides/TROUBLESHOOTING.md) · 🇹🇷 [tr](../../../tr/docs/guides/TROUBLESHOOTING.md) · 🇺🇦 [uk-UA](../../../uk-UA/docs/guides/TROUBLESHOOTING.md) · 🇵🇰 [ur](../../../ur/docs/guides/TROUBLESHOOTING.md) · 🇺🇿 [uz](../../../uz/docs/guides/TROUBLESHOOTING.md) · 🇻🇳 [vi](../../../vi/docs/guides/TROUBLESHOOTING.md) · 🇳🇬 [yo](../../../yo/docs/guides/TROUBLESHOOTING.md) · 🇨🇳 [zh-CN](../../../zh-CN/docs/guides/TROUBLESHOOTING.md) · 🇹🇼 [zh-TW](../../../zh-TW/docs/guides/TROUBLESHOOTING.md)
 
 ---
 
-title: "Խնդիրների վերացում"
-version: 3.8.49
-lastUpdated: 2026-07-15
----
+> **Օգտատերերի համար**. Փնտրո՞ւմ եք արագ լուծումներ։ Ստորև տե՛ս [Արագ տեղեկատուն](#quick-reference)։
 
-# Խնդիրների վերացում
+🌐 **Լեզուներ:** 🇺🇸 [Անգլերեն](./TROUBLESHOOTING.md) | 🇪🇹 [Ամհարերեն](../i18n/am/docs/guides/TROUBLESHOOTING.md) | 🇸🇦 [Արաբերեն](../i18n/ar/docs/guides/TROUBLESHOOTING.md) | 🇦🇿 [Ադրբեջաներեն](../i18n/az/docs/guides/TROUBLESHOOTING.md) | 🇧🇬 [Բուլղարերեն](../i18n/bg/docs/guides/TROUBLESHOOTING.md) | 🇧🇩 [Բենգալերեն](../i18n/bn/docs/guides/TROUBLESHOOTING.md) | 🇧🇦 [Բոսնիերեն](../i18n/bs/docs/guides/TROUBLESHOOTING.md) | 🇨🇿 [Չեխերեն](../i18n/cs/docs/guides/TROUBLESHOOTING.md) | 🇩🇰 [Դանիերեն](../i18n/da/docs/guides/TROUBLESHOOTING.md) | 🇩🇪 [Գերմաներեն](../i18n/de/docs/guides/TROUBLESHOOTING.md) | 🇬🇷 [Հունարեն](../i18n/el/docs/guides/TROUBLESHOOTING.md) | 🇪🇸 [Իսպաներեն](../i18n/es/docs/guides/TROUBLESHOOTING.md) | 🇪🇪 [Էստոներեն](../i18n/et/docs/guides/TROUBLESHOOTING.md) | 🇮🇷 [Պարսկերեն](../i18n/fa/docs/guides/TROUBLESHOOTING.md) | 🇫🇮 [Ֆիններեն](../i18n/fi/docs/guides/TROUBLESHOOTING.md) | 🇫🇷 [Ֆրանսերեն](../i18n/fr/docs/guides/TROUBLESHOOTING.md) | 🇮🇪 [Իռլանդերեն](../i18n/ga/docs/guides/TROUBLESHOOTING.md) | 🇮🇳 [Գուջարաթի](../i18n/gu/docs/guides/TROUBLESHOOTING.md) | 🇳🇬 [Հաուսա](../i18n/ha/docs/guides/TROUBLESHOOTING.md) | 🇮🇱 [Եբրայերեն](../i18n/he/docs/guides/TROUBLESHOOTING.md) | 🇮🇳 [Հինդի](../i18n/hi/docs/guides/TROUBLESHOOTING.md) | 🇭🇷 [Խորվաթերեն](../i18n/hr/docs/guides/TROUBLESHOOTING.md) | 🇭🇺 [Հունգարերեն](../i18n/hu/docs/guides/TROUBLESHOOTING.md) | 🇦🇲 [Հայերեն](../i18n/hy/docs/guides/TROUBLESHOOTING.md) | 🇮🇩 [Ինդոնեզերեն](../i18n/id/docs/guides/TROUBLESHOOTING.md) | 🇳🇬 [Իգբո](../i18n/ig/docs/guides/TROUBLESHOOTING.md) | 🇮🇹 [Իտալերեն](../i18n/it/docs/guides/TROUBLESHOOTING.md) | 🇯🇵 [Ճապոներեն](../i18n/ja/docs/guides/TROUBLESHOOTING.md) | 🇬🇪 [Վրացերեն](../i18n/ka/docs/guides/TROUBLESHOOTING.md) | 🇰🇭 [Քմերերեն](../i18n/km/docs/guides/TROUBLESHOOTING.md) | 🇮🇳 [Կաննադա](../i18n/kn/docs/guides/TROUBLESHOOTING.md) | 🇰🇷 [Կորեերեն](../i18n/ko/docs/guides/TROUBLESHOOTING.md) | 🇱🇹 [Լիտվերեն](../i18n/lt/docs/guides/TROUBLESHOOTING.md) | 🇱🇻 [Լատվիերեն](../i18n/lv/docs/guides/TROUBLESHOOTING.md) | 🇮🇳 [Մալայալամ](../i18n/ml/docs/guides/TROUBLESHOOTING.md) | 🇮🇳 [Մարաթի](../i18n/mr/docs/guides/TROUBLESHOOTING.md) | 🇲🇾 [Մալայերեն](../i18n/ms/docs/guides/TROUBLESHOOTING.md) | 🇲🇹 [Մալթերեն](../i18n/mt/docs/guides/TROUBLESHOOTING.md) | 🇲🇲 [Բիրմայերեն](../i18n/my/docs/guides/TROUBLESHOOTING.md) | 🇳🇵 [Նեպալերեն](../i18n/ne/docs/guides/TROUBLESHOOTING.md) | 🇳🇱 [Հոլանդերեն](../i18n/nl/docs/guides/TROUBLESHOOTING.md) | 🇳🇴 [Նորվեգերեն](../i18n/no/docs/guides/TROUBLESHOOTING.md) | 🇮🇳 [Օդիա](../i18n/or/docs/guides/TROUBLESHOOTING.md) | 🇮🇳 [Փենջաբերեն](../i18n/pa/docs/guides/TROUBLESHOOTING.md) | 🇵🇭 [Ֆիլիպիներեն](../i18n/phi/docs/guides/TROUBLESHOOTING.md) | 🇵🇱 [Լեհերեն](../i18n/pl/docs/guides/TROUBLESHOOTING.md) | 🇵🇹 [Պորտուգալերեն (Պորտուգալիա)](../i18n/pt/docs/guides/TROUBLESHOOTING.md) | 🇧🇷 [Պորտուգալերեն (Բրազիլիա)](../i18n/pt-BR/docs/guides/TROUBLESHOOTING.md) | 🇷🇴 [Ռումիներեն](../i18n/ro/docs/guides/TROUBLESHOOTING.md) | 🇷🇺 [Ռուսերեն](../i18n/ru/docs/guides/TROUBLESHOOTING.md) | 🇱🇰 [Սինհալերեն](../i18n/si/docs/guides/TROUBLESHOOTING.md) | 🇸🇰 [Սլովակերեն](../i18n/sk/docs/guides/TROUBLESHOOTING.md) | 🇸🇮 [Սլովեներեն](../i18n/sl/docs/guides/TROUBLESHOOTING.md) | 🇷🇸 [Սերբերեն](../i18n/sr/docs/guides/TROUBLESHOOTING.md) | 🇸🇪 [Շվեդերեն](../i18n/sv/docs/guides/TROUBLESHOOTING.md) | 🇰🇪 [Սուահիլի](../i18n/sw/docs/guides/TROUBLESHOOTING.md) | 🇮🇳 [Թամիլերեն](../i18n/ta/docs/guides/TROUBLESHOOTING.md) | 🇮🇳 [Թելուգու](../i18n/te/docs/guides/TROUBLESHOOTING.md) | 🇹🇭 [Թայերեն](../i18n/th/docs/guides/TROUBLESHOOTING.md) | 🇹🇷 [Թուրքերեն](../i18n/tr/docs/guides/TROUBLESHOOTING.md) | 🇺🇦 [Ուկրաիներեն](../i18n/uk-UA/docs/guides/TROUBLESHOOTING.md) | 🇵🇰 [Ուրդու](../i18n/ur/docs/guides/TROUBLESHOOTING.md) | 🇺🇿 [Ուզբեկերեն](../i18n/uz/docs/guides/TROUBLESHOOTING.md) | 🇻🇳 [Վիետնամերեն](../i18n/vi/docs/guides/TROUBLESHOOTING.md) | 🇳🇬 [Յորուբա](../i18n/yo/docs/guides/TROUBLESHOOTING.md) | 🇨🇳 [Չինարեն (պարզեցված)](../i18n/zh-CN/docs/guides/TROUBLESHOOTING.md) | 🇹🇼 [Չինարեն (ավանդական)](../i18n/zh-TW/docs/guides/TROUBLESHOOTING.md)
 
-> **Օգտատերերի համար**․ Փնտրո՞ւմ եք արագ լուծումներ։ Տե՛ս ստորև ներկայացված [Արագ տեղեկատուն](#արագ-տեղեկատու)։
-
-🌐 **Լեզուներ․** 🇺🇸 [Անգլերեն](./TROUBLESHOOTING.md) | 🇪🇹 [Ամհարերեն](../i18n/am/docs/guides/TROUBLESHOOTING.md) | 🇸🇦 [Արաբերեն](../i18n/ar/docs/guides/TROUBLESHOOTING.md) | 🇦🇿 [Ադրբեջաներեն](../i18n/az/docs/guides/TROUBLESHOOTING.md) | 🇧🇬 [Բուլղարերեն](../i18n/bg/docs/guides/TROUBLESHOOTING.md) | 🇧🇩 [Բենգալերեն](../i18n/bn/docs/guides/TROUBLESHOOTING.md) | 🇨🇿 [Չեխերեն](../i18n/cs/docs/guides/TROUBLESHOOTING.md) | 🇩🇰 [Դանիերեն](../i18n/da/docs/guides/TROUBLESHOOTING.md) | 🇩🇪 [Գերմաներեն](../i18n/de/docs/guides/TROUBLESHOOTING.md) | 🇬🇷 [Հունարեն](../i18n/el/docs/guides/TROUBLESHOOTING.md) | 🇪🇸 [Իսպաներեն](../i18n/es/docs/guides/TROUBLESHOOTING.md) | 🇪🇪 [Էստոներեն](../i18n/et/docs/guides/TROUBLESHOOTING.md) | 🇮🇷 [Պարսկերեն](../i18n/fa/docs/guides/TROUBLESHOOTING.md) | 🇫🇮 [Ֆիններեն](../i18n/fi/docs/guides/TROUBLESHOOTING.md) | 🇫🇷 [Ֆրանսերեն](../i18n/fr/docs/guides/TROUBLESHOOTING.md) | 🇮🇪 [Իռլանդերեն](../i18n/ga/docs/guides/TROUBLESHOOTING.md) | 🇮🇳 [Գուջարաթի](../i18n/gu/docs/guides/TROUBLESHOOTING.md) | 🇳🇬 [Հաուսա](../i18n/ha/docs/guides/TROUBLESHOOTING.md) | 🇮🇱 [Եբրայերեն](../i18n/he/docs/guides/TROUBLESHOOTING.md) | 🇮🇳 [Հինդի](../i18n/hi/docs/guides/TROUBLESHOOTING.md) | 🇭🇷 [Խորվաթերեն](../i18n/hr/docs/guides/TROUBLESHOOTING.md) | 🇭🇺 [Հունգարերեն](../i18n/hu/docs/guides/TROUBLESHOOTING.md) | 🇮🇩 [Ինդոնեզերեն](../i18n/id/docs/guides/TROUBLESHOOTING.md) | 🇳🇬 [Իգբո](../i18n/ig/docs/guides/TROUBLESHOOTING.md) | 🇮🇹 [Իտալերեն](../i18n/it/docs/guides/TROUBLESHOOTING.md) | 🇯🇵 [Ճապոներեն](../i18n/ja/docs/guides/TROUBLESHOOTING.md) | 🇬🇪 [Վրացերեն](../i18n/ka/docs/guides/TROUBLESHOOTING.md) | 🇰🇭 [Քմերերեն](../i18n/km/docs/guides/TROUBLESHOOTING.md) | 🇮🇳 [Կաննադա](../i18n/kn/docs/guides/TROUBLESHOOTING.md) | 🇰🇷 [Կորեերեն](../i18n/ko/docs/guides/TROUBLESHOOTING.md) | 🇱🇹 [Լիտվերեն](../i18n/lt/docs/guides/TROUBLESHOOTING.md) | 🇱🇻 [Լատվիերեն](../i18n/lv/docs/guides/TROUBLESHOOTING.md) | 🇮🇳 [Մալայալամ](../i18n/ml/docs/guides/TROUBLESHOOTING.md) | 🇮🇳 [Մարաթի](../i18n/mr/docs/guides/TROUBLESHOOTING.md) | 🇲🇾 [Մալայերեն](../i18n/ms/docs/guides/TROUBLESHOOTING.md) | 🇲🇹 [Մալթերեն](../i18n/mt/docs/guides/TROUBLESHOOTING.md) | 🇲🇲 [Բիրմայերեն](../i18n/my/docs/guides/TROUBLESHOOTING.md) | 🇳🇵 [Նեպալերեն](../i18n/ne/docs/guides/TROUBLESHOOTING.md) | 🇳🇱 [Նիդերլանդերեն](../i18n/nl/docs/guides/TROUBLESHOOTING.md) | 🇳🇴 [Նորվեգերեն](../i18n/no/docs/guides/TROUBLESHOOTING.md) | 🇮🇳 [Օդիա](../i18n/or/docs/guides/TROUBLESHOOTING.md) | 🇮🇳 [Փենջաբերեն](../i18n/pa/docs/guides/TROUBLESHOOTING.md) | 🇵🇭 [Ֆիլիպիներեն](../i18n/phi/docs/guides/TROUBLESHOOTING.md) | 🇵🇱 [Լեհերեն](../i18n/pl/docs/guides/TROUBLESHOOTING.md) | 🇵🇹 [Պորտուգալերեն (Պորտուգալիա)](../i18n/pt/docs/guides/TROUBLESHOOTING.md) | 🇧🇷 [Պորտուգալերեն (Բրազիլիա)](../i18n/pt-BR/docs/guides/TROUBLESHOOTING.md) | 🇷🇴 [Ռումիներեն](../i18n/ro/docs/guides/TROUBLESHOOTING.md) | 🇷🇺 [Ռուսերեն](../i18n/ru/docs/guides/TROUBLESHOOTING.md) | 🇱🇰 [Սինհալերեն](../i18n/si/docs/guides/TROUBLESHOOTING.md) | 🇸🇰 [Սլովակերեն](../i18n/sk/docs/guides/TROUBLESHOOTING.md) | 🇸🇮 [Սլովեներեն](../i18n/sl/docs/guides/TROUBLESHOOTING.md) | 🇷🇸 [Սերբերեն](../i18n/sr/docs/guides/TROUBLESHOOTING.md) | 🇸🇪 [Շվեդերեն](../i18n/sv/docs/guides/TROUBLESHOOTING.md) | 🇰🇪 [Սուահիլի](../i18n/sw/docs/guides/TROUBLESHOOTING.md) | 🇮🇳 [Թամիլերեն](../i18n/ta/docs/guides/TROUBLESHOOTING.md) | 🇮🇳 [Թելուգու](../i18n/te/docs/guides/TROUBLESHOOTING.md) | 🇹🇭 [Թայերեն](../i18n/th/docs/guides/TROUBLESHOOTING.md) | 🇹🇷 [Թուրքերեն](../i18n/tr/docs/guides/TROUBLESHOOTING.md) | 🇺🇦 [Ուկրաիներեն](../i18n/uk-UA/docs/guides/TROUBLESHOOTING.md) | 🇵🇰 [Ուրդու](../i18n/ur/docs/guides/TROUBLESHOOTING.md) | 🇺🇿 [Ուզբեկերեն](../i18n/uz/docs/guides/TROUBLESHOOTING.md) | 🇻🇳 [Վիետնամերեն](../i18n/vi/docs/guides/TROUBLESHOOTING.md) | 🇳🇬 [Յորուբա](../i18n/yo/docs/guides/TROUBLESHOOTING.md) | 🇨🇳 [Չինարեն (պարզեցված)](../i18n/zh-CN/docs/guides/TROUBLESHOOTING.md) | 🇹🇼 [Չինարեն (ավանդական)](../i18n/zh-TW/docs/guides/TROUBLESHOOTING.md)
-
-OmniRoute-ի տարածված խնդիրներն ու դրանց լուծումները։
+OmniRoute-ի տարածված խնդիրներն ու լուծումները։
 
 ---
 
 ## Արագ տեղեկատու
 
-**Առաջի՞ն անգամ եք օգտագործում OmniRoute-ը։** Սկսեք այստեղից. սրանք լուծում են խնդիրների 90%-ը.
+**Նո՞ր եք OmniRoute-ում։** Սկսեք այստեղից. սրանք լուծում են խնդիրների 90%-ը։
 
-| Ես տեսնում եմ           | Ինչ է դա նշանակում                               | Ինչ անել                                                                                             |
-| ----------------------- | ------------------------------------------------ | ---------------------------------------------------------------------------------------------------- |
-| "Can't connect"         | OmniRoute-ը չի աշխատում                          | Գործարկեք `omniroute` կամ `docker restart omniroute`                                                 |
-| "Invalid API key"       | Ձեր բանալին սխալ է կամ ժամկետանց                 | Կրկին պատճենեք բանալին մատակարարի կայքից                                                             |
-| "Rate limit exceeded"   | Չափազանց շատ հարցումներ եք ուղարկում             | Սպասեք 1 րոպե կամ օգտագործեք `model: "auto"`՝ ավտոմատ պահուստային անցման համար                       |
-| "Quota exceeded"        | Սպառել եք ձեր անվճար/վճարովի քվոտան              | Միացրեք ավելի շատ մատակարարներ կամ օգտագործեք անվճար մատակարարներ (Kiro, Pollinations)               |
-| "Slow responses"        | Մատակարարը զբաղված է կամ հեռու                   | Օգտագործեք `model: "auto/fast"` կամ միացրեք ավելի արագ մատակարար (Groq, Cerebras)                    |
-| "Wrong provider used"   | `auto`-ն ընտրել է այլ մատակարար                  | Դա նորմալ է։ `auto`-ն ընտրում է լավագույնը։ Հարկադրեք կոնկրետ մատակարար՝ `model: "openai/gpt-4o"`-ով |
-| "502 Bad Gateway"       | Մատակարարը հասանելի չէ                           | Սպասեք և կրկին փորձեք կամ օգտագործեք `model: "auto"`՝ մատակարար փոխելու համար                        |
-| "401 Unauthorized"      | Ձեր հավատարմագրերը սխալ են                       | Ստուգեք ձեր API բանալին կամ կրկին նույնականացվեք OAuth-ով                                            |
-| "429 Too Many Requests" | Կիրառվել է հարցումների հաճախության սահմանափակում | Սպասեք 1 րոպե կամ միացրեք ավելի շատ մատակարարներ                                                     |
+| Ես տեսնում եմ սա              | Ինչ է սա նշանակում                                      | Ինչ անել                                                                                                            |
+| ----------------------------- | ------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
+| "Can't connect"               | OmniRoute-ը գործարկված չէ                               | Գործարկեք `omniroute` կամ `docker restart omniroute`                                                                |
+| "Invalid API key"             | Ձեր բանալին սխալ է կամ ժամկետանց                        | Կրկին պատճենեք բանալին մատակարարի կայքից                                                                            |
+| "Rate limit exceeded"         | Դուք չափազանց շատ հարցումներ եք ուղարկում               | Սպասեք 1 րոպե կամ ավտոմատ պահուստային անցման համար օգտագործեք `model: "auto"`                                       |
+| "Quota exceeded"              | Դուք սպառել եք ձեր անվճար/վճարովի քվոտան                | Միացրեք ավելի շատ մատակարարներ կամ օգտագործեք անվճար մատակարարներ (Kiro, Pollinations)                              |
+| "Slow responses"              | Մատակարարը ծանրաբեռնված է կամ հեռու է                   | Օգտագործեք `model: "auto/fast"` կամ միացրեք ավելի արագ մատակարար (Groq, Cerebras)                                   |
+| "Wrong provider used"         | `auto`-ն ընտրել է այլ մատակարար                         | Դա նորմալ է։ `auto`-ն ընտրում է լավագույնը։ Որոշակի մատակարար պարտադրելու համար օգտագործեք `model: "openai/gpt-4o"` |
+| "502 Bad Gateway"             | Մատակարարը չի աշխատում                                  | Սպասեք և կրկին փորձեք կամ մատակարարները փոխարկելու համար օգտագործեք `model: "auto"`                                 |
+| "401 Unauthorized"            | Ձեր հավատարմագրերը սխալ են                              | Ստուգեք ձեր API բանալին կամ OAuth-ի միջոցով կրկին վավերացվեք                                                        |
+| "omniroute is not recognized" | Windows PATH-ում բացակայում են node-ի գլոբալ մոդուլները | Ձեր npm-ի գլոբալ նախածանցն ավելացրեք Windows PATH-ում։ Այն գտեք `npm config get prefix` հրամանով։                   |
+| "429 Too Many Requests"       | Կիրառվել է հարցումների հաճախականության սահմանափակում    | Սպասեք 1 րոպե կամ միացրեք ավելի շատ մատակարարներ                                                                    |
 
-**Դեռ չե՞ք կարողանում լուծել խնդիրը։** Ստորև դիտեք [մանրամասն խնդիրների ախտորոշումը](#detailed-troubleshooting) կամ հարցրեք [Discord](https://discord.gg/U47eFqAXCn)-ում։
-
----
-
-## Խնդիրների մանրամասն ախտորոշում
+**Դեռևս չե՞ք կարողանում լուծել խնդիրը։** Ստորև կարդացեք [անսարքությունների մանրամասն վերացումը](#detailed-troubleshooting) կամ հարցրեք [Discord](https://discord.gg/U47eFqAXCn)-ում։
 
 ---
 
-### Հարցումների հաճախության սահմանափակում անվճար մատակարարների մոտ (429 / 400 / 401)
+## Մանրամասն անսարքությունների վերացում
 
-**Ախտանիշ**. Անվճար/նույնականացում չպահանջող մատակարարների (opencode, auggie և այլն) հետ `model: "auto"` օգտագործելիս պատասխանների փոխարեն պարբերաբար ստանում եք `HTTP 429`, `400` կամ `401`։ Նույն հրահանգը մի քանի րոպե անց կրկին փորձելիս հարցումները հաջողվում են, սակայն ավտոմատացումը (cron առաջադրանքներ, գործակալներ, սկրիպտներ) խափանվում է առաջին իսկ ձախողման ժամանակ։
+---
 
-**Հիմնական պատճառը**. Երեք անկախ խափանման ռեժիմներ միաժամանակ են գործում.
+### Հարցումների հաճախականության սահմանափակում անվճար մատակարարների դեպքում (429 / 400 / 401)
 
-1. **Մատակարարի հաճախության սահմանափակում (`429`)**. Անվճար մակարդակներում կարող է կիրառվել յուրաքանչյուր ժամանակային պատուհանի համար նախատեսված քվոտա։ Զուգահեռ կանչերի կտրուկ աճը սպառում է այն, ուստի հաջորդ հարցումը մերժվում է մինչև պատուհանի վերակայումը։
-2. **Չաշխատող մոդել անմիջական փոխանցման ռեժիմում (`400`/`401`)**. `auto/*` խմբերը կարող են ներառել `opencode`-ի անմիջական փոխանցման մոդելներ, որոնք գրանցված են կատալոգում, սակայն չունեն գործող հավատարմագրեր (օրինակ՝ `oc/north-mini-code-free` → `401`)։ Ավտոմատ երթուղիչը փորձում է դրանցից մեկը, ձախողվում է, իսկ սխալը տարածվում է՝ նախքան պահուստային անցման գործարկումը։
-3. **Զուգահեռության ուժեղացում (`429` ծանրաբեռնվածության ներքո)**. Երբ գործակալի/cron-ի մի քանի աշխատաշրջան միաժամանակ դիմում են `auto`-ին, հարցումների ընդհանուր հաճախությունը գերազանցում է անվճար մատակարարների թույլատրած սահմանը, ինչի հետևանքով օրինական կանչերը նշվում են որպես չարաշահում։
+**Ախտանիշ**․ `model: "auto"`-ն անվճար կամ նույնականացում չպահանջող մատակարարների (auggie և այլն) հետ օգտագործելիս երբեմն պատասխանների փոխարեն ստանում եք `HTTP 429`, `400` կամ `401`։ Նույն հարցումը մի քանի ակնթարթ անց կրկնելիս այն հաջողվում է, սակայն ավտոմատացումը (cron առաջադրանքներ, գործակալներ, սկրիպտներ) խափանվում է առաջին իսկ սխալի դեպքում։
 
-**Ստուգված լուծում (համայնքի հաղորդմամբ՝ 2026-08-10)**. կարգավորեք երեք միջավայրի փոփոխականները, որպեսզի ռոտացիան, զուգահեռությունը և պահուստային անցումը կլանեն անվճար մակարդակի անկայունությունը՝ դրա պատճառով աշխատանքը դադարեցնելու փոխարեն.
+**Հիմնական պատճառ**․ իրար վրա կուտակվում են խափանման երեք անկախ եղանակներ․
+
+1. **Մատակարարի հաճախականության սահմանափակում (`429`)**․ անվճար մակարդակներում կարող է կիրառվել յուրաքանչյուր ժամանակային պատուհանի համար սահմանված քվոտա։ Զուգահեռ կանչերի կտրուկ աճը սպառում է այն, ուստի հաջորդ հարցումը մերժվում է մինչև պատուհանի վերակայումը։
+2. **Չաշխատող մոդել passthrough-ում (`400`/`401`)**․ `auto/*` պուլերը կարող են ներառել passthrough մոդելներ, որոնք գրանցված են կատալոգում, սակայն չունեն գործող հավատարմագրեր (→ `401`)։ Ավտոմատ երթուղիչը փորձում է դրանցից մեկը, ձախողվում, և սխալը տարածվում է՝ նախքան պահուստային տարբերակի գործարկվելը։
+3. **Զուգահեռության ուժեղացում (`429` ծանրաբեռնվածության դեպքում)**․ երբ մի քանի գործակալային կամ cron աշխատաշրջաններ միաժամանակ դիմում են `auto`-ին, հարցումների ընդհանուր հաճախականությունը գերազանցում է անվճար մատակարարների թույլատրած շեմը, ինչի հետևանքով օրինական կանչերը նշվում են որպես չարաշահում։
+
+**Ստուգված լուծում (համայնքի հաղորդմամբ՝ 2026-08-10)**․ կարգավորեք երեք միջավայրի փոփոխական, որպեսզի ռոտացիան, զուգահեռությունը և պահուստային անցումը կլանեն անվճար մակարդակի անկայունությունը՝ դրա պատճառով աշխատանքը դադարեցնելու փոխարեն․
 
 ```bash
-export OMNIROUTE_ROTATE_ON_400=true           # 400/401-ի դեպքում անցնել մեկ այլ մոդելի/մատակարարի (շրջանցում է չաշխատող անմիջական փոխանցման մոդելները)
-export OMNIROUTE_CHAT_MAX_HEAVY_IN_FLIGHT=4   # ծանր հարցումների ընդունման հստակ առավելագույն շեմ (լռելյայն սահմանված չէ՝ հարցումների քանակի սահմանափակում չկա, տե՛ս ստորև բերված նշումը)
-export OMNIROUTE_CHAT_ADMISSION_QUEUE_MS=5000 # ծանր հարցումների համար հասանելի հզորության ավելի երկար սահմանափակ սպասում՝ անմիջապես կրկնելի 503 սխալ վերադարձնելու փոխարեն
+export OMNIROUTE_ROTATE_ON_400=true           # 400/401-ի դեպքում անցնել այլ մոդելի/մատակարարի (բաց է թողնում չաշխատող passthrough մոդելները)
+export OMNIROUTE_CHAT_MAX_HEAVY_IN_FLIGHT=4   # ծանր հարցումների ընդունման հստակ վերին սահման (լռելյայն սահմանված չէ՝ հարցումների քանակի սահմանափակում չկա, տե՛ս ստորև բերված նշումը)
+export OMNIROUTE_CHAT_ADMISSION_QUEUE_MS=20000 # սահմանափակ սպասման ժամանակը մեծացնել՝ դանդաղ upstream-ների համար գերազանցելով RATE_LIMIT_MAX_WAIT_MS-ի լռելյայն արժեքը
 ```
 
-Սահմանեք դրանք OmniRoute գործընթացի միջավայրում (դեմոնի համար, օրինակ՝ LaunchAgent plist-ի կամ `systemctl edit`-ի միջոցով), այնուհետև վերագործարկեք OmniRoute-ը։ Ռոտացիայի դրոշը ամենամեծ ազդեցությունն ունեցող միջոցն է. այն կոշտ խափանումը վերածում է խմբում առկա առողջ մատակարարի միջոցով թափանցիկ կրկնափորձի։
+Սահմանեք դրանք OmniRoute գործընթացի միջավայրում (daemon-ում, օրինակ՝ LaunchAgent plist-ի կամ `systemctl edit`-ի միջոցով), այնուհետև վերագործարկեք OmniRoute-ը։ Ռոտացիայի դրոշակը ամենաազդեցիկ միջոցն է․ այն կոշտ խափանումը վերածում է պուլի առողջ մատակարարի միջոցով աննկատ կրկնակի փորձի։
 
-**Նշում**. `OMNIROUTE_CHAT_MAX_HEAVY_IN_FLIGHT`-ը սահմանափակում է միաժամանակ աշխատող ծանր՝ երկար համատեքստով հարցումների քանակը. այս սահմանը հարցումների ընդունման դարպաս է, ոչ թե մատակարարի հաճախության սահմանափակիչ։ **#503-fanout թարմացում.** այս փոփոխականն այլևս լռելյայն սահմանված չէ (այժմ այն կիրառվում է միայն հստակ կազմաձևման դեպքում, ինչպես վերևում)։ Փոխարենը ծանր հարցումների ընդունումը վերահսկվում է ավտոմատ հաշվարկվող բայթային բյուջեով (`OMNIROUTE_CHAT_MAX_INFLIGHT_BYTES`), որն ինքնաբերաբար մասշտաբավորվում է՝ ելնելով հոսթի իրական հիշողության առավելագույն սահմանից։ Ուստի նոր տեղակայումը պետք է զգալիորեն ավելի քիչ `503 chat_admission_busy` մերժումներ ստանա՝ առանց այս փոփոխականն ընդհանրապես սահմանելու։ Այստեղ այն հստակ սահմանելը դեռ աշխատում է ճիշտ այնպես, ինչպես փաստաթղթավորված է։ Բայթային բյուջեի հստակ վերասահմանումները սահմանափակվում են 8 MiB–2 GiB միջակայքով։ `413 body_exceeds_budget`-ը ժամանակավոր սխալ չէ. ավելացրեք այդ բայթային բյուջեն, նվազեցրեք `OMNIROUTE_CHAT_HARD_MAX_BODY_BYTES`-ը կամ ավելացրեք գործընթացի հիշողության առավելագույն սահմանը։ `inflight_bytes_budget`-ի պատճառով բեռնաթափումը ժամանակավոր ռեսուրսային մրցակցություն է և ենթակա է կրկնափորձի։ Յուրաքանչյուր մատակարարի համար հարցումների հաճախության սահմանափակումը (`open-sse/services/rateLimitManager.ts`) առանձին կառավարվում է `RATE_LIMIT_MAX_WAIT_MS`, `RATE_LIMIT_MAX_QUEUE_DEPTH` և `RATE_LIMIT_AUTO_ENABLE` փոփոխականներով. տե՛ս `.env.example`։
+**Նշում**․ `OMNIROUTE_CHAT_MAX_HEAVY_IN_FLIGHT`-ը սահմանափակում է միաժամանակ կատարվող ծանր՝ երկար համատեքստով հարցումների քանակը․ այդ սահմանը ընդունման դարպաս է, այլ ոչ թե մատակարարի հաճախականության սահմանափակիչ։ **#503-fanout թարմացում․** այս փոփոխականն այլևս լռելյայն չի սահմանվում (այժմ այն կիրառվում է միայն հստակ կազմաձևման դեպքում, ինչպես վերևում)․ փոխարենը ծանր հարցումների ընդունումը վերահսկվում է ինքնաշխատ հաշվարկվող բայթային բյուջեով (`OMNIROUTE_CHAT_MAX_INFLIGHT_BYTES`), որն ինքնաբերաբար մասշտաբավորվում է՝ ըստ հոսթի իրական հիշողության վերին սահմանի։ Հետևաբար նոր տեղակայման դեպքում, նույնիսկ առանց այս փոփոխականը սահմանելու, պետք է շատ ավելի քիչ `503 chat_admission_busy` մերժումներ դիտվեն։ Այն այստեղ հստակ սահմանելը շարունակում է աշխատել ճիշտ այնպես, ինչպես փաստաթղթավորված է։ Բայթային բյուջեի հստակ վերասահմանումները սահմանափակվում են 8 MiB–2 GiB միջակայքում։ `413 body_exceeds_budget`-ը ժամանակավոր չէ․ մեծացրեք այդ բայթային բյուջեն, նվազեցրեք `OMNIROUTE_CHAT_HARD_MAX_BODY_BYTES`-ը կամ մեծացրեք գործընթացի հիշողության վերին սահմանը։ `inflight_bytes_budget`-ի պատճառով բեռնաթափումը ժամանակավոր մրցակցություն է և շարունակում է թույլ տալ կրկնակի փորձ։ Յուրաքանչյուր մատակարարի հաճախականության սահմանափակումը (`open-sse/services/rateLimitManager.ts`) առանձին կառավարվում է `RATE_LIMIT_MAX_WAIT_MS`, `RATE_LIMIT_MAX_QUEUE_DEPTH` և `RATE_LIMIT_AUTO_ENABLE` փոփոխականներով․ տե՛ս `.env.example`։
 
-**Ինչպես ստուգել, որ այն աշխատել է**. արագ հաջորդականությամբ երկու անգամ գործարկեք ձեր գործակալը/cron-ը և համոզվեք, որ երկու գործարկումներն էլ հաջողվել են։ Մինչև ուղղումը երկրորդ գործարկումը սովորաբար վերադարձնում է `429`/`401`։ Ուղղումից հետո ձախողումները (եթե լինեն) թափանցիկ կերպով կրկին փորձվում են, և կանչն ավարտվում է։ Կարող եք նաև կատարել `curl /monitoring/health` և հետևել մատակարարի միացումների `rateLimitedUntil` դաշտին ու համապատասխան մատակարարների `circuitBreakers.providerBreakers[].state`-ին։ Վիճակը կարող է լինել `CLOSED`, `DEGRADED`, `OPEN` կամ `HALF_OPEN` (տե՛ս `src/shared/utils/circuitBreaker.ts`), իսկ շարունակաբար ձախողվող մատակարարի վիճակը կփոխվի `CLOSED → DEGRADED → OPEN`, մինչև վերակայման պատուհանը թույլ տա փորձնական հարցում կատարել (`HALF_OPEN`)։
+**Ինչպես ստուգել, որ լուծումն աշխատել է**․ գործարկեք ձեր գործակալը կամ cron-ը երկու անգամ՝ կարճ ընդմիջումով, և համոզվեք, որ երկուսն էլ հաջողվում են։ Մինչև շտկումը երկրորդ գործարկումը սովորաբար վերադարձնում է `429`/`401`։ Շտկումից հետո խափանումների դեպքում կրկնակի փորձերը կատարվում են աննկատ, և կանչն ավարտվում է։ Կարող եք նաև կատարել `curl /monitoring/health` և մատակարարների կապերում հետևել `rateLimitedUntil` դաշտին, իսկ համապատասխան մատակարարների համար՝ `circuitBreakers.providerBreakers[].state`-ին։ Վիճակը կարող է լինել `CLOSED`, `DEGRADED`, `OPEN` կամ `HALF_OPEN` (տե՛ս `src/shared/utils/circuitBreaker.ts`), իսկ շարունակաբար ձախողվող մատակարարի վիճակը կփոխվի `CLOSED → DEGRADED → OPEN`, մինչև վերակայման պատուհանը թույլ տա փորձնական հարցում անցկացնել (`HALF_OPEN`)։
 
-**Եթե դեռ տեսնում եք 429**. տվյալ մատակարարի ակտիվ հաշիվն իսկապես սպառել է իր _քվոտան_ (ոչ միայն հարցումների հաճախականության սահմանաչափը)։ OmniRoute-ի կառավարման վահանակում անցեք Providers → Accounts և ավելացրեք նույն մատակարարի երկրորդ հաշիվը կամ ներառեք մեկ այլ անվճար մատակարար (օրինակ՝ `routeway`, `auggie`)։ Ռոտացիան օգնում է միայն ժամանակավոր հաճախականության սահմանափակման/400/401 սխալների դեպքում․ քվոտայի ամբողջական սպառման համար անհրաժեշտ են երկրորդ հավատարմագրային տվյալներ կամ այլ մատակարար։
+**Եթե դեռ տեսնում եք 429**․ տվյալ մատակարարի ակտիվ հաշիվն իսկապես սպառել է իր _քվոտան_ (ոչ միայն հաճախականության սահմանաչափը)։ OmniRoute-ի կառավարման վահանակում՝ Providers → Accounts բաժնում, ավելացրեք նույն մատակարարի երկրորդ հաշիվը կամ ներառեք մեկ այլ անվճար մատակարար (օրինակ՝ `routeway`, `auggie`)։ Ռոտացիան օգնում է միայն ժամանակավոր հաճախականության սահմանափակման կամ 400/401 սխալների դեպքում․ քվոտայի ամբողջական սպառումը պահանջում է երկրորդ հավատարմագիր կամ այլ մատակարար։
 
-**Եթե տեսնում եք 403՝ տեսողական մոդելների (`auto/vision`, `bazaarlink/*`) դեպքում**. միացված հաշիվը չունի տեսողական հնարավորություններ ներառող վճարովի պլան, կամ API բանալին չունի բավարար թույլտվություններ։ Մատակարարի կառավարման վահանակում ստուգեք, որ բանալու հասանելիության շրջանակը ներառում է տեսողական/բազմամոդալ հնարավորությունները, կամ միացրեք վճարովի սակագնային հաշիվ և այն պահեք որպես տեսողական հարցումների նպատակային հաշիվ։
+**Եթե տեսնում եք 403 տեսողական մոդելների դեպքում (`auto/vision`, `bazaarlink/*`)**․ միացված հաշիվը չունի տեսողական հնարավորություններ ներառող վճարովի պլան, կամ API բանալին չունի բավարար թույլտվություններ։ Մատակարարի կառավարման վահանակում ստուգեք, որ բանալու հասանելիության շրջանակը ներառում է տեսողական/բազմամոդալ հնարավորություններ, կամ միացրեք վճարովի մակարդակի հաշիվ և պահեք այն որպես տեսողական հարցումների թիրախ։
 
 ---
 
 ## npm install-ի նախազգուշացումներ (ERESOLVE / peer / deprecated)
 
-Երբ գործարկում եք `npm install -g omniroute`, կարող եք տեսնել բազմաթիվ նախազգուշացումներ, ինչպիսիք են՝ `npm warn ERESOLVE`, peer կախվածությունների մասին ծանուցումներ և `deprecated` հաղորդագրություններ։ **Դրանք սպասելի են և անվնաս։** Տեղադրումը հաջողվել է, եթե ելքում տեսնում եք `added <N> packages`։
+Երբ գործարկում եք `npm install -g omniroute`, կարող եք տեսնել բազմաթիվ նախազգուշացումներ, ինչպիսիք են `npm warn ERESOLVE`-ը, peer կախվածությունների մասին ծանուցումները և `deprecated` հաղորդագրությունները։ **Դրանք սպասելի են և անվնաս։** Տեղադրումը հաջողվել է, եթե արտածման մեջ տեսնում եք `added <N> packages`։
 
-Նախազգուշացումները գալիս են երրորդ կողմի փաթեթներում առկա peer կախվածությունների հնացած միջակայքերից, որոնք OmniRoute-ը չի վերահսկում․
+Peer կախվածությունների լուծման նախազգուշացումները ճնշելու համար օգտագործեք OmniRoute-ի աջակցվող տեղադրման ձևը․
 
-1. **`marked-terminal`-ը պահանջում է `marked >=1 <16`, սակայն գտնվել է `marked@18`** — գործնականում նորմալ է աշխատում․ upstream peer միջակայքը պարզապես հնացած է։
-2. **`deprecated prebuild-install@7.1.3`** — անցումային կախվածություն հանդիսացող՝ native երկուական ֆայլերի ներբեռնման օժանդակ գործիք։ Այն չի
-   օգտագործվում ամրագրված `wreq-js` տրանսպորտային binding-ը տեղադրելու համար և չի նշանակում, որ web-cookie
+```bash
+npm install -g omniroute --legacy-peer-deps
+```
+
+`--legacy-peer-deps`-ը ճնշում է միայն `ERESOLVE`-ը և peer կախվածությունների մասին ծանուցումները։ Հնացած լինելու մասին ծանուցումները շարունակում են տեսանելի մնալ, քանի որ դրանք գալիս են անցումային երրորդ կողմի փաթեթներից․ դրանք չեն նշանակում, որ տեղադրումը ձախողվել է։
+
+Նախազգուշացումները գալիս են երրորդ կողմի փաթեթներում առկա հնացած peer կախվածությունների միջակայքերից, որոնք OmniRoute-ը չի վերահսկում․
+
+1. **`marked-terminal`-ը պահանջում է `marked >=1 <16`, սակայն գտնվել է `marked@18`** — գործնականում նորմալ է աշխատում․ վերին մակարդակի peer միջակայքը պարզապես հնացած է։
+2. **`deprecated prebuild-install@7.1.3`** — անցումային օգնական՝ բնիկ երկուական ֆայլեր ստանալու համար։ Այն չի
+   օգտագործվում ամրագրված `wreq-js` տրանսպորտային կապակցումը տեղադրելու համար և չի նշանակում, որ վեբ cookie-ների
    մատակարարի տրանսպորտի կարգավորումը ձախողվել է։
 
-**Ոչ մի գործողություն անհրաժեշտ չէ** — նախազգուշացումները հնարավոր չէ ամբողջությամբ լռեցնել՝ առանց upstream փաթեթները fork անելու։
+**Որևէ գործողություն անհրաժեշտ չէ** — նախազգուշացումները հնարավոր չէ ամբողջությամբ ճնշել՝ առանց վերին մակարդակի փաթեթները fork անելու։
 
 ---
 
-## Արագ լուծումներ
+## npm install-scripts-ի արգելափակման նախազգուշացում (գլոբալ տեղադրում)
 
-| Խնդիր                                                      | Լուծում                                                                                                                                                                                 |
-| ---------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Առաջին մուտքը չի աշխատում                                  | Սահմանեք `INITIAL_PASSWORD`-ը `.env`-ում (կոշտ կոդավորված լռելյայն արժեք չկա)                                                                                                           |
-| Կառավարման վահանակը բացվում է սխալ պորտով                  | Սահմանեք `PORT=20128` և `NEXT_PUBLIC_BASE_URL=http://localhost:20128`                                                                                                                   |
-| Մատյանները չեն գրվում սկավառակի վրա                        | Սահմանեք `APP_LOG_TO_FILE=true` և ստուգեք, որ կանչերի մատյանների գրանցումը միացված է                                                                                                    |
-| EACCES: թույլտվությունը մերժված է                          | Սահմանեք `DATA_DIR=/path/to/writable/dir`՝ `~/.omniroute`-ը վերասահմանելու համար                                                                                                        |
-| Երթուղավորման ռազմավարությունը չի պահպանվում               | Թարմացրեք մինչև վերջին v3.x թողարկումը (կարգավորումների պահպանման Zod սխեմայի շտկումը ներառվել է ավելի վաղ տարբերակներում)                                                              |
-| Մուտքի ժամանակ խափանում / դատարկ էջ                        | Ստուգեք Node.js-ի տարբերակը — տե՛ս ստորև՝ [Node.js-ի համատեղելիություն](#nodejs-compatibility)                                                                                          |
-| `dlopen` / `slice is not valid mach-o file` (macOS)        | Գործարկեք `cd $(npm root -g)/omniroute/app && npm rebuild better-sqlite3 && omniroute` — տե՛ս ստորև՝ [macOS-ի native մոդուլի վերակառուցում](#macos-native-module-rebuild)               |
-| Proxy-ի «fetch failed»                                     | Համոզվեք, որ proxy-ի կազմաձևումը սահմանված է ճիշտ մակարդակում — տե՛ս ստորև՝ [Proxy-ի խնդիրներ](#proxy-issues)                                                                           |
-| Docker `curl: (56) Recv failure: Connection reset by peer` | Ձեր Docker պորտի կապակցումը կարող է ուղղվել IPv6-ին։ Օգտագործեք `-p 127.0.0.1:20128:20128`՝ IPv4-ը պարտադրելու համար, կամ ստուգեք `curl -4`-ով։ Տե՛ս ստորև՝ [Docker IPv6](#docker-ipv6) |
-| Հակավիրուսը կարանտինացնում է `README.md`-ը                 | Կեղծ դրական արդյունք է — տե՛ս ստորև՝ [Հակավիրուսի կեղծ դրական արդյունքներ](#antivirus-false-positives)                                                                                  |
-| Kaspersky-ն Desktop հավելվածը նշում է որպես Trojan         | Չստորագրված տեղադրիչի վարքագծային կեղծ դրական արդյունք է — տե՛ս ստորև՝ [Հակավիրուսի կեղծ դրական արդյունքներ](#antivirus-false-positives)                                                |
+<a name="npm-install-scripts-blocked-warning-global-install"></a>
+
+`npm install -g omniroute` գործարկելիս npm-ի նոր տարբերակները (v11+ և v12+) լռելյայն արգելափակում են փաթեթի կենսափուլի սկրիպտները և ցուցադրում install-scripts-ի մասին նախազգուշացում․
+
+```
+npm warn install-scripts 7 packages had install scripts blocked because they are not covered by allowScripts:
+  omniroute@<version> (postinstall: node scripts/build/postinstall.mjs)
+  keytar, @parcel/watcher, @swc/core, protobufjs, esbuild, onnxruntime-node
+```
+
+### Կարելի՞ է անտեսել այս նախազգուշացումը
+
+**Մասամբ, սակայն առանց սկրիպտների գործարկելը խորհուրդ չի տրվում։** OmniRoute-ը ներառում է պահուստային տարբերակների սահուն կիրառում․ եթե ինքնուրույն փաթեթից հնարավոր չէ բեռնել `better-sqlite3`-ի բնիկ կապակցումները, հավելվածն անցնում է այլընտրանքային դրայվերների, ինչպիսիք են `node:sqlite`-ը կամ `sql.js`-ը (տե՛ս [SQLite-ի գործարկման միջավայրի որոշումը](../ops/SQLITE_RUNTIME.md))։ Սերվերը, միևնույն է, կգործարկվի, սակայն `sql.js`-ի նման WASM պահուստային տարբերակների օգտագործումն անջատում է SQLite-ի WAL (Write-Ahead Logging) ռեժիմը և ավելացնում հիշողության օգտագործումն ու սկավառակի համաժամացման լրացուցիչ ծախսերը։
+
+### Ո՞ր սկրիպտներն են իրականում անհրաժեշտ
+
+Արգելափակված ոչ բոլոր սկրիպտներն են անհրաժեշտ OmniRoute-ի աշխատանքի համար․
+
+- **Անհրաժեշտ (`omniroute`, `better-sqlite3`)․** OmniRoute-ն աշխատում է Next.js-ի ինքնուրույն հավելվածային փաթեթից (`dist/`)։ Տեղադրման ընթացքում npm-ը ներբեռնում կամ կոմպիլացնում է տվյալ հոսթին համապատասխան բնիկ SQLite դրայվերը վերին մակարդակի `node_modules/better-sqlite3/` պանակում։ Այնուհետև OmniRoute-ի `postinstall` սկրիպտը (`scripts/build/postinstall.mjs`) ստուգում և պատճենում է հոսթին համապատասխան այս երկուական ֆայլերը `dist/node_modules/` պանակ, որպեսզի ինքնուրույն սերվերը կարողանա հասանելիություն ստանալ դրանց։ Եթե `omniroute`-ի postinstall սկրիպտն արգելափակված է, պատճենման այս քայլը բաց է թողնվում։
+- **Ոչ պարտադիր/անցումային (`keytar`, `@parcel/watcher`, `@swc/core`, `protobufjs`, `esbuild`)․** Սրանք կառուցման օժանդակ գործիքներ, փոփոխություններին հետևող գործիքներ կամ համակարգային բանալիների շղթայի սպասարկիչներ են։ Դրանց թույլատրումը կանխում է կառուցման նախազգուշացումները, սակայն դրանք անհրաժեշտ չեն երթուղավորման հիմնական գործառույթների համար։
+- **Բացառված (`onnxruntime-node`)․** Սա տեղային AI ներդրումների համար նախատեսված ոչ պարտադիր կախվածություն է և **անհրաժեշտ չէ** OmniRoute-ի աշխատանքի համար։ Դրա postinstall սկրիպտը NuGet-ից ներբեռնում է մոտ 300MB ծավալով CUDA ռեսուրսներ․ այն մի՛ ներառեք թույլատրվածների ցանկում, եթե բացահայտորեն չեք նախատեսում աջակցվող սարքավորման վրա օգտագործել տեղային ONNX արագացում։
+
+### Առաջարկվող լուծում
+
+Գլոբալ տեղադրման ընթացքում անհրաժեշտ տեղադրման սկրիպտները թույլատրելու և նախազգուշացումները վերացնելու համար OmniRoute-ի և դրա բնիկ կախվածությունների համար փոխանցեք `--allow-scripts` դրոշակը․
+
+```bash
+npm install -g omniroute --allow-scripts=omniroute,better-sqlite3,keytar,@parcel/watcher,@swc/core,protobufjs,esbuild
+```
+
+Որպես այլընտրանք՝ ձեր օգտահաշվում բոլոր գլոբալ տեղադրումների համար սա մշտապես կարգավորելու նպատակով գործարկեք․
+
+```bash
+npm config set allow-scripts=omniroute,better-sqlite3,keytar,@parcel/watcher,@swc/core,protobufjs,esbuild --location=user
+npm install -g omniroute
+```
+
+### Ստուգեք ձեր տեղադրումը
+
+Տեղադրումից հետո գործարկեք ներկառուցված ախտորոշիչ գործիքը՝ համոզվելու համար, որ բնիկ կապակցումները և գործարկման միջավայրը պատշաճ վիճակում են․
+
+```bash
+omniroute doctor
+```
 
 ---
 
-## Հակավիրուսի կեղծ դրական արդյունքներ
+## Gemini Web և Playwright Chromium
+
+Եթե Gemini Web-ի հարցումը վերադարձնում է `503`՝ հաղորդագրությամբ, որ Playwright Chromium-ը
+տեղադրված չէ, ապա npm փաթեթն առկա է, սակայն դիտարկիչի երկուական ֆայլը բացակայում է։
+Playwright-ը դիտարկիչների ներբեռնումները միտումնավոր առանձնացնում է npm փաթեթի
+տեղադրումից, ուստի այս պատասխանը սպասելի է, քանի դեռ դիտարկիչը տեղադրված չէ։
+
+npm-ի գլոբալ տեղադրման դեպքում Chromium-ը տեղադրեք OmniRoute փաթեթի
+պանակից, որպեսզի դիտարկիչի քեշը պատկանի Playwright-ի նույն տեղադրմանը․
+
+```bash
+cd "$(npm root -g)/omniroute"
+npx playwright install chromium
+```
+
+Տեղադրումից հետո վերագործարկեք OmniRoute-ը, ապա կրկին փորձեք Gemini Web-ի հարցումը։ Եթե
+OmniRoute-ն աշխատեցնում եք Docker պատկերի միջոցով, օգտագործեք `-web` պատկերը (կամ `runner-web`
+կառուցման թիրախը), որը ներառում է Chromium-ը և դրա կախվածությունները․ հիմնական պատկերը
+դրանք չի ներառում։
+
+---
+
+## Արագ շտկումներ
+
+| Խնդիր                                                       | Լուծում                                                                                                                                                                                    |
+| ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Առաջին մուտքը չի աշխատում                                   | Սահմանեք `INITIAL_PASSWORD`-ը `.env`-ում (կոշտ կոդավորված լռելյայն արժեք չկա)                                                                                                              |
+| Կառավարման վահանակը բացվում է սխալ պորտով                   | Սահմանեք `PORT=20128` և `NEXT_PUBLIC_BASE_URL=http://localhost:20128`                                                                                                                      |
+| Մատյանները չեն գրվում սկավառակի վրա                         | Սահմանեք `APP_LOG_TO_FILE=true` և համոզվեք, որ կանչերի մատյանի գրանցումը միացված է                                                                                                         |
+| EACCES․ թույլտվությունը մերժված է                           | Սահմանեք `DATA_DIR=/path/to/writable/dir`՝ `~/.omniroute`-ը վերասահմանելու համար                                                                                                           |
+| Ուղղորդման ռազմավարությունը չի պահպանվում                   | Թարմացրեք մինչև վերջին v3.x թողարկումը (կարգավորումների պահպանման Zod սխեմայի շտկումը տրամադրվել է ավելի վաղ տարբերակներում)                                                               |
+| Մուտքի խափանում / դատարկ էջ                                 | Ստուգեք Node.js-ի տարբերակը․ տե՛ս ստորև՝ [Node.js-ի համատեղելիություն](#nodejs-compatibility)                                                                                              |
+| `dlopen` / `slice is not valid mach-o file` (macOS)         | Գործարկեք `cd $(npm root -g)/omniroute/app && npm rebuild better-sqlite3 && omniroute`․ տե՛ս ստորև՝ [macOS-ի բնիկ մոդուլի վերակառուցում](#macos-native-module-rebuild)                     |
+| Պրոքսիի «fetch failed»                                      | Համոզվեք, որ պրոքսիի կազմաձևումը սահմանված է ճիշտ մակարդակում․ տե՛ս ստորև՝ [Պրոքսիի խնդիրներ](#proxy-issues)                                                                               |
+| Docker `curl: (56) Recv failure: Connection reset by peer`  | Ձեր Docker պորտի կապակցումը կարող է կատարվել IPv6-ով։ Օգտագործեք `-p 127.0.0.1:20128:20128`՝ IPv4-ը պարտադրելու համար, կամ փորձարկեք `curl -4`-ով։ Տե՛ս ստորև՝ [Docker IPv6](#docker-ipv6) |
+| Հակավիրուսը կարանտինացնում է `README.md`-ը                  | Կեղծ դրական արդյունք է․ տե՛ս ստորև՝ [Հակավիրուսի կեղծ դրական արդյունքներ](#antivirus-false-positives)                                                                                      |
+| Kaspersky-ն Desktop հավելվածը նշում է որպես տրոյական ծրագիր | Չստորագրված տեղադրիչի վարքագծի պատճառով առաջացած կեղծ դրական արդյունք է․ տե՛ս ստորև՝ [Հակավիրուսի կեղծ դրական արդյունքներ](#antivirus-false-positives)                                     |
+
+---
+
+## Հակավիրուսի կեղծ դրական արձագանքներ
 
 <a name="antivirus-false-positives"></a>
 
-### Avast/AVG-ը մեկուսացնում է `README.md`-ը՝ `MD:HttpRequest-inf[Susp]` նշումով
+### Avast/AVG-ը մեկուսացնում է `README.md`-ը՝ `MD:HttpRequest-inf[Susp]` հայտնաբերմամբ
 
-**Սա կեղծ դրական արդյունք է։ Ոչինչ վարակված չէ, և որևէ գործողություն չի պահանջվում։**
+**Սա կեղծ դրական արձագանք է։ Ոչինչ վարակված չէ, և որևէ գործողություն չի պահանջվում։**
 
-Avast-ը և AVG-ն օգտագործում են էվրիստիկ ստուգում, որը նշում է բազմաթիվ
+Avast-ը և AVG-ն օգտագործում են էվրիստիկ մեխանիզմ, որը նշում է բազմաթիվ՝
 HTTP հարցումների տեսք ունեցող հղումներ պարունակող պարզ տեքստային/Markdown ֆայլերը։
-OmniRoute-ի `README.md`-ը ներառված է npm փաթեթում (այն նշված է
-`package.json` → `files`-ում), ուստի գլոբալ տեղադրման դեպքում հայտնվում է
-`node_modules/omniroute/README.md` ուղում, և այն պարունակում է մոտ 15
-`http://localhost:20128/...` օրինակ (MCP HTTP/SSE վերջնակետերը, A2A `.well-known`
-URL-ը և `curl`-ի հատվածները)։ Հղումների այդ խտությունը բավարար է էվրիստիկ ստուգման
-գործարկման համար։
+OmniRoute-ի `README.md`-ն ներառված է npm փաթեթում (այն նշված է `package.json` → `files` բաժնում),
+ուստի գլոբալ տեղադրման դեպքում հայտնվում է `node_modules/omniroute/README.md` հասցեում, և այն
+պարունակում է մոտ 15 `http://localhost:20128/...` օրինակ (MCP HTTP/SSE վերջնակետերը,
+A2A `.well-known` URL-ը և `curl`-ի հատվածները)։ Հղումների այդ խտությունը բավարար է
+էվրիստիկ մեխանիզմի գործարկման համար։
 
-Եթե սա սկսել է տեղի ունենալ միայն վերջերս, ապա ֆայլի բնույթը չի փոխվել։
-README-ում ավելացել են վերջնակետերի աղյուսակը (ավելացվել են MCP HTTP + SSE + A2A)
-և ավելի շատ `curl` օրինակներ, ինչի պատճառով այն գերազանցել է շեմը։
+Եթե սա սկսվել է միայն վերջերս՝ ֆայլի բնույթը չի փոխվել։ README-ում ընդլայնվել է
+վերջնակետերի աղյուսակը (ավելացվել են MCP HTTP + SSE + A2A) և ավելացել են `curl`-ի
+օրինակները, ինչի հետևանքով այն գերազանցել է շեմը։
 
-Ֆայլը պասիվ փաստաթուղթ է և չի պարունակում որևէ գործարկվող բովանդակություն։ Դուք
-կարող եք այն անվտանգ վերականգնել կարանտինից։
+Այս ֆայլը պասիվ փաստաթուղթ է և չի պարունակում որևէ գործարկվող բովանդակություն։ Կարող եք
+անվտանգ կերպով վերականգնել այն կարանտինից։
 
 **Ինչ անել․**
 
-1. **Դադարեցրեք ծանուցումները** — ձեր հակավիրուսում բացառությունների ցանկին
-   ավելացրեք տեղադրման պանակը (Avast՝ Settings → Exceptions)՝ ներառելով ձեր
-   գլոբալ `node_modules` ուղին և/կամ OmniRoute-ի տվյալների պանակը
-   (`~/.omniroute/`)։
-2. **Հաղորդեք կեղծ դրական արդյունքի մասին** —
-   <https://www.avast.com/false-positive-file-form.php>՝ կցելով կարանտինացված
-   `README.md`-ը։ Սա այն լուծումն է, որն օգնում է բոլորին, քանի որ խնդիրը
-   մատակարարի էվրիստիկ ստուգման՝ տեքստային ֆայլի նկատմամբ չափազանցված արձագանքն է։
+1. **Դադարեցրեք ծանուցումները** — հակավիրուսում բացառեք տեղադրման գրացուցակը
+   (Avast: Settings → Exceptions)՝ ավելացնելով ձեր գլոբալ `node_modules` ուղին և/կամ
+   OmniRoute-ի տվյալների գրացուցակը (`~/.omniroute/`)։
+2. **Հաղորդեք կեղծ դրական արձագանքի մասին** — <https://www.avast.com/false-positive-file-form.php>՝
+   կցելով կարանտին տեղափոխված `README.md`-ը։ Սա այն լուծումն է, որն օգնում է բոլորին, քանի որ
+   մատակարարի էվրիստիկ մեխանիզմն է չափազանց կտրուկ արձագանքում տեքստային ֆայլին։
 
-**Ինչու մենք սա չենք «շտկում» մեր կողմից․** բոլոր օրինակներն օգտագործում են
-`http://localhost`, իսկ localhost-ը չի կարող օգտագործել `https` առանց ինքնաստորագրված
-վկայականների հետ կապված անհարմարությունների։ Փաստաթղթերի աղավաղումը՝ մեկ մատակարարի
-էվրիստիկ ստուգումը շրջանցելու համար, կվնասեր բոլոր ընթերցողներին՝ սկաների սխալը
-բավարարելու նպատակով։
+**Ինչու մենք սա չենք «շտկում» մեր կողմից․** բոլոր օրինակները `http://localhost` են, իսկ
+localhost-ը չի կարող օգտագործել `https`՝ առանց ինքնաստորագրված հավաստագրերի հետ կապված
+դժվարությունների։ Մեկ մատակարարի էվրիստիկ մեխանիզմը շրջանցելու համար փաստաթղթերի
+աղավաղումը կվնասեր բոլոր ընթերցողներին՝ սկանավորիչի սխալը բավարարելու նպատակով։
 
-### Kaspersky-ն Desktop հավելվածը նշում է որպես `PDM:Trojan.Win32.Generic`
+### Kaspersky-ն աշխատասեղանի հավելվածը նշում է որպես `PDM:Trojan.Win32.Generic`
 
-**Սա վարքագծային էվրիստիկ ստուգման կեղծ դրական արդյունք է։ Ոչինչ վարակված չէ։**
-Kaspersky-ի `PDM:` նախածանցը նշանակում է, որ եզրակացությունը ստացվել է դրա Proactive
-Defense Module-ից (System Watcher), որը գնահատում է, թե տեղադրիչն ինչ է _անում_,
-այլ ոչ թե համեմատում է այն հայտնի վնասաբեր ծրագրերի հետ։ Երբ այն գործարկվում է,
-Kaspersky-ն «հետ է գլորում» ամբողջ տեղադրումը՝ ջնջելով արդեն գրված ֆայլերը, ինչի
-հետևանքով հավելվածը մնում է վնասված կամ անհետանում է։
+**Սա վարքագծային էվրիստիկ մեխանիզմի կեղծ դրական արձագանք է։ Ոչինչ վարակված չէ։**
+Kaspersky-ի `PDM:` նախածանցը նշանակում է, որ եզրակացությունը տրվել է դրա Proactive Defense
+Module-ի (System Watcher) կողմից, որը գնահատում է, թե տեղադրիչն ինչ է _անում_, այլ ոչ թե
+համեմատում է այն հայտնի վնասաբեր ծրագրերի հետ։ Գործարկվելիս Kaspersky-ն «հետ է շրջում»
+ամբողջ տեղադրումը՝ ջնջելով արդեն գրված ֆայլերը, ինչի հետևանքով հավելվածը վնասվում է
+կամ բացակայում։
 
-Դրա կողմից նշվող ֆայլերը Desktop հավելվածի հետ փաթեթավորված, հայտարարված բաց կոդով
-կախվածությունների ստանդարտ մասեր են, օրինակ՝
+Նշվող ֆայլերը աշխատասեղանի հավելվածում ներառված, հայտարարագրված բաց կոդով
+կախվածությունների ստանդարտ բաղադրիչներ են, օրինակ՝
 
 - `resources/app/.build/next/node_modules/playwright-<hash>/lib/…/agentParser.js` և
-  `workerProcessEntry.js` — [Playwright](https://playwright.dev), զննարկչի ավտոմատացման
-  գրադարանը, որն օգտագործվում է հավելվածում մատակարարի հաշիվ մուտք գործելու և
-  զննարկիչով ապահովվող զրույցի համար։
+  `workerProcessEntry.js` — [Playwright](https://playwright.dev)՝ դիտարկիչի ավտոմատացման
+  գրադարան, որն օգտագործվում է հավելվածում մատակարարների հաշիվ մուտք գործելու և
+  դիտարկչի վրա հիմնված զրույցի համար։
 - `resources/app/.build/next/node_modules/@wreq-js/binding-win32-<arch>-msvc-<hash>/wreq-js.win32-<arch>-msvc.node`
-  — ամրագրված `wreq-js` նատիվ կապակցումը, որն օգտագործվում է վեբ cookie-ներ կիրառող
-  մատակարարների համար զննարկչի թվային մատնահետքով HTTP հարցումներ կատարելու նպատակով
-  (`<arch>`-ը `x64` կամ `arm64` է)։
+  — ամրագրված `wreq-js` բնիկ կապակցումը, որն օգտագործվում է վեբ cookie-ներ կիրառող
+  մատակարարների մոտ դիտարկչի մատնահետքով HTTP-ի համար (`<arch>`-ը `x64` կամ `arm64` է)։
 
-**Ինչու է այն գործարկվում․** Windows-ի տեղադրիչը **դեռևս ստորագրված չէ կոդի
-ստորագրությամբ**, ուստի չստորագրված NSIS տեղադրիչը որևէ հեղինակություն չունի, և
-վարքագծային էվրիստիկ ստուգումներն աշխատում են առավելագույն խստությամբ։ Փաթեթավորված
-նատիվ DLL-ի և `%LOCALAPPDATA%\Programs\OmniRoute` ուղում գրվող հարյուրավոր `.js`
-ֆայլերի հետ միասին (ներառյալ Next.js-ի ինքնուրույն հավաքումից ստացված՝ hash
-վերջածանցներով փաթեթների պանակները) դա բավարար է էվրիստիկ ստուգման գործարկման համար։
-Կոդի ստորագրումը նախատեսված է․ մինչև դրա իրականացումը սա կարող է կրկնվել նոր
-թողարկումներում։
+**Ինչու է այն գործարկվում․** Windows-ի տեղադրիչը **դեռևս ստորագրված չէ կոդային
+ստորագրությամբ**, ուստի չստորագրված NSIS տեղադրիչը զրոյական հեղինակություն ունի, և
+վարքագծային էվրիստիկ մեխանիզմները գործում են առավելագույն խստությամբ։ Փաթեթում ներառված
+բնիկ DLL-ի և `%LOCALAPPDATA%\Programs\OmniRoute` գրացուցակում գրվող հարյուրավոր `.js`
+ֆայլերի հետ միասին (ներառյալ Next.js-ի ինքնուրույն կառուցվածքից ստացված՝ հեշ վերջածանցով
+փաթեթների գրացուցակները) սա բավարար է էվրիստիկ մեխանիզմի գործարկման համար։ Կոդային
+ստորագրումը նախատեսված է․ մինչև դրա իրականացումը նոր թողարկումների դեպքում սա կարող է կրկնվել։
 
 **Ինչ անել․**
 
-1. **Նախ ստուգեք ձեր ներբեռնումը** (սա բացառում է ֆայլի փոփոխված լինելը)։ Յուրաքանչյուր
-   թողարկման հետ հրապարակվում է `latest.yml`, որի `sha512` դաշտը (base64) վերաբերում է
-   `OmniRoute.Setup.<version>.exe` տեղադրիչին։ PowerShell-ում՝ տեղադրիչը պարունակող
-   պանակից, գործարկեք՝
+1. **Նախ ստուգեք ձեր ներբեռնումը** (սա բացառում է ֆայլի կեղծված լինելը)։ Յուրաքանչյուր
+   թողարկում հրապարակում է `latest.yml`, որի `sha512` դաշտը (base64) ընդգրկում է
+   `OmniRoute.Setup.<version>.exe` տեղադրիչը։ PowerShell-ում՝ տեղադրիչը պարունակող պանակից․
    ```powershell
    $b = [System.Security.Cryptography.SHA512]::Create().ComputeHash(
      [System.IO.File]::ReadAllBytes("$PWD\OmniRoute.Setup.<version>.exe"))
    [Convert]::ToBase64String($b)
    ```
-   Արդյունքը պետք է համապատասխանի `latest.yml` → `sha512` արժեքին։ Եթե չի
-   համապատասխանում, ջնջեք ֆայլը և կրկին ներբեռնեք այն միայն
-   [GitHub-ի թողարկումների էջից](https://github.com/diegosouzapw/OmniRoute/releases)։
-2. **Վերականգնեք և ավելացրեք բացառություն** — կարանտինից վերականգնեք հետ գլորված
-   տարրերը և բացառություն ավելացրեք `%LOCALAPPDATA%\Programs\OmniRoute` ուղու համար
-   (Kaspersky → Settings → Threats and Exclusions), այնուհետև նորից տեղադրեք։
-3. **Հաղորդեք կեղծ դրական արդյունքի մասին** — <https://opentip.kaspersky.com/>։
-   Օգտատերերի կողմից ներկայացված կեղծ դրական արդյունքների մասին հաղորդումներն
-   իսկապես արագացնում են թույլատրելի ցանկում ներառումը։
+   Արդյունքը պետք է համընկնի `latest.yml` → `sha512` արժեքին։ Եթե չի համընկնում, ջնջեք ֆայլը և
+   կրկին ներբեռնեք միայն [GitHub-ի թողարկումների էջից](https://github.com/diegosouzapw/OmniRoute/releases)։
+2. **Վերականգնեք + բացառեք** — կարանտինից վերականգնեք հետ շրջված տարրերը և բացառություն
+   ավելացրեք `%LOCALAPPDATA%\Programs\OmniRoute`-ի համար (Kaspersky → Settings → Threats and Exclusions),
+   ապա նորից տեղադրեք։
+3. **Հաղորդեք կեղծ դրական արձագանքի մասին** — <https://opentip.kaspersky.com/>։ Օգտատերերի
+   կողմից ուղարկված FP հաղորդումներն իսկապես արագացնում են թույլատրելի ցանկում ավելացումը։
 
 ---
 
@@ -206,76 +268,74 @@ Kaspersky-ն «հետ է գլորում» ամբողջ տեղադրումը՝ ջ
 
 <a name="nodejs-compatibility"></a>
 
-### Մուտքի էջը խափանվում է կամ ցուցադրում «Module self-registration» սխալը
+### Մուտքի էջը խափանվում է կամ ցուցադրում է «Module self-registration» սխալ
 
-**Պատճառը՝** Դուք գործարկում եք Node.js-ի մի տարբերակ, որը դուրս է OmniRoute-ի կողմից հաստատված անվտանգ գործարկման միջավայրի նվազագույն շեմից։ Ամենատարածված դեպքը Node 22-ի կամ 24-ի ավելի հին պատչային տարբերակի գործարկումն է, որը OmniRoute-ի պահանջած շտկված անվտանգության շեմից ցածր է։
+**Պատճառ․** Դուք օգտագործում եք Node.js-ի տարբերակ, որը չի համապատասխանում OmniRoute-ի կողմից հաստատված անվտանգ գործարկման միջավայրի նվազագույն պահանջներին։ Ամենատարածված դեպքը Node 22-ի կամ 24-ի ավելի հին պատչային տարբերակի օգտագործումն է, որը ցածր է OmniRoute-ի պահանջած անվտանգության շտկումների նվազագույն մակարդակից։
 
-**Ախտանիշները՝**
+**Ախտանիշներ․**
 
 - Մուտքի էջը ցուցադրում է դատարկ էկրան կամ սերվերի սխալ
-- Վահանակը ցուցադրում է `Error: Module did not self-register` կամ նմանատիպ բնիկ կապակցման սխալներ
-- Եթե գործարկման միջավայրը չի համապատասխանում աջակցվող անվտանգության քաղաքականությանը, մուտքի էջը ցուցադրում է **նարնջագույն նախազգուշացման վահանակ**՝ նշելով ձեր Node-ի տարբերակը
+- Կոնսոլում ցուցադրվում է `Error: Module did not self-register` կամ նմանատիպ բնիկ կապակցման սխալ
+- Մուտքի էջում ցուցադրվում է **նարնջագույն նախազգուշացման բաներ**՝ ձեր Node-ի տարբերակով, եթե գործարկման միջավայրը չի համապատասխանում աջակցվող անվտանգության քաղաքականությանը
 
-**Լուծումը՝**
+**Լուծում․**
 
-1. Տեղադրեք Node.js LTS-ի աջակցվող թողարկում (խորհուրդ է տրվում՝ Node.js 24.x).
+1. Տեղադրեք Node.js LTS-ի աջակցվող թողարկում (խորհուրդ է տրվում՝ Node.js 24.x)․
    ```bash
    nvm install 24
    nvm use 24
    ```
-2. Ստուգեք ձեր տարբերակը. `node --version`-ը 24.x LTS շարքում պետք է ցուցադրի `v24.0.0` կամ ավելի նոր տարբերակ
-3. Վերատեղադրեք OmniRoute-ը. `npm install -g omniroute`
-4. Վերագործարկեք. `omniroute`
+2. Ստուգեք ձեր տարբերակը․ `node --version` հրամանը 24.x LTS շարքի համար պետք է ցուցադրի `v24.0.0` կամ ավելի նոր տարբերակ
+3. Վերատեղադրեք OmniRoute-ը․ `npm install -g omniroute`
+4. Վերագործարկեք․ `omniroute`
 
-> **Աջակցվող անվտանգ տարբերակները՝** `>=22.22.2 <23` կամ `>=24.0.0 <27`։ Node.js 24.x LTS-ը (Krypton) և Node.js 26-ը լիովին աջակցվում են։
+> **Աջակցվող անվտանգ տարբերակներ․** `>=22.22.2 <23` կամ `>=24.0.0 <27`։ Node.js 24.x LTS-ը (Krypton) և Node.js 26-ը լիովին աջակցվում են։
 
-### npm v11+՝ `better-sqlite3`-ը տեղադրված չէ (Cannot find module)
+### npm v11+․ `better-sqlite3`-ը տեղադրված չէ (Cannot find module)
 
 <a name="npm-v11-better-sqlite3-not-installed-cannot-find-module"></a>
 
-**Պատճառը՝** npm v11-ը (մատակարարվում է Node.js 24+-ի հետ) լռելյայն արգելափակում է ընտրովի
-կախվածությունների տեղադրման սկրիպտները։ Քանի որ `better-sqlite3`-ը նշված է `optionalDependencies`-ում
-և պահանջում է բնիկ կոմպիլացում (`node-gyp rebuild`), npm-ն այն լուռ բաց է թողնում։
+**Պատճառ․** npm v11-ը (տրամադրվում է Node.js 24+-ի հետ) լռելյայն արգելափակում է ընտրովի կախվածությունների տեղադրման սկրիպտները։ Քանի որ `better-sqlite3`-ը նշված է `optionalDependencies`-ում և պահանջում է բնիկ կոմպիլյացիա (`node-gyp rebuild`), npm-ն առանց ծանուցման բաց է թողնում այն։
 
-**Ախտանիշները՝**
+**Ախտանիշներ․**
 
-- Սերվերը գործարկման ժամանակ խափանվում է՝ ցուցադրելով `Cannot find module 'better-sqlite3'`
-- `ls node_modules/better-sqlite3`-ը ցուցադրում է «No such file or directory»
-- `npm ls better-sqlite3`-ը ցուցադրում է `(empty)`
+- Սերվերը գործարկման պահին խափանվում է `Cannot find module 'better-sqlite3'` հաղորդագրությամբ
+- `ls node_modules/better-sqlite3` հրամանը ցուցադրում է «No such file or directory»
+- `npm ls better-sqlite3` հրամանը ցուցադրում է `(empty)`
 
-**Լուծումը՝**
+**Լուծում․**
 
-1. Հաստատեք տեղադրման սկրիպտները և վերատեղադրեք.
+1. Հաստատեք տեղադրման սկրիպտները և վերատեղադրեք․
    ```bash
    npm approve-scripts better-sqlite3
    npm install
    ```
-2. Կամ ձեռքով տեղադրեք նախապես հավաքված տարբերակը.
+2. Կամ նախապես կառուցված տարբերակը տեղադրեք ձեռքով․
    ```bash
    npm pack better-sqlite3@13.0.1
    tar -xzf better-sqlite3-*.tgz -C node_modules
    mv node_modules/package node_modules/better-sqlite3
    rm better-sqlite3-*.tgz
    ```
-3. Ստուգեք, որ այն աշխատում է. `node -e "require('better-sqlite3')(':memory:').close(); console.log('OK')"`
+3. Ստուգեք, որ այն աշխատում է․ `node -e "require('better-sqlite3')(':memory:').close(); console.log('OK')"`
 
-### macOS՝ `dlopen` / «slice is not valid mach-o file»
+### macOS․ `dlopen` / «slice is not valid mach-o file»
 
 <a name="macos-native-module-rebuild"></a>
 
-**Պատճառը՝** Համակարգային մակարդակով `npm install -g omniroute` տեղադրումից հետո փաթեթի ներսում գտնվող `better-sqlite3` բնիկ երկուական ֆայլը կարող է կոմպիլացված լինել տեղային համակարգում գործարկվողից տարբերվող ճարտարապետության կամ Node.js ABI-ի համար։ Սա տարածված է macOS-ում (ինչպես Apple Silicon-ի, այնպես էլ Intel-ի դեպքում), երբ նախապես հավաքված երկուական ֆայլը չի համապատասխանում ձեր միջավայրին։
+**Պատճառ․** Համակարգային մակարդակով `npm install -g omniroute` հրամանի կատարումից հետո փաթեթի ներսում գտնվող `better-sqlite3`-ի բնիկ երկուական ֆայլը կարող է կոմպիլացված լինել այլ ճարտարապետության կամ Node.js ABI-ի համար, քան տեղային միջավայրում գործարկվողը։ Սա տարածված է macOS-ում (ինչպես Apple Silicon, այնպես էլ Intel), երբ նախապես կառուցված երկուական ֆայլը չի համապատասխանում ձեր միջավայրին։
 
-**Ախտանիշները՝**
+**Ախտանիշներ․**
 
-- Սերվերը գործարկման պահին անմիջապես խափանվում է՝ ցուցադրելով `dlopen` սխալ
+- Սերվերը գործարկումից անմիջապես հետո ձախողվում է `dlopen` սխալով
 - Սխալը պարունակում է `slice is not valid mach-o file`
-- Ամբողջական օրինակ՝
+- Ամբողջական օրինակ․
 
 ```
 dlopen(/Users/<user>/.nvm/versions/node/v24.14.1/lib/node_modules/omniroute/app/node_modules/better-sqlite3/build/Release/better_sqlite3.node, 0x0001): tried: '...' (slice is not valid mach-o file)
 ```
 
-**Լուծումը՝ վերակառուցեք ձեր տեղային միջավայրի համար (Node.js-ի տարբերակը նվազեցնելու կարիք չկա).**
+**Լուծում — վերակառուցեք ձեր տեղային միջավայրի համար (Node.js-ի տարբերակի իջեցում չի պահանջվում)․**
 
 ```bash
 cd $(npm root -g)/omniroute/app
@@ -283,7 +343,7 @@ npm rebuild better-sqlite3
 omniroute
 ```
 
-> **Նշում՝** Սա վերակոմպիլացնում է բնիկ կապակցումը ձեր տեղային Node.js տարբերակի և CPU ճարտարապետության համար՝ վերացնելով երկուական ֆայլերի անհամապատասխանությունը։ Պաշտոնապես աջակցվող գործարկման միջավայրի միջակայքն է **`>=22.22.2 <23` կամ `>=24.0.0 <27`** (`SUPPORTED_NODE_RANGE`՝ `src/shared/utils/nodeRuntimeSupport.ts`-ում, որը համապատասխանեցված է `package.json`-ի `engines` դաշտին)։ Node.js 24.x LTS-ը (Krypton) և Node.js 26-ը լիովին աջակցվում են `better-sqlite3` v12.x-ի հետ։
+> **Նշում․** Սա վերակոմպիլացնում է բնիկ կապակցումը՝ ձեր տեղային Node.js-ի տարբերակին և պրոցեսորի ճարտարապետությանը համապատասխան՝ վերացնելով երկուական ֆայլերի անհամապատասխանությունը։ Պաշտոնապես աջակցվող գործարկման միջավայրի միջակայքն է **`>=22.22.2 <23` կամ `>=24.0.0 <27`** (`SUPPORTED_NODE_RANGE`՝ `src/shared/utils/nodeRuntimeSupport.ts`-ում, համաձայնեցված `package.json`-ի `engines` դաշտի հետ)։ Node.js 24.x LTS-ը (Krypton) և Node.js 26-ը լիովին աջակցվում են `better-sqlite3` v12.x-ի հետ։
 
 ---
 
@@ -293,134 +353,134 @@ omniroute
 
 ### Մատակարարի վավերացումը ցույց է տալիս «fetch failed»
 
-**Պատճառ․** API բանալու վավերացման վերջնակետը (`POST /api/providers/validate`) նախկինում շրջանցում էր պրոքսիի կազմաձևումը՝ առաջացնելով խափանումներ այն միջավայրերում, որտեղ պահանջվում է երթուղավորում պրոքսիի միջոցով։
+**Պատճառ․** API բանալու վավերացման վերջնակետը (`POST /api/providers/validate`) նախկինում շրջանցում էր պրոքսիի կազմաձևումը՝ առաջացնելով խափանումներ այն միջավայրերում, որտեղ պահանջվում է երթուղում պրոքսիի միջոցով։
 
-**Ուղղում (v3.5.5+)․** Սա այժմ ուղղված է։ Մատակարարի վավերացումն իրականացվում է `runWithProxyContext`-ի միջոցով՝ ավտոմատ կերպով հաշվի առնելով մատակարարի մակարդակի և գլոբալ պրոքսիի կարգավորումները։
+**Լուծում (v3.5.5+)․** Այս խնդիրն այժմ շտկված է։ Մատակարարի վավերացման հարցումներն անցնում են `runWithProxyContext`-ի միջոցով՝ ինքնաբերաբար հաշվի առնելով մատակարարի մակարդակի և ընդհանուր պրոքսիի կարգավորումները։
 
-### Թոքենի վիճակի ստուգումը ձախողվում է «fetch failed» հաղորդագրությամբ
+### Թոքենի վիճակի ստուգումը ձախողվում է՝ ցուցադրելով «fetch failed»
 
-**Պատճառ․** OAuth թոքենի ֆոնային թարմացումը յուրաքանչյուր կապի համար առանձին չէր որոշում պրոքսիի կազմաձևումը։
+**Պատճառ․** OAuth թոքենի ֆոնային թարմացումը չէր որոշում պրոքսիի կազմաձևումն առանձին՝ յուրաքանչյուր կապի համար։
 
-**Ուղղում (v3.5.5+)․** Թոքենի վիճակի ստուգման ժամանակացույցն այժմ, նախքան թարմացման փորձը, յուրաքանչյուր կապի համար որոշում է պրոքսիի կազմաձևումը։ Թարմացրեք մինչև v3.5.5+։
+**Լուծում (v3.5.5+)․** Թոքենի վիճակի ստուգման պլանավորիչն այժմ թարմացման փորձից առաջ որոշում է պրոքսիի կազմաձևումն առանձին՝ յուրաքանչյուր կապի համար։ Թարմացրեք մինչև v3.5.5+։
 
 ### SOCKS5 պրոքսին վերադարձնում է «invalid onRequestStart method»
 
-**Պատճառ․** Node.js 22-ում undici@8 դիսպետչերն անհամատեղելի է Node-ի ներկառուցված `fetch()` իրականացման հետ։
+**Պատճառ․** Node.js 22-ում undici@8-ի դիսպետչերն անհամատեղելի է Node-ի ներկառուցված `fetch()` իրականացման հետ։
 
-**Ուղղում (v3.5.5+)․** Երբ պրոքսիի դիսպետչերն ակտիվ է, OmniRoute-ն այժմ օգտագործում է undici-ի սեփական `fetch()` ֆունկցիան՝ ապահովելով հետևողական վարքագիծ։ Թարմացրեք մինչև v3.5.5+։
+**Լուծում (v3.5.5+)․** Երբ պրոքսիի դիսպետչերն ակտիվ է, OmniRoute-ն այժմ օգտագործում է հենց undici-ի `fetch()` ֆունկցիան՝ ապահովելով միատեսակ վարքագիծ։ Թարմացրեք մինչև v3.5.5+։
 
-### MITM պրոքսի WSL-ում․ Windows հոսթում աշխատող աշխատասեղանի հավելվածները չեն ընդհատվում
+### MITM պրոքսին WSL-ի ներքո․ Windows հոսթում աշխատող աշխատասեղանի հավելվածները չեն ընդհատվում
 
-**Պատճառ․** MITM պրոքսին և դրա CA վկայագիրը տեղադրվում են այն միջավայրում, որտեղ աշխատում է OmniRoute-ը։ WSL-ի դեպքում այդ միջավայրը Linux հյուր համակարգն է, մինչդեռ AI աշխատասեղանի հավելվածները (Kiro, Trae, Copilot, Zed, …) աշխատում են Windows հոսթում։ Հոսթի հավելվածները չեն վստահում հյուր համակարգի վկայագրերի պահոցին և չեն երթուղավորվում հյուր համակարգի համակարգային պրոքսիի միջոցով, ուստի աշխատասեղանի հավելվածների տրաֆիկի ընդհատումն այնտեղ չի ակտիվանում։
+**Պատճառ․** MITM պրոքսին և դրա CA վկայագիրը տեղադրվում են այն միջավայրում, որտեղ աշխատում է OmniRoute-ը։ WSL-ի ներքո այդ միջավայրը Linux հյուրային համակարգն է, մինչդեռ AI աշխատասեղանի հավելվածները (Kiro, Trae, Copilot, Zed, …) աշխատում են Windows հոսթում։ Հոսթի հավելվածները չեն վստահում հյուրային համակարգի վկայագրերի պահոցին և չեն երթուղում իրենց կապը հյուրային համակարգի համակարգային պրոքսիի միջոցով, ուստի աշխատասեղանի հավելվածների տրաֆիկի ընդհատումն այնտեղ չի գործում։
 
-**Խորհուրդ․** Գործարկեք OmniRoute-ը անմիջապես նույն ՕՀ-ում, որտեղ աշխատում են այն աշխատասեղանի հավելվածները, որոնց տրաֆիկը ցանկանում եք ընդհատել (Windows՝ Windows հավելվածների համար, և համապատասխանաբար macOS/Linux)։ OmniRoute-ը WSL-ի ներսում պահելու և միաժամանակ հոսթի հավելվածները թիրախավորելու համար անհրաժեշտ է Windows հոսթում ձեռքով վստահելի դարձնել ստեղծված CA վկայագիրը և հոսթի յուրաքանչյուր հավելվածի ցանցային/պրոքսիի կարգավորումները ուղղել դեպի WSL պրոքսիի վերջնակետը․ սա չաջակցվող և անվստահելի կազմաձևում է։
+**Առաջարկություն․** Գործարկեք OmniRoute-ը անմիջապես նույն ՕՀ-ում, որտեղ աշխատում են այն աշխատասեղանի հավելվածները, որոնց տրաֆիկը ցանկանում եք ընդհատել (Windows՝ Windows հավելվածների համար, նույն կերպ՝ macOS/Linux)։ OmniRoute-ը WSL-ի ներսում պահելու և միաժամանակ հոսթի հավելվածները թիրախավորելու համար անհրաժեշտ է ձեռքով վստահելի դարձնել ստեղծված CA վկայագիրը Windows հոսթում և յուրաքանչյուր հոսթային հավելվածի ցանցային/պրոքսիի կարգավորումներում նշել WSL պրոքսիի վերջնակետը․ սա չաջակցվող և անկայուն կազմաձևում է։
 
 ---
 
-## Մատակարարների խնդիրներ
+## Մատակարարի խնդիրներ
 
 ### «Language model did not provide messages»
 
-**Պատճառ․** Մատակարարի քվոտան սպառվել է։
+**Պատճառ․** Մատակարարի քվոտան սպառված է։
 
-**Ուղղում․**
+**Լուծում․**
 
-1. Ստուգեք կառավարման վահանակի քվոտայի հաշվիչը
-2. Օգտագործեք պահուստային մակարդակներով համակցություն
+1. Ստուգեք կառավարման վահանակի քվոտայի ցուցիչը
+2. Օգտագործեք հետադարձ մակարդակներով համակցություն
 3. Անցեք ավելի էժան/անվճար մակարդակի
 
 ### Հարցումների հաճախականության սահմանափակում
 
-**Պատճառ․** Բաժանորդագրության քվոտան սպառվել է։
+**Պատճառ․** Բաժանորդագրության քվոտան սպառված է։
 
-**Ուղղում․**
+**Լուծում․**
 
-- Ավելացրեք պահուստային շղթա՝ `cc/claude-opus-4-6 → glm/glm-4.7 → if/qwen3.8-max-preview`
-- Որպես էժան պահուստային տարբերակ օգտագործեք GLM/MiniMax-ը
+- Ավելացրեք հետադարձ տարբերակ՝ `cc/claude-opus-4-6 → glm/glm-4.7 → if/qwen3.8-max-preview`
+- Օգտագործեք GLM/MiniMax-ը որպես էժան պահուստային տարբերակ
 
 ### OAuth թոքենի ժամկետը լրացել է
 
-OmniRoute-ն ավտոմատ կերպով թարմացնում է թոքենները։ Եթե խնդիրները պահպանվում են՝
+OmniRoute-ն ինքնաբերաբար թարմացնում է թոքենները։ Եթե խնդիրները շարունակվում են՝
 
-1. Կառավարման վահանակ → Մատակարար → Վերամիացնել
-2. Ջնջեք և կրկին ավելացրեք մատակարարի կապը
+1. Կառավարման վահանակ → Մատակարար → Կրկին միացնել
+2. Ջնջեք մատակարարի կապը և նորից ավելացրեք այն
 
 ### Kiro-ի բազմահաշիվ ռեժիմ․ երկրորդ հաշիվն անվավեր է դարձնում առաջինը
 
-**Պատճառ․** Kiro-ի հետնամասային համակարգը յուրաքանչյուր OIDC հաճախորդի գրանցման համար թույլ է տալիս միայն մեկ ակտիվ աշխատաշրջան։
-Երբ երկու հաշիվ օգտագործում են նույն գրանցված հաճախորդը (մինչև v3.8.0 ներմուծված կապեր),
-մեկ հաշվի թոքենի թարմացումն անվավեր է դարձնում մյուսի թարմացման թոքենը։
+**Պատճառ․** Kiro-ի սերվերային մասը յուրաքանչյուր OIDC հաճախորդի գրանցման համար թույլ է տալիս միայն մեկ ակտիվ աշխատաշրջան։
+Երբ երկու հաշիվ օգտագործում են նույն գրանցված հաճախորդը (v3.8.0-ից առաջ ներմուծված կապեր),
+մի հաշվի թոքենի թարմացումն անվավեր է դարձնում մյուս հաշվի թարմացման թոքենը։
 
-**Ուղղում (v3.8.0+)․** Կրկին ներմուծեք խնդրահարույց կապերը։
-v3.8.0-ից սկսած՝ **Import Token**-ի,
-**Google/GitHub սոցիալական մուտքի** կամ **Auto-Import**-ի միջոցով ստեղծված Kiro-ի յուրաքանչյուր նոր կապ ավտոմատ կերպով գրանցում է իր
-առանձին OIDC հաճախորդը։ Այդպիսով կապը լիովին մեկուսացված է, և մեկ
-հաշվի թարմացումը որևէ ազդեցություն չի ունենում մյուս հաշիվների վրա։
+**Լուծում (v3.8.0+)․** Կրկին ներմուծեք խնդրահարույց կապերը։
+v3.8.0-ից սկսած՝ **Թոքենի ներմուծման**,
+**Google/GitHub սոցիալական մուտքի** կամ **Ինքնաներմուծման** միջոցով ստեղծված Kiro-ի յուրաքանչյուր նոր կապ ինքնաբերաբար գրանցում է իր սեփական
+առանձին OIDC հաճախորդը։ Հետևաբար կապը լիովին մեկուսացված է, և մի
+հաշվի թարմացումը որևէ ազդեցություն չունի մյուս հաշիվների վրա։
 
-Մինչև v3.8.0 ներմուծված կապերը չունեն յուրաքանչյուր կապին առանձին հատկացված հաճախորդի
+v3.8.0-ից _առաջ_ ներմուծված կապերը չունեն յուրաքանչյուր կապին հատուկ հաճախորդի
 գրանցում։ Այդ կապերը շարունակում են օգտագործել սոցիալական նույնականացման ընդհանուր թարմացման վերջնակետը։
-Մեկուսացում ստանալու համար ջնջեք հին կապը Կառավարման վահանակ → Մատակարարներ բաժնից և կրկին ավելացրեք այն
+Մեկուսացում ստանալու համար ջնջեք հին կապը Կառավարման վահանակ → Մատակարարներ բաժնից և նորից ավելացրեք այն
 ներմուծման երեք եղանակներից որևէ մեկով։
 
-Kiro-ի երկու հաշիվ կողք կողքի ավելացնելու ամբողջական մանրամասների և քայլ առ քայլ հրահանգների համար
+Երկու Kiro հաշիվ կողք կողքի ավելացնելու ամբողջական մանրամասների և քայլ առ քայլ հրահանգների համար
 տե՛ս [`docs/guides/KIRO_SETUP.md`](./KIRO_SETUP.md)։
 
 ---
 
-## Ամպային խնդիրներ
+## Cloud-ի խնդիրներ
 
-### Ամպային համաժամացման սխալներ
+### Cloud համաժամացման սխալներ
 
 1. Համոզվեք, որ `BASE_URL`-ը մատնանշում է ձեր գործարկված օրինակը (օրինակ՝ `http://localhost:20128`)
 2. Համոզվեք, որ `CLOUD_URL`-ը մատնանշում է ձեր ամպային վերջնակետը (օրինակ՝ `https://omniroute.dev`)
-3. `NEXT_PUBLIC_*` արժեքները համապատասխանեցրեք սերվերային կողմի արժեքներին
+3. `NEXT_PUBLIC_*` արժեքները համահունչ պահեք սերվերային կողմի արժեքներին
 
-### Ամպում `stream=false`-ը վերադարձնում է 500
+### Cloud-ում `stream=false`-ը վերադարձնում է 500
 
-**Ախտանիշ․** Ոչ հոսքային կանչերի դեպքում ամպային վերջնակետում ստացվում է `Unexpected token 'd'...`։
+**Ախտանիշ․** Չհոսքային կանչերի դեպքում ամպային վերջնակետում ստացվում է `Unexpected token 'd'...`։
 
-**Պատճառ․** Վերին հոսքի ծառայությունը վերադարձնում է SSE օգտակար բեռ, մինչդեռ հաճախորդը սպասում է JSON։
+**Պատճառ․** Վերին մակարդակի ծառայությունը վերադարձնում է SSE բեռնվածք, մինչդեռ հաճախորդը JSON է ակնկալում։
 
-**Ժամանակավոր լուծում․** Ամպին ուղղակի կանչերի համար օգտագործեք `stream=true`։ Տեղային գործարկման միջավայրը ներառում է SSE→JSON պահուստային մեխանիզմ։
+**Շրջանցող լուծում․** Cloud-ին ուղղակի կանչերի համար օգտագործեք `stream=true`։ Տեղային կատարման միջավայրը ներառում է SSE→JSON պահուստային փոխակերպում։
 
-### Ամպը նշում է, որ միացված է, բայց ցուցադրում է «Անվավեր API բանալի»
+### Cloud-ը նշում է, որ կապակցված է, սակայն հայտնում է «Invalid API key»
 
 1. Տեղային կառավարման վահանակից ստեղծեք նոր բանալի (`/api/keys`)
-2. Գործարկեք ամպային համաժամացումը՝ Միացնել ամպը → Համաժամացնել հիմա
-3. Հին կամ չհամաժամացված բանալիները ամպում դեռ կարող են վերադարձնել `401`
+2. Գործարկեք Cloud համաժամացումը՝ Enable Cloud → Sync Now
+3. Հին կամ չհամաժամացված բանալիները Cloud-ում դեռ կարող են վերադարձնել `401`
 
 ---
 
 ## Docker-ի խնդիրներ
 
-### Docker-ի IPv6 / կապի վերակայում
+### Docker-ի IPv6 / կապի վերականգնում
 
 <a name="docker-ipv6"></a>
 
-**Ախտանիշներ․** `curl http://localhost:20128/v1/models` հրամանը վերադարձնում է `curl: (56) Recv failure: Connection reset by peer`։ Կառավարման վահանակը և նույնականացում չպահանջող վերջնակետերն աշխատում են, սակայն նույնականացում պահանջող վերջնակետերը ձախողվում են․ սա նման է նույնականացման խնդրի, բայց իրականում այդպես չէ։
+**Ախտանիշներ․** `curl http://localhost:20128/v1/models`-ը վերադարձնում է `curl: (56) Recv failure: Connection reset by peer`։ Կառավարման վահանակը և նույնականացում չպահանջող վերջնակետերն աշխատում են, սակայն նույնականացում պահանջող վերջնակետերը խափանվում են․ սա նման է նույնականացման խնդրի, բայց այդպես չէ։
 
-**Պատճառ․** `docker run -p 20128:20128` հրամանը հրապարակում է և՛ `0.0.0.0` (IPv4), և՛ `::` (IPv6) հասցեներում, սակայն կոնտեյների ներսում գործընթացը լսում է միայն IPv4-ով։ Այն հոսթերում, որտեղ `localhost`-ը նախ լուծվում է որպես `::1`, կապը հասնում է հրապարակված IPv6 պորտին, որի հետևում լսող գործընթաց չկա → կապի վերակայում։
+**Պատճառ․** `docker run -p 20128:20128`-ը հասանելի է դարձնում պորտը և՛ `0.0.0.0`-ում (IPv4), և՛ `::`-ում (IPv6), սակայն կոնտեյների ներսում գործընթացը լսում է միայն IPv4-ով։ Այն հոսթերում, որտեղ `localhost`-ը նախ վերածվում է `::1`-ի, կապը հասնում է հրապարակված IPv6 պորտին, որի հետևում լսող գործընթաց չկա → կապը վերականգնվում է։
 
 **Ուղղում․**
 
-1. **Արագ ախտորոշում․** Գործարկեք `curl -4 http://localhost:20128/v1/models`։ Եթե այն աշխատում է `-4` դրոշով, բայց առանց դրա ձախողվում է, ապա ունեք IPv6 կապակցման անհամապատասխանություն։
-2. **Մշտական ուղղում․** Հստակ կապակցեք IPv4-ին՝ ձեր `docker run` հրամանում օգտագործելով `-p 127.0.0.1:20128:20128`․
+1. **Արագ ախտորոշում․** Գործարկեք `curl -4 http://localhost:20128/v1/models`։ Եթե այն աշխատում է `-4`-ով, բայց խափանվում է առանց դրա, ապա ունեք IPv6 կապակցման անհամապատասխանություն։
+2. **Մշտական ուղղում․** Հստակորեն կապակցեք IPv4-ին՝ ձեր `docker run` հրամանում օգտագործելով `-p 127.0.0.1:20128:20128`․
    ```bash
    docker run -d --name omniroute --restart unless-stopped --stop-timeout 40 \
      -p 127.0.0.1:20128:20128 -v omniroute-data:/app/data diegosouzapw/omniroute:latest
    ```
-   Սա պարտադրում է IPv4 կապակցումը և նաև թույլ չի տալիս պրոքսին հասանելի դարձնել հոսթի բոլոր ինտերֆեյսներում։
+   Սա պարտադրում է IPv4 կապակցում և նաև կանխում է պրոքսիի հասանելիությունը հոսթի բոլոր ինտերֆեյսներում։
 
 ---
 
 ### CLI գործիքը ցուցադրվում է որպես չտեղադրված
 
-1. Ստուգեք գործարկման միջավայրի դաշտերը՝ `curl http://localhost:20128/api/cli-tools/runtime/codex | jq`
+1. Ստուգեք կատարման միջավայրի դաշտերը՝ `curl http://localhost:20128/api/cli-tools/runtime/codex | jq`
 2. Դյուրակիր ռեժիմի համար օգտագործեք `runner-cli` պատկերի թիրախը (ներառված CLI-ներով)
-3. Հոսթի միակցման ռեժիմի համար սահմանեք `CLI_EXTRA_PATHS` և հոսթի երկուական ֆայլերի պանակը միակցեք միայն ընթերցման ռեժիմով
-4. Եթե `installed=true` և `runnable=false`՝ երկուական ֆայլը գտնվել է, սակայն վիճակի ստուգումը ձախողվել է
+3. Հոսթի միացման ռեժիմի համար սահմանեք `CLI_EXTRA_PATHS`-ը և հոսթի bin գրացուցակը միացրեք միայն կարդալու ռեժիմով
+4. Եթե `installed=true`, իսկ `runnable=false`՝ գործարկելի ֆայլը գտնվել է, սակայն առողջական ստուգումը ձախողվել է
 
-### Գործարկման միջավայրի արագ վավերացում
+### Կատարման միջավայրի արագ վավերացում
 
 ```bash
 curl -s http://localhost:20128/api/cli-tools/codex-settings | jq '{installed,runnable,commandPath,runtimeMode,reason}'
@@ -434,65 +494,65 @@ curl -s http://localhost:20128/api/cli-tools/openclaw-settings | jq '{installed,
 
 ### Բարձր ծախսեր
 
-1. Ստուգեք օգտագործման վիճակագրությունը՝ Կառավարման վահանակ → Օգտագործում
+1. Օգտագործման վիճակագրությունը ստուգեք Dashboard → Usage բաժնում
 2. Հիմնական մոդելը փոխարինեք GLM/MiniMax-ով
 3. Ոչ կարևոր առաջադրանքների համար օգտագործեք անվճար մակարդակը (Qoder, Kiro)
-4. Յուրաքանչյուր API բանալու համար սահմանեք ծախսերի բյուջե՝ Կառավարման վահանակ → API բանալիներ → Բյուջե
+4. Յուրաքանչյուր API բանալու համար սահմանեք ծախսերի բյուջե՝ Dashboard → API Keys → Budget
 
 ---
 
 ## Վրիպազերծում
 
-### Մատյանային ֆայլերի միացում
+### Մատյանների ֆայլերի միացում
 
-Ձեր `.env` ֆայլում սահմանեք `APP_LOG_TO_FILE=true`։ Հավելվածի մատյանները գրվում են `logs/` պանակում։
-Հարցումների արտեֆակտները պահվում են `${DATA_DIR}/call_logs/` պանակում, երբ կանչերի մատյանների խողովակաշարը
+Ձեր `.env` ֆայլում սահմանեք `APP_LOG_TO_FILE=true`։ Հավելվածի մատյանները գրվում են `logs/`-ի տակ։
+Հարցումների արտեֆակտները պահվում են `${DATA_DIR}/call_logs/`-ի տակ, երբ կանչերի մատյանների խողովակաշարը
 միացված է կարգավորումներում։
-Երբ խողովակաշարի գրանցումը միացված է, սահմանեք `CALL_LOG_PIPELINE_CAPTURE_STREAM_CHUNKS=false`՝ հոսքի
-հատվածների օգտակար բեռները բաց թողնելու համար, կամ կարգավորեք `CALL_LOG_PIPELINE_MAX_SIZE_KB`՝ արտեֆակտի առավելագույն չափը ԿԲ-ով փոխելու համար։
+Երբ խողովակաշարի գրանցումը միացված է, սահմանեք `CALL_LOG_PIPELINE_CAPTURE_STREAM_CHUNKS=false`՝
+հոսքի հատվածների բեռնվածքները բաց թողնելու համար, կամ կարգավորեք `CALL_LOG_PIPELINE_MAX_SIZE_KB`-ը՝ արտեֆակտի առավելագույն չափը ԿԲ-ով փոխելու համար։
 
-### Մատակարարի վիճակի ստուգում
+### Մատակարարի առողջական վիճակի ստուգում
 
 ```bash
-# Վիճակի կառավարման վահանակ
+# Առողջական վիճակի կառավարման վահանակ
 http://localhost:20128/dashboard/health
 
-# API-ի վիճակի ստուգում
+# API-ի առողջական ստուգում
 curl http://localhost:20128/api/monitoring/health
 ```
 
-### Գործարկման միջավայրի պահոց
+### Կատարման միջավայրի պահեստ
 
-- Հիմնական վիճակ՝ `${DATA_DIR}/storage.sqlite` (մատակարարներ, համակցություններ, կեղծանուններ, բանալիներ, կարգավորումներ)
-- Օգտագործում՝ SQLite աղյուսակներ `storage.sqlite`-ում (`usage_history`, `call_logs`, `proxy_logs`) + ըստ ցանկության `${DATA_DIR}/call_logs/`
+- Հիմնական վիճակ՝ `${DATA_DIR}/storage.sqlite` (մատակարարներ, համակցություններ, այլանուններ, բանալիներ, կարգավորումներ)
+- Օգտագործում՝ SQLite աղյուսակներ `storage.sqlite`-ում (`usage_history`, `call_logs`, `proxy_logs`) + ընտրովի `${DATA_DIR}/call_logs/`
 - Հավելվածի մատյաններ՝ `<repo>/logs/...` (երբ `APP_LOG_TO_FILE=true`)
 - Կանչերի մատյանների արտեֆակտներ՝ `${DATA_DIR}/call_logs/YYYY-MM-DD/...`, երբ կանչերի մատյանների խողովակաշարը միացված է
 
-Հարցումների մատյաններ էջի **Մաքրել պատմությունը** գործողությունը մաքրում է `call_logs`, հին
-`request_detail_logs` և տեղային `${DATA_DIR}/call_logs/` արտեֆակտների պանակը։
+Request Logs էջի **Clean history** գործողությունը մաքրում է `call_logs`-ը, հնացած
+`request_detail_logs`-ը և տեղային `${DATA_DIR}/call_logs/` արտեֆակտների գրացուցակը։
 
 ---
 
-## Շղթայի անջատիչի խնդիրներ
+## Circuit Breaker-ի խնդիրներ
 
 ### Մատակարարը մնացել է OPEN վիճակում
 
-Երբ մատակարարի շղթայի անջատիչը OPEN վիճակում է, հարցումներն արգելափակվում են մինչև սառեցման ժամանակահատվածի ավարտը։
+Երբ մատակարարի Circuit Breaker-ը գտնվում է OPEN վիճակում, հարցումներն արգելափակվում են մինչև դադարի ժամանակահատվածի ավարտը։
 
 **Լուծում․**
 
 1. Անցեք **Կառավարման վահանակ → Կարգավորումներ → Կայունություն**
-2. Ստուգեք տվյալ մատակարարի շղթայի անջատիչի քարտը
-3. Սեղմեք **Վերակայել բոլորը**՝ բոլոր անջատիչները մաքրելու համար, կամ սպասեք սառեցման ժամանակահատվածի ավարտին
-4. Վերակայումից առաջ համոզվեք, որ մատակարարն իսկապես հասանելի է
+2. Ստուգեք խնդրահարույց մատակարարի Circuit Breaker-ի քարտը
+3. Սեղմեք **Վերակայել բոլորը**՝ բոլոր Breaker-ները մաքրելու համար, կամ սպասեք դադարի ժամանակահատվածի ավարտին
+4. Նախքան վերակայելը համոզվեք, որ մատակարարն իսկապես հասանելի է
 
-### Մատակարարը շարունակում է գործարկել շղթայի անջատիչը
+### Մատակարարը շարունակ ակտիվացնում է Circuit Breaker-ը
 
-Եթե մատակարարը պարբերաբար անցնում է OPEN վիճակի․
+Եթե մատակարարը բազմիցս անցնում է OPEN վիճակի․
 
-1. Խափանումների օրինաչափությունը ստուգեք **Կառավարման վահանակ → Առողջություն → Մատակարարի առողջություն** բաժնում
+1. Խափանումների օրինաչափությունը տեսնելու համար ստուգեք **Կառավարման վահանակ → Առողջական վիճակ → Մատակարարի առողջական վիճակ** բաժինը
 2. Անցեք **Կարգավորումներ → Կայունություն → Մատակարարների պրոֆիլներ** և բարձրացրեք խափանումների շեմը
-3. Ստուգեք՝ արդյոք մատակարարը փոխել է API-ի սահմանաչափերը կամ պահանջում է կրկնակի իսկորոշում
+3. Ստուգեք՝ արդյոք մատակարարը փոխել է API-ի սահմանաչափերը կամ պահանջում է կրկնակի նույնականացում
 4. Ուսումնասիրեք ուշացման հեռաչափությունը․ մեծ ուշացումը կարող է ժամանակի սպառմամբ պայմանավորված խափանումներ առաջացնել
 
 ---
@@ -501,13 +561,13 @@ curl http://localhost:20128/api/monitoring/health
 
 ### «Չաջակցվող մոդել» սխալ
 
-- Օգտագործեք այնպիսի մոդելի նույնացուցիչ, որի առաջին հատվածը համապատասխանում է այն մատակարարին, որի համար ունեք հավատարմագրեր (`openai/whisper-1`, `openrouter/deepgram/nova-3`)։ Միայն `deepgram/nova-3` տարբերակը պահանջում է Deepgram-ի բնիկ բանալի։
+- Օգտագործեք այնպիսի մոդելի id, որի առաջին հատվածը ձեր հավատարմագրերն ունեցող մատակարարն է (`openai/whisper-1`, `openrouter/deepgram/nova-3`)։ Առանձին `deepgram/nova-3`-ի համար պահանջվում է բնիկ Deepgram բանալի։
 - Համոզվեք, որ մատակարարը միացված է **Կառավարման վահանակ → Մատակարարներ** բաժնում
 
-### Տառադարձումը դատարկ է վերադարձվում կամ ձախողվում է
+### Տառադարձումը դատարկ արդյունք է վերադարձնում կամ ձախողվում է
 
 - Ստուգեք աջակցվող ձայնային ձևաչափերը՝ `mp3`, `wav`, `m4a`, `flac`, `ogg`, `webm`
-- Համոզվեք, որ ֆայլի չափը մատակարարի սահմանաչափերի շրջանակում է (սովորաբար < 25MB)
+- Համոզվեք, որ ֆայլի չափը մատակարարի սահմանաչափերի ներսում է (սովորաբար < 25MB)
 - Մատակարարի քարտում ստուգեք մատակարարի API բանալու վավերականությունը
 
 ---
@@ -516,62 +576,62 @@ curl http://localhost:20128/api/monitoring/health
 
 Ձևաչափերի փոխակերպման խնդիրները վրիպազերծելու համար օգտագործեք **Կառավարման վահանակ → Թարգմանիչ** բաժինը․
 
-| Ռեժիմ                 | Երբ օգտագործել                                                                                                                   |
-| --------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
-| **Փորձադաշտ**         | Մուտքային և ելքային ձևաչափերը կողք կողքի համեմատելու համար․ տեղադրեք ձախողվող հարցումը՝ տեսնելու, թե ինչպես է այն փոխակերպվում   |
-| **Զրույցի փորձարկիչ** | Ուղիղ հաղորդագրություններ ուղարկելու և հարցման/պատասխանի ամբողջական բովանդակությունը՝ ներառյալ վերնագրերը, ուսումնասիրելու համար |
-| **Թեստային հարթակ**   | Ձևաչափերի համակցությունների համար փաթեթային թեստեր գործարկելու և խափանված փոխակերպումները հայտնաբերելու համար                    |
-| **Ուղիղ դիտարկիչ**    | Հարցումների իրական ժամանակի հոսքը դիտելու և ընդհատվող փոխակերպման խնդիրները հայտնաբերելու համար                                  |
+| Ռեժիմ                        | Երբ օգտագործել                                                                                                             |
+| ---------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| **Փորձադաշտ**                | Համեմատեք մուտքային և ելքային ձևաչափերը կողք կողքի․ տեղադրեք ձախողվող հարցումը՝ տեսնելու, թե ինչպես է այն փոխակերպվում     |
+| **Զրույցի փորձարկիչ**        | Ուղարկեք հաղորդագրություններ իրական ժամանակում և ուսումնասիրեք հարցման/պատասխանի ամբողջական բեռնվածքը՝ ներառյալ վերնագրերը |
+| **Փորձարկման ստենդ**         | Գործարկեք խմբաքանակային փորձարկումներ ձևաչափերի տարբեր համակցություններով՝ պարզելու, թե որ փոխակերպումներն են խափանված     |
+| **Իրական ժամանակի դիտարկիչ** | Հետևեք հարցումների հոսքին իրական ժամանակում՝ ընդհատվող փոխակերպման խնդիրները հայտնաբերելու համար                           |
 
 ### Ձևաչափերի տարածված խնդիրներ
 
-- **Մտածողության թեգերը չեն երևում** — Ստուգեք՝ արդյոք նպատակային մատակարարն աջակցում է մտածողությանը, ինչպես նաև մտածողության բյուջեի կարգավորումը
-- **Գործիքների կանչերը կորչում են** — Ձևաչափերի որոշ փոխակերպումներ կարող են հեռացնել չաջակցվող դաշտերը․ ստուգեք Փորձադաշտի ռեժիմում
-- **Համակարգային հուշումը բացակայում է** — Claude-ը և Gemini-ն համակարգային հուշումները տարբեր կերպ են մշակում․ ստուգեք փոխակերպման արդյունքը
-- **SDK-ն օբյեկտի փոխարեն հում տող է վերադարձնում** — Լուծվել է v1.x-ում․ պատասխանի մաքրիչը հեռացնում է ոչ ստանդարտ դաշտերը (`x_groq`, `usage_breakdown` և այլն), որոնք OpenAI SDK Pydantic-ի վավերացման խափանումներ են առաջացնում։ Եթե սա դեռ տեսնում եք v3.x+-ում, խնդրում ենք խնդիր գրանցել։
-- **GLM/ERNIE-ն մերժում է `system` դերը** — Լուծվել է v1.x-ում․ դերերի նորմալացուցիչն անհամատեղելի մոդելների համար համակարգային հաղորդագրություններն ավտոմատ կերպով միավորում է օգտատիրոջ հաղորդագրություններին։ Եթե սա դեռ տեսնում եք v3.x+-ում, խնդրում ենք խնդիր գրանցել։
-- **`developer` դերը չի ճանաչվում** — Լուծվել է v1.x-ում․ ոչ OpenAI մատակարարների համար այն ավտոմատ կերպով փոխակերպվում է `system`-ի։ Եթե սա դեռ տեսնում եք v3.x+-ում, խնդրում ենք խնդիր գրանցել։
-- **`json_schema`-ն չի աշխատում Gemini-ի հետ** — Լուծվել է v1.x-ում․ `response_format`-ն այժմ փոխակերպվում է Gemini-ի `responseMimeType` + `responseSchema` ձևաչափին։ Եթե սա դեռ տեսնում եք v3.x+-ում, խնդրում ենք խնդիր գրանցել։
+- **Մտածողության պիտակները չեն երևում** — Ստուգեք՝ արդյոք թիրախային մատակարարն աջակցում է մտածողությանը, ինչպես նաև մտածողության բյուջեի կարգավորումը
+- **Գործիքների կանչերը կորչում են** — Ձևաչափերի որոշ փոխակերպումներ կարող են հեռացնել չաջակցվող դաշտերը․ ստուգեք «Փորձադաշտ» ռեժիմում
+- **Համակարգային հուշումը բացակայում է** — Claude-ը և Gemini-ն համակարգային հուշումները տարբեր կերպ են մշակում․ ստուգեք փոխակերպման ելքը
+- **SDK-ն օբյեկտի փոխարեն վերադարձնում է չմշակված տող** — Լուծվել է v1.x-ում․ պատասխանի մաքրիչը հեռացնում է ոչ ստանդարտ դաշտերը (`x_groq`, `usage_breakdown` և այլն), որոնք OpenAI SDK-ի Pydantic վավերացման խափանումներ են առաջացնում։ Եթե սա դեռ տեսնում եք v3.x+-ում, խնդրում ենք խնդրի մասին հաղորդում բացել։
+- **GLM/ERNIE-ն մերժում է `system` դերը** — Լուծվել է v1.x-ում․ դերերի նորմալացուցիչն անհամատեղելի մոդելների դեպքում համակարգային հաղորդագրություններն ավտոմատ միավորում է օգտատիրոջ հաղորդագրություններին։ Եթե սա դեռ տեսնում եք v3.x+-ում, խնդրում ենք խնդրի մասին հաղորդում բացել։
+- **`developer` դերը չի ճանաչվում** — Լուծվել է v1.x-ում․ ոչ OpenAI մատակարարների համար ավտոմատ փոխակերպվում է `system`-ի։ Եթե սա դեռ տեսնում եք v3.x+-ում, խնդրում ենք խնդրի մասին հաղորդում բացել։
+- **`json_schema`-ն չի աշխատում Gemini-ի հետ** — Լուծվել է v1.x-ում․ այժմ `response_format`-ը փոխակերպվում է Gemini-ի `responseMimeType` + `responseSchema` ձևաչափին։ Եթե սա դեռ տեսնում եք v3.x+-ում, խնդրում ենք խնդրի մասին հաղորդում բացել։
 
 ---
 
-## Կայունության կարգավորումներ
+## Դիմակայունության կարգավորումներ
 
-### Ինքնաշխատ արագության սահմանափակումը չի գործարկվում
+### Արագության ավտոմատ սահմանափակումը չի գործարկվում
 
-- Ինքնաշխատ արագության սահմանափակումը կիրառվում է միայն API բանալի օգտագործող մատակարարների նկատմամբ (ոչ OAuth/բաժանորդագրություն)
-- Համոզվեք, որ **Կարգավորումներ → Կայունություն → Մատակարարի պրոֆիլներ** բաժնում ինքնաշխատ արագության սահմանափակումը միացված է
+- Արագության ավտոմատ սահմանափակումը կիրառվում է միայն API բանալի օգտագործող մատակարարների նկատմամբ (ոչ OAuth/բաժանորդագրություն)
+- Համոզվեք, որ **Կարգավորումներ → Դիմակայունություն → Մատակարարի պրոֆիլներ** բաժնում արագության ավտոմատ սահմանափակումը միացված է
 - Ստուգեք՝ արդյոք մատակարարը վերադարձնում է `429` կարգավիճակի կոդեր կամ `Retry-After` վերնագրեր
 
-### Էքսպոնենցիալ հետաձգման ճշգրտում
+### Էքսպոնենցիալ հետաձգման կարգավորում
 
-Մատակարարի պրոֆիլներն աջակցում են հետևյալ կարգավորումներին․
+Մատակարարի պրոֆիլներն աջակցում են հետևյալ կարգավորումներին.
 
-- **Սկզբնական ուշացում** — Առաջին ձախողումից հետո սպասման սկզբնական ժամանակը (լռելյայն՝ 1s)
+- **Հիմնական ուշացում** — Առաջին ձախողումից հետո սպասման սկզբնական ժամանակը (լռելյայն՝ 1s)
 - **Առավելագույն ուշացում** — Սպասման ժամանակի առավելագույն սահմանը (լռելյայն՝ 30s)
-- **Բազմապատկիչ** — Որքանով մեծացնել ուշացումը յուրաքանչյուր հաջորդական ձախողումից հետո (լռելյայն՝ 2x)
+- **Բազմապատկիչ** — Յուրաքանչյուր հաջորդական ձախողման դեպքում ուշացման մեծացման չափը (լռելյայն՝ 2x)
 
-### Զանգվածային միաժամանակյա հարցումների կանխարգելում
+### Հարցումների միաժամանակյա կուտակման կանխարգելում
 
-Երբ բազմաթիվ միաժամանակյա հարցումներ ուղղվում են արագության սահմանափակում ունեցող մատակարարին, OmniRoute-ն օգտագործում է mutex + ինքնաշխատ արագության սահմանափակում՝ հարցումները հաջորդաբար մշակելու և շղթայական ձախողումները կանխելու համար։ API բանալի օգտագործող մատակարարների դեպքում սա կատարվում է ինքնաշխատ կերպով։
+Երբ բազմաթիվ զուգահեռ հարցումներ ուղարկվում են արագության սահմանափակում կիրառող մատակարարին, OmniRoute-ն օգտագործում է mutex + արագության ավտոմատ սահմանափակում՝ հարցումները հաջորդականացնելու և շղթայական ձախողումները կանխելու համար։ Սա ավտոմատ է API բանալի օգտագործող մատակարարների համար։
 
 ### Զրույցի հարցումները ձախողվում են 503 / chat_admission_busy սխալով
 
-**Ախտանիշներ․**
+**Ախտանիշներ.**
 
 - Զրույցի լրացումների վերջնակետը վերադարձնում է կրկին փորձելու ենթակա `503` պատասխան, որի սխալի կոդն է
   `chat_admission_busy`։
-- Պատասխանը ներառում է `Retry-After`։ #12135-ից սկսած՝ արժեքը որոշվում է դիտարկված
-  զբաղվածությունից՝ վերցնելով հարցման կողմից արդեն սպասված `OMNIROUTE_CHAT_ADMISSION_QUEUE_MS`
-  միջակայքից և ընթացիկ ծանրաբեռնված վարձակալումների պահպանման ժամանակից ավելի մեծը, կլորացնելով
-  դեպի վեր՝ մինչև ամբողջական վայրկյաններ, և սահմանափակելով առավելագույնը 60-ով։ Չզբաղված դարպասի
-  դեպքում պահպանվում են պատմական նվազագույնները՝ 2 վայրկյան բայթերի վրա հիմնված ուղու համար և
-  1 վայրկյան կառուցվածքի վրա հիմնված ուղու համար (որը նաև ներառում է
+- Պատասխանը ներառում է `Retry-After`։ #12135-ից սկսած՝ արժեքը ստացվում է դիտարկված
+  զբաղվածությունից՝ ընտրվում է հարցման կողմից արդեն սպասված `OMNIROUTE_CHAT_ADMISSION_QUEUE_MS`
+  ժամանակահատվածից և ընթացիկ ծանրաբեռնված վարձակալումների պահման տևողությունից ավելի մեծը,
+  կլորացվում է դեպի վեր՝ մինչև ամբողջական վայրկյաններ, և սահմանափակվում 60-ով։ Չզբաղված
+  դարպասի դեպքում պահպանվում են նախկին նվազագույն արժեքները՝ 2 վայրկյան բայթերի վրա հիմնված
+  ուղու համար և 1 վայրկյան կառուցվածքի վրա հիմնված ուղու համար (որը նաև ներառում է
   `reason: "structure_limit"`)։
-- Դա կարող է տեղի ունենալ, քանի դեռ մեկ այլ ծանրաբեռնված զրույց կամ երկարատև հոսքային պատասխան
-  դեռ ընթացքի մեջ է։
+- Սա կարող է տեղի ունենալ, երբ մեկ այլ ծանրաբեռնված զրույցի կամ երկարատև հոսքային պատասխանի
+  մշակում դեռ ընթացքի մեջ է։
 
-Բայթերի վրա հիմնված պատասխանի մարմինն է․
+Բայթերի վրա հիմնված պատասխանի մարմինն է.
 
 ```json
 {
@@ -583,88 +643,84 @@ curl http://localhost:20128/api/monitoring/health
 }
 ```
 
-Կառուցվածքի վրա հիմնված պատասխանն օգտագործում է նույն տեսակը և կոդը՝
+Կառուցվածքի վրա հիմնված պատասխանը կիրառում է նույն տեսակը և կոդը՝
 `Local chat admission capacity is busy for this structurally heavy request; upstream provider routing was not attempted. Retry shortly.`
 հաղորդագրությամբ և `reason: "structure_limit"` արժեքով։
-Լռելյայն շեմերի դեպքում հարցումը համարվում է կառուցվածքային առումով ծանր, երբ այն ունի առնվազն
-`200` հաղորդագրություն, առնվազն `64` գործիք կամ առնվազն `32,000` գնահատված թոքեն, կամ երբ
-սահմանափակ կառուցվածքային գնահատումը սպառում է իր սահմանները՝ `10,000` այցելված հանգույց կամ
-`12` խորություն։
+Լռելյայն շեմերի դեպքում հարցումը կառուցվածքային առումով ծանր է համարվում, երբ այն ունի առնվազն `200` հաղորդագրություն,
+առնվազն `64` գործիք կամ առնվազն `32,000` գնահատված տոկեն, կամ երբ սահմանափակված կառուցվածքային գնահատումը
+սպառում է իր սահմանները՝ `10,000` այցելված հանգույց կամ `12` խորություն։
 
-**Պատճառ․** Սա OmniRoute-ի ներսում բեռի կանխամտածված նվազեցում է, ոչ թե վերին մակարդակի մատակարարի ձախողում։
-Յուրաքանչյուր գործընթաց օգտագործում է տվյալ գործընթացին տեղային պաշտպանիչ մեխանիզմ՝ սահմանափակ ծանրաբեռնված
-հզորությունը պահուստավորելու համար՝ նախքան հարցման մեծ մարմինը հիշողության մեջ պահելն ու վերլուծելը։
-Ծանրաբեռնված վարձակալումը պահպանվում է SSE պատասխանի ողջ կենսաժամկետի ընթացքում։
+**Պատճառ.** Սա OmniRoute-ի ներսում ծանրաբեռնվածության կանխամտածված թեթևացում է, այլ ոչ թե վերին հոսքի մատակարարի ձախողում։
+Յուրաքանչյուր պրոցես օգտագործում է պրոցեսին տեղային պաշտպանիչ մեխանիզմ՝ սահմանափակ ծանրաբեռնված հզորություն ամրագրելու համար՝ նախքան
+հարցման մեծ մարմինը պահելը և վերլուծելը։ Ծանրաբեռնված վարձակալումը պահպանվում է SSE
+պատասխանի ամբողջ կյանքի ընթացքում։
 
-**#503-fanout․** այս ուղղումից առաջ պաշտպանիչ մեխանիզմը սահմանափակում էր զուգահեռությունը հարցումների
-ֆիքսված ՔԱՆԱԿՈՎ (`OMNIROUTE_CHAT_MAX_HEAVY_IN_FLIGHT`, լռելյայն՝ `1`)՝ անկախ հոսթի հիշողությունից,
-ուստի ծրագրավորման գործակալների ճյուղավորումը (բազմաթիվ ենթագործակալներ/CLI-ներ, սովորաբար > 256 KB մարմիններով)
-նվազեցնում էր արդյունավետ զուգահեռությունը մինչև մոտավորապես 1 և լիովին սովորական բեռի դեպքում հանգեցնում
-էր 503 սխալների։ Այժմ պաշտպանիչ մեխանիզմն ինքնակարգավորվում է․ այն կառավարվում է ինքնաբերաբար հաշվարկվող
-մուտքային ԲԱՅԹԱՅԻՆ բյուջեով (`OMNIROUTE_CHAT_MAX_INFLIGHT_BYTES`), որի չափը որոշվում է գործընթացի
-իրական հիշողության սահմանաչափից, և նաև հաշվի է առնում ռեսուրսային ճնշման ընթացիկ ազդանշանը։ Այդպիսով՝
-այն բեռը նվազեցնում է միայն այն ժամանակ, երբ հոսթն իսկապես հիշողության ճնշման տակ է, այլ ոչ պարզապես
-այն պատճառով, որ մեկից ավելի ծանր հարցումներ են միաժամանակ հասել։ Քանակի հին սահմանաչափը
-(`OMNIROUTE_CHAT_MAX_HEAVY_IN_FLIGHT`) դեռ պահպանվում է, բայց միայն այն դեպքում, եթե այն բացահայտորեն սահմանեք։
+**#503-ի լայն տարածում.** մինչև այս ուղղումը պաշտպանիչ մեխանիզմը զուգահեռությունը սահմանափակում էր հարցումների հաստատուն ՔԱՆԱԿՈՎ
+(`OMNIROUTE_CHAT_MAX_HEAVY_IN_FLIGHT`, լռելյայն՝ `1`)՝ անկախ հոսթի հիշողությունից, ուստի ծրագրավորման գործակալների
+լայն տարածումը (բազմաթիվ ենթագործակալներ/CLI-ներ, մարմինները սովորաբար > 256 KB) արդյունավետ
+զուգահեռությունը նվազեցնում էր մինչև ~1 և ամբողջովին սովորական ծանրաբեռնվածության դեպքում առաջացնում էր 503 սխալներ։
+Այժմ պաշտպանիչ մեխանիզմն ինքնակարգավորվում է. այն ղեկավարվում է ավտոմատ հաշվարկված մուտքային ԲԱՅԹԱՅԻՆ բյուջեով
+(`OMNIROUTE_CHAT_MAX_INFLIGHT_BYTES`), որի չափը որոշվում է պրոցեսի հիշողության իրական սահմանաչափից,
+և նաև հաշվի է առնում ռեսուրսների ճնշման ընթացիկ ազդանշանը, ուստի բեռնաթափում է միայն այն դեպքում,
+երբ հոսթն իրականում հիշողության ճնշման տակ է, այլ ոչ միայն այն պատճառով, որ միաժամանակ մեկից ավելի
+ծանր հարցում է ստացվել։ Հին քանակային սահմանաչափը (`OMNIROUTE_CHAT_MAX_HEAVY_IN_FLIGHT`)
+դեռևս հաշվի է առնվում, բայց միայն այն դեպքում, եթե այն բացահայտորեն սահմանեք։
 
 Երբ հզորությունը զբաղված է, ծանրաբեռնված հարցումը նախ սպասում է մինչև
-`OMNIROUTE_CHAT_ADMISSION_QUEUE_MS` (`2000` լռելյայն, `0`-ն անջատում է սպասումը), որպեսզի տեղ ազատվի,
-նախքան կրկին փորձելու ենթակա `503` պատասխանելը։ Սահմանափակ սպասումը նախատեսված է այն բանի համար,
-որ գործակալային ոճի հաճախորդները (OpenCode, Claude Code, Cursor), որոնք միաժամանակ ճյուղավորում են ծանր
-ենթահարցումներ, հաջորդաբար մշակեն հարցումների ալիքը՝ փոխանակ անմիջական մերժումների վրա սպառելու կրկնակի
-փորձերի իրենց ամբողջ բյուջեն և աշխատանքի կեսին դադարելու։
-Ծանրաբեռնված վարձակալումների ընթացիկ զբաղվածությունը, հաշվարկված բայթային բյուջեն և ճնշման ընթացիկ
-խստությունը հասանելի են `GET /api/monitoring/health` → `chatAdmission` բաժնում (`inflightBytes`,
-`maxInflightBytes`, `budgetSource`, `pressureSeverity`, `countCapEnabled`)․ ստուգեք դրանք՝ նախքան որևէ
-միջավայրի փոփոխականի փոփոխելը։
-Կարգավորումներ → Կայունություն → Հարցումների հերթ → Զուգահեռ հարցումներ կարգավորումը չի վերահսկում սա․
-այդ կարգավորումը կառավարում է մատակարարի հարցումների հերթի առանձին մեխանիզմ։
+`OMNIROUTE_CHAT_ADMISSION_QUEUE_MS` (`RATE_LIMIT_MAX_WAIT_MS`-ն է լռելյայն, իսկ `0`-ն անջատում է սպասումը), որպեսզի տեղ ազատվի,
+և միայն դրանից հետո վերադարձնում է կրկին փորձելու ենթակա `503` պատասխանը։ Սահմանափակ սպասումը նախատեսված է նրա համար, որ գործակալի նման աշխատող հաճախորդները
+(OpenCode, Claude Code, Cursor), որոնք միաժամանակ տարածում են ծանր ենթահարցումներ, հաջորդականացնեն այդ ալիքը՝
+իրենց ամբողջ կրկնափորձերի բյուջեն ակնթարթային մերժումների վրա ծախսելու և առաջադրանքի կեսից դադարելու փոխարեն։
+Ծանրաբեռնված ընթացիկ վարձակալումների զբաղվածությունը, հաշվարկված բայթային բյուջեն և ընթացիկ ճնշման աստիճանը
+ցուցադրվում են `GET /api/monitoring/health` → `chatAdmission` բաժնում (`inflightBytes`, `maxInflightBytes`,
+`budgetSource`, `pressureSeverity`, `countCapEnabled`)․ ստուգեք դրանք նախքան որևէ միջավայրի փոփոխականի փոփոխելը։
+Կարգավորումներ → Դիմակայունություն → Հարցումների հերթ → Զուգահեռ հարցումներ կարգավորումը չի կառավարում սա․ այդ կարգավորումը
+կառավարում է մատակարարի հարցումների հերթի առանձին մեխանիզմը։
 
-**Ուղղում․**
+**Ուղղում.**
 
 1. Նախ կրկին փորձեք։ Հաճախորդները պետք է հաշվի առնեն `Retry-After`-ը և անմիջապես
-   հարցումը կրկնելու փոխարեն օգտագործեն հետաձգում։
-2. Նախքան որևէ բան ճշգրտելը՝ ստուգեք `/api/monitoring/health` → `chatAdmission`։ `countCapEnabled:
-false`-ը և մեծ `maxInflightBytes`-ը նշանակում են, որ ինքնաբերաբար հաշվարկված բյուջեն արդեն կատարում է իր
-   աշխատանքը։ `high`/`critical` `pressureSeverity`-ը նշանակում է, որ հոսթում իսկապես հիշողությունը քիչ է․
-   դա հնարավոր չէ շտկել ընդունման միջավայրի փոփոխականով, դրա համար անհրաժեշտ է ավելի շատ RAM կամ ավելի փոքր ծանրաբեռնվածություն։
-3. Միայն եթե `/api/monitoring/health`-ը ցույց է տալիս, որ ինքնաբերաբար հաշվարկված բյուջեն իսկապես չափազանց
-   փոքր է ձեր հոսթի համար (ինչը հազվադեպ է, քանի որ այն արդեն մասշտաբավորվում է կոնտեյներից մինչև bare-metal),
-   անմիջապես վերասահմանեք այն `OMNIROUTE_CHAT_MAX_INFLIGHT_BYTES`-ի միջոցով՝ հարցումների քանակի հնացած
-   սահմանաչափին վերադառնալու փոխարեն։
+   հարցումը կրկնելու փոխարեն կիրառեն հետաձգում։
+2. Որևէ բան կարգավորելուց առաջ ստուգեք `/api/monitoring/health` → `chatAdmission` բաժինը։ `countCapEnabled:
+false` և մեծ `maxInflightBytes` արժեքները նշանակում են, որ ավտոմատ հաշվարկված բյուջեն արդեն կատարում է իր
+   աշխատանքը, իսկ `high`/`critical` `pressureSeverity`-ն նշանակում է, որ հոսթն իրականում հիշողության պակաս ունի․
+   դա հնարավոր չէ ուղղել ընդունման միջավայրի փոփոխականով. անհրաժեշտ է ավելի շատ RAM կամ ավելի փոքր աշխատանքային ծանրաբեռնվածություն։
+3. Միայն այն դեպքում, եթե `/api/monitoring/health`-ը ցույց է տալիս, որ ավտոմատ հաշվարկված բյուջեն իսկապես չափազանց փոքր է
+   ձեր հոսթի համար (ինչը հազվադեպ է, քանի որ այն արդեն մասշտաբավորվում է կոնտեյներից մինչև ֆիզիկական սերվեր), անմիջապես վերասահմանեք այն
+   `OMNIROUTE_CHAT_MAX_INFLIGHT_BYTES`-ի միջոցով՝ հին հարցումների քանակային սահմանաչափին վերադառնալու փոխարեն։
 
-Ընդունման հեղինակավոր կարգավորումների համար տե՛ս [միջավայրի փոփոխականների տեղեկատուն](../reference/ENVIRONMENT.md#4-security--authentication)։
+Ընդունման կարգավորումների հեղինակավոր ցանկը տե՛ս [միջավայրի փոփոխականների տեղեկատուում](../reference/ENVIRONMENT.md#4-security--authentication)։
 
 ---
 
-## RAG / LLM-ի խափանումների ընտրովի դասակարգում (16 խնդիր)
+## RAG / LLM խափանումների ընտրովի դասակարգում (16 խնդիր)
 
-OmniRoute-ի որոշ օգտատերեր gateway-ը տեղադրում են RAG կամ agent stack-երի առջև։ Նման կազմաձևերում հաճախ հանդիպում է տարօրինակ պատկեր․ OmniRoute-ը կարծես անխափան է աշխատում (մատակարարները հասանելի են, երթուղավորման պրոֆիլները կարգին են, արագության սահմանափակման ծանուցումներ չկան), սակայն վերջնական պատասխանը, միևնույն է, սխալ է։
+OmniRoute-ի որոշ օգտատերեր gateway-ը տեղադրում են RAG կամ agent stack-երի առջև։ Նման կարգավորումներում հաճախ հանդիպում է տարօրինակ պատկեր․ OmniRoute-ը թվում է անխափան (մատակարարները հասանելի են, երթուղավորման պրոֆիլները կարգին են, արագության սահմանափակման ծանուցումներ չկան), սակայն վերջնական պատասխանը, միևնույն է, սխալ է։
 
-Գործնականում այս միջադեպերը սովորաբար առաջանում են downstream RAG pipeline-ից, այլ ոչ թե հենց gateway-ից։
+Գործնականում այս միջադեպերը սովորաբար առաջանում են հետագա RAG pipeline-ից, այլ ոչ թե հենց gateway-ից։
 
-Եթե ցանկանում եք այդ խափանումները նկարագրելու համար օգտագործել ընդհանուր բառապաշար, կարող եք օգտվել WFGY ProblemMap-ից՝ MIT արտոնագրով արտաքին տեքստային ռեսուրսից, որը սահմանում է RAG / LLM-ի խափանումների կրկնվող տասնվեց օրինաչափություն։ Ընդհանուր առմամբ այն ընդգրկում է՝
+Եթե ցանկանում եք ունենալ ընդհանուր բառապաշար այդ խափանումները նկարագրելու համար, կարող եք օգտագործել WFGY ProblemMap-ը՝ արտաքին, MIT արտոնագրով տեքստային ռեսուրս, որը սահմանում է RAG / LLM-ի խափանումների կրկնվող տասնվեց ձևանմուշ։ Ընդհանուր առմամբ այն ներառում է՝
 
-- որոնման շեղումներ և համատեքստի խախտված սահմաններ
+- որոնման շեղում և համատեքստի խախտված սահմաններ
 - դատարկ կամ հնացած ինդեքսներ և վեկտորային պահոցներ
 - embedding-ի և իմաստաբանության անհամապատասխանություն
-- prompt-ի կազմման և համատեքստային պատուհանի խնդիրներ
+- prompt-ի հավաքման և համատեքստի պատուհանի խնդիրներ
 - տրամաբանության փլուզում և չափազանց ինքնավստահ պատասխաններ
 - երկար շղթաների և agent-ների համակարգման խափանումներ
-- մի քանի agent-ների հիշողության և դերերի շեղումներ
-- տեղակայման և սկզբնական գործարկման հերթականության խնդիրներ
+- մի քանի agent-ների հիշողության և դերերի շեղում
+- տեղակայման և սկզբնաբեռնման հերթականության խնդիրներ
 
 Գաղափարը պարզ է․
 
-1. Սխալ պատասխանը հետաքննելիս գրանցեք՝
+1. Վատ պատասխանը հետաքննելիս գրանցեք՝
    - օգտատիրոջ առաջադրանքն ու հարցումը
    - OmniRoute-ում օգտագործված երթուղու կամ մատակարարների համակցությունը
-   - downstream-ում օգտագործված ցանկացած RAG համատեքստ (որոնված փաստաթղթեր, գործիքների կանչեր և այլն)
+   - հետագա փուլում օգտագործված ցանկացած RAG համատեքստ (որոնված փաստաթղթեր, գործիքների կանչեր և այլն)
 2. Միջադեպը համապատասխանեցրեք WFGY ProblemMap-ի մեկ կամ երկու համարի (`No.1` … `No.16`)։
-3. Համարը պահեք ձեր սեփական dashboard-ում, runbook-ում կամ միջադեպերի հաշվառման համակարգում՝ OmniRoute-ի log-երի կողքին։
-4. Օգտագործեք WFGY-ի համապատասխան էջը՝ որոշելու համար, թե արդյոք պետք է փոխել ձեր RAG stack-ը, retriever-ը կամ երթուղավորման ռազմավարությունը։
+3. Համարը պահեք ձեր dashboard-ում, runbook-ում կամ միջադեպերի հետագծման համակարգում՝ OmniRoute-ի գրանցամատյանների կողքին։
+4. Օգտագործեք համապատասխան WFGY էջը՝ որոշելու համար, թե արդյոք անհրաժեշտ է փոխել ձեր RAG stack-ը, որոնիչը կամ երթուղավորման ռազմավարությունը։
 
-Ամբողջական տեքստը և գործնական բաղադրատոմսերը հասանելի են այստեղ (MIT արտոնագիր, միայն տեքստ)․
+Ամբողջական տեքստը և կոնկրետ լուծման եղանակները հասանելի են այստեղ (MIT արտոնագիր, միայն տեքստ)․
 
 [WFGY ProblemMap README](https://github.com/onestardao/WFGY/blob/main/ProblemMap/README.md)
 
@@ -672,21 +728,21 @@ OmniRoute-ի որոշ օգտատերեր gateway-ը տեղադրում են RAG 
 
 ---
 
-## v3.8.0-ի հայտնի խնդիրները
+## v3.8.0-ի հայտնի խնդիրներ
 
-v3.8.0 թողարկմանը հատուկ խնդիրները և դրանց ընթացիկ շրջանցող լուծումները։ Եթե ուղղումը ներառվի ավելի ուշ patch-ում, գրառումը կթարմացվի կամ կհեռացվի։
+v3.8.0 թողարկմանը հատուկ խնդիրները և դրանց ընթացիկ շրջանցման եղանակները։ Եթե ուղղումը ներառվի հետագա patch-ում, գրառումը կթարմացվի կամ կհեռացվի։
 
 ### Devin CLI-ի նույնականացման խափանումներ
 
 **Ախտանիշներ․**
 
 - «Devin CLI-ը չի գտնվել» կամ «նույնականացումը ձախողվել է»՝ Devin-ի վրա հիմնված գործիքներ կանչելիս
-- CLI-ի runtime ստուգումը հաղորդում է `installed=false`
+- CLI-ի կատարման միջավայրի ստուգումը հայտնում է `installed=false`
 
 **Պատճառներ․**
 
 - `CLI_DEVIN_BIN`-ը մատնանշում է գոյություն չունեցող ուղի
-- Devin CLI-ը տեղադրված չէ host-ում
+- Devin CLI-ը տեղադրված չէ հոսթում
 
 **Ուղղում․**
 
@@ -694,23 +750,23 @@ v3.8.0 թողարկմանը հատուկ խնդիրները և դրանց ընթ
 2. `.env`-ում սահմանեք `CLI_DEVIN_BIN=/usr/local/bin/devin` (կամ իրական ուղին)
 3. Վերագործարկեք OmniRoute-ը և կրկին ստուգեք **Dashboard → CLI Tools** բաժնից
 
-### Model-ի cooldown-ը չի ավարտվում (ձեռքով վերակայում)
+### Մոդելի cooldown-ը մնացել է արգելափակված (ձեռքով վերականգնում)
 
 **Ախտանիշներ․**
 
-- Model-ը շարունակում է ցուցադրվել cooldown վիճակում նույնիսկ ժամկետի ավարտից հետո
-- Հարցումները combo routing-ի ժամանակ դեռ բաց են թողնում model-ը՝ չնայած timestamp-ն անցյալում լինելուն
+- Մոդելը շարունակում է նշված մնալ որպես cooldown-ի մեջ գտնվող, նույնիսկ ժամկետի ավարտից հետո
+- Չնայած ժամանակի նշումն արդեն անցյալում լինելուն՝ համակցված երթուղավորման հարցումները դեռ շրջանցում են մոդելը
 
-**Ձեռքով վերակայում․**
+**Ձեռքով վերականգնում․**
 
-- **Dashboard․** **Settings → Model Cooldowns** → տուժած քարտի վրա սեղմեք **Re-enable**
-- **API․** `DELETE /api/resilience/model-cooldowns`՝ կառավարման նույնականացման header-ներով
+- **Dashboard․** **Settings → Model Cooldowns** → համապատասխան քարտի վրա սեղմեք **Re-enable**
+- **API․** `DELETE /api/resilience/model-cooldowns`՝ կառավարման նույնականացման վերնագրերով
 
-### Command Code մատակարարին միացումը ձախողվում է 403 սխալով
+### Command Code մատակարարի միացումը ձախողվում է 403 կոդով
 
 **Ախտանիշներ․**
 
-- 403՝ Command Code մատակարարին միացումը ստուգելիս
+- 403՝ Command Code մատակարարի միացումը ստուգելիս
 - Նոր ավելացումից հետո մատակարարի քարտը ցուցադրում է «չարտոնված»
 
 **Պատճառ․** OAuth գործընթացը չի ավարտվել (callback-ը չի ստացվել կամ token-ը չի պահպանվել)։
@@ -720,55 +776,78 @@ v3.8.0 թողարկմանը հատուկ խնդիրները և դրանց ընթ
 - CLI-ից գործարկեք `omniroute providers`՝ OAuth գործընթացը կրկին մեկնարկելու համար, կամ
 - Կրկին գործարկեք OAuth-ը **Dashboard → Providers → Command Code → Reconnect** բաժնից
 
-### ModelScope-ը վերադարձնում է ագրեսիվ 429 cooldown-ներ
+### ModelScope-ը վերադարձնում է չափազանց խիստ 429 cooldown-ներ
 
 **Ախտանիշներ․**
 
-- Փոքրաթիվ հարցումների կտրուկ հոսքից հետո ModelScope-ում առաջանում են շատ կարճ կամ անմիջական cooldown-ներ
-- Combo routing-ը սպասվածից շուտ է բաց թողնում ModelScope-ը
+- Փոքր քանակությամբ արագ հաջորդող հարցումներից հետո ModelScope-ում առաջանում են շատ կարճատև կամ ակնթարթային cooldown-ներ
+- Համակցված երթուղավորումը սպասվածից շուտ է շրջանցում ModelScope-ը
 
-**Պատճառ․** ModelScope-ն ուղարկում է մատակարարին հատուկ `Retry-After` header-ներ։ v3.8.0-ը ներառում է այդ header-ների համար նախատեսված հատուկ մշակում, ուստի ավելի հին տարբերակները դրանք սխալմամբ մեկնաբանում են որպես արագության սահմանափակման ընդհանուր հուշումներ։
+**Պատճառ․** ModelScope-ը տրամադրում է մատակարարին հատուկ `Retry-After` վերնագրեր։ v3.8.0-ը ներառում է այդ վերնագրերի հատուկ մշակում, ուստի ավելի հին տարբերակները դրանք սխալմամբ մեկնաբանում են որպես արագության սահմանափակման ընդհանուր հուշումներ։
 
 **Ուղղում․**
 
 - Համոզվեք, որ օգտագործում եք v3.8.0 կամ ավելի նոր տարբերակ
-- Ստուգեք, որ **Settings → Resilience** բաժնում `useUpstream429BreakerHints` փոխարկիչը միացված է
+- Ստուգեք, որ **Settings → Resilience** բաժնում միացված է `useUpstream429BreakerHints` փոխարկիչը
 
-### Արտադրական միջավայրում բացակայում է OMNIROUTE_WS_BRIDGE_SECRET-ը
+### OMNIROUTE_WS_BRIDGE_SECRET-ը բացակայում է production միջավայրում
 
 **Ախտանիշներ․**
 
-- Հեռակա production host-ում աշխատելիս Codex/Responses WebSocket bridge-ի յուրաքանչյուր հարցում վերադարձնում է 401
+- Հեռավար production հոսթում աշխատելիս Codex/Responses WebSocket bridge-ի յուրաքանչյուր հարցման համար վերադարձվում է 401
 - WebSocket bridge-ի handshake-ը միացումից անմիջապես հետո փակվում է
 
-**Պատճառ․** Production միջավայրում բացակայում է `OMNIROUTE_WS_BRIDGE_SECRET` env var-ը։
+**Պատճառ․** Production միջավայրում բացակայում է `OMNIROUTE_WS_BRIDGE_SECRET` env փոփոխականը։
 
 **Ուղղում․**
 
 1. Ստեղծեք պատահական գաղտնիք՝ `openssl rand -hex 32`
-2. Production server-ի env-ում սահմանեք `OMNIROUTE_WS_BRIDGE_SECRET=<random-secret>` (ինչպես նաև bridge-ի հետ հաղորդակցվող ցանկացած client-ում)
+2. Production սերվերի env-ում (ինչպես նաև bridge-ի հետ հաղորդակցվող ցանկացած client-ում) սահմանեք `OMNIROUTE_WS_BRIDGE_SECRET=<random-secret>`
 3. Վերագործարկեք OmniRoute-ը
 
-### Responses API․ background ռեժիմը պարզեցվում է մինչև synchronous
+### Responses API․ background ռեժիմը փոխարինվում է համաժամանակյա կատարմամբ
 
 **Ախտանիշներ․**
 
-- Log-ում գրանցվում է նախազգուշացում՝ `background mode degraded to synchronous`
-- `background: true` հարցումը background job-ի handle-ի փոխարեն վերադարձնում է սովորական synchronous պատասխան
+- Գրանցվում է զգուշացում՝ `background mode degraded to synchronous`
+- `background: true` հարցումը background job-ի handle-ի փոխարեն վերադարձնում է սովորական համաժամանակյա պատասխան
 
-**Պատճառ․** v3.8.0-ում Responses API-ի `background: true`-ը կանխամտածված կերպով պարզեցվում է մինչև synchronous կատարում՝ միաժամանակ նախազգուշացում ուղարկելով։ Լիարժեք async background կատարումը նախատեսված է ապագա թողարկման համար։
+**Պատճառ․** v3.8.0-ում Responses API-ի `background: true` ռեժիմը միտումնավոր փոխարինվում է համաժամանակյա կատարմամբ՝ միաժամանակ ստեղծելով զգուշացում։ Լիարժեք ասինխրոն background կատարումը նախատեսված է ապագա թողարկման համար։
 
 **Ուղղում․**
 
-- Կարգավորեք client-ը, որպեսզի կանչն իրականացնի առանց `background`-ի, կամ
-- Սպասեք ավելի ուշ թողարկման, որը կներառի լիարժեք async background ռեժիմը (հետևեք changelog-ին)
+- Կարգավորեք client-ը, որպեսզի կանչը կատարի առանց `background`-ի, կամ
+- Սպասեք հետագա թողարկման, որը կներառի լիարժեք ասինխրոն background ռեժիմը (հետևեք փոփոխությունների մատյանին)
 
 ---
 
-## Դեռ չե՞ք կարողանում լուծել խնդիրը։
+## Դանդաղ մեկնարկ / պատրաստության սպասման ժամանակի սպառում
 
-- **GitHub Issues**: [github.com/diegosouzapw/OmniRoute/issues](https://github.com/diegosouzapw/OmniRoute/issues)
+Եթե CLI-ը ցուցադրում է `⚠ Server did not respond within 60s`, սակայն սերվերն իրականում աշխատում է, ապա պատրաստության ստուգման համար նախատեսված ժամանակը չափազանց կարճ է ձեր միջավայրի համար։
+
+Սա հաճախ է պատահում Windows-ում (հակավիրուս, ֆայլային համակարգի փոփոխություններին հետևող գործիքներ) կամ գործարկման պահին մեծ ծանրաբեռնվածություն ունեցող կոնտեյներներում։
+
+**Լուծում — ավելացրեք նախատեսված ժամանակը.**
+
+```bash
+# Միջավայրի փոփոխականի միջոցով (պահպանվում է գործարկումների միջև).
+export OMNIROUTE_READY_TIMEOUT_MS=180000   # 3 րոպե
+omniroute serve
+
+# CLI դրոշակի միջոցով (մեկանգամյա).
+omniroute serve --ready-timeout 180000
+```
+
+Լռելյայն արժեքը 60 000 մվ է (60 վրկ)։ Զգուշացումը միայն տեղեկատվական է․ սերվերը շարունակում է գործարկվել ֆոնային ռեժիմում և հասանելի կլինի բեռնումն ավարտվելուն պես։
+
+`OMNIROUTE_READY_TIMEOUT_MS`-ի վերաբերյալ ամբողջական մանրամասների համար տե՛ս [`docs/reference/ENVIRONMENT.md`](../reference/ENVIRONMENT.md)։
+
+---
+
+## Դեռևս չե՞ք կարողանում շարունակել
+
+- **GitHub-ի խնդիրներ**: [github.com/diegosouzapw/OmniRoute/issues](https://github.com/diegosouzapw/OmniRoute/issues)
 - **Ճարտարապետություն**: Ներքին մանրամասների համար տե՛ս [`docs/architecture/ARCHITECTURE.md`](../architecture/ARCHITECTURE.md)
-- **API տեղեկատու**: Բոլոր վերջնակետերի համար տե՛ս [`docs/reference/API_REFERENCE.md`](../reference/API_REFERENCE.md)
-- **Համակարգի վիճակի վահանակ**: Համակարգի իրական ժամանակի վիճակը ստուգելու համար անցե՛ք **Վահանակ → Համակարգի վիճակ**
-- **Փոխակերպիչ**: Ձևաչափի խնդիրները վրիպազերծելու համար օգտագործե՛ք **Վահանակ → Փոխակերպիչ**
+- **API-ի տեղեկատու**: Բոլոր վերջնակետերի համար տե՛ս [`docs/reference/API_REFERENCE.md`](../reference/API_REFERENCE.md)
+- **Վիճակի կառավարման վահանակ**: Համակարգի իրական ժամանակի վիճակը տեսնելու համար ստուգեք **Dashboard → Health** բաժինը
+- **Թարգմանիչ**: Ձևաչափի խնդիրները կարգաբերելու համար օգտագործեք **Dashboard → Translator** բաժինը

@@ -8,7 +8,7 @@ const {
   extractComboTestStreamText,
 } = await import("../../src/lib/combos/testHealth.ts");
 
-test("combo test helper builds short smoke payload", () => {
+test("combo test helper builds a short smoke payload", () => {
   const body = buildComboTestRequestBody("openrouter/openai/gpt-5.4");
 
   assert.equal(body.model, "openrouter/openai/gpt-5.4");

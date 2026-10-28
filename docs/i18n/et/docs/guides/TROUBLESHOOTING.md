@@ -1,43 +1,35 @@
-# TROUBLESHOOTING (Eesti)
+# Troubleshooting (Eesti)
 
-🌐 **Languages:** 🇺🇸 [English](../../../../guides/TROUBLESHOOTING.md) · 🇪🇹 [am](../../../am/docs/guides/TROUBLESHOOTING.md) · 🇸🇦 [ar](../../../ar/docs/guides/TROUBLESHOOTING.md) · 🇦🇿 [az](../../../az/docs/guides/TROUBLESHOOTING.md) · 🇧🇬 [bg](../../../bg/docs/guides/TROUBLESHOOTING.md) · 🇧🇩 [bn](../../../bn/docs/guides/TROUBLESHOOTING.md) · 🇨🇿 [cs](../../../cs/docs/guides/TROUBLESHOOTING.md) · 🇩🇰 [da](../../../da/docs/guides/TROUBLESHOOTING.md) · 🇩🇪 [de](../../../de/docs/guides/TROUBLESHOOTING.md) · 🇬🇷 [el](../../../el/docs/guides/TROUBLESHOOTING.md) · 🇪🇸 [es](../../../es/docs/guides/TROUBLESHOOTING.md) · 🇮🇷 [fa](../../../fa/docs/guides/TROUBLESHOOTING.md) · 🇫🇮 [fi](../../../fi/docs/guides/TROUBLESHOOTING.md) · 🇫🇷 [fr](../../../fr/docs/guides/TROUBLESHOOTING.md) · 🇮🇪 [ga](../../../ga/docs/guides/TROUBLESHOOTING.md) · 🇮🇳 [gu](../../../gu/docs/guides/TROUBLESHOOTING.md) · 🇳🇬 [ha](../../../ha/docs/guides/TROUBLESHOOTING.md) · 🇮🇱 [he](../../../he/docs/guides/TROUBLESHOOTING.md) · 🇮🇳 [hi](../../../hi/docs/guides/TROUBLESHOOTING.md) · 🇭🇷 [hr](../../../hr/docs/guides/TROUBLESHOOTING.md) · 🇭🇺 [hu](../../../hu/docs/guides/TROUBLESHOOTING.md) · 🇦🇲 [hy](../../../hy/docs/guides/TROUBLESHOOTING.md) · 🇮🇩 [id](../../../id/docs/guides/TROUBLESHOOTING.md) · 🇳🇬 [ig](../../../ig/docs/guides/TROUBLESHOOTING.md) · 🇮🇹 [it](../../../it/docs/guides/TROUBLESHOOTING.md) · 🇯🇵 [ja](../../../ja/docs/guides/TROUBLESHOOTING.md) · 🇬🇪 [ka](../../../ka/docs/guides/TROUBLESHOOTING.md) · 🇰🇭 [km](../../../km/docs/guides/TROUBLESHOOTING.md) · 🇮🇳 [kn](../../../kn/docs/guides/TROUBLESHOOTING.md) · 🇰🇷 [ko](../../../ko/docs/guides/TROUBLESHOOTING.md) · 🇱🇹 [lt](../../../lt/docs/guides/TROUBLESHOOTING.md) · 🇱🇻 [lv](../../../lv/docs/guides/TROUBLESHOOTING.md) · 🇮🇳 [ml](../../../ml/docs/guides/TROUBLESHOOTING.md) · 🇮🇳 [mr](../../../mr/docs/guides/TROUBLESHOOTING.md) · 🇲🇾 [ms](../../../ms/docs/guides/TROUBLESHOOTING.md) · 🇲🇹 [mt](../../../mt/docs/guides/TROUBLESHOOTING.md) · 🇲🇲 [my](../../../my/docs/guides/TROUBLESHOOTING.md) · 🇳🇵 [ne](../../../ne/docs/guides/TROUBLESHOOTING.md) · 🇳🇱 [nl](../../../nl/docs/guides/TROUBLESHOOTING.md) · 🇳🇴 [no](../../../no/docs/guides/TROUBLESHOOTING.md) · 🇮🇳 [or](../../../or/docs/guides/TROUBLESHOOTING.md) · 🇮🇳 [pa](../../../pa/docs/guides/TROUBLESHOOTING.md) · 🇵🇭 [phi](../../../phi/docs/guides/TROUBLESHOOTING.md) · 🇵🇱 [pl](../../../pl/docs/guides/TROUBLESHOOTING.md) · 🇵🇹 [pt](../../../pt/docs/guides/TROUBLESHOOTING.md) · 🇧🇷 [pt-BR](../../../pt-BR/docs/guides/TROUBLESHOOTING.md) · 🇷🇴 [ro](../../../ro/docs/guides/TROUBLESHOOTING.md) · 🇷🇺 [ru](../../../ru/docs/guides/TROUBLESHOOTING.md) · 🇱🇰 [si](../../../si/docs/guides/TROUBLESHOOTING.md) · 🇸🇰 [sk](../../../sk/docs/guides/TROUBLESHOOTING.md) · 🇸🇮 [sl](../../../sl/docs/guides/TROUBLESHOOTING.md) · 🇷🇸 [sr](../../../sr/docs/guides/TROUBLESHOOTING.md) · 🇸🇪 [sv](../../../sv/docs/guides/TROUBLESHOOTING.md) · 🇰🇪 [sw](../../../sw/docs/guides/TROUBLESHOOTING.md) · 🇮🇳 [ta](../../../ta/docs/guides/TROUBLESHOOTING.md) · 🇮🇳 [te](../../../te/docs/guides/TROUBLESHOOTING.md) · 🇹🇭 [th](../../../th/docs/guides/TROUBLESHOOTING.md) · 🇹🇷 [tr](../../../tr/docs/guides/TROUBLESHOOTING.md) · 🇺🇦 [uk-UA](../../../uk-UA/docs/guides/TROUBLESHOOTING.md) · 🇵🇰 [ur](../../../ur/docs/guides/TROUBLESHOOTING.md) · 🇺🇿 [uz](../../../uz/docs/guides/TROUBLESHOOTING.md) · 🇻🇳 [vi](../../../vi/docs/guides/TROUBLESHOOTING.md) · 🇳🇬 [yo](../../../yo/docs/guides/TROUBLESHOOTING.md) · 🇨🇳 [zh-CN](../../../zh-CN/docs/guides/TROUBLESHOOTING.md) · 🇹🇼 [zh-TW](../../../zh-TW/docs/guides/TROUBLESHOOTING.md)
-
----
+🌐 **Languages:** 🇺🇸 [English](../../../../guides/TROUBLESHOOTING.md) · 🇪🇹 [am](../../../am/docs/guides/TROUBLESHOOTING.md) · 🇸🇦 [ar](../../../ar/docs/guides/TROUBLESHOOTING.md) · 🇦🇿 [az](../../../az/docs/guides/TROUBLESHOOTING.md) · 🇧🇬 [bg](../../../bg/docs/guides/TROUBLESHOOTING.md) · 🇧🇩 [bn](../../../bn/docs/guides/TROUBLESHOOTING.md) · 🇧🇦 [bs](../../../bs/docs/guides/TROUBLESHOOTING.md) · 🇨🇿 [cs](../../../cs/docs/guides/TROUBLESHOOTING.md) · 🇩🇰 [da](../../../da/docs/guides/TROUBLESHOOTING.md) · 🇩🇪 [de](../../../de/docs/guides/TROUBLESHOOTING.md) · 🇬🇷 [el](../../../el/docs/guides/TROUBLESHOOTING.md) · 🇪🇸 [es](../../../es/docs/guides/TROUBLESHOOTING.md) · 🇮🇷 [fa](../../../fa/docs/guides/TROUBLESHOOTING.md) · 🇫🇮 [fi](../../../fi/docs/guides/TROUBLESHOOTING.md) · 🇫🇷 [fr](../../../fr/docs/guides/TROUBLESHOOTING.md) · 🇮🇪 [ga](../../../ga/docs/guides/TROUBLESHOOTING.md) · 🇮🇳 [gu](../../../gu/docs/guides/TROUBLESHOOTING.md) · 🇳🇬 [ha](../../../ha/docs/guides/TROUBLESHOOTING.md) · 🇮🇱 [he](../../../he/docs/guides/TROUBLESHOOTING.md) · 🇮🇳 [hi](../../../hi/docs/guides/TROUBLESHOOTING.md) · 🇭🇷 [hr](../../../hr/docs/guides/TROUBLESHOOTING.md) · 🇭🇺 [hu](../../../hu/docs/guides/TROUBLESHOOTING.md) · 🇦🇲 [hy](../../../hy/docs/guides/TROUBLESHOOTING.md) · 🇮🇩 [id](../../../id/docs/guides/TROUBLESHOOTING.md) · 🇳🇬 [ig](../../../ig/docs/guides/TROUBLESHOOTING.md) · 🇮🇹 [it](../../../it/docs/guides/TROUBLESHOOTING.md) · 🇯🇵 [ja](../../../ja/docs/guides/TROUBLESHOOTING.md) · 🇬🇪 [ka](../../../ka/docs/guides/TROUBLESHOOTING.md) · 🇰🇭 [km](../../../km/docs/guides/TROUBLESHOOTING.md) · 🇮🇳 [kn](../../../kn/docs/guides/TROUBLESHOOTING.md) · 🇰🇷 [ko](../../../ko/docs/guides/TROUBLESHOOTING.md) · 🇱🇹 [lt](../../../lt/docs/guides/TROUBLESHOOTING.md) · 🇱🇻 [lv](../../../lv/docs/guides/TROUBLESHOOTING.md) · 🇮🇳 [ml](../../../ml/docs/guides/TROUBLESHOOTING.md) · 🇮🇳 [mr](../../../mr/docs/guides/TROUBLESHOOTING.md) · 🇲🇾 [ms](../../../ms/docs/guides/TROUBLESHOOTING.md) · 🇲🇹 [mt](../../../mt/docs/guides/TROUBLESHOOTING.md) · 🇲🇲 [my](../../../my/docs/guides/TROUBLESHOOTING.md) · 🇳🇵 [ne](../../../ne/docs/guides/TROUBLESHOOTING.md) · 🇳🇱 [nl](../../../nl/docs/guides/TROUBLESHOOTING.md) · 🇳🇴 [no](../../../no/docs/guides/TROUBLESHOOTING.md) · 🇮🇳 [or](../../../or/docs/guides/TROUBLESHOOTING.md) · 🇮🇳 [pa](../../../pa/docs/guides/TROUBLESHOOTING.md) · 🇵🇭 [phi](../../../phi/docs/guides/TROUBLESHOOTING.md) · 🇵🇱 [pl](../../../pl/docs/guides/TROUBLESHOOTING.md) · 🇵🇹 [pt](../../../pt/docs/guides/TROUBLESHOOTING.md) · 🇧🇷 [pt-BR](../../../pt-BR/docs/guides/TROUBLESHOOTING.md) · 🇷🇴 [ro](../../../ro/docs/guides/TROUBLESHOOTING.md) · 🇷🇺 [ru](../../../ru/docs/guides/TROUBLESHOOTING.md) · 🇱🇰 [si](../../../si/docs/guides/TROUBLESHOOTING.md) · 🇸🇰 [sk](../../../sk/docs/guides/TROUBLESHOOTING.md) · 🇸🇮 [sl](../../../sl/docs/guides/TROUBLESHOOTING.md) · 🇷🇸 [sr](../../../sr/docs/guides/TROUBLESHOOTING.md) · 🇸🇪 [sv](../../../sv/docs/guides/TROUBLESHOOTING.md) · 🇰🇪 [sw](../../../sw/docs/guides/TROUBLESHOOTING.md) · 🇮🇳 [ta](../../../ta/docs/guides/TROUBLESHOOTING.md) · 🇮🇳 [te](../../../te/docs/guides/TROUBLESHOOTING.md) · 🇹🇭 [th](../../../th/docs/guides/TROUBLESHOOTING.md) · 🇹🇷 [tr](../../../tr/docs/guides/TROUBLESHOOTING.md) · 🇺🇦 [uk-UA](../../../uk-UA/docs/guides/TROUBLESHOOTING.md) · 🇵🇰 [ur](../../../ur/docs/guides/TROUBLESHOOTING.md) · 🇺🇿 [uz](../../../uz/docs/guides/TROUBLESHOOTING.md) · 🇻🇳 [vi](../../../vi/docs/guides/TROUBLESHOOTING.md) · 🇳🇬 [yo](../../../yo/docs/guides/TROUBLESHOOTING.md) · 🇨🇳 [zh-CN](../../../zh-CN/docs/guides/TROUBLESHOOTING.md) · 🇹🇼 [zh-TW](../../../zh-TW/docs/guides/TROUBLESHOOTING.md)
 
 ---
 
-title: "Veaotsing"
-version: 3.8.49
-lastUpdated: 2026-07-15
----
+> **Kasutajatele**: Otsite kiireid lahendusi? Vaadake allpool olevat [kiirjuhendit](#quick-reference).
 
-# Veaotsing
+🌐 **Keeled:** 🇺🇸 [English](./TROUBLESHOOTING.md) | 🇪🇹 [አማርኛ](../i18n/am/docs/guides/TROUBLESHOOTING.md) | 🇸🇦 [العربية](../i18n/ar/docs/guides/TROUBLESHOOTING.md) | 🇦🇿 [Azərbaycan dili](../i18n/az/docs/guides/TROUBLESHOOTING.md) | 🇧🇬 [Български](../i18n/bg/docs/guides/TROUBLESHOOTING.md) | 🇧🇩 [বাংলা](../i18n/bn/docs/guides/TROUBLESHOOTING.md) | 🇧🇦 [Bosanski](../i18n/bs/docs/guides/TROUBLESHOOTING.md) | 🇨🇿 [Čeština](../i18n/cs/docs/guides/TROUBLESHOOTING.md) | 🇩🇰 [Dansk](../i18n/da/docs/guides/TROUBLESHOOTING.md) | 🇩🇪 [Deutsch](../i18n/de/docs/guides/TROUBLESHOOTING.md) | 🇬🇷 [Ελληνικά](../i18n/el/docs/guides/TROUBLESHOOTING.md) | 🇪🇸 [Español](../i18n/es/docs/guides/TROUBLESHOOTING.md) | 🇪🇪 [Eesti](../i18n/et/docs/guides/TROUBLESHOOTING.md) | 🇮🇷 [فارسی](../i18n/fa/docs/guides/TROUBLESHOOTING.md) | 🇫🇮 [Suomi](../i18n/fi/docs/guides/TROUBLESHOOTING.md) | 🇫🇷 [Français](../i18n/fr/docs/guides/TROUBLESHOOTING.md) | 🇮🇪 [Gaeilge](../i18n/ga/docs/guides/TROUBLESHOOTING.md) | 🇮🇳 [ગુજરાતી](../i18n/gu/docs/guides/TROUBLESHOOTING.md) | 🇳🇬 [Hausa](../i18n/ha/docs/guides/TROUBLESHOOTING.md) | 🇮🇱 [עברית](../i18n/he/docs/guides/TROUBLESHOOTING.md) | 🇮🇳 [हिन्दी](../i18n/hi/docs/guides/TROUBLESHOOTING.md) | 🇭🇷 [Hrvatski](../i18n/hr/docs/guides/TROUBLESHOOTING.md) | 🇭🇺 [Magyar](../i18n/hu/docs/guides/TROUBLESHOOTING.md) | 🇦🇲 [Հայերեն](../i18n/hy/docs/guides/TROUBLESHOOTING.md) | 🇮🇩 [Bahasa Indonesia](../i18n/id/docs/guides/TROUBLESHOOTING.md) | 🇳🇬 [Igbo](../i18n/ig/docs/guides/TROUBLESHOOTING.md) | 🇮🇹 [Italiano](../i18n/it/docs/guides/TROUBLESHOOTING.md) | 🇯🇵 [日本語](../i18n/ja/docs/guides/TROUBLESHOOTING.md) | 🇬🇪 [ქართული](../i18n/ka/docs/guides/TROUBLESHOOTING.md) | 🇰🇭 [ខ្មែរ](../i18n/km/docs/guides/TROUBLESHOOTING.md) | 🇮🇳 [ಕನ್ನಡ](../i18n/kn/docs/guides/TROUBLESHOOTING.md) | 🇰🇷 [한국어](../i18n/ko/docs/guides/TROUBLESHOOTING.md) | 🇱🇹 [Lietuvių](../i18n/lt/docs/guides/TROUBLESHOOTING.md) | 🇱🇻 [Latviešu](../i18n/lv/docs/guides/TROUBLESHOOTING.md) | 🇮🇳 [മലയാളം](../i18n/ml/docs/guides/TROUBLESHOOTING.md) | 🇮🇳 [मराठी](../i18n/mr/docs/guides/TROUBLESHOOTING.md) | 🇲🇾 [Bahasa Melayu](../i18n/ms/docs/guides/TROUBLESHOOTING.md) | 🇲🇹 [Malti](../i18n/mt/docs/guides/TROUBLESHOOTING.md) | 🇲🇲 [မြန်မာ](../i18n/my/docs/guides/TROUBLESHOOTING.md) | 🇳🇵 [नेपाली](../i18n/ne/docs/guides/TROUBLESHOOTING.md) | 🇳🇱 [Nederlands](../i18n/nl/docs/guides/TROUBLESHOOTING.md) | 🇳🇴 [Norsk](../i18n/no/docs/guides/TROUBLESHOOTING.md) | 🇮🇳 [ଓଡ଼ିଆ](../i18n/or/docs/guides/TROUBLESHOOTING.md) | 🇮🇳 [ਪੰਜਾਬੀ](../i18n/pa/docs/guides/TROUBLESHOOTING.md) | 🇵🇭 [Filipino](../i18n/phi/docs/guides/TROUBLESHOOTING.md) | 🇵🇱 [Polski](../i18n/pl/docs/guides/TROUBLESHOOTING.md) | 🇵🇹 [Português (Portugal)](../i18n/pt/docs/guides/TROUBLESHOOTING.md) | 🇧🇷 [Português (Brasil)](../i18n/pt-BR/docs/guides/TROUBLESHOOTING.md) | 🇷🇴 [Română](../i18n/ro/docs/guides/TROUBLESHOOTING.md) | 🇷🇺 [Русский](../i18n/ru/docs/guides/TROUBLESHOOTING.md) | 🇱🇰 [සිංහල](../i18n/si/docs/guides/TROUBLESHOOTING.md) | 🇸🇰 [Slovenčina](../i18n/sk/docs/guides/TROUBLESHOOTING.md) | 🇸🇮 [Slovenščina](../i18n/sl/docs/guides/TROUBLESHOOTING.md) | 🇷🇸 [Српски](../i18n/sr/docs/guides/TROUBLESHOOTING.md) | 🇸🇪 [Svenska](../i18n/sv/docs/guides/TROUBLESHOOTING.md) | 🇰🇪 [Kiswahili](../i18n/sw/docs/guides/TROUBLESHOOTING.md) | 🇮🇳 [தமிழ்](../i18n/ta/docs/guides/TROUBLESHOOTING.md) | 🇮🇳 [తెలుగు](../i18n/te/docs/guides/TROUBLESHOOTING.md) | 🇹🇭 [ไทย](../i18n/th/docs/guides/TROUBLESHOOTING.md) | 🇹🇷 [Türkçe](../i18n/tr/docs/guides/TROUBLESHOOTING.md) | 🇺🇦 [Українська](../i18n/uk-UA/docs/guides/TROUBLESHOOTING.md) | 🇵🇰 [اردو](../i18n/ur/docs/guides/TROUBLESHOOTING.md) | 🇺🇿 [Oʻzbekcha](../i18n/uz/docs/guides/TROUBLESHOOTING.md) | 🇻🇳 [Tiếng Việt](../i18n/vi/docs/guides/TROUBLESHOOTING.md) | 🇳🇬 [Yorùbá](../i18n/yo/docs/guides/TROUBLESHOOTING.md) | 🇨🇳 [中文 (简体)](../i18n/zh-CN/docs/guides/TROUBLESHOOTING.md) | 🇹🇼 [中文 (繁體)](../i18n/zh-TW/docs/guides/TROUBLESHOOTING.md)
 
-> **Kasutajatele**: Otsid kiireid lahendusi? Vaata allolevat [Kiirviidet](#quick-reference).
-
-🌐 **Languages:** 🇺🇸 [English](../../../../guides/TROUBLESHOOTING.md) · 🇪🇹 [am](../../../am/docs/guides/TROUBLESHOOTING.md) · 🇸🇦 [ar](../../../ar/docs/guides/TROUBLESHOOTING.md) · 🇦🇿 [az](../../../az/docs/guides/TROUBLESHOOTING.md) · 🇧🇬 [bg](../../../bg/docs/guides/TROUBLESHOOTING.md) · 🇧🇩 [bn](../../../bn/docs/guides/TROUBLESHOOTING.md) · 🇨🇿 [cs](../../../cs/docs/guides/TROUBLESHOOTING.md) · 🇩🇰 [da](../../../da/docs/guides/TROUBLESHOOTING.md) · 🇩🇪 [de](../../../de/docs/guides/TROUBLESHOOTING.md) · 🇬🇷 [el](../../../el/docs/guides/TROUBLESHOOTING.md) · 🇪🇸 [es](../../../es/docs/guides/TROUBLESHOOTING.md) · 🇮🇷 [fa](../../../fa/docs/guides/TROUBLESHOOTING.md) · 🇫🇮 [fi](../../../fi/docs/guides/TROUBLESHOOTING.md) · 🇫🇷 [fr](../../../fr/docs/guides/TROUBLESHOOTING.md) · 🇮🇪 [ga](../../../ga/docs/guides/TROUBLESHOOTING.md) · 🇮🇳 [gu](../../../gu/docs/guides/TROUBLESHOOTING.md) · 🇳🇬 [ha](../../../ha/docs/guides/TROUBLESHOOTING.md) · 🇮🇱 [he](../../../he/docs/guides/TROUBLESHOOTING.md) · 🇮🇳 [hi](../../../hi/docs/guides/TROUBLESHOOTING.md) · 🇭🇷 [hr](../../../hr/docs/guides/TROUBLESHOOTING.md) · 🇭🇺 [hu](../../../hu/docs/guides/TROUBLESHOOTING.md) · 🇦🇲 [hy](../../../hy/docs/guides/TROUBLESHOOTING.md) · 🇮🇩 [id](../../../id/docs/guides/TROUBLESHOOTING.md) · 🇳🇬 [ig](../../../ig/docs/guides/TROUBLESHOOTING.md) · 🇮🇹 [it](../../../it/docs/guides/TROUBLESHOOTING.md) · 🇯🇵 [ja](../../../ja/docs/guides/TROUBLESHOOTING.md) · 🇬🇪 [ka](../../../ka/docs/guides/TROUBLESHOOTING.md) · 🇰🇭 [km](../../../km/docs/guides/TROUBLESHOOTING.md) · 🇮🇳 [kn](../../../kn/docs/guides/TROUBLESHOOTING.md) · 🇰🇷 [ko](../../../ko/docs/guides/TROUBLESHOOTING.md) · 🇱🇹 [lt](../../../lt/docs/guides/TROUBLESHOOTING.md) · 🇱🇻 [lv](../../../lv/docs/guides/TROUBLESHOOTING.md) · 🇮🇳 [ml](../../../ml/docs/guides/TROUBLESHOOTING.md) · 🇮🇳 [mr](../../../mr/docs/guides/TROUBLESHOOTING.md) · 🇲🇾 [ms](../../../ms/docs/guides/TROUBLESHOOTING.md) · 🇲🇹 [mt](../../../mt/docs/guides/TROUBLESHOOTING.md) · 🇲🇲 [my](../../../my/docs/guides/TROUBLESHOOTING.md) · 🇳🇵 [ne](../../../ne/docs/guides/TROUBLESHOOTING.md) · 🇳🇱 [nl](../../../nl/docs/guides/TROUBLESHOOTING.md) · 🇳🇴 [no](../../../no/docs/guides/TROUBLESHOOTING.md) · 🇮🇳 [or](../../../or/docs/guides/TROUBLESHOOTING.md) · 🇮🇳 [pa](../../../pa/docs/guides/TROUBLESHOOTING.md) · 🇵🇭 [phi](../../../phi/docs/guides/TROUBLESHOOTING.md) · 🇵🇱 [pl](../../../pl/docs/guides/TROUBLESHOOTING.md) · 🇵🇹 [pt](../../../pt/docs/guides/TROUBLESHOOTING.md) · 🇧🇷 [pt-BR](../../../pt-BR/docs/guides/TROUBLESHOOTING.md) · 🇷🇴 [ro](../../../ro/docs/guides/TROUBLESHOOTING.md) · 🇷🇺 [ru](../../../ru/docs/guides/TROUBLESHOOTING.md) · 🇱🇰 [si](../../../si/docs/guides/TROUBLESHOOTING.md) · 🇸🇰 [sk](../../../sk/docs/guides/TROUBLESHOOTING.md) · 🇸🇮 [sl](../../../sl/docs/guides/TROUBLESHOOTING.md) · 🇷🇸 [sr](../../../sr/docs/guides/TROUBLESHOOTING.md) · 🇸🇪 [sv](../../../sv/docs/guides/TROUBLESHOOTING.md) · 🇰🇪 [sw](../../../sw/docs/guides/TROUBLESHOOTING.md) · 🇮🇳 [ta](../../../ta/docs/guides/TROUBLESHOOTING.md) · 🇮🇳 [te](../../../te/docs/guides/TROUBLESHOOTING.md) · 🇹🇭 [th](../../../th/docs/guides/TROUBLESHOOTING.md) · 🇹🇷 [tr](../../../tr/docs/guides/TROUBLESHOOTING.md) · 🇺🇦 [uk-UA](../../../uk-UA/docs/guides/TROUBLESHOOTING.md) · 🇵🇰 [ur](../../../ur/docs/guides/TROUBLESHOOTING.md) · 🇺🇿 [uz](../../../uz/docs/guides/TROUBLESHOOTING.md) · 🇻🇳 [vi](../../../vi/docs/guides/TROUBLESHOOTING.md) · 🇳🇬 [yo](../../../yo/docs/guides/TROUBLESHOOTING.md) · 🇨🇳 [zh-CN](../../../zh-CN/docs/guides/TROUBLESHOOTING.md) · 🇹🇼 [zh-TW](../../../zh-TW/docs/guides/TROUBLESHOOTING.md)
-
-OmniRoute'i levinumad probleemid ja lahendused.
+OmniRoute'i levinud probleemid ja nende lahendused.
 
 ---
 
-## Kiirviide
+## Kiirjuhend
 
-**Uus OmniRoute'iga?** Alusta siit — need lahendavad 90% probleemidest:
+**Kas OmniRoute on teile uus?** Alustage siit — need lahendavad 90% probleemidest:
 
-| Ma näen seda                    | See tähendab                                 | Mida teha                                                                                             |
-| ------------------------------- | -------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
-| "Ühendamine ebaõnnestub"        | OmniRoute ei tööta                           | Käivita `omniroute` või `docker restart omniroute`                                                    |
-| "Vigane API võti"               | Sinu võti on vale või aegunud                | Kopeeri võti uuesti teenusepakkuja veebisaidilt                                                       |
-| "Kiirusepiirang ületatud"       | Saadad liiga palju päringuid                 | Oota 1 minut või kasuta `model: "auto"` automaatseks ümbersuunamiseks                                 |
-| "Kvoot ületatud"                | Oled oma tasuta/makstud kvoodi ära kasutanud | Ühenda rohkem teenusepakkuja või kasuta tasuta teenusepakkuja (Kiro, Pollinations)                    |
-| "Aeglased vastused"             | Teenusepakkuja on hõivatud või kaugel        | Kasuta `model: "auto/fast"` või ühenda kiirem teenusepakkuja (Groq, Cerebras)                         |
-| "Vale teenusepakkuja kasutatud" | `auto` valis erineva teenusepakkuja          | See on normaalne! `auto` valib parima. Sunni konkreetset teenusepakkuja `model: "openai/gpt-4o"` abil |
-| "502 Halb värav"                | Teenusepakkuja on maas                       | Oota ja proovi uuesti või kasuta `model: "auto"` teenusepakkuja vahetamiseks                          |
-| "401 Lubamatu"                  | Sinu volikirjad on valed                     | Kontrolli oma API võtit või autendi uuesti OAuth abil                                                 |
-| "429 Liiga palju päringuid"     | Kiirusepiirang                               | Oota 1 minut või ühenda rohkem teenusepakkuja                                                         |
+| Näen seda                        | Mida see tähendab                                    | Mida teha                                                                                                  |
+| -------------------------------- | ---------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| "Ühendust ei saa luua"           | OmniRoute ei tööta                                   | Käivitage `omniroute` või `docker restart omniroute`                                                       |
+| "Vigane API-võti"                | Teie võti on vale või aegunud                        | Kopeerige võti teenusepakkuja veebisaidilt uuesti                                                          |
+| "Päringulimiit on ületatud"      | Saadate liiga palju päringuid                        | Oodake 1 minut või kasutage automaatseks varuvariandile lülitumiseks `model: "auto"`                       |
+| "Kvoot on ületatud"              | Olete oma tasuta või tasulise kvoodi ära kasutanud   | Ühendage rohkem teenusepakkujaid või kasutage tasuta teenusepakkujaid (Kiro, Pollinations)                 |
+| "Aeglased vastused"              | Teenusepakkuja on hõivatud või asub kaugel           | Kasutage `model: "auto/fast"` või ühendage kiirem teenusepakkuja (Groq, Cerebras)                          |
+| "Kasutati valet teenusepakkujat" | `auto` valis teise teenusepakkuja                    | See on normaalne! `auto` valib parima. Kindla teenusepakkuja kasutamiseks määrake `model: "openai/gpt-4o"` |
+| "502 Bad Gateway"                | Teenusepakkuja ei tööta                              | Oodake ja proovige uuesti või kasutage teenusepakkuja vahetamiseks `model: "auto"`                         |
+| "401 Unauthorized"               | Teie autentimisandmed on valed                       | Kontrollige oma API-võtit või autentige OAuthiga uuesti                                                    |
+| "omniroute'i ei tuvastata"       | Windows PATH-ist puuduvad globaalsed Node'i moodulid | Lisage oma npm-i globaalne prefiks Windows PATH-i. Leidke see käsuga `npm config get prefix`.              |
+| "429 Too Many Requests"          | Päringusagedus on piiratud                           | Oodake 1 minut või ühendage rohkem teenusepakkujaid                                                        |
 
-**Ikka hädas?** Vaata allolevat [üksikasjalikku tõrkeotsingut](#detailed-troubleshooting) või küsi [Discord](https://discord.gg/U47eFqAXCn) kanalil.
+**Kas probleem püsib?** Vaadake allpool olevat [üksikasjalikku tõrkeotsingut](#detailed-troubleshooting) või küsige abi [Discordis](https://discord.gg/U47eFqAXCn).
 
 ---
 
@@ -45,220 +37,303 @@ OmniRoute'i levinumad probleemid ja lahendused.
 
 ---
 
-### Kiirusepiirangud tasuta teenusepakkuja puhul (429 / 400 / 401)
+### Tasuta teenusepakkujate päringusageduse piiramine (429 / 400 / 401)
 
-**Sümptom**: Kasutades `model: "auto"` tasuta/autentimata teenusepakkuja (opencode, auggie jne) korral, saad aeg-ajalt `HTTP 429`, `400` või `401` vastuste asemel. Päringud õnnestuvad, kui sama päringut mõne hetke pärast uuesti proovida, kuid automatiseerimine (cron-tegevused, agendid, skriptid) katkeb esimesel ebaõnnestumisel.
+**Sümptom**: Kui kasutate valikut `model: "auto"` tasuta/autentimiseta teenusepakkujatega (auggie jne), saate vastuste asemel aeg-ajalt veateate `HTTP 429`, `400` või `401`. Kui proovite sama viipa mõni hetk hiljem uuesti, õnnestuvad päringud, kuid automatiseerimine (cron-tööd, agendid, skriptid) katkeb esimese tõrke korral.
 
-**Põhjus**: Kolm sõltumatut rike režiimi kuhjuvad:
+**Algpõhjus**: kolm sõltumatut tõrkerežiimi kuhjuvad:
 
-1. **Teenusepakkuja kiirusepiirang (`429`)**: Tasuta plaanid võivad rakendada akna kvoodi. Paralleelsete päringute purgitorm ammendab selle, nii et järgmine päring keeldutakse kuni akna lähtestamiseni.
-2. **Katki läinud läbimudel (`400`/`401`)**: `auto/*` pakkid võivad sisaldada `opencode` läbimudeleid, mis on kataloogis registreeritud, kuid puuduvad reaalajas volikirjad (nt `oc/north-mini-code-free` → `401`). Automaatruuter proovib üht, ebaõnnestub ja viga levib enne ümbersuunamise aktiveerumist.
-3. **Rööpsuse võimendus (`429` koormuse all)**: Kui mitu agendi/cron seanssi puutuvad `auto` korraga kokku, ületab kogu päringu määr tasuta teenusepakkuja taluvuse, nii et õigustatud kõned märgitakse kurjakuulutavaks.
+1. **Teenusepakkuja päringusageduse piirang (`429`)**: tasuta paketid võivad rakendada ajavahemikupõhist kvooti. Paralleelpäringute puhang ammendab selle, mistõttu lükatakse järgmine päring tagasi kuni ajavahemiku lähtestamiseni.
+2. **Katkine mudel otseedastuses (`400`/`401`)**: `auto/*` kogumid võivad sisaldada otseedastusmudeleid, mis on kataloogis registreeritud, kuid millel puuduvad kehtivad pääsuandmed (→ `401`). Automaatne marsruuter proovib ühte neist, see ebaõnnestub ja tõrge edastatakse enne, kui varuvariandile ümberlülitumine jõustub.
+3. **Samaaegsuse võimendumine (`429` koormuse all)**: kui mitu agendi-/cron-seanssi kasutavad korraga valikut `auto`, ületab päringute kogusagedus tasuta teenusepakkujate taluvuspiiri, mistõttu märgitakse õiguspärased päringud kuritarvituseks.
 
-**Tõestatud lahendus (kogukonna poolt teatatud, 10.08.2026)**: seadista kolm keskkonnamuutujat nii, et rotatsioon, rööpsus ja ümbersuunamine neelaksid tasuta kvoodi muutused, mitte ei sureks selle tõttu:
+**Kontrollitud lahendus (kogukonna teatatud, 2026-08-10)**: häälestage kolm keskkonnamuutujat nii, et roteerimine, samaaegsuse piiramine ja varuvariandile ümberlülitumine neelaksid tasuta paketi ebastabiilsuse, selle asemel et selle tõttu katkeda:
 
 ```bash
-export OMNIROUTE_ROTATE_ON_400=true           # hüppa teise mudeli/teenusepakkuja juurde 400/401 korral (jätab vahele katki läinud läbimudelid)
-export OMNIROUTE_CHAT_MAX_HEAVY_IN_FLIGHT=4   # konkreetne raskekaalu sissepääsu ülempiir (vaikimisi määramata: päringute arvuta pole, vt allolevat märkust)
-export OMNIROUTE_CHAT_ADMISSION_QUEUE_MS=5000 # pikem piiratud ootamine raskekaalu mahutavuse jaoks, mitte kohene 503
+export OMNIROUTE_ROTATE_ON_400=true           # lülitub tõrke 400/401 korral teisele mudelile/teenusepakkujale (jätab katkised otseedastusmudelid vahele)
+export OMNIROUTE_CHAT_MAX_HEAVY_IN_FLIGHT=4   # raskete päringute vastuvõtu selgesõnaline ülempiir (vaikimisi määramata: päringute arv pole piiratud, vt märkust allpool)
+export OMNIROUTE_CHAT_ADMISSION_QUEUE_MS=20000 # pikendab piiratud ooteaega aeglaste ülavooteenuste jaoks üle RATE_LIMIT_MAX_WAIT_MS vaikeväärtuse
 ```
 
-Seadista need OmniRoute'i protsessi keskkonnas (deemon, nt LaunchAgent plist'i või `systemctl edit` kaudu), seejärel taaskäivita OmniRoute. Rotatsioonilipik on üks suurima mõjuga hoob: see muudab raske vea läbipaistvaks uuestiproovimiseks tervisliku teenusepakkuja vastu pakkides.
+Määrake need OmniRoute'i protsessi keskkonnas (deemonis, näiteks LaunchAgenti plist-faili või `systemctl edit` kaudu) ja taaskäivitage seejärel OmniRoute. Roteerimislipp on kõige mõjusam abinõu: see muudab täieliku tõrke läbipaistvaks korduskatseks kogumis oleva toimiva teenusepakkuja kaudu.
 
-**Märkus**: `OMNIROUTE_CHAT_MAX_HEAVY_IN_FLIGHT` piirab, mitu raskekaalu — pika kontekstiga — päringut korraga käivitub; piirang on sissepääsuvärav, mitte teenusepakkuja kiirusepiirang. **#503 hargnemise uuendus:** seda muutujat ei seata enam vaikimisi (see seob ainult siis, kui see on ülal mainitud viisil konkreetselt määratud) — raskekaalu sissepääs on hoopis piiratud automaatselt tuletatud baitide eelarvega (`OMNIROUTE_CHAT_MAX_INFLIGHT_BYTES`), mis skaleerib end vastavalt hosti reaalsele mälu ülempiirile, nii et uuel installil peaks nägema palju vähem `503 chat_admission_busy` tagasilükkamisi, ilma seda muutujat üldse määramata; siin konkreetne määramine töötab ikka täpselt nagu dokumenteeritud. Konkreetsed baitide eelarve ülekirjutused kuni 8 MiB–2 GiB. `413 body_exceeds_budget` ei ole ajutine: suurenda seda baitide eelarvet, alanda `OMNIROUTE_CHAT_HARD_MAX_BODY_BYTES` või suurenda protsessi mälu ülempiiri. `inflight_bytes_budget` mahasurumine on ajutine konkurents ja jääb uuestiproovitavaks. Teenusepakkuja kiirusepiirangut (`open-sse/services/rateLimitManager.ts`) juhitakse eraldi `RATE_LIMIT_MAX_WAIT_MS`, `RATE_LIMIT_MAX_QUEUE_DEPTH` ja `RATE_LIMIT_AUTO_ENABLE` abil — vt `.env.example`.
+**Märkus**: `OMNIROUTE_CHAT_MAX_HEAVY_IN_FLIGHT` piirab korraga käitatavate raskete ehk pika kontekstiga päringute arvu; see piirang on vastuvõtulüüs, mitte teenusepakkuja päringusageduse piiraja. **#503-fanout värskendus:** seda muutujat ei määrata enam vaikimisi (nüüd rakendub see ainult siis, kui see on selgesõnaliselt seadistatud, nagu ülal) — raskete päringute vastuvõttu piirab selle asemel automaatselt tuletatud baidieelarve (`OMNIROUTE_CHAT_MAX_INFLIGHT_BYTES`), mis skaleerub hosti tegeliku mälupiirangu järgi, seega peaks värske juurutus saama märksa vähem `503 chat_admission_busy` tagasilükkamisi, ilma et seda muutujat oleks üldse vaja määrata; selle selgesõnaline määramine siin toimib endiselt täpselt dokumenteeritud viisil. Selgesõnalised baidieelarve ülekirjutused piiratakse vahemikku 8 MiB–2 GiB. `413 body_exceeds_budget` ei ole ajutine: suurendage baidieelarvet, vähendage väärtust `OMNIROUTE_CHAT_HARD_MAX_BODY_BYTES` või suurendage protsessi mälupiirangut. `inflight_bytes_budget` tõttu koormuse vähendamine tuleneb ajutisest ressursikonkurentsist ja selle korral saab päringut uuesti proovida. Teenusepakkujakohast päringusageduse piiramist (`open-sse/services/rateLimitManager.ts`) juhivad eraldi `RATE_LIMIT_MAX_WAIT_MS`, `RATE_LIMIT_MAX_QUEUE_DEPTH` ja `RATE_LIMIT_AUTO_ENABLE` — vt `.env.example`.
 
-**Kuidas kontrollida, kas see töötas**: käivita oma agent/cron kaks korda kiiresti ja kinnita, et mõlemad õnnestuvad. Paranduse enne viskas teine käivitamistavaliselt `429`/`401`. Pärast parandust (kui üldse esineb) ebaõnnestumised läbivad uuestiproovimise läbipaistvalt ja kõne lõpetatakse. Samuti võid `curl /monitoring/health` käivitada ja jälgida `rateLimitedUntil` välja teenusepakkuja ühendustes ja `circuitBreakers.providerBreakers[].state` mõjutatud teenusepakkuja jaoks — olek on üks `CLOSED`, `DEGRADED`, `OPEN` või `HALF_OPEN` (vt `src/shared/utils/circuitBreaker.ts`), ja teenusepakkuja, mis pidevalt ebaõnnestub, lülitub `CLOSED → DEGRADED → OPEN` enne lähtestamise akna lubamist sondil läbi minna (`HALF_OPEN`).
+**Kuidas kontrollida, kas lahendus toimis**: käivitage oma agent/cron kaks korda kiiresti järjest ja veenduge, et mõlemad käivitused õnnestuvad. Enne parandust annab teine käivitus tavaliselt tõrke `429`/`401`. Pärast parandust proovitakse tõrkunud päringuid (kui neid esineb) läbipaistvalt uuesti ja kutse viiakse lõpule. Samuti saate teha päringu `curl /monitoring/health` ning jälgida teenusepakkuja ühenduste välja `rateLimitedUntil` ja mõjutatud teenusepakkujate välja `circuitBreakers.providerBreakers[].state` — olek on üks järgmistest: `CLOSED`, `DEGRADED`, `OPEN` või `HALF_OPEN` (vt `src/shared/utils/circuitBreaker.ts`) ning korduvalt tõrkuva teenusepakkuja olek muutub `CLOSED → DEGRADED → OPEN`, enne kui lähtestusaken lubab proovipäringu läbi (`HALF_OPEN`).
 
-**Kui sa näed ikka 429**: selle teenusepakkuja aktiivne konto on tõepoolest oma _kvoodi_ (mitte ainult kiiruse) ammendanud. Lisa sama teenusepakkuja teine konto OmniRoute'i juhtpaneelil → Teenusepakkuja → Kontod või lisa mõni muu tasuta teenusepakkuja (nt `routeway`, `auggie`). Rotatsioon aitab ainult ajutise kiiruse/400/401 korral; raske kvoodi ammendamine nõuab teisi volikirju või erinevat teenusepakkuja.
+**Kui näete endiselt tõrget 429**: selle teenusepakkuja aktiivse konto _kvoot_ on päriselt ammendunud (tegu pole üksnes päringusageduse piiranguga). Lisage OmniRoute'i juhtpaneelil sama teenusepakkuja jaoks teine konto → Providers → Accounts või kaasake mõni muu tasuta teenusepakkuja (nt `routeway`, `auggie`). Roteerimine aitab ainult ajutiste päringusageduse piirangute ning tõrgete 400/401 korral; kvoodi täielik ammendumine nõuab teisi pääsuandmeid või teist teenusepakkujat.
 
-**Kui sa näed 403 visioonimudelitel (`auto/vision`, `bazaarlink/*`)**: ühendatud kontol puudub makstud plaan, mis sisaldab visiooni, või API võtmel on ebapiisavad õigused. Kontrolli teenusepakkuja juhtpaneelil, kas võtme ulatus sisaldab visiooni/multimodaalset, või ühenda makstud plaani konto ja hoia seda visiooni sihtkohana.
+**Kui näete nägemismudelite (`auto/vision`, `bazaarlink/*`) puhul tõrget 403**: ühendatud kontol puudub nägemisfunktsiooni sisaldav tasuline pakett või API-võtmel pole piisavaid õigusi. Kontrollige teenusepakkuja juhtpaneelil, et võtme ulatus hõlmaks nägemis-/multimodaalseid funktsioone, või ühendage tasulise paketiga konto ja jätke see nägemispäringute sihtkohaks.
 
-## npm installi hoiatused (ERESOLVE / peer / deprecated)
+---
 
-Käivitades `npm install -g omniroute`, võid näha hoiatuste seina nagu `npm warn ERESOLVE`, sõltuvusteade ja `deprecated` sõnumid. **Need on oodatud ja kahjutud.** Sinu install on õnnestunud, kui väljundis näed `added <N> packages`.
+## `npm install` hoiatused (ERESOLVE / partner / aegunud)
 
-Hoiatused tulevad kolmanda osapoole pakettide aegunud sõltuvusvahemikest, mida OmniRoute ei kontrolli:
+Kui käivitate käsu `npm install -g omniroute`, võite näha suurt hulka hoiatusi, nagu `npm warn ERESOLVE`, partner-sõltuvuste teateid ja `deprecated` sõnumeid. **Need on ootuspärased ja kahjutud.** Installimine õnnestus, kui väljundis kuvatakse `added <N> packages`.
 
-1. **`marked-terminal` soovib `marked >=1 <16`, leitud `marked@18`** — töötab praktikas hästi; üleval pool olev sõltuvusvahemik on lihtsalt aegunud.
-2. **`deprecated prebuild-install@7.1.3`** — ülekandlik kohaliku binaari abiteenindaja. Seda ei kasutata
-   kinnitatud `wreq-js` transpordisideme installimiseks ja see ei näita, et veebiküpsiste
+Partner-sõltuvuste lahendamise hoiatuste peitmiseks kasutage OmniRoute'i toetatud installimisvormi:
+
+```bash
+npm install -g omniroute --legacy-peer-deps
+```
+
+`--legacy-peer-deps` peidab ainult `ERESOLVE` ja partner-sõltuvuste teated. Aegumise teated jäävad nähtavaks, sest need pärinevad transitiivsetest kolmanda osapoole pakettidest; need ei tähenda, et installimine ebaõnnestus.
+
+Hoiatused tulenevad kolmanda osapoole pakettide aegunud partner-sõltuvuste vahemikest, mida OmniRoute ei halda:
+
+1. **`marked-terminal` nõuab `marked >=1 <16`, kuid leiti `marked@18`** — praktikas töötab see probleemideta; ülesvoolu partner-sõltuvuse vahemik on lihtsalt aegunud.
+2. **`deprecated prebuild-install@7.1.3`** — transitiivne natiivse binaarfaili hankimise abivahend. Seda ei
+   kasutata fikseeritud versiooniga `wreq-js` transpordisidumise installimiseks ja see ei tähenda, et veebiküpsiste
    pakkuja transpordi seadistamine ebaõnnestus.
 
-**Tegevust pole vaja** — hoiatusi ei saa täielikult vaikida ilma ülemisringkonna pakette kahveldamata.
+**Midagi pole vaja teha** — hoiatusi ei saa täielikult peita ilma ülesvoolu pakette harundamata.
+
+---
+
+## npm-i installiskriptide blokeerimise hoiatus (globaalne installimine)
+
+<a name="npm-install-scripts-blocked-warning-global-install"></a>
+
+Käsu `npm install -g omniroute` käivitamisel blokeerivad uuemad npm-i versioonid (v11+ ja v12+) vaikimisi paketi elutsükli skriptid ning kuvavad installiskriptide hoiatuse:
+
+```
+npm warn install-scripts 7 packages had install scripts blocked because they are not covered by allowScripts:
+  omniroute@<version> (postinstall: node scripts/build/postinstall.mjs)
+  keytar, @parcel/watcher, @swc/core, protobufjs, esbuild, onnxruntime-node
+```
+
+### Kas seda hoiatust võib eirata?
+
+**Osaliselt, kuid ilma skriptideta käivitamine pole soovitatav.** OmniRoute sisaldab sujuvaid varulahendusi: kui natiivseid `better-sqlite3` sidemeid ei õnnestu eraldiseisvast komplektist laadida, kasutab rakendus alternatiivseid draivereid, nagu `node:sqlite` või `sql.js` (vt [SQLite'i käituskeskkonna valimine](../ops/SQLITE_RUNTIME.md)). Server käivitub endiselt, kuid WASM-varulahenduste, nagu `sql.js`, kasutamine keelab SQLite'i WAL-režiimi (Write-Ahead Logging ehk ette kirjutamisega logimine) ning suurendab mälu- ja kettasünkroonimise koormust.
+
+### Millised skriptid on tegelikult vajalikud?
+
+Kõik blokeeritud skriptid pole OmniRoute'i käitamiseks hädavajalikud:
+
+- **Hädavajalikud (`omniroute`, `better-sqlite3`):** OmniRoute töötab Next.js-i eraldiseisva rakenduse komplektist (`dist/`). Installimise ajal laadib npm alla või kompileerib hostipõhise natiivse SQLite'i draiveri ülemise taseme kataloogis `node_modules/better-sqlite3/`. Seejärel kontrollib OmniRoute'i `postinstall`-skript (`scripts/build/postinstall.mjs`) neid hostipõhiseid binaarfaile ja kopeerib need kataloogi `dist/node_modules/`, et eraldiseisev server neile juurde pääseks. Kui `omniroute`-i postinstall-skript on blokeeritud, jäetakse see kopeerimisetapp vahele.
+- **Valikulised/transitiivsed (`keytar`, `@parcel/watcher`, `@swc/core`, `protobufjs`, `esbuild`):** Need on koostamise abitööriistad, failimuudatuste jälgimise tööriistad või süsteemi võtmehoidla utiliidid. Nende lubamine väldib koostamishoiatusi, kuid OmniRoute'i põhifunktsioonide jaoks pole need vajalikud.
+- **Välistatud (`onnxruntime-node`):** See on valikuline sõltuvus kohalike tehisintellekti vektoresituste jaoks ega ole OmniRoute'i käitamiseks **vajalik**. Selle postinstall-skript laadib NuGetist alla ligikaudu 300 MB CUDA ressursse; ärge lisage seda lubatud skriptide loendisse, kui te ei kavatse toetatud riistvaral sõnaselgelt kohalikku ONNX-kiirendust kasutada.
+
+### Soovitatav lahendus
+
+Nõutavate installiskriptide lubamiseks globaalse installimise ajal ja hoiatuste vaigistamiseks edastage OmniRoute'i ning selle natiivsete sõltuvuste jaoks `--allow-scripts`:
+
+```bash
+npm install -g omniroute --allow-scripts=omniroute,better-sqlite3,keytar,@parcel/watcher,@swc/core,protobufjs,esbuild
+```
+
+Teise võimalusena saate selle oma kasutajakonto kõigi globaalsete installimiste jaoks püsivalt seadistada:
+
+```bash
+npm config set allow-scripts=omniroute,better-sqlite3,keytar,@parcel/watcher,@swc/core,protobufjs,esbuild --location=user
+npm install -g omniroute
+```
+
+### Kontrollige installimist
+
+Pärast installimist käivitage sisseehitatud diagnostikatööriist, et veenduda natiivsete sidemete ja käituskeskkonna korrasolekus:
+
+```bash
+omniroute doctor
+```
+
+---
+
+## Gemini Web ja Playwright Chromium
+
+Kui Gemini Webi päring tagastab oleku `503` koos teatega, et Playwright Chromium
+pole installitud, on npm-pakett olemas, kuid brauseri binaarfail puudub.
+Playwright hoiab brauseri allalaadimised teadlikult npm-paketi
+installimisest eraldi, seega on selline vastus ootuspärane, kuni brauser on installitud.
+
+Globaalse npm-installi korral installige Chromium OmniRoute’i paketi
+kataloogist, et brauseri vahemälu kuuluks samale Playwrighti installile:
+
+```bash
+cd "$(npm root -g)/omniroute"
+npx playwright install chromium
+```
+
+Pärast installimist taaskäivitage OmniRoute ja proovige seejärel Gemini Webi päringut uuesti. Kui
+käitate OmniRoute’i Dockeri tõmmisest, kasutage `-web` tõmmist (või `runner-web`
+koostesihtmärki), mis sisaldab Chromiumi ja selle sõltuvusi; baastõmmis neid
+ei sisalda.
 
 ---
 
 ## Kiirparandused
 
-| Probleem                                                   | Lahendus                                                                                                                                                                |
-| ---------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Esimene sisselogimine ei tööta                             | Määra `INITIAL_PASSWORD` failis `.env` (ei ole koodikirjas seatud vaikeväärtust)                                                                                        |
-| Töölaud avaneb valel pordil                                | Määra `PORT=20128` ja `NEXT_PUBLIC_BASE_URL=http://localhost:20128`                                                                                                     |
-| Logisid ei kirjutata kettale                               | Määra `APP_LOG_TO_FILE=true` ja kontrolli, et kõne logi salvestamine on lubatud                                                                                         |
-| EACCES: õigus keelatud                                     | Määra `DATA_DIR=/path/to/writable/dir`, et tühistada `~/.omniroute`                                                                                                     |
-| marsruutimisstrateegiat ei salvestata                      | Uuenda viimasele v3.x versioonile (Zod skeemi parandus seadete püsivuse jaoks saadetud varasemates versioonides)                                                        |
-| Sisselogimine kukub kokku / tühi lehekülg                  | Kontrolli Node.js versiooni — vaata allpool [Node.js ühilduvus](#nodejs-compatibility)                                                                                  |
-| `dlopen` / `slice is not valid mach-o file` (macOS)        | Käivita `cd $(npm root -g)/omniroute/app && npm rebuild better-sqlite3 && omniroute` — vaata allpool [macOS kohaliku mooduli ümberehitus](#macos-native-module-rebuild) |
-| Proksi "fetch failed"                                      | Veendu, et proksi konfiguratsioon on õigel tasemel seadistatud — vaata allpool [Proksi probleemid](#proxy-issues)                                                       |
-| Docker `curl: (56) Recv failure: Connection reset by peer` | Sinu Docker pordi seos võib sattuda IPv6 peale. Kasuta `-p 127.0.0.1:20128:20128`, et sundida IPv4-d, või testi `curl -4`-ga. Vaata allpool [Docker IPv6](#docker-ipv6) |
-| Viirusetõrje karantiini seab `README.md`                   | Valepositiiv — vaata allpool [Viirusetõrje valepositiivsed tuvastused](#antivirus-false-positives)                                                                      |
-| Kaspersky märgistab Desktop rakenduse Troojana             | käitumuslik valepositiiv allkirjastamata installijale — vaata allpool [Viirusetõrje valepositiivsed tuvastused](#antivirus-false-positives)                             |
+| Probleem                                                    | Lahendus                                                                                                                                                                                   |
+| ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Esmakordne sisselogimine ei tööta                           | Määrake failis `.env` väärtus `INITIAL_PASSWORD` (vaikeväärtust pole lähtekoodi kirjutatud)                                                                                                |
+| Töölaud avaneb vales pordis                                 | Määrake `PORT=20128` ja `NEXT_PUBLIC_BASE_URL=http://localhost:20128`                                                                                                                      |
+| Logisid ei kirjutata kettale                                | Määrake `APP_LOG_TO_FILE=true` ja kontrollige, et kutselogide jäädvustamine oleks lubatud                                                                                                  |
+| EACCES: juurdepääs keelatud                                 | Määrake `DATA_DIR=/path/to/writable/dir`, et alistada `~/.omniroute`                                                                                                                       |
+| Marsruutimisstrateegiat ei salvestata                       | Värskendage uusimale v3.x väljalaskele (seadete püsivuse Zodi skeemiparandus avaldati varasemates versioonides)                                                                            |
+| Sisselogimisel tekib krahh / tühi leht                      | Kontrollige Node.js-i versiooni — vaadake allpool jaotist [Node.js-i ühilduvus](#nodejs-compatibility)                                                                                     |
+| `dlopen` / `slice is not valid mach-o file` (macOS)         | Käivitage `cd $(npm root -g)/omniroute/app && npm rebuild better-sqlite3 && omniroute` — vaadake allpool jaotist [macOS-i omamooduli taasloomine](#macos-native-module-rebuild)            |
+| Puhverserveri „fetch failed“                                | Veenduge, et puhverserveri konfiguratsioon oleks määratud õigel tasemel — vaadake allpool jaotist [Puhverserveri probleemid](#proxy-issues)                                                |
+| Dockeri `curl: (56) Recv failure: Connection reset by peer` | Teie Dockeri pordi sidumine võib suunduda IPv6-le. IPv4 sundimiseks kasutage `-p 127.0.0.1:20128:20128` või testige käsuga `curl -4`. Vaadake allpool jaotist [Dockeri IPv6](#docker-ipv6) |
+| Viirusetõrje paneb faili `README.md` karantiini             | Valepositiivne tulemus — vaadake allpool jaotist [Viirusetõrje valepositiivsed tulemused](#antivirus-false-positives)                                                                      |
+| Kaspersky märgib töölauarakenduse troojalaseks              | Käitumispõhine valepositiivne tulemus allkirjastamata installeril — vaadake allpool jaotist [Viirusetõrje valepositiivsed tulemused](#antivirus-false-positives)                           |
 
 ---
 
-## Viirusetõrje valepositiivsed tulemused
+## Viirusetõrje valepositiivsed tuvastused
 
 <a name="antivirus-false-positives"></a>
 
-### Avast/AVG paneb `README.md` karantiini märkega `MD:HttpRequest-inf[Susp]`
+### Avast/AVG paigutab faili `README.md` karantiini tuvastusega `MD:HttpRequest-inf[Susp]`
 
-**Tegemist on valepositiivse tulemusega. Miski pole nakatunud ja meetmeid pole vaja.**
+**See on valepositiivne tuvastus. Miski pole nakatunud ja midagi pole vaja teha.**
 
-Avast ja AVG kasutavad heuristilist analüüsi, mis märgistab lihtteksti-/Markdown-faile, mis sisaldavad palju
-HTTP-päringu sarnaseid linke. OmniRoute'i `README.md` on npm-paketi sees (see on loetletud
-`package.json` → `files`), nii et see jõuab globaalse installi korral asukohta `node_modules/omniroute/README.md` —
-ja see sisaldab ~15 `http://localhost:20128/...` näidet (MCP
-HTTP/SSE lõpp-punktid, A2A `.well-known` URL ja `curl` näited). Selline lingitihedus on
-piisav, et heuristiline analüüs reageeriks.
+Avast ja AVG kasutavad heuristikat, mis märgistab lihtteksti-/Markdown-faile, mis sisaldavad
+palju HTTP-päringutena näivaid linke. OmniRoute'i `README.md` kuulub npm-paketti (see on
+loetletud failis `package.json` → `files`), seega paigutatakse see globaalse installimise
+korral asukohta `node_modules/omniroute/README.md` — ning see sisaldab umbes 15 näidet kujul
+`http://localhost:20128/...` (MCP HTTP/SSE lõpp-punktid, A2A `.well-known` URL ja `curl`-i
+näited). Selline linkide tihedus on heuristika käivitamiseks piisav.
 
-Kui see algas alles hiljuti: faili olemus ei muutunud. README sai juurde
-lõpp-punktide tabeli (lisati MCP HTTP + SSE + A2A) ja rohkem `curl` näiteid, mis lükkas
-selle üle läve.
+Kui see algas alles hiljuti, ei ole faili olemus muutunud. README lõpp-punktide tabelit
+laiendati (lisati MCP HTTP + SSE + A2A) ja lisati rohkem `curl`-i näiteid, mistõttu ületas
+see lävendi.
 
-Fail on inertne dokumentatsioon ilma igasuguse käivitatava sisuta. Saate selle karantiinist ohutult taastada.
+Fail on passiivne dokumentatsioon ega sisalda käivitatavat sisu. Võite selle turvaliselt
+karantiinist taastada.
 
 **Mida teha:**
 
-1. **Peatage teavitused** — lisage oma viirusetõrjes installikataloog erandite hulka
-   (Avast: Seaded → Erandid), lisades oma globaalse `node_modules` tee ja/või
+1. **Peatage teavitused** — lisage installikaust viirusetõrje välistuste hulka
+   (Avast: Settings → Exceptions), lisades oma globaalse `node_modules`-i tee ja/või
    OmniRoute'i andmekausta (`~/.omniroute/`).
-2. **Teatage valepositiivsest tulemusest** — <https://www.avast.com/false-positive-file-form.php>,
-   lisades karantiini pandud `README.md`. See on lahendus, mis aitab kõiki, kuna
-   tegemist on tootja heuristilise analüüsi ülereageerimisega tekstifailile.
+2. **Teatage valepositiivsest tuvastusest** — <https://www.avast.com/false-positive-file-form.php>,
+   lisades karantiini paigutatud faili `README.md`. See lahendus aitab kõiki, sest probleemi
+   põhjustab tootja heuristika ülereageerimine tekstifailile.
 
-**Miks me seda enda poolt "ei paranda":** kõik näited on `http://localhost` ja
-localhost ei saa olla `https` ilma iseallkirjastatud sertifikaadi probleemideta. Dokumentatsiooni moonutamine,
-et pääseda ühe tootja heuristilisest analüüsist, kahjustaks iga lugejat, et rahuldada skanneri viga.
+**Miks me seda omalt poolt ei „paranda”:** kõik näited kasutavad aadressi `http://localhost`
+ja localhost ei saa kasutada `https`-i ilma iseallkirjastatud sertifikaatidest tulenevate
+ebamugavusteta. Dokumentatsiooni moonutamine ühe tootja heuristikast möödahiilimiseks
+kahjustaks kõigi lugejate kasutuskogemust pelgalt skanneri vea tõttu.
 
-### Kaspersky märgistab töölauarakenduse märkega `PDM:Trojan.Win32.Generic`
+### Kaspersky märgistab töölauarakenduse tuvastusega `PDM:Trojan.Win32.Generic`
 
-**Tegemist on valepositiivse tulemusega käitumuslikust heuristilisest analüüsist. Miski pole nakatunud.** Kaspersky
-`PDM:` eesliide tähendab, et otsus pärineb selle Proactive Defense Module'ist (System Watcher),
-mis hindab seda, mida installer _teeb_, mitte ei võrdle seda teadaoleva pahavaraga. Kui
-see käivitub, "tagastab" Kaspersky kogu installi — kustutades failid, mis on juba kirjutatud —
-nii et rakendus jääb katkiseks või puudub.
+**See on käitumusliku heuristika valepositiivne tuvastus. Miski pole nakatunud.** Kaspersky
+prefiks `PDM:` tähendab, et otsus pärineb selle moodulist Proactive Defense Module (System
+Watcher), mis hindab seda, mida installer _teeb_, selle asemel et võrrelda seda teadaoleva
+pahavaraga. Käivitumisel „pöörab Kaspersky tagasi” kogu installi — kustutades juba kirjutatud
+failid —, mistõttu rakendus jääb katkiseks või kaob.
 
-Märgistatud failid on deklareeritud avatud lähtekoodiga sõltuvuste tavalised osad, mis on
-töölauarakendusega kaasas, näiteks:
+Märgistatud failid on töölauarakendusse kaasatud deklareeritud avatud lähtekoodiga sõltuvuste
+standardsed osad, näiteks:
 
 - `resources/app/.build/next/node_modules/playwright-<hash>/lib/…/agentParser.js` ja
   `workerProcessEntry.js` — [Playwright](https://playwright.dev), brauseri automatiseerimise
-  teek, mida kasutatakse rakendusesiseseks teenusepakkuja sisselogimiseks ja brauseripõhiseks vestluseks.
+  teek, mida kasutatakse rakendusesiseseks teenusepakkujasse sisselogimiseks ja brauseripõhiseks vestluseks.
 - `resources/app/.build/next/node_modules/@wreq-js/binding-win32-<arch>-msvc-<hash>/wreq-js.win32-<arch>-msvc.node`
-  — fikseeritud `wreq-js` natiivne side, mida kasutatakse brauseri sõrmejäljega HTTP jaoks veebiküpsiste
-  teenusepakkujatel (`<arch>` on `x64` või `arm64`).
+  — fikseeritud versiooniga `wreq-js`-i omakomponent, mida kasutatakse brauseri sõrmejäljega
+  HTTP jaoks veebiküpsiseid kasutavate teenusepakkujate puhul (`<arch>` on `x64` või `arm64`).
 
-**Miks see käivitub:** Windowsi installer **ei ole veel koodiallkirjastatud**, seega
-allkirjastamata NSIS installeril puudub maine ja käitumuslikud heuristilised analüüsid töötavad maksimaalse agressiivsusega.
-Koos kaasasoleva natiivse DLL-iga ja sadade `.js` failidega, mis kirjutatakse
-`%LOCALAPPDATA%\Programs\OmniRoute` alla (sealhulgas Next.js standalone buildi räsisufiksiga paketikaustad),
-piisab sellest heuristilise analüüsi käivitamiseks. Koodiallkirjastamine on plaanis;
-kuni see valmib, võivad uued väljalasked seda korrata.
+**Miks see käivitub:** Windowsi installer **ei ole veel koodiallkirjastatud**, seega pole
+allkirjastamata NSIS-i installeril mingit mainet ja käitumuslikud heuristikad töötavad
+maksimaalse agressiivsusega. Koos kaasatud omaplatvormi DLL-i ja sadade `.js`-failidega, mis
+kirjutatakse kausta `%LOCALAPPDATA%\Programs\OmniRoute` (sealhulgas Next.js-i autonoomse
+järgu räsisufiksiga paketikaustad), piisab sellest heuristika käivitamiseks. Koodi
+allkirjastamine on kavandatud; kuni see teoks saab, võib probleem uute väljalasetega korduda.
 
 **Mida teha:**
 
-1. **Kontrollige kõigepealt allalaaditud faili** (välistab rikutud faili). Iga väljalase avaldab
-   `latest.yml`, mille `sha512` väli (base64) hõlmab `OmniRoute.Setup.<version>.exe`
-   installerit. PowerShellis, installerit sisaldavast kaustast:
+1. **Kontrollige esmalt allalaaditud faili** (see välistab faili muutmise). Iga väljalaskega
+   avaldatakse `latest.yml`, mille väli `sha512` (base64) hõlmab installerit
+   `OmniRoute.Setup.<version>.exe`. Käivitage PowerShellis installeri kaustas:
    ```powershell
    $b = [System.Security.Cryptography.SHA512]::Create().ComputeHash(
      [System.IO.File]::ReadAllBytes("$PWD\OmniRoute.Setup.<version>.exe"))
    [Convert]::ToBase64String($b)
    ```
-   Väljund peab ühtima `latest.yml` → `sha512` väärtusega. Kui see ei ühti, kustutage fail ja
-   laadige uuesti ainult [GitHub releases lehelt](https://github.com/diegosouzapw/OmniRoute/releases).
-2. **Taastage + lisage erand** — taastage tagasipööratud üksused karantiinist ja lisage erand
-   `%LOCALAPPDATA%\Programs\OmniRoute` jaoks (Kaspersky → Seaded → Ohud ja erandid),
-   seejärel installige uuesti.
-3. **Teatage valepositiivsest tulemusest** — <https://opentip.kaspersky.com/>. Kasutajate esitatud FP
-   aruanded kiirendavad tõesti lubatud nimekirja lisamist.
+   Väljund peab ühtima väärtusega `latest.yml` → `sha512`. Kui see ei ühti, kustutage fail ja
+   laadige see uuesti alla ainult [GitHubi väljalasete lehelt](https://github.com/diegosouzapw/OmniRoute/releases).
+2. **Taastage + välistage** — taastage tagasi pööratud üksused karantiinist ja lisage välistus
+   kaustale `%LOCALAPPDATA%\Programs\OmniRoute` (Kaspersky → Settings → Threats and Exclusions),
+   seejärel installige rakendus uuesti.
+3. **Teatage valepositiivsest tuvastusest** — <https://opentip.kaspersky.com/>. Kasutajate
+   esitatud valepositiivsete tuvastuste teated kiirendavad tõepoolest lubatud failide loendisse lisamist.
 
 ---
 
-## Node.js ühilduvus
+## Node.js-i ühilduvus
 
 <a name="nodejs-compatibility"></a>
 
-### Sisselogimise lehe krahhi või "Module self-registration" vea kuvamine
+### Sisselogimisleht jookseb kokku või kuvab vea „Module self-registration”
 
-**Põhjus:** Kasutate Node.js versiooni, mis jääb OmniRoute'i heakskiidetud turvalise käivituskeskkonna miinimumi alla. Kõige tavalisem juhtum on vanema Node 22 või 24 parandustaseme kasutamine, mis jääb alla OmniRoute'i nõutava turvaparanduste taseme.
+**Põhjus:** Kasutate Node.js-i versiooni, mis jääb väljapoole OmniRoute'i heakskiidetud turvalise käituskeskkonna versioonivahemikku. Kõige sagedamini kasutatakse Node 22 või 24 vanemat paigaversiooni, mis jääb allapoole OmniRoute'i nõutavat turvaparandustega miinimumversiooni.
 
 **Sümptomid:**
 
-- Sisselogimise leht näitab tühja ekraani või serveriviga
-- Konsool kuvab `Error: Module did not self-register` või sarnaseid native binding vigu
-- Sisselogimise leht näitab **oranži hoiatusribas** teie Node versiooni, kui käivituskeskkond ei vasta toetatud turvapoliitikale
+- Sisselogimisleht kuvab tühja ekraani või serveritõrke
+- Konsoolis kuvatakse `Error: Module did not self-register` või sarnaseid omaseose vigu
+- Kui käituskeskkond ei vasta toetatud turbepoliitikale, kuvatakse sisselogimislehel teie Node'i versiooniga **oranž hoiatusriba**
 
 **Lahendus:**
 
-1. Paigaldage toetatud Node.js LTS väljaanne (soovitatav: Node.js 24.x):
+1. Installige toetatud Node.js-i LTS-versioon (soovituslik: Node.js 24.x):
    ```bash
    nvm install 24
    nvm use 24
    ```
-2. Kontrollige oma versiooni: `node --version` peaks näitama `v24.0.0` või uuemat 24.x LTS liinis
+2. Kontrollige oma versiooni: `node --version` peaks 24.x LTS-haru puhul kuvama `v24.0.0` või uuema versiooni
 3. Installige OmniRoute uuesti: `npm install -g omniroute`
 4. Taaskäivitage: `omniroute`
 
-> **Toetatud turvaversioonid:** `>=22.22.2 <23` või `>=24.0.0 <27`. Node.js 24.x LTS (Krypton) ja Node.js 26 on täielikult toetatud.
+> **Toetatud turvalised versioonid:** `>=22.22.2 <23` või `>=24.0.0 <27`. Node.js 24.x LTS (Krypton) ja Node.js 26 on täielikult toetatud.
 
-### npm v11+: `better-sqlite3` ei ole paigaldatud (Cannot find module)
+### npm v11+: `better-sqlite3` pole installitud (moodulit ei leitud)
 
 <a name="npm-v11-better-sqlite3-not-installed-cannot-find-module"></a>
 
-**Põhjus:** npm v11 (kaasas Node.js 24+ ga) blokeerib vaikimisi installiskriptid valikuliste
-sõltuvuste jaoks. Kuna `better-sqlite3` on loetletud `optionalDependencies`'is
-ja nõuab native kompileerimist (`node-gyp rebuild`), npm vaigistab selle vahele.
+**Põhjus:** npm v11 (kaasas Node.js 24+ versioonidega) blokeerib vaikimisi valikuliste
+sõltuvuste installiskriptid. Kuna `better-sqlite3` on loetletud jaotises `optionalDependencies`
+ja nõuab omakompileerimist (`node-gyp rebuild`), jätab npm selle ilma teavituseta vahele.
 
 **Sümptomid:**
 
-- Server kukub käivitumisel kokku veaga `Cannot find module 'better-sqlite3'`
-- `ls node_modules/better-sqlite3` näitab "No such file or directory"
-- `npm ls better-sqlite3` näitab `(empty)`
+- Server jookseb käivitamisel kokku veaga `Cannot find module 'better-sqlite3'`
+- `ls node_modules/better-sqlite3` kuvab „No such file or directory”
+- `npm ls better-sqlite3` kuvab `(empty)`
 
 **Lahendus:**
 
-1. Heakskiidake installiskriptid ja installige uuesti:
+1. Kinnitage installiskriptid ja installige uuesti:
    ```bash
    npm approve-scripts better-sqlite3
    npm install
    ```
-2. Või paigaldage eelkompileeritud pakett käsitsi:
+2. Või installige eelkompileeritud pakett käsitsi:
    ```bash
    npm pack better-sqlite3@13.0.1
    tar -xzf better-sqlite3-*.tgz -C node_modules
    mv node_modules/package node_modules/better-sqlite3
    rm better-sqlite3-*.tgz
    ```
-3. Kontrollige, kas see töötab: `node -e "require('better-sqlite3')(':memory:').close(); console.log('OK')"`
+3. Kontrollige toimivust: `node -e "require('better-sqlite3')(':memory:').close(); console.log('OK')"`
 
-### macOS: `dlopen` / "slice is not valid mach-o file"
+### macOS: `dlopen` / „slice is not valid mach-o file”
 
 <a name="macos-native-module-rebuild"></a>
 
-**Põhjus:** Pärast ülemaailmset `npm install -g omniroute` võib paketi sees olev `better-sqlite3` native binaarfail olla kompileeritud erineva arhitektuuri jaoks või erineva Node.js ABI-ga kui kohalikult töötav versioon. See on tavaline macOS-is (nii Apple Silicon kui Intel), kui eelkompileeritud binaarfail ei sobi teie keskkonnaga.
+**Põhjus:** Pärast globaalset installimist käsuga `npm install -g omniroute` võib pakendis sisalduv `better-sqlite3` omabinaarfail olla kompileeritud kohaliku käituskeskkonna omast erineva arhitektuuri või Node.js-i ABI jaoks. Seda esineb macOS-is (nii Apple Siliconi kui ka Inteli puhul) sageli siis, kui eelkompileeritud binaarfail ei ühildu teie keskkonnaga.
 
 **Sümptomid:**
 
-- Server kukub käivitumisel kohe kokku `dlopen` veaga
-- Viga sisaldab `slice is not valid mach-o file`
+- Serveri käivitamine nurjub kohe veaga `dlopen`
+- Veateade sisaldab teksti `slice is not valid mach-o file`
 - Täielik näide:
 
 ```
 dlopen(/Users/<user>/.nvm/versions/node/v24.14.1/lib/node_modules/omniroute/app/node_modules/better-sqlite3/build/Release/better_sqlite3.node, 0x0001): tried: '...' (slice is not valid mach-o file)
 ```
 
-**Lahendus — kompileerige uuesti oma kohaliku keskkonna jaoks (Node.js versiooni alandamist pole vaja):**
+**Lahendus — kompileerige oma kohaliku keskkonna jaoks uuesti (Node.js-i varasemale versioonile üleminek pole vajalik):**
 
 ```bash
 cd $(npm root -g)/omniroute/app
@@ -266,142 +341,144 @@ npm rebuild better-sqlite3
 omniroute
 ```
 
-> **Märkus:** See kompileerib native sidumise uuesti vastavalt teie kohalikule Node.js versioonile ja CPU arhitektuurile, lahendades binaarfailide vastuolu. Ametlikult toetatud käivituskeskkond on **`>=22.22.2 <23` või `>=24.0.0 <27`** (`SUPPORTED_NODE_RANGE` failis `src/shared/utils/nodeRuntimeSupport.ts`, vastavuses `package.json` `engines` väljaga). Node.js 24.x LTS (Krypton) ja Node.js 26 on täielikult toetatud `better-sqlite3` v12.x-ga.
+> **Märkus:** See kompileerib omaseose uuesti teie kohaliku Node.js-i versiooni ja protsessoriarhitektuuri jaoks, kõrvaldades binaarfailide ühildumatuse. Ametlikult toetatud käituskeskkonna versioonivahemik on **`>=22.22.2 <23` või `>=24.0.0 <27`** (`SUPPORTED_NODE_RANGE` failis `src/shared/utils/nodeRuntimeSupport.ts`, kooskõlas faili `package.json` väljaga `engines`). Node.js 24.x LTS (Krypton) ja Node.js 26 on koos `better-sqlite3` v12.x-iga täielikult toetatud.
 
 ---
 
-## Proksi Probleemid
+## Puhverserveri probleemid
 
 <a name="proxy-issues"></a>
 
-### Tarnija valideerimine näitab "fetch failed"
+### Teenusepakkuja valideerimisel kuvatakse „fetch failed”
 
-**Põhjus:** API võtme valideerimisotspunkt (`POST /api/providers/validate`) ei arvestanud varem proksi konfiguratsiooniga, põhjustades nurjumisi keskkondades, mis nõuavad proksi suunamist.
+**Põhjus:** API-võtme valideerimise lõpp-punkt (`POST /api/providers/validate`) eiras varem puhverserveri konfiguratsiooni, põhjustades tõrkeid keskkondades, kus liiklus tuleb suunata läbi puhverserveri.
 
-**Parandus (v3.5.5+):** See on nüüd parandatud. Tarnija valideerimine läheb läbi `runWithProxyContext`, austades automaatselt tarnija taseme ja üldisi proksi sätteid.
+**Parandus (v3.5.5+):** See on nüüd parandatud. Teenusepakkuja valideerimine toimub `runWithProxyContext` kaudu, arvestades automaatselt teenusepakkuja tasemel ja globaalseid puhverserveri seadeid.
 
-### Tervisekontroll ebaõnnestub sõnumiga "fetch failed"
+### Loa tervisekontroll ebaõnnestub veateatega „fetch failed”
 
-**Põhjus:** Taustal OAuthi värskendus ei lahendanud proksi konfiguratsiooni ühenduse kohta.
+**Põhjus:** OAuthi loa taustal värskendamisel ei tuvastatud iga ühenduse puhverserveri konfiguratsiooni eraldi.
 
-**Parandus (v3.5.5+):** Tervisekontrolli ajastaja lahendab nüüd proksi konfiguratsiooni ühenduse kohta enne värskenduse katset. Uuendage versioonile v3.5.5+.
+**Parandus (v3.5.5+):** Loa tervisekontrolli ajastaja tuvastab nüüd enne värskendamiskatset iga ühenduse puhverserveri konfiguratsiooni. Värskendage versioonile v3.5.5+.
 
-### SOCKS5 proksi tagastab "invalid onRequestStart method"
+### SOCKS5-puhverserver tagastab veateate „invalid onRequestStart method”
 
-**Põhjus:** Node.js 22 puhul ei ühildu undici@8 saatja Node'i sisseehitatud `fetch()` rakendusega.
+**Põhjus:** Node.js 22 puhul ei ühildu undici@8 dispetšer Node'i sisseehitatud `fetch()` teostusega.
 
-**Parandus (v3.5.5+):** OmniRoute kasutab nüüd proksi saatja aktiveerimisel undici oma `fetch()` funktsiooni, tagades järjepideva käitumise. Uuendage versioonile v3.5.5+.
+**Parandus (v3.5.5+):** Kui puhverserveri dispetšer on aktiivne, kasutab OmniRoute nüüd undici enda funktsiooni `fetch()`, tagades ühtlase käitumise. Värskendage versioonile v3.5.5+.
 
-### MITM proksi WSL-i all: Windowsi hostil töötavaid töölauarakendusi ei拦截
+### MITM-puhverserver WSL-is: Windowsi hostis töötavate töölauarakenduste liiklust ei püüta kinni
 
-**Põhjus:** MITM proksi ja tema CA sertifikaat installitakse keskkonda, kus OmniRoute töötab. WSL-i all on see keskkond Linuxi külaliskeskkond, samas kui AI töölauarakendused (Kiro, Trae, Copilot, Zed, …) töötavad Windowsi hostil. Hosti rakendused ei usalda külaliskeskkonna sertifikaatide salvest ega suuna läbi külaliskeskkonna süsteemiproksi, seega töölaua拦截 ei aktiveeru seal.
+**Põhjus:** MITM-puhverserver ja selle CA-sertifikaat installitakse keskkonda, kus OmniRoute töötab. WSL-i puhul on see keskkond Linuxi külalissüsteem, samas kui AI-töölauarakendused (Kiro, Trae, Copilot, Zed, …) töötavad Windowsi hostis. Hosti rakendused ei usalda külalissüsteemi serdihoidlat ega suuna liiklust läbi külalissüsteemi puhverserveri, mistõttu töölauarakenduste liiklust seal kinni ei püüta.
 
-**Soovitus:** Käivitage OmniRoute loomulikult samas operatsioonisüsteemis nagu töölauarakendused, mida soovite拦截ida (Windowsi rakenduste puhul Windows; macOS/Linux'i puhul vastavalt). OmniRoute'i hoidmine WSL-is, kui sihite hosti rakendusi, nõuab genereeritud CA sertifikaadi käsitsi usaldamist Windowsi hostil ja iga hosti rakenduse võrgu/proksi seadete suunamist WSL-i proksi otspunktile — toetamata ja habras lahendus.
+**Soovitus:** Käitage OmniRoute'i otse samas operatsioonisüsteemis, kus töötavad töölauarakendused, mille liiklust soovite kinni püüda (Windowsi rakenduste puhul Windowsis; macOS-i/Linuxi puhul vastavalt neis süsteemides). Kui hoiate OmniRoute'i WSL-is ja sihite samal ajal hosti rakendusi, peate loodud CA-sertifikaati Windowsi hostis käsitsi usaldama ning suunama iga hosti rakenduse võrgu-/puhverserveri seaded WSL-i puhverserveri lõpp-punktile — see on toetamata ja ebakindel seadistus.
 
 ---
 
-## Tarnija Probleemid
+## Teenusepakkuja probleemid
 
-### "Keeltemudel ei esitanud sõnumeid"
+### „Language model did not provide messages”
 
-**Põhjus:** Tarnija kvoot ammendatud.
-
-**Parandus:**
-
-1. Kontrollige armatuurlaua kvooti jälgijat
-2. Kasutage kombinatsiooni koos tagasivoolu tasemetega
-3. Lülitage odavamale/tasuta tasemele
-
-### Kiirusepiirangud
-
-**Põhjus:** Tellimuse kvoot ammendatud.
+**Põhjus:** Teenusepakkuja kvoot on ammendunud.
 
 **Parandus:**
 
-- Lisage tagasivool: `cc/claude-opus-4-6 → glm/glm-4.7 → if/qwen3.8-max-preview`
-- Kasutage GLM/MiniMax odava varuvariandina
+1. Kontrollige juhtpaneelil kvoodijälgijat
+2. Kasutage kombinatsiooni, mis sisaldab varutasemeid
+3. Lülituge odavamale/tasuta tasemele
 
-### OAuthi märguanne aegunud
+### Päringusageduse piiramine
 
-OmniRoute värskendab märguandeid automaatselt. Kui probleemid püsivad:
+**Põhjus:** Tellimuse kvoot on ammendunud.
 
-1. Armatuurlaud → Tarnija → Taasta ühendus
-2. Kustutage ja lisage tarnija ühendus uuesti
+**Parandus:**
 
-### Kiro mitme konto: teine tühistab esimese
+- Lisage varuvariant: `cc/claude-opus-4-6 → glm/glm-4.7 → if/qwen3.8-max-preview`
+- Kasutage odava varuvariandina GLM-i/MiniMaxi
 
-**Põhjus:** Kiro taustasüsteem nõuab ühte aktiivset seanssi OIDC kliendi registreeringu kohta.
-Kui kaks kontot jagavad sama registreeritud klienti (ühendused imporditud enne v3.8.0),
-ühe konto märguanne värskendamine tühistab teise värskendusmärguande.
+### OAuthi luba on aegunud
+
+OmniRoute värskendab lube automaatselt. Kui probleemid püsivad:
+
+1. Juhtpaneel → Teenusepakkuja → Ühenda uuesti
+2. Kustutage teenusepakkuja ühendus ja lisage see uuesti
+
+### Kiro mitme konto kasutamine: teine konto muudab esimese kehtetuks
+
+**Põhjus:** Kiro taustsüsteem lubab ühe OIDC-kliendi registreeringu kohta ainult üht aktiivset seanssi.
+Kui kaks kontot jagavad sama registreeritud klienti (enne v3.8.0 imporditud ühendused),
+muudab ühe konto loa värskendamine teise konto värskendusloa kehtetuks.
 
 **Parandus (v3.8.0+):** Importige mõjutatud ühendused uuesti.
-Alates v3.8.0 registreerib iga uus Kiro ühendus, mis on loodud **Impordi märguanne**,
-**Google/GitHub sotsiaalse sisselogimise** või **Automaatse impordi** kaudu, omaette
-pühendatud OIDC kliendi. Ühendus on seega täielikult isoleeritud ja ühe
-konto värskendamine ei mõjuta muid kontosid.
+Alates versioonist v3.8.0 registreerib iga uus Kiro ühendus, mis luuakse funktsiooni **Import Token**,
+**Google/GitHub social login** või **Auto-Import** kaudu, automaatselt oma
+spetsiaalse OIDC-kliendi. Seega on ühendus täielikult isoleeritud ja ühe
+konto värskendamine ei mõjuta ühtki teist kontot.
 
-Ühendused, mis imporditi _enne_ v3.8.0, ei oma ühenduse kohta eraldi kliendi
-registreeringut. Need ühendused kasutavad jätkuvalt jagatud sotsiaalse autentimise värskendusotspunkti.
-Isolatsiooni saamiseks kustutage vana ühendus armatuurlauast → Tarnijad ja lisage see uuesti
-ühekolme impordivoo kaudu.
+Enne versiooni v3.8.0 imporditud ühendustel puudub ühendusepõhine kliendi
+registreering. Need ühendused kasutavad jätkuvalt jagatud sotsiaalse autentimise värskendamise lõpp-punkti.
+Isoleerimise saavutamiseks kustutage vana ühendus asukohast Juhtpaneel → Teenusepakkujad ja lisage see uuesti
+ühe kolmest importimisviisist kaudu.
 
-Täielike üksikasjade ja samm-sammuliste juhiste kohta kahe Kiro konto kõrvuti lisamiseks vaadake
-[`docs/guides/KIRO_SETUP.md`](./KIRO_SETUP.md).
+Täieliku teabe ja kahe Kiro konto kõrvuti lisamise üksikasjalike juhiste saamiseks
+vaadake faili [`docs/guides/KIRO_SETUP.md`](./KIRO_SETUP.md).
+
+---
 
 ## Pilveprobleemid
 
 ### Pilvesünkroonimise vead
 
-1. Veendu, et `BASE_URL` osutab sinu töötavale instantsile (nt `http://localhost:20128`)
-2. Veendu, et `CLOUD_URL` osutab sinu pilve lõpp-punktile (nt `https://omniroute.dev`)
-3. Hoia `NEXT_PUBLIC_*` väärtused kooskõlas serveripoolsete väärtustega
+1. Veenduge, et `BASE_URL` osutaks teie töötavale eksemplarile (nt `http://localhost:20128`)
+2. Veenduge, et `CLOUD_URL` osutaks teie pilve lõpp-punktile (nt `https://omniroute.dev`)
+3. Hoidke `NEXT_PUBLIC_*` väärtused serveripoolsete väärtustega kooskõlas
 
-### Pilve `stream=false` tagastab 500
+### Pilves tagastab `stream=false` vea 500
 
-**Sümptom:** Pilve lõpp-punktil mitte-voolavatel päringutel kuvatakse `Unexpected token 'd'...`.
+**Sümptom:** mittevoogedastavate päringute korral kuvatakse pilve lõpp-punktis `Unexpected token 'd'...`.
 
-**Põhjus:** Ülesvool tagastab SSE-paketi, samal ajal kui klient ootab JSON-i.
+**Põhjus:** ülesvooluteenuse vastus sisaldab SSE-andmeid, kuid klient ootab JSON-i.
 
-**Lahendus:** Kasuta pilve otselistel päringutel `stream=true`. Kohalik jooksukeskkond sisaldab SSE→JSON tagasivõtmist.
+**Ajutine lahendus:** kasutage pilve otsepäringute puhul `stream=true`. Kohalik käituskeskkond sisaldab SSE→JSON varumehhanismi.
 
-### Pilv näitab "ühendatud", kuid "Vigane API võti"
+### Pilv näitab, et ühendus on loodud, kuid kuvab „Invalid API key“
 
-1. Loo uus võti kohalikust juhtpaneelist (`/api/keys`)
-2. Käivita pilve sünkroonimine: Luba Cloud → Sync Now
-3. Vanad/mitte-sünkroonitud võtmed võivad pilvel ikka tagastada `401`
+1. Looge kohaliku töölaua kaudu uus võti (`/api/keys`)
+2. Käivitage pilvesünkroonimine: Enable Cloud → Sync Now
+3. Vanad või sünkroonimata võtmed võivad pilves endiselt tagastada `401`
 
 ---
 
 ## Dockeri probleemid
 
-### Docker IPv6 / Ühenduse lähtestamine
+### Dockeri IPv6 / ühenduse lähtestamine
 
 <a name="docker-ipv6"></a>
 
-**Sümptomid:** `curl http://localhost:20128/v1/models` tagastab `curl: (56) Recv failure: Connection reset by peer`. Juhtpaneel ja autentimata lõpp-punktid töötavad, kuid autenditud lõpp-punktid ebaõnnestuvad — see näib autentimise probleemina, kuid ei ole.
+**Sümptomid:** `curl http://localhost:20128/v1/models` tagastab `curl: (56) Recv failure: Connection reset by peer`. Töölaud ja autentimata lõpp-punktid töötavad, kuid autenditud lõpp-punktid ei tööta — see näib autentimisprobleemina, kuid tegelikult ei ole seda.
 
-**Põhjus:** `docker run -p 20128:20128` avaldab pordi nii `0.0.0.0` (IPv4) kui ka `::` (IPv6) aadressil, kuid konteineris töötav protsess kuulab ainult IPv4-l. Peredes, kus `localhost` lahendatakse kõigepealt `::1`-le, maandub ühendus IPv6 avaldatud pordil, mille taga kuulajat ei ole → ühendus lähtestatakse.
+**Põhjus:** `docker run -p 20128:20128` avaldab pordi nii aadressil `0.0.0.0` (IPv4) kui ka `::` (IPv6), kuid konteineris töötav protsess kuulab ainult IPv4 kaudu. Hostides, kus `localhost` lahendatakse esmalt aadressiks `::1`, suunatakse ühendus avaldatud IPv6-porti, mille taga pole kuulajat → ühendus lähtestatakse.
 
-**Lahendus:**
+**Parandus:**
 
-1. **Kiire diagnostika:** Käivita `curl -4 http://localhost:20128/v1/models`. Kui see töötab `-4` lipuga, kuid mitte ilma selleta, on sul IPv6 seotud konflikt.
-2. **Püsiv lahendus:** Seo IPv4 aadress kindlalt, kasutades `docker run` käskluses `-p 127.0.0.1:20128:20128`:
+1. **Kiire diagnostika:** käivitage `curl -4 http://localhost:20128/v1/models`. Kui see töötab võtmega `-4`, kuid ilma selleta mitte, on tegemist IPv6 sidumise mittevastavusega.
+2. **Püsiv parandus:** siduge port sõnaselgelt IPv4-ga, kasutades käsus `docker run` väärtust `-p 127.0.0.1:20128:20128`:
    ```bash
    docker run -d --name omniroute --restart unless-stopped --stop-timeout 40 \
      -p 127.0.0.1:20128:20128 -v omniroute-data:/app/data diegosouzapw/omniroute:latest
    ```
-   See sunnib IPv4 sidumise ja hoiab ära proxy avaldamise kõigi hosti liidestega.
+   See sunnib kasutama IPv4 sidumist ja väldib ühtlasi puhverserveri avaldamist hosti kõigil võrguliidestel.
 
 ---
 
-### CLI-tööriist näitab "pole paigaldatud"
+### CLI-tööriist kuvatakse installimata olekus
 
-1. Kontrolli jooksukeskkonna välju: `curl http://localhost:20128/api/cli-tools/runtime/codex | jq`
-2. Kaasaskantava režiimi jaoks: kasuta pildi sihtmärki `runner-cli` (kaasas olevad CLI-d)
-3. Hosti ühendamise režiimi jaoks: määra `CLI_EXTRA_PATHS` ja ühenda hosti bini kataloog ainult lugemiseks
-4. Kui `installed=true` ja `runnable=false`: binaarfail leiti, kuid tervisekontroll ebaõnnestus
+1. Kontrollige käituskeskkonna välju: `curl http://localhost:20128/api/cli-tools/runtime/codex | jq`
+2. Portatiivse režiimi jaoks kasutage tõmmise sihtmärki `runner-cli` (kaasasolevad CLI-d)
+3. Hosti haakerežiimi jaoks määrake `CLI_EXTRA_PATHS` ja haakige hosti binaarfailide kataloog kirjutuskaitstuna
+4. Kui `installed=true` ja `runnable=false`, siis binaarfail leiti, kuid tervisekontroll ebaõnnestus
 
-### Kiire jooksukeskkonna valideerimine
+### Käituskeskkonna kiire kontroll
 
 ```bash
 curl -s http://localhost:20128/api/cli-tools/codex-settings | jq '{installed,runnable,commandPath,runtimeMode,reason}'
@@ -413,140 +490,145 @@ curl -s http://localhost:20128/api/cli-tools/openclaw-settings | jq '{installed,
 
 ## Kuluprobleemid
 
-### Kõrged kulud
+### Suured kulud
 
-1. Kontrolli kasutusstatistikat Juhtpaneel → Usage
-2. Vaheta peamine mudel GLM/MiniMax-ile
-3. Kasuta tasuta taset (Qoder, Kiro) mitte-kriitiliste ülesannete jaoks
-4. Määra kulupiirangud iga API võtme jaoks: Juhtpaneel → API Keys → Budget
+1. Kontrollige kasutusstatistikat: Dashboard → Usage
+2. Määrake põhimudeliks GLM/MiniMax
+3. Kasutage vähem oluliste ülesannete jaoks tasuta paketti (Qoder, Kiro)
+4. Määrake kulueelarve iga API-võtme kohta: Dashboard → API Keys → Budget
 
 ---
 
-### Silumine
+## Silumine
 
-### Luba logifailid
+### Logifailide lubamine
 
-Määra `.env` failis `APP_LOG_TO_FILE=true`. Rakenduse logid kirjutatakse alla `logs/` kataloogi.
-Päringu artefaktid salvestatakse alla `${DATA_DIR}/call_logs/`, kui päringu logi toru on sätetes lubatud.
-Kui toru püüdmine on lubatud, määra `CALL_LOG_PIPELINE_CAPTURE_STREAM_CHUNKS=false`, et jätta voolu plokkide paketid kõrvale, või muuda `CALL_LOG_PIPELINE_MAX_SIZE_KB`, et muuta artefakti ülempiiri KB-des.
+Määrake failis `.env` väärtus `APP_LOG_TO_FILE=true`. Rakenduse logid kirjutatakse kataloogi `logs/`.
+Päringute artefaktid salvestatakse kataloogi `${DATA_DIR}/call_logs/`, kui kõnelogide konveier on
+seadetes lubatud.
+Kui konveieri hõive on lubatud, määrake `CALL_LOG_PIPELINE_CAPTURE_STREAM_CHUNKS=false`, et jätta
+voo osade andmed välja, või kohandage väärtust `CALL_LOG_PIPELINE_MAX_SIZE_KB`, et muuta artefakti mahupiirangut kilobaitides.
 
-### Kontrolli pakkuja tervist
+### Teenusepakkuja seisundi kontrollimine
 
 ```bash
-# Tervisepaneel
+# Seisundi töölaud
 http://localhost:20128/dashboard/health
 
-# API tervisekontroll
+# API seisundi kontroll
 curl http://localhost:20128/api/monitoring/health
 ```
 
-### Jooksukeskkonna salvestusruum
+### Käituskeskkonna salvestusruum
 
-- Põhiseisund: `${DATA_DIR}/storage.sqlite` (pakkujad, kombod, aliased, võtmed, sätted)
-- Kasutus: SQLite tabelid `storage.sqlite` (`usage_history`, `call_logs`, `proxy_logs`) + valikuline `${DATA_DIR}/call_logs/`
+- Põhiandmed: `${DATA_DIR}/storage.sqlite` (teenusepakkujad, kombinatsioonid, aliased, võtmed, seaded)
+- Kasutus: SQLite'i tabelid failis `storage.sqlite` (`usage_history`, `call_logs`, `proxy_logs`) + valikuline `${DATA_DIR}/call_logs/`
 - Rakenduse logid: `<repo>/logs/...` (kui `APP_LOG_TO_FILE=true`)
-- Päringu logi artefaktid: `${DATA_DIR}/call_logs/YYYY-MM-DD/...`, kui päringu logi toru on lubatud
+- Kõnelogide artefaktid: `${DATA_DIR}/call_logs/YYYY-MM-DD/...`, kui kõnelogide konveier on lubatud
 
-Päringu logide lehe **Puhasta ajalugu** tegevus kustutab `call_logs`, vananenud `request_detail_logs` ja kohaliku `${DATA_DIR}/call_logs/` artefaktide kataloogi.
+Lehe Request Logs toiming **Clean history** tühjendab `call_logs`, pärandandmed
+`request_detail_logs` ja kohaliku artefaktide kataloogi `${DATA_DIR}/call_logs/`.
 
 ---
 
-## Kaitselüliti Probleemid
+## Kaitselüliti probleemid
 
-### Pakkuja jääb AVATUD olekusse
+### Pakkuja on jäänud olekusse OPEN
 
-Kui pakkuja kaitselüliti on AVATUD, blokeeritakse päringud kuni jahutusperioodi lõpuni.
+Kui pakkuja kaitselüliti on olekus OPEN, blokeeritakse päringud kuni ooteaja lõppemiseni.
 
 **Lahendus:**
 
-1. Minge **Töölaud → Seaded → Vastupidavus**
+1. Avage **Dashboard → Settings → Resilience**
 2. Kontrollige mõjutatud pakkuja kaitselüliti kaarti
-3. Klõpsake **Lähtesta kõik**, et tühjendada kõik kaitselülitid, või oodake jahutusperioodi lõppu
-4. Enne lähtestamist veenduge, et pakkuja on tegelikult saadaval
+3. Kõigi kaitselülitite lähtestamiseks klõpsake **Reset All** või oodake ooteaja lõppemiseni
+4. Enne lähtestamist veenduge, et pakkuja oleks tegelikult kättesaadav
 
-### Pakkuja käivitab pidevalt kaitselüliti
+### Pakkuja rakendab kaitselülitit korduvalt
 
-Kui pakkuja siseneb korduvalt AVATUD olekusse:
+Kui pakkuja läheb korduvalt olekusse OPEN:
 
-1. Kontrollige **Töölaud → Tervis → Pakkuja tervis** rikkemustri leidmiseks
-2. Minge **Seaded → Vastupidavus → Pakkuja profiilid** ja suurendage rikke läve
-3. Kontrollige, kas pakkuja on muutnud API piiranguid või vajab uuesti autentimist
-4. Vaadake latentsus-telemeetriat — kõrge latentsus võib põhjustada ajalõpupõhiseid rikkeid
+1. Kontrollige tõrgete mustrit jaotises **Dashboard → Health → Provider Health**
+2. Avage **Settings → Resilience → Provider Profiles** ja suurendage tõrkeläve
+3. Kontrollige, kas pakkuja on muutnud API piiranguid või nõuab uuesti autentimist
+4. Vaadake üle latentsuse telemeetria — suur latentsus võib põhjustada ajalõpust tingitud tõrkeid
 
 ---
 
-## Heli Transkriptsiooni Probleemid
+## Heli transkribeerimise probleemid
 
-### "Toetamata mudel" viga
+### Tõrge „Unsupported model“
 
-- Kasutage mudeli ID-d, mille esimene segment on pakkuja, mille jaoks teil on mandaadid (`openai/whisper-1`, `openrouter/deepgram/nova-3`). Paljas `deepgram/nova-3` nõuab algset Deepgrami võtit.
-- Veenduge, et pakkuja on ühendatud **Töölaud → Pakkujad**
+- Kasutage mudeli ID-d, mille esimene segment viitab pakkujale, kelle jaoks teil on identimisteave (`openai/whisper-1`, `openrouter/deepgram/nova-3`). Ainult `deepgram/nova-3` kasutamine nõuab Deepgrami võtit.
+- Veenduge, et pakkuja oleks ühendatud jaotises **Dashboard → Providers**
 
-### Transkriptsioon tagastab tühja tulemuse või ebaõnnestub
+### Transkriptsioon on tühi või nurjub
 
 - Kontrollige toetatud helivorminguid: `mp3`, `wav`, `m4a`, `flac`, `ogg`, `webm`
-- Veenduge, et faili suurus on pakkuja piirides (tavaliselt < 25MB)
-- Kontrollige pakkuja API võtme kehtivust pakkuja kaardil
+- Veenduge, et faili suurus jääks pakkuja piirangutesse (tavaliselt < 25MB)
+- Kontrollige pakkuja kaardil pakkuja API-võtme kehtivust
 
 ---
 
-## Tõlgi Silumine
+## Tõlkija silumine
 
-Kasutage **Töölaud → Tõlgi** vormingu tõlkimise probleemide silumiseks:
+Kasutage vormingute tõlkimise probleemide silumiseks jaotist **Dashboard → Translator**:
 
-| Režiim                | Millal kasutada                                                                                            |
-| --------------------- | ---------------------------------------------------------------------------------------------------------- |
-| **Mänguväljak**       | Võrrelge sisend-/väljundvorminguid kõrvuti — kleepige ebaõnnestunud päring, et näha, kuidas see tõlgitakse |
-| **Vestluse tester**   | Saatke reaalajas sõnumeid ja kontrollige täielikku päringu/vastuse sisu, sealhulgas päiseid                |
-| **Testipink**         | Käivitage partiiteste vormingukombinatsioonide lõikes, et leida, millised tõlked on katki                  |
-| **Reaalajas monitor** | Jälgige reaalajas päringuvoogu, et tabada katkendlikke tõlkeprobleeme                                      |
+| Režiim           | Millal kasutada                                                                                        |
+| ---------------- | ------------------------------------------------------------------------------------------------------ |
+| **Playground**   | Võrrelge sisend- ja väljundvorminguid kõrvuti — kleepige nurjuv päring, et näha, kuidas see tõlgitakse |
+| **Chat Tester**  | Saatke reaalajas sõnumeid ja uurige täielikku päringu/vastuse andmekogumit koos päistega               |
+| **Test Bench**   | Käivitage pakktestid eri vormingukombinatsioonidega, et leida vigased tõlked                           |
+| **Live Monitor** | Jälgige reaalajas päringuvoogu, et tabada vahelduvaid tõlkeprobleeme                                   |
 
 ### Levinud vorminguprobleemid
 
-- **Mõttemärgendid ei ilmu** — Kontrollige, kas sihtpakkuja toetab mõtlemist ja mõtte-eelarve seadet
-- **Tööriistakutsete kadumine** — Mõned vormingutõlked võivad eemaldada toetamata välju; kontrollige Mänguväljaku režiimis
-- **Süsteemiprompt puudub** — Claude ja Gemini käsitlevad süsteemiprompti erinevalt; kontrollige tõlkeväljundit
-- **SDK tagastab toorstringi objekti asemel** — Lahendatud versioonis v1.x; vastuse puhastaja eemaldab mittestandardsed väljad (`x_groq`, `usage_breakdown` jne), mis põhjustavad OpenAI SDK Pydantic valideerimistõrkeid. Kui näete seda endiselt versioonis v3.x+, esitage palun probleem.
-- **GLM/ERNIE lükkab tagasi `system` rolli** — Lahendatud versioonis v1.x; rollinormaliseerija ühendab automaatselt süsteemisõnumid kasutajasõnumitega kokkusobimatute mudelite puhul. Kui näete seda endiselt versioonis v3.x+, esitage palun probleem.
-- **`developer` rolli ei tunta ära** — Lahendatud versioonis v1.x; teisendatakse automaatselt `system` rolliks mitte-OpenAI pakkujate puhul. Kui näete seda endiselt versioonis v3.x+, esitage palun probleem.
-- **`json_schema` ei tööta Gemini'ga** — Lahendatud versioonis v1.x; `response_format` teisendatakse nüüd Gemini `responseMimeType` + `responseSchema` vormingusse. Kui näete seda endiselt versioonis v3.x+, esitage palun probleem.
+- **Mõtlemissilte ei kuvata** — kontrollige, kas sihtpakkuja toetab mõtlemist, ja vaadake üle mõtlemise eelarve säte
+- **Tööriistakutsed lähevad kaduma** — mõned vormingutõlked võivad eemaldada toetamata väljad; kontrollige seda režiimis Playground
+- **Süsteemiviip puudub** — Claude ja Gemini töötlevad süsteemivipasid erinevalt; kontrollige tõlke väljundit
+- **SDK tagastab objekti asemel töötlemata stringi** — lahendatud versioonis v1.x; vastuse sanitiseerija eemaldab mittestandardsed väljad (`x_groq`, `usage_breakdown` jne), mis põhjustavad OpenAI SDK Pydanticu valideerimistõrkeid. Kui näete seda endiselt versioonis v3.x+, esitage veateade.
+- **GLM/ERNIE lükkab rolli `system` tagasi** — lahendatud versioonis v1.x; rollide normaliseerija liidab süsteemisõnumid ühildumatute mudelite korral automaatselt kasutajasõnumitega. Kui näete seda endiselt versioonis v3.x+, esitage veateade.
+- **Rolli `developer` ei tuvastata** — lahendatud versioonis v1.x; muude kui OpenAI pakkujate korral teisendatakse see automaatselt rolliks `system`. Kui näete seda endiselt versioonis v3.x+, esitage veateade.
+- **`json_schema` ei tööta Geminiga** — lahendatud versioonis v1.x; `response_format` teisendatakse nüüd Gemini väljadeks `responseMimeType` + `responseSchema`. Kui näete seda endiselt versioonis v3.x+, esitage veateade.
 
-## Vastupidavuse sätted
+---
 
-### Automaatne kiirusepiirang ei käivitu
+## Töökindluse seaded
 
-- Automaatne kiirusepiirang kehtib ainult API võtit pakkuvatele teenusepakkujatele (mitte OAuth/ tellimuslitsentsidele)
-- Kontrolli, kas **Sätted → Vastupidavuse sätted → Teenusepakkujate profiilides** on automaatne kiirusepiirang lubatud
-- Kontrolli, kas teenusepakkuja tagastab `429` olekukoodid või `Retry-After` päised
+### Automaatne kiirusepiirang ei rakendu
 
-### Eksponentsiaalse tagasitõmbamise häälestamine
+- Automaatne kiirusepiirang rakendub ainult API-võtme pakkujatele (mitte OAuthile/tellimusele)
+- Veenduge, et jaotises **Seaded → Töökindlus → Pakkuja profiilid** oleks automaatne kiirusepiirang lubatud
+- Kontrollige, kas pakkuja tagastab olekukoode `429` või päiseid `Retry-After`
 
-Teenusepakkujate profiilid toetavad neid sätteid:
+### Eksponentsiaalse viivituse häälestamine
 
-- **Baasviivitus** — Esimese tõrke järelne esialgne ooteaeg (vaikimisi: 1 s)
-- **Maks. viivitus** — Maksimaalse ooteaja ülempiir (vaikimisi: 30 s)
-- **Kordaja** — Viivituse suurenemine iga järjestikuse tõrke korral (vaikimisi: 2x)
+Pakkuja profiilid toetavad järgmisi seadeid:
 
-### Äikesekarja ennetamine
+- **Algviivitus** — Esialgne ooteaeg pärast esimest tõrget (vaikimisi: 1s)
+- **Maksimaalne viivitus** — Ooteaja ülempiir (vaikimisi: 30s)
+- **Kordaja** — Kui palju suurendada viivitust iga järjestikuse tõrke korral (vaikimisi: 2x)
 
-Kui palju samaaegseid päringuid tabab kiirusepiiranguga teenusepakkujat, kasutab OmniRoute muutvälja + automaatset kiirusepiiramist, et seeriaalitada päringuid ja vältida kaskaadivigu. See toimub automaatselt API võtit pakkuvatele teenusepakkujatele.
+### Päringutulva vältimine
 
-### Vestlusrequestid ebaõnnestuvad 503 / chat_admission_busy
+Kui paljud samaaegsed päringud jõuavad kiirusepiiranguga pakkujani, kasutab OmniRoute päringute järjestamiseks ja aheltõrgete vältimiseks mutex-lukku koos automaatse kiirusepiiranguga. API-võtme pakkujate puhul toimub see automaatselt.
+
+### Vestluspäringud nurjuvad veaga 503 / chat_admission_busy
 
 **Sümptomid:**
 
-- Vestluse täiendused lõpp-punkt tagastab kordatava `503` vastuse, mille veakood on
+- Vestluse lõpetamiste lõpp-punkt tagastab uuesti proovitava vastuse `503`, mille veakood on
   `chat_admission_busy`.
-- Vastus sisaldab `Retry-After`. Alates #12135 on väärtus tuletatud täheldatud
-  täitumusest — `OMNIROUTE_CHAT_ADMISSION_QUEUE_MS` akna suurem väärtus, mida päring juba
-  ootas, ja aeg, mil praegused raskekaalulised rendid on olnud hoitud — ümardatud täis-
-  sekunditesse ja piiratud 60-ga. Tühjal väraval säilitab see ajaloolised põhjaväärtused: 2
-  sekundit baistruktuuriteel, 1 sekund struktuuripõhisel teel (mis sisaldab ka
+- Vastus sisaldab päist `Retry-After`. Alates versioonist #12135 tuletatakse väärtus vaadeldud
+  hõivatusest — valitakse suurem väärtus ajavahemikust `OMNIROUTE_CHAT_ADMISSION_QUEUE_MS`, mille päring on juba
+  oodanud, ja ajast, mille jooksul praeguseid suure koormusega liisinguid on hoitud — ümardatakse üles täis-
+  sekunditeni ning piiratakse 60 sekundiga. Jõudeolekus pääsuvärava puhul säilivad varasemad alampiirid: 2 sekundit
+  baitidel põhineval teel ja 1 sekund struktuuril põhineval teel (mis sisaldab ka väärtust
   `reason: "structure_limit"`).
-- See võib juhtuda, kui teine raskekaaluline vestlus või pikaajaline voo vastus on veel
-  pooleli.
+- See võib juhtuda ajal, mil mõni teine suure koormusega vestlus või kaua kestev voogedastusvastus on endiselt
+  töös.
 
-Baistruktuurite keha on:
+Baitidel põhineva vastuse keha on järgmine:
 
 ```json
 {
@@ -558,191 +640,210 @@ Baistruktuurite keha on:
 }
 ```
 
-Struktuuripõhine vastus kasutab sama tüüpi ja koodi, sõnumiga
+Struktuuril põhinev vastus kasutab sama tüüpi ja koodi koos sõnumiga
 `Local chat admission capacity is busy for this structurally heavy request; upstream provider routing was not attempted. Retry shortly.`
-ning `reason: "structure_limit"`.
-Vaikimisi lävenditel on päring struktuuriliselt raske, kui sellel on vähemalt `200` sõnumit,
-vähemalt `64` tööriista või vähemalt `32 000` hinnangulist märki, või kui piiratud
-struktuurihinnang ammendab oma piirid `10 000` külastatud sõlme või sügavusega `12`.
+ja väärtusega `reason: "structure_limit"`.
+Vaikelävendite korral loetakse päring struktuuriliselt suure koormusega päringuks, kui see sisaldab vähemalt `200` sõnumit,
+vähemalt `64` tööriista või hinnanguliselt vähemalt `32,000` luba või kui piiratud struktuurihinnang
+ammendab oma piirid, milleks on `10,000` külastatud sõlme või sügavus `12`.
 
-**Põhjus:** See on tahtlik koormuse mahakandmine OmniRoute sees, mitte ülemteenusepakkuja
-viga. Iga protsess kasutab protsessikohast valvepuud, et reserveerida piiratud raskekaaluline
-mahutavus enne suure päringukeha säilitamist ja töötlemist. Raskekaaluline rendileping
-hoitakse kogu SSE vastuse eluea jooksul.
+**Põhjus:** see on OmniRoute'i tahtlik koormuse vähendamine, mitte ülesvoolupakkuja tõrge.
+Iga protsess kasutab protsessisisest kaitsemehhanismi, et reserveerida piiratud suure koormuse läbilaskevõime enne suure
+päringukeha säilitamist ja sõelumist. Suure koormusega liising jääb kehtima kogu SSE-
+vastuse elueaks.
 
-**#503-fan-out:** enne seda parandust piiras valvepuu konkurentsi kindla päringute ARVuga
-(`OMNIROUTE_CHAT_MAX_HEAVY_IN_FLIGHT`, vaikimisi `1`), sõltumata hosti mälust, nii et
-programmeerimisagentide hajutamine (mitu allagenti/CLI-d, kehad regulaarselt > 256 KB)
-kollapses efektiivseks konkurentsideks ~1 ja 503-is täiesti normaalse koormuse all. Valvepuu
-kalibreerib ennast nüüd: see on kontrollitud automaatselt tuletatud sisendmähu BÜTSELLI reaga
-(`OMNIROUTE_CHAT_MAX_INFLIGHT_BYTES`), mis on suurusega protsessi tegelikust mälu ülempiirist,
-ja see konsulteerib ka elava ressursside surve signaaliga — nii et see mahakandmine toimub
-ainult siis, kui hostil on tõepoolest mälu surve all, mitte lihtsalt seetõttu, et rohkem kui
-üks raske päring korraga saabus. Vana arvupiir (`OMNIROUTE_CHAT_MAX_HEAVY_IN_FLIGHT`) on
-endiselt aktsepteeritud, aga ainult siis, kui sa selle sõnaselgelt määrad.
+**#503-levik:** enne seda parandust piiras kaitsemehhanism samaaegsust päringute fikseeritud ARVU alusel
+(`OMNIROUTE_CHAT_MAX_HEAVY_IN_FLIGHT`, vaikimisi `1`) sõltumata hosti mälust, mistõttu programmeerimisagendi
+hargnemine (mitu alamagent/CLI-d, päringukehad tavaliselt > 256 KB) kahandas tegeliku
+samaaegsuse ligikaudu ühele ja põhjustas täiesti tavalise koormuse korral tõrkeid 503. Kaitsemehhanism kohandub nüüd
+automaatselt: seda juhib protsessi tegeliku mälupiirangu järgi automaatselt tuletatud sisendi BAIDI-eelarve
+(`OMNIROUTE_CHAT_MAX_INFLIGHT_BYTES`) ning see arvestab ka reaalajas ressursisurve signaali — seega
+vähendab see koormust ainult siis, kui host on tegelikult mälusurve all, mitte pelgalt seetõttu, et korraga
+saabus rohkem kui üks suure koormusega päring. Vana arvuline piirang (`OMNIROUTE_CHAT_MAX_HEAVY_IN_FLIGHT`) on
+endiselt kasutusel, kuid ainult siis, kui määrate selle sõnaselgelt.
 
-Kui mahutavus on hõivatud, ootab raskekaaluline päring kõigepealt kuni
-`OMNIROUTE_CHAT_ADMISSION_QUEUE_MS` (vaikimisi `2000`, `0` keelab ootamise), et koht
-vabaneb enne kordatava `503` vastamist. Piiratud ootamine on olemas, et agentide-laadsed
-kliendid (OpenCode, Claude Code, Cursor), mis hajutavad rasked alampäringud samaaegselt,
-seeriaalitaksid paugu, mitte ei kulutaks oma kogu kordamise eelarvet kohesetele keeldumistele
-ja ei sureks ülesande poolel. Praegune raskekaaluline rendi täitumus, lahendatud mähu eelarve
-ja elava surve tõsidus kuvatakse `GET /api/monitoring/health` → `chatAdmission` (`inflightBytes`, `maxInflightBytes`,
-`budgetSource`, `pressureSeverity`, `countCapEnabled`) — kontrolli neid enne keskkonnamuutjate
-puutumist. Sätted → Vastupidavuse sätted → Päringujärjekord → Samaaegsed päringud ei
-kontrolli seda; see säte juhib eraldi teenusepakkuja päringujärjekorra mehhanismi.
+Kui läbilaskevõime on hõivatud, ootab suure koormusega päring esmalt kuni
+`OMNIROUTE_CHAT_ADMISSION_QUEUE_MS` (vaikimisi `RATE_LIMIT_MAX_WAIT_MS`; `0` keelab ootamise), et koht vabaneks,
+enne kui vastab uuesti proovitava veaga `503`. Piiratud ooteaeg on vajalik selleks, et agendilaadsed kliendid
+(OpenCode, Claude Code, Cursor), mis hargnevad korraga mitmeks suure koormusega alampäringuks, järjestaksid päringutulva
+selle asemel, et kulutada kogu uuesti proovimise eelarve kohestele tagasilükkamistele ja katkestada tööülesande keskel.
+Praeguse suure koormuse liisingute hõivatust, tuvastatud baidieelarvet ja reaalajas survetaset
+näidatakse asukohas `GET /api/monitoring/health` → `chatAdmission` (`inflightBytes`, `maxInflightBytes`,
+`budgetSource`, `pressureSeverity`, `countCapEnabled`) — kontrollige neid enne mis tahes keskkonnamuutuja muutmist.
+Seaded → Töökindlus → Päringujärjekord → Samaaegsed päringud seda ei juhi; see seade
+haldab eraldi pakkuja päringujärjekorra mehhanismi.
 
 **Parandus:**
 
-1. Korda kõigepealt. Kliendid peaksid austama `Retry-After` ja kasutama tagasitõmbamist,
-   mitte koheselt päringut kordama.
-2. Kontrolli `/api/monitoring/health` → `chatAdmission` enne midagi häälestamist. `countCapEnabled:
-false` ja helde `maxInflightBytes` tähendavad, et automaatselt tuletatud eelarve teeb juba
-   oma tööd; `pressureSeverity` väärtus `high`/`critical` tähendab, et hostil on tõepoolest
-   vähe mälu — seda ei saa parandada sissepääsukeskkonnamuutjaga, selleks on vaja rohkem RAM-i
-   või väiksemat töökoormust.
-3. Ainult siis, kui `/api/monitoring/health` näitab, et automaatselt tuletatud eelarve on
-   tõepoolest liiga väike su hosti jaoks (harv — see skaleerub juba konteinerist paljas-
-   riistvarani), kohalda seda otse `OMNIROUTE_CHAT_MAX_INFLIGHT_BYTES` abil, mitte
-   vana päringute arvupiiri juurde tagasi pöördudes.
+1. Proovige esmalt uuesti. Kliendid peaksid järgima päist `Retry-After` ja kasutama viivitusega korduskatseid, mitte
+   päringut kohe kordama.
+2. Enne millegi häälestamist kontrollige `/api/monitoring/health` → `chatAdmission`. `countCapEnabled:
+false` ja suur `maxInflightBytes` tähendavad, et automaatselt tuletatud eelarve juba täidab oma
+   eesmärki; kui `pressureSeverity` väärtus on `high`/`critical`, on hostil tegelikult vähe mälu —
+   seda ei saa parandada pääsukontrolli keskkonnamuutujaga, vaid vaja on rohkem RAM-i või väiksemat töökoormust.
+3. Ainult juhul, kui `/api/monitoring/health` näitab, et automaatselt tuletatud eelarve on teie
+   hosti jaoks tõepoolest liiga väike (harva — see skaleerub juba konteinerist kuni füüsilise serverini), alistage see otse muutujaga
+   `OMNIROUTE_CHAT_MAX_INFLIGHT_BYTES`, selle asemel et naasta päringute arvul põhineva pärandpiirangu juurde.
 
-Vaata [keskkonnamuutjate viidet](../reference/ENVIRONMENT.md#4-security--authentication)
-ametlike sissepääsusätete jaoks.
+Autoriteetsed pääsukontrolli seaded leiate [keskkonnamuutujate teatmikust](../reference/ENVIRONMENT.md#4-security--authentication).
 
 ---
 
-## Valikuline RAG / LLM tõrgete klassifikatsioon (16 probleemi)
+## Valikuline RAG-i / LLM-i tõrgete taksonoomia (16 probleemi)
 
-Mõned OmniRoute kasutajad paigaldavad maksvärava RAG-i või agentide kuhjade ette. Sellistel seadetel on sageli näha kummalist mustrit: OmniRoute näib terve (teenusepakkujad töötavad, marsruutimisprofiilid on korras, ülempiiritusi ei teatata), kuid lõppvastus on siiski vale.
+Mõned OmniRoute'i kasutajad paigutavad lüüsi RAG-i või agendipõhiste lahenduste ette. Sellistes konfiguratsioonides esineb sageli kummaline olukord: OmniRoute näib töötavat korrektselt (teenusepakkujad on töös, marsruutimisprofiilid korras, kiiruspiirangu hoiatusi pole), kuid lõplik vastus on siiski vale.
 
-Praktikas põhjustavad need intsidendid tavaliselt tagavoolu RAG torustik, mitte ise maksvärav.
+Praktikas tulenevad need intsidendid tavaliselt järgnevast RAG-i konveierist, mitte lüüsist endast.
 
-Kui soovite neid tõrkeid kirjeldavat ühist sõnavara, võite kasutada WFGY ProblemMap, mis on väline MIT-litsentsiga tekstiallikas, mis määratleb kuusteist korduvat RAG / LLM tõrbemustrit. Üldiselt hõlmab see:
+Kui soovite nende tõrgete kirjeldamiseks ühist sõnavara, võite kasutada WFGY ProblemMapi — välist MIT-litsentsiga tekstipõhist ressurssi, mis määratleb kuusteist korduvat RAG-i / LLM-i tõrkemustrit. Üldjoontes hõlmab see järgmist:
 
-- otsingulennu ja katkiste kontekstipiiride probleeme
-- tühje või aegunud indekseid ja vektorlaekasid
-- põimingute ja semantika vastuolu
-- küsimuste koostamise ja kontekstiakna probleeme
-- loogika kokkuvarisemist ja ülekindlaid vastuseid
-- pika ahela ja koordineerimise tõrkeid
-- mitme agendi mälu ja rollilennu probleeme
-- paigaldamise ja käivitamise järjekorra küsimusi
+- otsingu kõrvalekalded ja katkised kontekstipiirid
+- tühjad või aegunud indeksid ja vektorihoidlad
+- manuste ja semantika mittevastavus
+- viiba koostamise ja kontekstiakna probleemid
+- loogika kokkuvarisemine ja liiga enesekindlad vastused
+- pikkade ahelate ja agentide koordineerimise tõrked
+- mitme agendi mälu- ja rollinihe
+- juurutamise ja alglaadimise järjestuse probleemid
 
-Idee on lihtne:
+Põhimõte on lihtne:
 
-1. Halva vastuse uurimisel kirjeldage:
-   - kasutaja ülesannet ja päringut
-   - marsruuti või teenusepakkuja kombinatsiooni OmniRoute's
-   - mis tahes tagavoolu RAG konteksti (hangitud dokumendid, tööriistakutsed jne)
-2. Seostage juhtum ühe või kahe WFGY ProblemMap numbriga (`No.1` … `No.16`).
-3. Salvestage number oma juhtpaneelil, käsureendokumendis või intsidentide jälgitajal koos OmniRoute logidega.
-4. Kasutage vastavat WFGY lehte, et otsustada, kas peate muutma oma RAG kuhja, otsijat või marsruutimisstrateegiat.
+1. Vigase vastuse uurimisel talletage:
+   - kasutaja ülesanne ja päring
+   - OmniRoute'is kasutatud marsruut või teenusepakkujate kombinatsioon
+   - kogu järgnevates etappides kasutatud RAG-i kontekst (hangitud dokumendid, tööriistakutsed jne)
+2. Seostage intsident ühe või kahe WFGY ProblemMapi numbriga (`No.1` … `No.16`).
+3. Salvestage number oma juhtpaneelile, tegevusjuhendisse või intsidendihaldussüsteemi OmniRoute'i logide kõrvale.
+4. Kasutage vastavat WFGY lehte, et otsustada, kas peate muutma oma RAG-i lahendust, otsingukomponenti või marsruutimisstrateegiat.
 
-Täistekst ja konkreetseid retsepte leiate siit (MIT litsents, ainult tekst):
+Täistekst ja konkreetsed juhised asuvad siin (MIT-litsents, ainult tekst):
 
-[WFGY ProblemMap README](https://github.com/onestardao/WFGY/blob/main/ProblemMap/README.md)
+[WFGY ProblemMapi README](https://github.com/onestardao/WFGY/blob/main/ProblemMap/README.md)
 
-Selle osa saate ignoreerida, kui te ei kasuta OmniRoute taga RAG-i ega agentide torustikke.
+Kui te ei käita OmniRoute'i taga RAG-i ega agendikonveiereid, võite seda jaotist eirata.
 
 ---
 
-## v3.8.0 Teadaolevad probleemid
+## v3.8.0 teadaolevad probleemid
 
-Probleemid, mis on spetsiifilised v3.8.0 väljaandele ja nende praegused lahendused. Kui parandus lisatakse hiljemasse plaastri väljaandesse, sissetulek uuendatakse või eemaldatakse.
+v3.8.0 väljalaskega seotud probleemid ja nende praegused ajutised lahendused. Kui parandus lisatakse hilisemasse paikversiooni, värskendatakse või eemaldatakse vastav kirje.
 
 ### Devin CLI autentimise tõrked
 
 **Sümptomid:**
 
-- "Devin CLI not found" või "auth failed" Deviniga töötavate tööriistade kutsumisel
-- CLI käivitusaja kontroll teatab `installed=false`
+- Devinil põhinevate tööriistade käivitamisel kuvatakse „Devin CLI not found” või „auth failed”
+- CLI käituskontroll teatab `installed=false`
 
 **Põhjused:**
 
-- `CLI_DEVIN_BIN` osutab teele, mis ei ole olemas
-- Devin CLI ei ole hostil paigaldatud
+- `CLI_DEVIN_BIN` osutab asukohale, mida pole olemas
+- Devin CLI pole hosti installitud
 
 **Parandus:**
 
 1. Installige oma platvormile Devin CLI
-2. Määrake `CLI_DEVIN_BIN=/usr/local/bin/devin` (või tegelik tee) `.env` failis
-3. Taaskäivitage OmniRoute ja testige uuesti **Juhtpaneel → CLI tööriistad**
+2. Määrake failis `.env` väärtuseks `CLI_DEVIN_BIN=/usr/local/bin/devin` (või tegelik asukoht)
+3. Taaskäivitage OmniRoute ja testige uuesti jaotises **Juhtpaneel → CLI tööriistad**
 
-### Mudeli jahutusaja kinnijäämine (käsitsi lähtestamine)
+### Mudeli ooteaeg on kinni jäänud (käsitsi lähtestamine)
 
 **Sümptomid:**
 
-- Mudel jääb nimekirja jahutusajaga, isegi kui kehtivusaeg on möödunud
-- Päringud jätavad mudeli täielikult vahele kombinatsiooni marsruutimisel, kuigi timestamp on möödas
+- Mudel on endiselt märgitud ooteajal olevaks, kuigi aegumistähtaeg on möödunud
+- Vaatamata minevikku jäävale ajatemplile jäetakse mudel kombineeritud marsruutimisel endiselt vahele
 
 **Käsitsi lähtestamine:**
 
-- **Juhtpaneel:** **Seaded → Mudeli jahutusajad** → vajutage mõjutatud kaardil **Luba uuesti**
-- **API:** `DELETE /api/resilience/model-cooldowns` koos juhtimisautentimispeadetega
+- **Juhtpaneel:** **Seaded → Mudelite ooteajad** → klõpsake mõjutatud kaardil nuppu **Luba uuesti**
+- **API:** `DELETE /api/resilience/model-cooldowns` koos halduse autentimispäistega
 
-### Command Code teenusepakkuja ühenduse 403 tõrge
-
-**Sümptomid:**
-
-- 403 Command Code teenusepakkuja ühenduse testimisel
-- Teenusepakkuja kaart näitab "unauthorized" pärast uut lisamist
-
-**Põhjus:** OAuth vool ei lõppenud (vastuskutset ei saadud ega tokenit ei salvestatud).
-
-**Parandus:**
-
-- Käivitage `omniroute providers` käsurealt OAuth voolu uuesti käivitamiseks, või
-- Käivitage OAuth uuesti **Juhtpaneel → Teenusepakkujad → Command Code → Ühenda uuesti**
-
-### ModelScope annab agressiivseid 429 jahutusi
+### Command Code'i teenusepakkuja ühendus ebaõnnestub veakoodiga 403
 
 **Sümptomid:**
 
-- Väga lühikesed või kohesed jahutusajad ModelScope'is pärast väikest päringute purse
-- Kombinatsiooni marsruutimine jätab ModelScope'i varem vahele kui oodatud
+- Command Code'i teenusepakkuja ühenduse testimisel kuvatakse 403
+- Teenusepakkuja kaardil kuvatakse pärast uut lisamist „unauthorized”
 
-**Põhjus:** ModelScope avaldab teenusepakkuja spetsiifilisi `Retry-After` päiseid. v3.8.0 sisaldab nende päiste jaoks spetsiaalset käsitlemist, seega vanad versioonid loevad neid valesti üldisteks ülempiirite vihjeteks.
+**Põhjus:** OAuthi voog ei jõudnud lõpule (tagasikutset ei saadud või luba ei salvestatud).
 
 **Parandus:**
 
-- Veenduge, et kasutate v3.8.0 või uuemat versiooni
-- Kontrollige, et `useUpstream429BreakerHints` lüliti on lubatud **Seaded → Vastupidavus** all
+- Käivitage CLI-s `omniroute providers`, et OAuthi voog uuesti käivitada, või
+- Käivitage OAuth uuesti jaotises **Juhtpaneel → Teenusepakkujad → Command Code → Ühenda uuesti**
 
-### OMNIROUTE_WS_BRIDGE_SECRET puudub tootmiskeskkonnas
+### ModelScope tagastab liiga agressiivseid 429-ooteaegu
 
 **Sümptomid:**
 
-- 401 igal Codex/Responses WebSocket silla päringul tootmisserveris töötamisel
-- WebSocket silla kätelõpetus sulgub kohe pärast ühendamist
+- ModelScope'is rakenduvad pärast väikest päringusööstu väga kiiresti või kohe ooteajad
+- Kombineeritud marsruutimine jätab ModelScope'i oodatust varem vahele
 
-**Põhjus:** `OMNIROUTE_WS_BRIDGE_SECRET` keskkonnamuutuja puudub tootmiskeskkonnas.
+**Põhjus:** ModelScope väljastab teenusepakkujapõhiseid `Retry-After` päiseid. v3.8.0 sisaldab nende päiste jaoks eraldi käsitlust, mistõttu vanemad versioonid tõlgendavad neid valesti üldiste kiiruspiirangu vihjetena.
 
 **Parandus:**
 
-1. Genereerige juhuslik salajane võti: `openssl rand -hex 32`
-2. Määrake `OMNIROUTE_WS_BRIDGE_SECRET=<juhuslik-salajane>` tootmiskeskkonna serveri keskkonnas (ja igas kliendis, mis suhtleb sillaga)
+- Veenduge, et kasutate versiooni v3.8.0 või uuemat
+- Kontrollige jaotises **Seaded → Töökindlus**, et lüliti `useUpstream429BreakerHints` oleks lubatud
+
+### OMNIROUTE_WS_BRIDGE_SECRET puudub tootmiskeskkonnast
+
+**Sümptomid:**
+
+- Kaugserveris asuvas tootmiskeskkonnas tagastab iga Codexi/Responsesi WebSocketi silla päring veakoodi 401
+- WebSocketi silla käepigistus katkeb kohe pärast ühenduse loomist
+
+**Põhjus:** Keskkonnamuutuja `OMNIROUTE_WS_BRIDGE_SECRET` puudub tootmiskeskkonnast.
+
+**Parandus:**
+
+1. Genereerige juhuslik saladus: `openssl rand -hex 32`
+2. Määrake tootmisserveri keskkonnas (ja igas sillaga suhtlevas kliendis) `OMNIROUTE_WS_BRIDGE_SECRET=<random-secret>`
 3. Taaskäivitage OmniRoute
 
-### Responses API: taustrežiim degradatakse sünkroonseks
+### Responses API: taustarežiim taandatakse sünkroonseks
 
 **Sümptomid:**
 
-- Hoiatus logitakse: `background mode degraded to synchronous`
-- `background: true` päring annab tavapärase sünkroonse vastuse tausttöö käepideme asemel
+- Logitakse hoiatus: `background mode degraded to synchronous`
+- Päring `background: true` tagastab tausttöö pideme asemel tavalise sünkroonse vastuse
 
-**Põhjus:** v3.8.0 tahtlikult degradeerib Responses API `background: true` sünkroonseks täitmiseks, avaldades samal ajal hoiatuse. Täielik asünkroonne tausttöö täitmine on tulevane funktsioon.
+**Põhjus:** v3.8.0 taandab Responses API valiku `background: true` tahtlikult sünkroonseks täitmiseks ja väljastab samal ajal hoiatuse. Täielik asünkroonne tausttäitmine lisatakse tulevikus.
 
 **Parandus:**
 
-- Kohendage klienti, et helistada ilma `background`-ita, või
-- Oodake hilisemat versiooni, mis toob täieliku asünkroonse taustrežiimi (jälgige muudatuste logi)
+- Kohandage klienti nii, et see esitaks kutse ilma parameetrita `background`, või
+- Oodake hilisemat väljalaset, mis sisaldab täielikku asünkroonset taustarežiimi (jälgige muudatuste logi)
 
 ---
 
-## Ikka kinni?
+## Aeglane käivitumine / valmisoleku ajalõpp
+
+Kui CLI kuvab teate `⚠ Server did not respond within 60s`, kuid server tegelikult töötab, on valmisolekukontrolli ajalimiit teie keskkonna jaoks liiga lühike.
+
+Seda juhtub sageli Windowsis (viirusetõrje, failisüsteemi jälgijad) või suure käivituskoormusega konteinerites.
+
+**Lahendus — suurendage ajalimiiti:**
+
+```bash
+# Keskkonnamuutuja kaudu (säilib käivituste vahel):
+export OMNIROUTE_READY_TIMEOUT_MS=180000   # 3 minutit
+omniroute serve
+
+# CLI lipu kaudu (ühekordne):
+omniroute serve --ready-timeout 180000
+```
+
+Vaikeväärtus on 60 000 ms (60 s). Hoiatus on üksnes informatiivne; server jätkab taustal käivitumist ja muutub kättesaadavaks pärast käivitamise lõpetamist.
+
+Täielikku teavet `OMNIROUTE_READY_TIMEOUT_MS` kohta leiate failist [`docs/reference/ENVIRONMENT.md`](../reference/ENVIRONMENT.md).
+
+---
+
+## Kas probleem püsib?
 
 - **GitHubi probleemid**: [github.com/diegosouzapw/OmniRoute/issues](https://github.com/diegosouzapw/OmniRoute/issues)
-- **Arhitektuur**: Vaata [`docs/architecture/ARCHITECTURE.md`](../architecture/ARCHITECTURE.md) sisemiste üksikasjade jaoks
-- **API viide**: Vaata [`docs/reference/API_REFERENCE.md`](../reference/API_REFERENCE.md) kõigi lõpp-punktide jaoks
-- **Tervise paneel**: Kontrolli **Paneel → Tervis** reaalajas süsteemi oleku jaoks
-- **Tõlkija**: Kasuta **Paneel → Tõlkija** vorminguprobleemide silumiseks
+- **Arhitektuur**: sisemise ülesehituse üksikasju vaadake failist [`docs/architecture/ARCHITECTURE.md`](../architecture/ARCHITECTURE.md)
+- **API viitedokumentatsioon**: kõigi lõpp-punktide kohta vaadake faili [`docs/reference/API_REFERENCE.md`](../reference/API_REFERENCE.md)
+- **Süsteemi seisundi töölaud**: reaalajas süsteemi oleku vaatamiseks avage **Dashboard → Health**
+- **Tõlkija**: vorminguprobleemide silumiseks kasutage valikut **Dashboard → Translator**

@@ -1,228 +1,198 @@
-# CLI-TOOLS (Eesti)
+# CLI Tools — OmniRoute (Eesti)
 
-🌐 **Languages:** 🇺🇸 [English](../../../../reference/CLI-TOOLS.md) · 🇪🇹 [am](../../../am/docs/reference/CLI-TOOLS.md) · 🇸🇦 [ar](../../../ar/docs/reference/CLI-TOOLS.md) · 🇦🇿 [az](../../../az/docs/reference/CLI-TOOLS.md) · 🇧🇬 [bg](../../../bg/docs/reference/CLI-TOOLS.md) · 🇧🇩 [bn](../../../bn/docs/reference/CLI-TOOLS.md) · 🇨🇿 [cs](../../../cs/docs/reference/CLI-TOOLS.md) · 🇩🇰 [da](../../../da/docs/reference/CLI-TOOLS.md) · 🇩🇪 [de](../../../de/docs/reference/CLI-TOOLS.md) · 🇬🇷 [el](../../../el/docs/reference/CLI-TOOLS.md) · 🇪🇸 [es](../../../es/docs/reference/CLI-TOOLS.md) · 🇮🇷 [fa](../../../fa/docs/reference/CLI-TOOLS.md) · 🇫🇮 [fi](../../../fi/docs/reference/CLI-TOOLS.md) · 🇫🇷 [fr](../../../fr/docs/reference/CLI-TOOLS.md) · 🇮🇪 [ga](../../../ga/docs/reference/CLI-TOOLS.md) · 🇮🇳 [gu](../../../gu/docs/reference/CLI-TOOLS.md) · 🇳🇬 [ha](../../../ha/docs/reference/CLI-TOOLS.md) · 🇮🇱 [he](../../../he/docs/reference/CLI-TOOLS.md) · 🇮🇳 [hi](../../../hi/docs/reference/CLI-TOOLS.md) · 🇭🇷 [hr](../../../hr/docs/reference/CLI-TOOLS.md) · 🇭🇺 [hu](../../../hu/docs/reference/CLI-TOOLS.md) · 🇦🇲 [hy](../../../hy/docs/reference/CLI-TOOLS.md) · 🇮🇩 [id](../../../id/docs/reference/CLI-TOOLS.md) · 🇳🇬 [ig](../../../ig/docs/reference/CLI-TOOLS.md) · 🇮🇹 [it](../../../it/docs/reference/CLI-TOOLS.md) · 🇯🇵 [ja](../../../ja/docs/reference/CLI-TOOLS.md) · 🇬🇪 [ka](../../../ka/docs/reference/CLI-TOOLS.md) · 🇰🇭 [km](../../../km/docs/reference/CLI-TOOLS.md) · 🇮🇳 [kn](../../../kn/docs/reference/CLI-TOOLS.md) · 🇰🇷 [ko](../../../ko/docs/reference/CLI-TOOLS.md) · 🇱🇹 [lt](../../../lt/docs/reference/CLI-TOOLS.md) · 🇱🇻 [lv](../../../lv/docs/reference/CLI-TOOLS.md) · 🇮🇳 [ml](../../../ml/docs/reference/CLI-TOOLS.md) · 🇮🇳 [mr](../../../mr/docs/reference/CLI-TOOLS.md) · 🇲🇾 [ms](../../../ms/docs/reference/CLI-TOOLS.md) · 🇲🇹 [mt](../../../mt/docs/reference/CLI-TOOLS.md) · 🇲🇲 [my](../../../my/docs/reference/CLI-TOOLS.md) · 🇳🇵 [ne](../../../ne/docs/reference/CLI-TOOLS.md) · 🇳🇱 [nl](../../../nl/docs/reference/CLI-TOOLS.md) · 🇳🇴 [no](../../../no/docs/reference/CLI-TOOLS.md) · 🇮🇳 [or](../../../or/docs/reference/CLI-TOOLS.md) · 🇮🇳 [pa](../../../pa/docs/reference/CLI-TOOLS.md) · 🇵🇭 [phi](../../../phi/docs/reference/CLI-TOOLS.md) · 🇵🇱 [pl](../../../pl/docs/reference/CLI-TOOLS.md) · 🇵🇹 [pt](../../../pt/docs/reference/CLI-TOOLS.md) · 🇧🇷 [pt-BR](../../../pt-BR/docs/reference/CLI-TOOLS.md) · 🇷🇴 [ro](../../../ro/docs/reference/CLI-TOOLS.md) · 🇷🇺 [ru](../../../ru/docs/reference/CLI-TOOLS.md) · 🇱🇰 [si](../../../si/docs/reference/CLI-TOOLS.md) · 🇸🇰 [sk](../../../sk/docs/reference/CLI-TOOLS.md) · 🇸🇮 [sl](../../../sl/docs/reference/CLI-TOOLS.md) · 🇷🇸 [sr](../../../sr/docs/reference/CLI-TOOLS.md) · 🇸🇪 [sv](../../../sv/docs/reference/CLI-TOOLS.md) · 🇰🇪 [sw](../../../sw/docs/reference/CLI-TOOLS.md) · 🇮🇳 [ta](../../../ta/docs/reference/CLI-TOOLS.md) · 🇮🇳 [te](../../../te/docs/reference/CLI-TOOLS.md) · 🇹🇭 [th](../../../th/docs/reference/CLI-TOOLS.md) · 🇹🇷 [tr](../../../tr/docs/reference/CLI-TOOLS.md) · 🇺🇦 [uk-UA](../../../uk-UA/docs/reference/CLI-TOOLS.md) · 🇵🇰 [ur](../../../ur/docs/reference/CLI-TOOLS.md) · 🇺🇿 [uz](../../../uz/docs/reference/CLI-TOOLS.md) · 🇻🇳 [vi](../../../vi/docs/reference/CLI-TOOLS.md) · 🇳🇬 [yo](../../../yo/docs/reference/CLI-TOOLS.md) · 🇨🇳 [zh-CN](../../../zh-CN/docs/reference/CLI-TOOLS.md) · 🇹🇼 [zh-TW](../../../zh-TW/docs/reference/CLI-TOOLS.md)
-
----
+🌐 **Languages:** 🇺🇸 [English](../../../../reference/CLI-TOOLS.md) · 🇪🇹 [am](../../../am/docs/reference/CLI-TOOLS.md) · 🇸🇦 [ar](../../../ar/docs/reference/CLI-TOOLS.md) · 🇦🇿 [az](../../../az/docs/reference/CLI-TOOLS.md) · 🇧🇬 [bg](../../../bg/docs/reference/CLI-TOOLS.md) · 🇧🇩 [bn](../../../bn/docs/reference/CLI-TOOLS.md) · 🇧🇦 [bs](../../../bs/docs/reference/CLI-TOOLS.md) · 🇨🇿 [cs](../../../cs/docs/reference/CLI-TOOLS.md) · 🇩🇰 [da](../../../da/docs/reference/CLI-TOOLS.md) · 🇩🇪 [de](../../../de/docs/reference/CLI-TOOLS.md) · 🇬🇷 [el](../../../el/docs/reference/CLI-TOOLS.md) · 🇪🇸 [es](../../../es/docs/reference/CLI-TOOLS.md) · 🇮🇷 [fa](../../../fa/docs/reference/CLI-TOOLS.md) · 🇫🇮 [fi](../../../fi/docs/reference/CLI-TOOLS.md) · 🇫🇷 [fr](../../../fr/docs/reference/CLI-TOOLS.md) · 🇮🇪 [ga](../../../ga/docs/reference/CLI-TOOLS.md) · 🇮🇳 [gu](../../../gu/docs/reference/CLI-TOOLS.md) · 🇳🇬 [ha](../../../ha/docs/reference/CLI-TOOLS.md) · 🇮🇱 [he](../../../he/docs/reference/CLI-TOOLS.md) · 🇮🇳 [hi](../../../hi/docs/reference/CLI-TOOLS.md) · 🇭🇷 [hr](../../../hr/docs/reference/CLI-TOOLS.md) · 🇭🇺 [hu](../../../hu/docs/reference/CLI-TOOLS.md) · 🇦🇲 [hy](../../../hy/docs/reference/CLI-TOOLS.md) · 🇮🇩 [id](../../../id/docs/reference/CLI-TOOLS.md) · 🇳🇬 [ig](../../../ig/docs/reference/CLI-TOOLS.md) · 🇮🇹 [it](../../../it/docs/reference/CLI-TOOLS.md) · 🇯🇵 [ja](../../../ja/docs/reference/CLI-TOOLS.md) · 🇬🇪 [ka](../../../ka/docs/reference/CLI-TOOLS.md) · 🇰🇭 [km](../../../km/docs/reference/CLI-TOOLS.md) · 🇮🇳 [kn](../../../kn/docs/reference/CLI-TOOLS.md) · 🇰🇷 [ko](../../../ko/docs/reference/CLI-TOOLS.md) · 🇱🇹 [lt](../../../lt/docs/reference/CLI-TOOLS.md) · 🇱🇻 [lv](../../../lv/docs/reference/CLI-TOOLS.md) · 🇮🇳 [ml](../../../ml/docs/reference/CLI-TOOLS.md) · 🇮🇳 [mr](../../../mr/docs/reference/CLI-TOOLS.md) · 🇲🇾 [ms](../../../ms/docs/reference/CLI-TOOLS.md) · 🇲🇹 [mt](../../../mt/docs/reference/CLI-TOOLS.md) · 🇲🇲 [my](../../../my/docs/reference/CLI-TOOLS.md) · 🇳🇵 [ne](../../../ne/docs/reference/CLI-TOOLS.md) · 🇳🇱 [nl](../../../nl/docs/reference/CLI-TOOLS.md) · 🇳🇴 [no](../../../no/docs/reference/CLI-TOOLS.md) · 🇮🇳 [or](../../../or/docs/reference/CLI-TOOLS.md) · 🇮🇳 [pa](../../../pa/docs/reference/CLI-TOOLS.md) · 🇵🇭 [phi](../../../phi/docs/reference/CLI-TOOLS.md) · 🇵🇱 [pl](../../../pl/docs/reference/CLI-TOOLS.md) · 🇵🇹 [pt](../../../pt/docs/reference/CLI-TOOLS.md) · 🇧🇷 [pt-BR](../../../pt-BR/docs/reference/CLI-TOOLS.md) · 🇷🇴 [ro](../../../ro/docs/reference/CLI-TOOLS.md) · 🇷🇺 [ru](../../../ru/docs/reference/CLI-TOOLS.md) · 🇱🇰 [si](../../../si/docs/reference/CLI-TOOLS.md) · 🇸🇰 [sk](../../../sk/docs/reference/CLI-TOOLS.md) · 🇸🇮 [sl](../../../sl/docs/reference/CLI-TOOLS.md) · 🇷🇸 [sr](../../../sr/docs/reference/CLI-TOOLS.md) · 🇸🇪 [sv](../../../sv/docs/reference/CLI-TOOLS.md) · 🇰🇪 [sw](../../../sw/docs/reference/CLI-TOOLS.md) · 🇮🇳 [ta](../../../ta/docs/reference/CLI-TOOLS.md) · 🇮🇳 [te](../../../te/docs/reference/CLI-TOOLS.md) · 🇹🇭 [th](../../../th/docs/reference/CLI-TOOLS.md) · 🇹🇷 [tr](../../../tr/docs/reference/CLI-TOOLS.md) · 🇺🇦 [uk-UA](../../../uk-UA/docs/reference/CLI-TOOLS.md) · 🇵🇰 [ur](../../../ur/docs/reference/CLI-TOOLS.md) · 🇺🇿 [uz](../../../uz/docs/reference/CLI-TOOLS.md) · 🇻🇳 [vi](../../../vi/docs/reference/CLI-TOOLS.md) · 🇳🇬 [yo](../../../yo/docs/reference/CLI-TOOLS.md) · 🇨🇳 [zh-CN](../../../zh-CN/docs/reference/CLI-TOOLS.md) · 🇹🇼 [zh-TW](../../../zh-TW/docs/reference/CLI-TOOLS.md)
 
 ---
-
-title: "CLI tööriistad — OmniRoute"
-version: 3.8.50
-lastUpdated: 2026-08-23
----
-
-# CLI tööriistad — OmniRoute
 
 Viimati uuendatud: 2026-08-23
 
-OmniRoute integreerub kolme kategooria CLI tööriistadega, mis paiknevad kolmel eraldi juhtpaneeli lehel:
+OmniRoute integreerub kolme kategooria CLI tööriistadega, mis on jagatud kolmele spetsiaalsele armatuurlaua lehele:
 
-| Leht           | marsruut                | kontseptsioon                                                                    | arv          |
-| -------------- | ----------------------- | -------------------------------------------------------------------------------- | ------------ |
-| **CLI Code's** | `/dashboard/cli-code`   | Arendustööriistad, mis suunavad OmniRoute'i (Klient → CLI → OmniRoute → Pakkuja) | 26           |
-| **CLI Agents** | `/dashboard/cli-agents` | Autonoomsed agendid, mis suunavad OmniRoute'i (sama vool, laiem ulatus)          | 10           |
-| **ACP Agents** | `/dashboard/acp-agents` | CLI'd, mida OmniRoute käivitab taustal läbi stdio/ACP (vastupidine vool)         | vt registris |
+| Lehekülg        | Marsruut                | Kontseptsioon                                                                         | Count           |
+| --------------- | ----------------------- | ------------------------------------------------------------------------------------- | --------------- |
+| **CLI koodid**  | `/dashboard/cli-code`   | Kodeerimistööriistad, millele osutate OmniRoute (kliendi → CLI → OmniRoute → pakkuja) | 26              |
+| **CLI agendid** | `/dashboard/cli-agents` | Autonoomsed agendid, millele osutate OmniRoute (sama voog, laiem ulatus)              | 11              |
+| **ACP agendid** | `/dashboard/acp-agents` | CLIs et OmniRoute sünnib taustaprogrammina stdio/ACP (vastuvoolu) kaudu               | vaata registrit |
 
-Vanu marsruute suunatakse edasi 308 kaudu: `/dashboard/cli-tools` → `/dashboard/cli-code`, `/dashboard/agents` → `/dashboard/acp-agents`.
+Pärandmarsruudid suunavad ümber 308 kaudu: `/dashboard/cli-tools` → `/dashboard/cli-code`, `/dashboard/agents` → `/dashboard/acp-agents`.
 
 ---
 
 ## Kuidas see töötab
 
 ```
-CLI Code's / CLI Agents (tarbimise vool):
+CLI-koodid / CLI-agendid (tarbimisvoog):
 Claude / Codex / OpenCode / Cline / KiloCode / Continue / Hermes Agent / Goose / ...
            │
-           ▼  (kõik suunavad OmniRoute'i)
+           ▼  (kõik suunatakse OmniRoute'i)
     http://YOUR_SERVER:20128/v1
            │
-           ▼  (OmniRoute suunab õige pakkujani)
+           ▼  (OmniRoute suunab päringu õigele pakkujale)
     Anthropic / OpenAI / Gemini / DeepSeek / Groq / Mistral / ...
 
-ACP Agents (vastupidine käivitamise vool):
-    Kliendi päring → OmniRoute → käivitab CLI läbi stdio/ACP → vastus
+ACP-agendid (vastupidine käivitusvoog):
+    Kliendi päring → OmniRoute → käivitab CLI stdio/ACP kaudu → vastus
 ```
 
 **Eelised:**
 
-- Üks API võti kõigi tööriistade haldamiseks
-- Kulude jälgimine kõigi CLI-de üle juhtpaneelil
-- Mudeli vahetamine ilma iga tööriista uuesti konfigureerimata
-- Töötab kohalikult ja eemalserveritel (VPS, Docker, Akamai, Cloudflare Tunnel)
+- Üks API-võti kõigi tööriistade haldamiseks
+- Kõigi CLI-de kulude jälgimine töölaual
+- Mudelite vahetamine ilma iga tööriista ümber seadistamata
+- Töötab nii kohalikult kui ka kaugserverites (VPS, Docker, Akamai, Cloudflare Tunnel)
 
 ---
 
-## Automaatne konfigureerimine `setup-*` abil
+## Automaatne konfigureerimine `setup-*`
 
-Teil ei ole vaja iga tööriista konfiguratsiooni käsitsi kirjutada. OmniRoute tarnib igale toetatud CLI-le `setup-*`
-käsu, mis loeb töötavast OmniRoute'ist (kohalikust või eemalisest) **reaalse** mudelikataloogi ja kirjutab tööriista enda konfiguratsiooni teie masinas:
+Te ei pea iga tööriista konfiguratsiooni käsitsi kirjutama. OmniRoute saadab toetatud CLI kohta `setup-*` käsu, mis loeb** elada** mudelikataloogi töötavast OmniRoute (kohalikust või kaugjuhtimispuldist) ja kirjutab teie masinasse tööriista enda konfiguratsiooni:
 
 ```bash
 omniroute setup-codex        omniroute setup-claude       omniroute setup-opencode
 omniroute setup-cline        omniroute setup-kilo         omniroute setup-continue
 omniroute setup-cursor       omniroute setup-roo          omniroute setup-crush
 omniroute setup-goose        omniroute setup-qwen         omniroute setup-aider
-omniroute setup-5dive
+omniroute setup-5dive        omniroute setup-zed
+omniroute setup-whycodes
 ```
 
-Igaüks aktsepteerib `--remote <url> --api-key <key>` (konfigureerib kohaliku tööriista eemalset OmniRoute'i kasutades), `--dry-run` (eelvaatlus kirjutamata) ja `--port`. Tööriistad, millel pole automaatset mudeli avastamist (Cline, Kilo, Roo, Goose, Aider, Qwen, 5dive) aktsepteerivad
-`--model <id>` (ja `--yes` mitte-interaktiivsete käivituste jaoks). `setup-5dive` on ainus
-retsept, mis ei kirjuta `$HOME` alla: see konfigureerib 5dive agendi ringkonna, kirjutades juuri kuuluv autentimisprofiili ringkonna hostile, seega see käivitab uuesti läbi `sudo`l ja tal puudub oma eemalrežiim. Õige keskkonnaga CLI käivitamiseks
-ja konfiguratsiooni kirjutamata jätmiseks kasutage üldist
-`omniroute run <target>` käivitajat (claude, codex, aider, goose, opencode, qwen,
-gemini — sihtmärgid ja aliased pärinevad `bin/cli/cli-manifest.mjs`st); vanu
-tööriistapõhiseid käivitajaid `omniroute launch` (Claude Code) ja `omniroute launch-codex`
-(Codex) jäävad kättesaadavaks. Gemini CLI on ainult käivitatav: see on `omniroute run`
-siht, kuid tal puudub `setup-*`/`configure` retsept.
+Kõik aktsepteerivad `--remote <url> --api-key <key>` (kohaliku tööriista seadistamine kaug- OmniRoute vastu), `--dry-run` (eelvaade ilma kirjutamata) ja `--port`. Ilma mudeli automaattuvastuseta tööriistad (Cline, Kilo, Roo, Goose, Aider, Qwen, 5dive, WhyCodes) võtavad `--model <id>` (ja `--yes` mitteinteraktiivsete jooksude jaoks). `setup-5dive` on üks retsept, mis ei kirjuta `$HOME` alla: see konfigureerib 5dive'i agendipargi, kirjutades masinapargi hostile juuromaniku autentimisprofiili, nii et see käivitab uuesti `sudo` kaudu ja sellel pole oma kaugrežiimi. Kui soovite käivitada CLI mille env on sisestatud õige ja konfiguratsiooni pole üldse kirjutatud, kasutage üldist `omniroute run <target>` käivitajat (claude, codex, aider, goose, opencode, qwen, gemini, whycodes – sihtmärgid ja varjunimed pärinevad `bin/cli/cli-manifest.mjs`); pärand tööriistapõhised kanderaketid `omniroute launch` (Claude Code) ja `omniroute launch-codex` (Codex) jäävad kättesaadavaks. Gemini CLI on ainult käivitamine: see on `omniroute run` sihtmärk, kuid sellel pole `setup-*`/`configure` retsepti.
 
-> **Täielik viide:** peamine tabel — mida iga käsk kirjutab, iga lipp,
-> kohalik vs eemalne, ja millised tööriistad soovivad `/v1` järelsiitingut — asub
-> **[CLI integratsioonid](../guides/CLI-INTEGRATIONS.md)**.
+> **Täielik viide:** põhitabel – mida iga käsk kirjutab, iga lipp, kohalik vs kaugjuhtimispult ja millised tööriistad soovivad `/v1` järelliidet – asub** [CLI integratsioonid](../guides/CLI-INTEGRATIONS.md)** .
 
-### Nende käivitamine konteineri sees
+### Nende kasutamine konteineris
 
-`setup-*` käsk, mida käivitatakse OmniRoute konteineri sees, kirjutab
-konteineri enda koju, mida ükski hosti CLI ei loe ja mis kaob koos
-konteineriga. OmniRoute tuvastab selle ja väljub koodiga `2 juhistega, mitte kirjutades. Toetatakse kahte edasiminemise viisi — installige CLI hostil ja
-`omniroute connect`konteineriga, või bind-mountige konfiguratsioonikataloogid ja seadke`CLI_CONFIG_HOME`(compose`host`profiil). Iga`setup-*`käsk, pluss`omniroute configure`ja`omniroute config set`, aktsepteerib
-`--allow-container-write`kui tegelikult soovisite konfigureerida konteineri enda CLI-sid;`OMNIROUTE_ALLOW_CONTAINER_CONFIG_WRITE=true` teeb sama serveri jaoks. Vaadake
-[Dockeri juhend → Host CLI tööriistade konfigureerimine](../guides/DOCKER_GUIDE.md#configuring-host-cli-tools-when-omniroute-runs-in-docker).
+OmniRoute konteineris käivitatud `setup-*` käsk kirjutab konteineri enda koju, mida ükski host CLI ei loe ja mis kaob koos konteineriga. OmniRoute tuvastab selle ja väljub `2` koos juhistega, mitte kirjutades. Kaks toetatud teed – installige CLI hostile ja `omniroute connect` konteinerisse või ühendage konfiguratsioonikataloogid ja määrake `CLI_CONFIG_HOME` ( `host` koostamise profiil). Iga `setup-*` käsk, pluss `omniroute configure` ja `omniroute config set`, aktsepteerib `--allow-container-write` konteineri enda CLIs seadistamisel, mida sa tegelikult mõtlesid; `OMNIROUTE_ALLOW_CONTAINER_CONFIG_WRITE=true` teeb sama serveri jaoks. Vaadake [Docker juhendit → Hosti CLI tööriistade konfigureerimine](../guides/DOCKER_GUIDE.md#configuring-host-cli-tools-when-omniroute-runs-in-docker).
 
-Juhtpaneeli **rakenduspunkt** (`POST /api/cli-tools/apply`) kehtestab sama kaitse:
-konteineris vastab kirjutamine, mille sihtmärk ei ole hostilt bind-mounted, vastusega **`422`** koos `containerEphemeralTarget: true`, turvalise veatekstiga ja — tööriistade jaoks, millel on hosti retsept (claude, codex, opencode, cline,
-kilo, continue) — `hostSetupCommand` (nt. `omniroute setup-opencode`), mida tuleb käivitada
-hostil selle asemel; midagi ei kirjuta. `dryRun: true` töötab jätkuvalt konteineri režiimis ja tagastab genereeritud sisu + sihtkoha ilma ketta puudutamata, nii et
-saate eelvaadata juhtpaneelilt ja rakendada hostil. See käitumine on
-tahtlik ja regressioonikaitstud läbi
-`tests/unit/api/cli-tools/apply-container-guard.test.ts` — ärge "parandage" 422
-kaitset eemaldades.
+Armatuurlaua oma** rakenda lõpp-punkti** (`POST /api/cli-tools/apply`) rakendab sama kaitset: konteineris vastab kiri, mille sihtmärk ei ole hostist seotud**`422`** koos `containerEphemeralTarget: true`, ohutu veatekst ja — hostiretseptiga tööriistade puhul (claude, codex, opencode, cline, kilo, Jätka) — `hostSetupCommand` (nt `omniroute setup-opencode`), mis töötab selle asemel hostis; pole midagi kirjas. `dryRun: true` töötab konteinerrežiimis ja tagastab redigeeritud eelvaate + sihttee ilma ketast puudutamata. Eelvaate sisu ei ole kopeerimiseks või importimiseks mandaati kandev konfiguratsioon. Rakendage hosti algsete tool/base URL/API key/model sisenditega või kasutage näidatud hostipoolse häälestuskäsku. Eelvaate päise ja lepingu taotlemise kohta vaadake jaotist [CLI konfiguratsiooni turvalisus](../security/CLI-CONFIGURATION.md). Selline käitumine on tahtlik ja `tests/unit/api/cli-tools/apply-container-guard.test.ts` kaitseb regressiooni eest – ärge kunagi "parandage" 422 kaitset eemaldades.
 
 ---
 
-## Tõe allikas
+## Tõeallikas
 
-Ühtne kataloog asub `src/shared/constants/cliTools.ts` failis kujul `CLI_TOOLS: Record<string, CliCatalogEntry>`.
+Ühtne kataloog asub failis `src/shared/constants/cliTools.ts` kujul `CLI_TOOLS: Record<string, CliCatalogEntry>`.
 
-Igal sissekandel on järgmised väljad (määratletud failis `src/shared/schemas/cliCatalog.ts`):
+Igal kirjel on järgmised väljad (määratletud failis `src/shared/schemas/cliCatalog.ts`):
 
 | Väli                                            | Tüüp                                                         | Kirjeldus                                                  |
 | ----------------------------------------------- | ------------------------------------------------------------ | ---------------------------------------------------------- |
 | `category`                                      | `"code" \| "agent"`                                          | Millisel lehel tööriist kuvatakse                          |
 | `vendor`                                        | `string`                                                     | Tööriista päritolu ("Anthropic", "OSS (P. Gauthier)")      |
-| `acpSpawnable`                                  | `boolean`                                                    | Kasutatav ka ACP agendina (näidatakse märgis)              |
-| `baseUrlSupport`                                | `"full" \| "partial" \| "none"`                              | Kohandatud otsapõhja toetuse tase. `"none"` = MITM backlog |
-| `configType`                                    | `"env" \| "custom" \| "guide" \| "custom-builder" \| "mitm"` | Konfiguratsioonimehhanism                                  |
-| `id`, `name`, `color`, `description`, `docsUrl` | standard                                                     | Põhilised kuvamisväljad                                    |
+| `acpSpawnable`                                  | `boolean`                                                    | Kasutatav ka ACP Agent-ina (kuvatakse märk)                |
+| `baseUrlSupport`                                | `"full" \| "partial" \| "none"`                              | Kohandatud lõpp-punkti toe tase. `"none"` = MITM-i tööjärg |
+| `configType`                                    | `"env" \| "custom" \| "guide" \| "custom-builder" \| "mitm"` | Seadistusmehhanism                                         |
+| `id`, `name`, `color`, `description`, `docsUrl` | standard                                                     | Peamised kuvamisväljad                                     |
 
-Sissekanded, mille `baseUrlSupport: "none"`, **ei kuvata** paneelide lehtedel – need on registreeritud MITM backlogis plaani 11 jaoks (vaata `_tasks/features-v3.8.6/refactorpages/_orchestration/_plan11-mitm-backlog.md`).
+Kirjeid, millel on `baseUrlSupport: "none"`, juhtpaneeli lehtedel **ei kuvata** — need on registreeritud plaani 11 MITM-i tööjärjekorras (vt `_tasks/features-v3.8.6/refactorpages/_orchestration/_plan11-mitm-backlog.md`).
 
-### Võimekuse tasemed (katalogiseeritud × tuvastatav × konfigureeritav × käivitatav)
+### Võimekustasemed (kataloogitud × tuvastatav × seadistatav × käivitatav)
 
-Mitte iga katalogiseeritud tööriist ei ole tuvastatav, konfigureeritav ega käivitatav. Igal tasemel on üks
-allikas, ja erinevuste test hoiab neid ühtlasena:
+Mitte iga kataloogitud tööriist pole tuvastatav, seadistatav või käivitatav. Igal tasemel on üks
+määratlev allikas ning kõrvalekalletest kontrolliv test hoiab need sünkroonis:
 
-| Tase                 | Tähendus                                                                            | Deklareeritud failis                                               |
-| -------------------- | ----------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
-| **Katalogiseeritud** | Ilmub paneeli kataloogi (nimi, tarnija, dokumendid, konfiguratsiooni tüüp)          | `src/shared/constants/cliTools.ts` (`CLI_TOOLS`)                   |
-| **Tuvastatav**       | Binaari/konfiguratsiooni tuvastamine, tervisekontrollid, konfiguratsiooni teed      | `src/shared/services/cliRuntime.ts` (`CLI_TOOLS` jooksva kataloog) |
-| **Konfigureeritav**  | Toetatud `omniroute configure <cli>` kaudu (seadistusretsept olemas)                | `bin/cli/cli-manifest.mjs` (`configure: true`)                     |
-| **Käivitatav**       | Toetatud `omniroute run <target>` kaudu (keskkonna/argumendi süstimine määratletud) | `bin/cli/cli-manifest.mjs` (`run: true`)                           |
+| Tase             | Tähendus                                                                                    | Määratletud failis                                               |
+| ---------------- | ------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
+| **Kataloogitud** | Kuvatakse juhtpaneeli kataloogis (nimi, tarnija, dokumentatsioon, seadistuse tüüp)          | `src/shared/constants/cliTools.ts` (`CLI_TOOLS`)                 |
+| **Tuvastatav**   | Binaarfaili/seadistuse tuvastamine, tervisekontrollid, seadistuste asukohad                 | `src/shared/services/cliRuntime.ts` (`CLI_TOOLS` käituskataloog) |
+| **Seadistatav**  | Toetatud käsuga `omniroute configure <cli>` (seadistusretsept on olemas)                    | `bin/cli/cli-manifest.mjs` (`configure: true`)                   |
+| **Käivitatav**   | Toetatud käsuga `omniroute run <target>` (keskkonna/argumentide sisestamine on määratletud) | `bin/cli/cli-manifest.mjs` (`run: true`)                         |
 
-`bin/cli/cli-manifest.mjs` on kanoniline käivitatavate programmide manifest CLI käskude
-pindade jaoks: `run`, `configure` ja kesta täitmise lõpetajad kõik tuletavad oma
-sihtnimekirjad, aliase lahenduse (näiteks `kilocode`/`kilo-code`/`kilo_cli` → `kilo`)
-ja `--model` lipu juhtmestiku sellest. Erinevuste valvur
-`tests/unit/cli/cli-manifest-drift.test.ts` kinnitab, et manifest, jooksv kataloog,
-kasutajaliidese kataloog ja iga tarbija pind jäävad sünkrooni – kui üks siht lisatakse
-ühele pinnale, ilma teisteta, siis see katset ei läbi ja ei teki vaikset erinevust.
+`bin/cli/cli-manifest.mjs` on CLI käsuliideste kanooniline täitmismanifest:
+`run`, `configure` ja käsurea automaatse lõpetamise generaatorid tuletavad sellest kõik oma
+sihtloendid, aliaste lahendamise (näiteks `kilocode`/`kilo-code`/`kilo_cli` → `kilo`)
+ning lipu `--model` sidumise. Kõrvalekallete kontroll
+`tests/unit/cli/cli-manifest-drift.test.ts` kinnitab, et manifest, käituskataloog,
+kasutajaliidese kataloog ja kõik tarbijaliidesed püsivad sünkroonis — ühele
+liidesele ilma teisteta lisatud siht põhjustab testikomplekti nurjumise, mitte märkamatu kõrvalekalde.
+
+## 1. CLI koodi kataloog (27 tööriista)
+
+Kõik `/dashboard/cli-code` kuvatavad tööriistad. Need, millel on `baseUrlSupport: none` ühendatakse kohandatud baasi URL asemel läbi MITM või käsitsi juhiku:
+
+| id                | nimi                        | müüja                   | baseUrlSupport | configType            | acpSpawnable |
+| ----------------- | --------------------------- | ----------------------- | -------------- | --------------------- | ------------ |
+| claude            | Claude kood                 | Anthropic               | täis           | env                   | tõsi         |
+| koodeks           | OpenAI Codex CLI            | OpenAI                  | täis           | kohandatud            | tõsi         |
+| zcode             | ZCode (GLM kodeerimisplaan) | Z.ai                    | mitte ühtegi   | kohandatud            | vale         |
+| kliin             | Cline                       | OSS (endine Claude Dev) | täis           | kohandatud            | tõsi         |
+| kilo              | Kilo kood                   | Kilo-Org                | täis           | kohandatud            | vale         |
+| roo               | Roo kood                    | Roo (OSS)               | täis           | juhend                | vale         |
+| jätka             | Jätka                       | jätka.dev               | täis           | juhend                | vale         |
+| abistaja          | Abimees                     | OSS (P. Gauthier)       | täis           | juhend                | tõsi         |
+| sepik             | ForgeCode                   | Antinoomia HQ           | täis           | kohandatud            | tõsi         |
+| jcode             | jcode                       | 1jehuang (OSS)          | täis           | kohandatud            | vale         |
+| deepseek-tui      | DeepSeek TUI                | Hunter Bown (OSS)       | täis           | kohandatud            | vale         |
+| koodvaal          | CodeWhale                   | hmbown (OSS)            | täis           | kohandatud            | vale         |
+| avatud kood       | OpenCode                    | Anomaalia (endine SST)  | täis           | juhend                | tõsi         |
+| droid             | Tehase droid                | Tehase AI               | osaline        | juhend                | vale         |
+| kaaspiloot        | GitHub Copilot CLI          | GitHub/MS               | täis           | kohandatud            | vale         |
+| kursor-klikk      | Cursor CLI                  | Suvaline sfäär          | osaline        | juhend                | tõsi         |
+| haises            | Lõhn                        | leonardcser (OSS)       | täis           | kohandatud            | vale         |
+| pi                | Pi (pi-kodeerimisagent)     | M. Zechner (OSS)        | täis           | kohandatud            | vale         |
+| grok-ehitama      | Grok Build                  | xAI                     | täis           | kohandatud            | vale         |
+| purustada         | Purustama                   | OSS (võlu)              | täis           | kohandatud            | vale         |
+| qwen              | Qwen kood                   | Alibaba                 | täis           | juhend                | tõsi         |
+| zed               | Zed                         | Zed Industries          | täis           | juhend                | vale         |
+| kursor            | Cursor                      | Suvaline sfäär          | mitte ühtegi   | juhend                | vale         |
+| antigravitatsioon | Antigravity                 | Google                  | mitte ühtegi   | mitm                  | vale         |
+| hermes            | Hermes                      | Nous Research           | mitte ühtegi   | juhend                | vale         |
+| kiro              | Kiro AI                     | Amazon                  | mitte ühtegi   | mitm                  | vale         |
+| kohandatud        | Kohandatud CLI              | —                       | täis           | eritellimusel ehitaja | vale         |
+
+`baseUrlSupport: "partial"` -ga tööriistad näitavad armatuurlaua kaardil märki "⚠ Base URL parcial".
+---
+
+## 2. CLI agentide kataloog (11 tööriista)
+
+`/dashboard/cli-agents` esinevad autonoomsed agendid:
+
+| id             | nimi          | müüja                    | baseUrlSupport | acpSpawnable |
+| -------------- | ------------- | ------------------------ | -------------- | ------------ |
+| hermes-agent   | Hermese agent | Nous Research            | täis           | vale         |
+| lahtine küünis | OpenClaw      | OSS (P. Steinberger)     | täis           | tõsi         |
+| hani           | Hani          | Plokk / Linux sihtasutus | täis           | tõsi         |
+| tõlk           | Avage Tõlk    | OSS                      | täis           | tõsi         |
+| lõime          | Warp AI       | Warp Inc.                | osaline        | tõsi         |
+| agent-tekk     | Agent Deck    | ashgoplani (OSS)         | täis           | vale         |
+| omp            | Oh mu Pi      | OSS                      | täis           | tõsi         |
+| letta          | Letta CLI     | Letta                    | täis           | vale         |
+| peamine agent  | Peaagent      | Esmane intellekt (OSS)   | täis           | vale         |
+| 5 sukelduda    | 5 sukelduda   | OSS (5 dive-ai)          | täis           | vale         |
+| miks koodid    | WhyCodes      | Miks korporatsioon       | täis           | vale         |
 
 ---
 
-## 1. CLI-koodi tööriistade kataloog (26 tööriista)
+## 3. ACP-agendid (/dashboard/acp-agents)
 
-Kõik tööriistad, mis ilmuvad `/dashboard/cli-code` kataloogis. Need, mille `baseUrlSupport: none` on, on ühendatud MITM-i või juhendamise kaudu, mitte kohandatud baseUrl-i abil:
-
-| id           | nimi                    | tarnija             | baseUrlSupport | configType     | acpSpawnable |
-| ------------ | ----------------------- | ------------------- | -------------- | -------------- | ------------ |
-| claude       | Claude Code             | Anthropic           | full           | env            | true         |
-| codex        | OpenAI Codex CLI        | OpenAI              | full           | custom         | true         |
-| zcode        | ZCode (GLM Coding Plan) | Z.ai                | none           | custom         | false        |
-| cline        | Cline                   | OSS (ex-Claude Dev) | full           | custom         | true         |
-| kilo         | Kilo Code               | Kilo-Org            | full           | custom         | false        |
-| roo          | Roo Code                | Roo (OSS)           | full           | guide          | false        |
-| continue     | Continue                | continue.dev        | full           | guide          | false        |
-| aider        | Aider                   | OSS (P. Gauthier)   | full           | guide          | true         |
-| forge        | ForgeCode               | Antinomy HQ         | full           | custom         | true         |
-| jcode        | jcode                   | 1jehuang (OSS)      | full           | custom         | false        |
-| deepseek-tui | DeepSeek TUI            | Hunter Bown (OSS)   | full           | custom         | false        |
-| codewhale    | CodeWhale               | Hmbown (OSS)        | full           | custom         | false        |
-| opencode     | OpenCode                | Anomaly (ex-SST)    | full           | guide          | true         |
-| droid        | Factory Droid           | Factory AI          | partial        | guide          | false        |
-| copilot      | GitHub Copilot CLI      | GitHub/MS           | full           | custom         | false        |
-| cursor-cli   | Cursor CLI              | Anysphere           | partial        | guide          | true         |
-| smelt        | Smelt                   | leonardcser (OSS)   | full           | custom         | false        |
-| pi           | Pi (pi-coding-agent)    | M. Zechner (OSS)    | full           | custom         | false        |
-| grok-build   | Grok Build              | xAI                 | full           | custom         | false        |
-| crush        | Crush                   | OSS (Charm)         | full           | custom         | false        |
-| qwen         | Qwen Code               | Alibaba             | full           | guide          | true         |
-| cursor       | Cursor                  | Anysphere           | none           | guide          | false        |
-| antigravity  | Antigravity             | Google              | none           | mitm           | false        |
-| hermes       | Hermes                  | Nous Research       | none           | guide          | false        |
-| kiro         | Kiro AI                 | Amazon              | none           | mitm           | false        |
-| custom       | Custom CLI              | —                   | full           | custom-builder | false        |
-
-Tööriistadel, mille `baseUrlSupport: "partial"` on, kuvatakse kaardil märgis "⚠ Base URL parcial".
-
-## 2. CLI-agentide kataloog (10 tööriista)
-
-Autonoomsed agentid, mis ilmuvad lehel `/dashboard/cli-agents`:
-
-| id           | name             | vendor                   | baseUrlSupport | acpSpawnable |
-| ------------ | ---------------- | ------------------------ | -------------- | ------------ |
-| hermes-agent | Hermes Agent     | Nous Research            | full           | false        |
-| openclaw     | OpenClaw         | OSS (P. Steinberger)     | full           | true         |
-| goose        | Goose            | Block / Linux Foundation | full           | true         |
-| interpreter  | Open Interpreter | OSS                      | full           | true         |
-| warp         | Warp AI          | Warp Inc.                | partial        | true         |
-| agent-deck   | Agent Deck       | asheshgoplani (OSS)      | full           | false        |
-| omp          | Oh My Pi         | OSS                      | full           | true         |
-| letta        | Letta CLI        | Letta                    | full           | false        |
-| prime-agent  | Prime Agent      | Prime Intellect (OSS)    | full           | false        |
-| 5dive        | 5dive            | OSS (5dive-ai)           | full           | false        |
+Sellel lehel (varem `/dashboard/agents`) kuvatakse CLI-d, mida OmniRoute saab stdio/ACP-protokolli kaudu taustatäitmismootoritena **käivitada**. Kataloogi hallatakse eraldi failis `src/lib/acp/registry.ts` ja see **ei ole** sama mis `CLI_TOOLS`.
 
 ---
 
-## 3. ACP-agentid (/dashboard/acp-agents)
+## 4. MITM-i ootenimekiri (juhtpaneelil ei kuvata)
 
-See leht (nimetatud ümber `/dashboard/agents`) näitab CLI-sid, mida OmniRoute saab **käivitada** stdio/ACP-protokolli kaudu taustal töötavate täitevmootoritena. Kataloogi hoitakse eraldi failis `src/lib/acp/registry.ts` ja see **ei ole** sama mis `CLI_TOOLS`.
+Järgmised CLI-d ei toeta natiivselt kohandatud baas-URL-i ja neid **ei ole loetletud** CLI Code'i ega CLI Agentsi lehtedel. Need on plaanis 11 MITM-i vahendamise kandidaadid:
 
----
+| CLI                 | Põhjus                                                                |
+| ------------------- | --------------------------------------------------------------------- |
+| windsurf            | BYOK on piiratud valitud Claude'i mudelite ning ettevõtte URL-i/loaga |
+| amp                 | Suletud ökosüsteem (Sourcegraph)                                      |
+| amazon-q / kiro-cli | AWS SSO autentimine, kohandatud URL puudub                            |
+| cowork              | Anthropic Desktop, seadistatav lõpp-punkt puudub                      |
 
-## 4. MITM tagaajamise nimekiri (dashboardil näidamata)
-
-Järgnevad CLI-d ei toeta kohandatud baas-URL-i loomulikult ja **ei ole loetletud** CLI Code'i ega CLI Agents lehtedel. Need on kandidaadid MITM-i püüdmiseks plaanis 11:
-
-| CLI                 | Põhjus                                                       |
-| ------------------- | ------------------------------------------------------------ |
-| windsurf            | BYOK piiratud valitud Claude mudelitega + ettevõtte URL/luba |
-| amp                 | Suletud ökosüsteem (Sourcegraph)                             |
-| amazon-q / kiro-cli | AWS SSO autentimine, kohandatud URL puudub                   |
-| cowork              | Anthropic Desktop, konfigureeritav lõpp-punkt puudub         |
-
-Täieliku ristviite jaoks vaata `_tasks/features-v3.8.6/refactorpages/_orchestration/_plan11-mitm-backlog.md`.
+Täielikku ristviidete loendit vaadake failist `_tasks/features-v3.8.6/refactorpages/_orchestration/_plan11-mitm-backlog.md`.
 
 ---
 
-## 5. Partiitehete tuvastamise API
+## 5. Pakktuvastuse API
 
-Kõik tööriistade tuvastamised koondatakse ühte lõpppunkti:
+Kõigi tööriistade tuvastamine koondatakse ühe lõpp-punkti kaudu:
 
 **`GET /api/cli-tools/all-statuses`**
 
-- Autentimine: `requireCliToolsAuth(request)` (sama mis teistel `/api/cli-tools/` marsruutidel)
+- Autentimine: `requireCliToolsAuth(request)` (sama nagu teistel `/api/cli-tools/` marsruutidel)
 - Tagastab: `Record<toolId, ToolBatchStatus>` (tüüp: `src/shared/types/cliBatchStatus.ts`)
-- Strateegia: `Promise.all` kõigi tööriistade üle, 5s aegpiir tööriista kohta
-- Vahemälu: mälus LRU, indekseeritud konfiguratsioonifaili `mtime` järgi. Vahemälu tühistatakse, kui muutub `mtime`. Lähtestatakse serveri taaskäivitamisel.
+- Strateegia: `Promise.all` kõigi tööriistade jaoks, iga tööriista ajalõpp 5 s
+- Vahemälu: mälusisene LRU, mis indekseeritakse konfiguratsioonifaili `mtime` järgi. Vahemälu tühistatakse, kui mtime muutub. Lähtestatakse serveri taaskäivitamisel.
 
 Vastuse struktuur tööriista kohta:
 
@@ -241,62 +211,64 @@ interface ToolBatchStatus {
     endpoint?: string | null;
     lastConfiguredAt?: string | null;
   };
-  error?: string; // puhastatud, ilma jadajälgedeta
+  error?: string; // puhastatud, pinu tagasijälgi pole
 }
 ```
 
-## 6. Seadistuste käsitlejad uutele tööriistadele
+---
 
-Uutel tööriistadel, mille `configType: "custom"`, on eraldi seadistuste API marsruudid:
+## 6. Uute tööriistade seadete töötlejad
 
-| Marsruut                                    | Tööriist                                                                     |
-| ------------------------------------------- | ---------------------------------------------------------------------------- |
-| `POST /api/cli-tools/forge-settings`        | ForgeCode (.forge.toml)                                                      |
-| `POST /api/cli-tools/jcode-settings`        | jcode (--base-url lipp)                                                      |
-| `POST /api/cli-tools/deepseek-tui-settings` | DeepSeek TUI (OPENAI_BASE_URL, aegunud)                                      |
-| `POST /api/cli-tools/codewhale-settings`    | CodeWhale (OPENAI_BASE_URL, primaarne + aegunud `~/.deepseek` sünkroonimine) |
-| `POST /api/cli-tools/smelt-settings`        | Smelt                                                                        |
-| `POST /api/cli-tools/pi-settings`           | Pi programmeerimisagent                                                      |
-| `POST /api/cli-tools/grok-build-settings`   | Grok Build (~/.grok/config.toml, `[model.omniroute]`)                        |
-| `POST /api/cli-tools/qwen-settings`         | Qwen Code (`~/.qwen/settings.json` + eraldi `. võti`)                        |
+Uutel tööriistadel, millel on `configType: "custom"`, on spetsiaalsed seadete API-marsruudid:
 
-Kõik marsruudid kasutavad veavastuste jaoks `sanitizeErrorMessage()` (Rang Reegel #12).
+| Marsruut                                    | Tööriist                                                                           |
+| ------------------------------------------- | ---------------------------------------------------------------------------------- |
+| `POST /api/cli-tools/forge-settings`        | ForgeCode (.forge.toml)                                                            |
+| `POST /api/cli-tools/jcode-settings`        | jcode (lipp --base-url)                                                            |
+| `POST /api/cli-tools/deepseek-tui-settings` | DeepSeek TUI (OPENAI_BASE_URL, pärandlahendus)                                     |
+| `POST /api/cli-tools/codewhale-settings`    | CodeWhale (OPENAI_BASE_URL, peamine + pärandkataloogi `~/.deepseek` sünkroonimine) |
+| `POST /api/cli-tools/smelt-settings`        | Smelt                                                                              |
+| `POST /api/cli-tools/pi-settings`           | Pi programmeerimisagent                                                            |
+| `POST /api/cli-tools/grok-build-settings`   | Grok Build (~/.grok/config.toml, `[model.omniroute]`)                              |
+| `POST /api/cli-tools/qwen-settings`         | Qwen Code (`~/.qwen/settings.json` + spetsiaalne `.env`-võti)                      |
+
+Kõik marsruudid kasutavad veavastuste jaoks funktsiooni `sanitizeErrorMessage()` (range reegel nr 12).
 
 ---
 
-## 7. Töölaudade lehtede arhitektuur
+## 7. Töölaualehtede arhitektuur
 
-### CLI Code (`/dashboard/cli-code`)
+### CLI-kood (`/dashboard/cli-code`)
 
 - `src/app/(dashboard)/dashboard/cli-code/page.tsx` — serverikomponent
-- `src/app/(dashboard)/dashboard/cli-code/CliCodePageClient.tsx` — kliendiruudustik
-- `src/app/(dashboard)/dashboard/cli-code/[id]/page.tsx` — tööriistade üksikasja leht
-- `src/app/(dashboard)/dashboard/cli-code/components/` — 12 spetsialiseeritud tööriistakaarti + `ToolDetailClient.tsx`
+- `src/app/(dashboard)/dashboard/cli-code/CliCodePageClient.tsx` — kliendipoolne ruudustik
+- `src/app/(dashboard)/dashboard/cli-code/[id]/page.tsx` — tööriista üksikasjade leht
+- `src/app/(dashboard)/dashboard/cli-code/components/` — 12 spetsiaalset tööriistakaarti + `ToolDetailClient.tsx`
 
-### CLI Agendid (`/dashboard/cli-agents`)
+### CLI-agendid (`/dashboard/cli-agents`)
 
 - `src/app/(dashboard)/dashboard/cli-agents/page.tsx` — serverikomponent
-- `src/app/(dashboard)/dashboard/cli-agents/CliAgentsPageClient.tsx` — kliendiruudustik
-- `src/app/(dashboard)/dashboard/cli-agents/[id]/page.tsx` — taaskasutab `ToolDetailClient`
+- `src/app/(dashboard)/dashboard/cli-agents/CliAgentsPageClient.tsx` — kliendipoolne ruudustik
+- `src/app/(dashboard)/dashboard/cli-agents/[id]/page.tsx` — taaskasutab komponenti `ToolDetailClient`
 
-### ACP Agendid (`/dashboard/acp-agents`)
+### ACP-agendid (`/dashboard/acp-agents`)
 
-- `src/app/(dashboard)/dashboard/acp-agents/page.tsx` — serverikomponent (teisaldatud `agents/` kaustast)
+- `src/app/(dashboard)/dashboard/acp-agents/page.tsx` — serverikomponent (teisaldatud kataloogist `agents/`)
 
-### Ühised kasutajaliidese komponendid (`src/shared/components/cli/`)
+### Jagatud kasutajaliidese komponendid (`src/shared/components/cli/`)
 
-| Fail                    | Eesmärk                                                |
-| ----------------------- | ------------------------------------------------------ |
-| `CliToolCard.tsx`       | Nutikas olekukaart (tuvastus + seadistus + lõpp-punkt) |
-| `CliConceptCard.tsx`    | Leheküljepõhine kontsepti selgituskaart                |
-| `CliComparisonCard.tsx` | Kolme veeru võrdlus erinevate CLI tüüpide vahel        |
-| `BaseUrlSelect.tsx`     | Lõpp-punkti rippmenüü (Kohalik/Pilv/Custom)            |
-| `ApiKeySelect.tsx`      | API võtme valija                                       |
-| `ManualConfigModal.tsx` | Kopeeritava seadistuskoodi fragmendi modaaldialoog     |
+| Fail                    | Otstarve                                                        |
+| ----------------------- | --------------------------------------------------------------- |
+| `CliToolCard.tsx`       | Nutikas olekukaart (tuvastamine + konfiguratsioon + lõpp-punkt) |
+| `CliConceptCard.tsx`    | Lehepõhine mõiste selgituskaart                                 |
+| `CliComparisonCard.tsx` | Kolmeveeruline CLI-tüüpide võrdlus                              |
+| `BaseUrlSelect.tsx`     | Lõpp-punkti rippmenüü (kohalik/pilv/kohandatud)                 |
+| `ApiKeySelect.tsx`      | API-võtme valija                                                |
+| `ManualConfigModal.tsx` | Kopeeritava konfiguratsioonikatkendi modaalaken                 |
 
-### Ühised konksud (`src/shared/hooks/cli/`)
+### Jagatud hook (`src/shared/hooks/cli/`)
 
-| Fail                      | Eesmärk                                                                     |
+| Fail                      | Otstarve                                                                    |
 | ------------------------- | --------------------------------------------------------------------------- |
 | `useToolBatchStatuses.ts` | Hangib `/api/cli-tools/all-statuses`, haldab laadimise/värskendamise olekut |
 
@@ -304,34 +276,34 @@ Kõik marsruudid kasutavad veavastuste jaoks `sanitizeErrorMessage()` (Rang Reeg
 
 ## 8. i18n
 
-Uued nimeruumid lisatud plaanis 14 F9:
+Plaanis 14 F9 lisatud uued nimeruumid:
 
-| Nimeruum    | Eesmärk                                                                                    |
-| ----------- | ------------------------------------------------------------------------------------------ |
-| `cliCommon` | Jagatud stringid (kaardipealdised, kontseptide/võrdluste tekstid, üksikasjalehe pealdised) |
-| `cliCode`   | CLI Code'i lehe stringid                                                                   |
-| `cliAgents` | CLI Agents lehe stringid                                                                   |
-| `acpAgents` | ACP Agents lehe stringid                                                                   |
+| Nimeruum    | Otstarve                                                                                    |
+| ----------- | ------------------------------------------------------------------------------------------- |
+| `cliCommon` | Jagatud tekstid (kaartide sildid, kontseptsioonide/võrdluste tekstid, üksikasjalehe sildid) |
+| `cliCode`   | CLI Code'i lehe tekstid                                                                     |
+| `cliAgents` | CLI Agentsi lehe tekstid                                                                    |
+| `acpAgents` | ACP Agentsi lehe tekstid                                                                    |
 
-Täielikud PT-BR ja EN tõlked on olemas. 39 muud keelevarianti kasutavad automaatselt EN-i tagasipöördumist nimeruumi taseme ühendamise kaudu `src/i18n/request.ts` failis.
+Täielikud PT-BR- ja EN-tõlked on olemas. Ülejäänud 39 lokaati kasutavad automaatselt EN-tõlkeid nimeruumitaseme liitmise kaudu failis `src/i18n/request.ts`.
 
 ---
 
-## 9. Kiire algustõus
+## 9. Kiirjuhend
 
-### 1. samm — Hankige OmniRoute API võti
+### Samm 1 — Hankige OmniRoute'i API-võti
 
-1. Avage `/dashboard/api-manager` → **Loo API võti**
-2. Andke sellele nimi (nt. `cli-cli-tools`) ja valige kõik õigused
-3. Kopeerige võti — seda on vaja iga alloleva CLI jaoks
+1. Avage `/dashboard/api-manager` → **Loo API-võti**
+2. Andke sellele nimi (nt `cli-tools`) ja valige kõik õigused
+3. Kopeerige võti — vajate seda iga alltoodud CLI jaoks
 
 > Teie võti näeb välja selline: `sk-xxxxxxxxxxxxxxxx-xxxxxxxxx`
 
 ---
 
-### 2. samm — Installige CLI tööriistad
+### Samm 2 — Installige CLI-tööriistad
 
-Kõik npmil põhinevad tööriistad nõuavad Node.js 22.22.2+ või 24.x versiooni:
+Kõik npm-il põhinevad tööriistad nõuavad Node.js-i versiooni 22.22.2+ või 24.x:
 
 ```bash
 # Claude Code (Anthropic)
@@ -352,7 +324,7 @@ npm install -g kilocode
 # Qwen Code
 npm install -g @qwen-code/qwen-code
 
-# Google Gemini CLI (käivitatav `omniroute run gemini` kaudu → /v1beta pind)
+# Google Gemini CLI (käivitatav käsuga `omniroute run gemini` → /v1beta-liides)
 npm install -g @google/gemini-cli
 
 # Aider
@@ -361,44 +333,44 @@ pip install aider-chat
 # Smelt
 cargo install smelt  # Rustil põhinev
 
-# Pi koodiagent
-# vaata installimiseks https://github.com/zechnerj/pi-coding-agent
+# Pi kodeerimisagent
+# installimiseks vaadake https://github.com/zechnerj/pi-coding-agent
 
 # jcode
-# vaata installimiseks https://github.com/1jehuang/jcode
+# installimiseks vaadake https://github.com/1jehuang/jcode
 ```
 
 ---
 
-### 3. samm — Konfigureerimine juhtpaneeli kaudu
+### Samm 3 — Seadistage juhtpaneeli kaudu
 
-1. Minge `http://localhost:20128/dashboard/cli-code`
-2. Leidke oma tööriist ruudust
-3. Klõpsake kaardil tööriista üksikasjalehe avamiseks
-4. Valige oma API võti ja baas-URL
-5. Klõpsake **Rakenda konfiguratsioon** või kopeerige käsitsi konfiguratsiooni lõik
+1. Minge aadressile `http://localhost:20128/dashboard/cli-code`
+2. Leidke ruudustikust oma tööriist
+3. Tööriista üksikasjalehe avamiseks klõpsake kaardil
+4. Valige oma API-võti ja baas-URL
+5. Klõpsake nuppu **Rakenda konfiguratsioon** või kopeerige käsitsi seadistamise koodilõik
 
 ---
 
-### 4. samm — Määrake globaalsed keskkonnamuutujad
+### Samm 4 — Määrake globaalsed keskkonnamuutujad
 
 ```bash
-# OmniRoute universaalne lõpp-punkt
+# OmniRoute'i universaalne lõpp-punkt
 export OPENAI_BASE_URL="http://localhost:20128/v1"
 export OPENAI_API_KEY="sk-your-omniroute-key"
 export ANTHROPIC_BASE_URL="http://localhost:20128"
 export ANTHROPIC_AUTH_TOKEN="sk-your-omniroute-key"
-# Gemini CLI loeb GOOGLE_GEMINI_BASE_URL JUURD (selle SDK lisab ise /v1beta/...)
+# Gemini CLI loeb GOOGLE_GEMINI_BASE_URL-i JUURTASEMEL (selle SDK lisab ise /v1beta/...)
 export GOOGLE_GEMINI_BASE_URL="http://localhost:20128"
 export GEMINI_API_KEY="sk-your-omniroute-key"
 ```
 
-> **Kaugserveri** jaoks asendage `localhost:20128` serveri IP-aadressi või domeeniga,
-> nt. `http://<teie-serveri-ip>:20128`.
+> **Kaugserveri** puhul asendage `localhost:20128` serveri IP-aadressi või domeeniga,
+> nt `http://<your-server-ip>:20128`.
 
 ---
 
-### 4. samm — Konfigureerige iga tööriist
+### Samm 4 — Seadistage iga tööriist
 
 #### Claude Code
 
@@ -414,17 +386,17 @@ mkdir -p ~/.claude && cat > ~/.claude/settings.json << EOF
 EOF
 ```
 
-Kasutage ühtset Anthropic väravat Claude Code'i jaoks. Ärge lisage siia `/v1` lõppu.
+Kasutage Claude Code'i jaoks ühtse Anthropicu lüüsi juuraadressi. Ärge lisage siin lõppu `/v1`.
 
-**Test:** `claude "tere"`
+**Test:** `claude "say hello"`
 
 ---
 
 #### OpenAI Codex
 
-Tänapäevane Codex (v0.137+) loeb ainult `~/.codex/config.toml` — vana
-`config.yaml` kuulub vanale npm CLI-le ja seda ignoreeritakse vaikselt. API
-võti jääb `OMNIROUTE_API_KEY` keskkonnamuutujasse (`env_key`), mitte kunagi
+Kaasaegne Codex (v0.137+) loeb ainult faili `~/.codex/config.toml` — vana
+`config.yaml` kuulub pärand-npm-CLI-le ja seda eiratakse vaikimisi. API-võti
+jääb keskkonnamuutujasse `OMNIROUTE_API_KEY` (`env_key`), mitte kunagi
 faili sisse:
 
 ```bash
@@ -442,7 +414,7 @@ export OMNIROUTE_API_KEY="sk-your-omniroute-key"
 
 Täielik viide (profiilid, `wire_api`, kontekstiaknad): [CODEX-CLI-CONFIGURATION.md](../guides/CODEX-CLI-CONFIGURATION.md).
 
-**Test:** `codex "kui palju on 2+2?"`
+**Test:** `codex "what is 2+2?"`
 
 ---
 
@@ -473,14 +445,13 @@ EOF
 
 **Test:** `opencode`
 
-> Kasutage `opencode run "teie käsk" --model omniroute/claude-sonnet-4-5-thinking --variant high`
-> mõtlemisvariantide saatmiseks.
+> Mõtlemisvariantide saatmiseks kasutage käsku `opencode run "your prompt" --model omniroute/claude-sonnet-4-5-thinking --variant high`.
 
 ---
 
 #### Cline (CLI või VS Code)
 
-**CLI režiim:**
+**CLI-režiim:**
 
 ```bash
 mkdir -p ~/.cline/data && cat > ~/.cline/data/globalState.json << EOF
@@ -492,22 +463,22 @@ mkdir -p ~/.cline/data && cat > ~/.cline/data/globalState.json << EOF
 EOF
 ```
 
-**VS Code režiim:**
-Cline laiendi sätted → API tarnija: `OpenAI Compatible` → Baas-URL: `http://localhost:20128/v1`
+**VS Code'i režiim:**
+Cline'i laienduse seaded → API pakkuja: `OpenAI Compatible` → Baas-URL: `http://localhost:20128/v1`
 
-Või kasutage OmniRoute juhtpaneeli → **CLI tööriistad → Cline → Rakenda konfiguratsioon**.
+Või kasutage OmniRoute'i juhtpaneeli → **CLI-tööriistad → Cline → Rakenda konfiguratsioon**.
 
 ---
 
 #### KiloCode (CLI või VS Code)
 
-**CLI režiim:**
+**CLI-režiim:**
 
 ```bash
 kilocode --api-base http://localhost:20128/v1 --api-key sk-your-omniroute-key
 ```
 
-**VS Code sätted:**
+**VS Code'i seaded:**
 
 ```json
 {
@@ -516,13 +487,13 @@ kilocode --api-base http://localhost:20128/v1 --api-key sk-your-omniroute-key
 }
 ```
 
-Või kasutage OmniRoute juhtpaneeli → **CLI tööriistad → KiloCode → Rakenda konfiguratsioon**.
+Või kasutage OmniRoute'i juhtpaneeli → **CLI-tööriistad → KiloCode → Rakenda konfiguratsioon**.
 
 ---
 
-#### Continue (VS Code laiend)
+#### Continue (VS Code'i laiendus)
 
-Muutke `~/.continue/config.yaml`:
+Muutke faili `~/.continue/config.yaml`:
 
 ```yaml
 models:
@@ -534,20 +505,20 @@ models:
     default: true
 ```
 
-Muutmise järel taaskäivitage VS Code.
+Pärast muutmist taaskäivitage VS Code.
 
 ---
 
 #### VS Code Insiders (`chatLanguageModels.json`)
 
-Kasutage seda siis, kui VS Code Insiders on konfigureeritud kohandatud lõpp-punktide mudelite jaoks ja soovite, et OmniRoute töötaks ilma kohandatud päise väljata.
+Kasutage seda juhul, kui VS Code Insiders on seadistatud kohandatud lõpp-punkti mudelite jaoks ja soovite, et OmniRoute töötaks ilma kohandatud päiseväljata.
 
 **Soovitatav asukoht:**
 
 - Linux: `~/.config/Code - Insiders/User/chatLanguageModels.json`
 - Windows: `%APPDATA%/Code - Insiders/User/chatLanguageModels.json`
 
-**Näide tokeniseeritud OmniRoute aliase kasutamisest:**
+**Näide tokeniseeritud OmniRoute'i aliase kasutamisest:**
 
 ```json
 [
@@ -571,218 +542,267 @@ Kasutage seda siis, kui VS Code Insiders on konfigureeritud kohandatud lõpp-pun
 
 **Märkused:**
 
-- Asendage `sk-your-omniroute-key` OmniRoute'is loodud API võtmega.
-- Väli `url` peaks osutama `/api/v1/vscode/{token}/chat/completions`.
-- Väli `modelsUrl` peaks osutama `/api/v1/vscode/{token}/models`.
-- Eelistage tavalist `/v1` + Bearer päise voogu, kui klient toetab kohandatud päiseid.
-- URL-sse manustatud tokenid on ühilduvuse tagamiseks ja võivad ilmuda redaktori logidesse või puhverserveri ajalukku.
+- Asendage `sk-your-omniroute-key` OmniRoute'is loodud API-võtmega.
+- Väli `url` peaks osutama aadressile `/api/v1/vscode/{token}/chat/completions`.
+- Väli `modelsUrl` peaks osutama aadressile `/api/v1/vscode/{token}/models`.
+- Kui klient toetab kohandatud päiseid, eelistage tavapärast `/v1` + Bearer-päise lahendust.
+- URL-i manustatud tokenid on ühilduvuse varulahendus ning võivad ilmuda redaktori logides või puhverserveri ajaloos.
 
 ---
 
 #### Kiro CLI (Amazon)
 
 ```bash
-# Logige sisse oma AWS/Kiro kontole:
+# Logige sisse oma AWS-i/Kiro kontole:
 kiro-cli login
 
-# CLI kasutab oma autentimist — OmniRoute'i pole vaja Kiro CLI enda jaoks taustana.
-# Kasutage kiro-cli koos OmniRoute'iga teiste tööriistade jaoks.
+# CLI kasutab oma autentimist — OmniRoute'i pole Kiro CLI enda taustsüsteemina vaja.
+# Kasutage kiro-cli-d koos OmniRoute'iga teiste tööriistade jaoks.
 kiro-cli status
 ```
 
-**Kiro IDE** töölauarakenduse jaoks kasutage OmniRoute'i pakutavat MITM lõpp-punkti
-all `/dashboard/cli-tools → Kiro`.
+**Kiro IDE** töölauarakenduse puhul kasutage OmniRoute'i pakutavat MITM-lõpp-punkti,
+mille leiate jaotisest `/dashboard/cli-tools → Kiro`.
 
 ---
 
-## 10. Sisemine OmniRoute käsureakasutajaliides
+## 10. Sisemine OmniRoute’i CLI
 
-Käivitatav `omniroute` pakub käske serveri elutsükli, seadistamise, diagnostika ja pakkuja haldamise jaoks. Sisenemispunkt: `bin/omniroute.mjs`.
+Binaarfail `omniroute` pakub käske serveri elutsükli, seadistamise, diagnostika ja teenusepakkujate haldamiseks. Sisenemispunkt: `bin/omniroute.mjs`.
 
 ```bash
-omniroute                              # Käivita server (vaikimisi port 20128)
-omniroute setup                        # Interaktiivne seadistusnõustaja
-omniroute doctor                       # Kontrolli konfiguratsiooni, andmebaasi, portide, töökeskkonna olekut
-omniroute providers list               # Konfigureeritud pakkujaühendused
+omniroute                              # Käivita server (vaikeport 20128)
+omniroute setup                        # Interaktiivne seadistusviisard
+omniroute doctor                       # Kontrolli konfiguratsiooni, andmebaasi, porte ja käituskeskkonda
+omniroute providers list               # Konfigureeritud teenusepakkujaühendused
 omniroute providers test-all           # Testi kõiki aktiivseid ühendusi
 omniroute reset-password               # Lähtesta administraatori parool
-omniroute logs                         # Voog pallipäevikuid
-omniroute health                       # Üksikasjalik tervisekontroll (katkestajad, vahemälu, mälu)
-omniroute --version                    # Prindi versioon
-omniroute --help                       # Näita kõiki käske
+omniroute logs                         # Voogedasta päringuloge
+omniroute health                       # Üksikasjalik seisund (kaitselülitid, vahemälu, mälu)
+omniroute --version                    # Kuva versioon
+omniroute --help                       # Kuva kõik käsud
 ```
 
-### Seadistamine ja initsialiseerimine
+### Seadistamine ja lähtestamine
 
-````bash
-omniroute setup                        # Interaktiivne seadistusnõustaja
-omniroute setup --non-interactive      # CI/automatiseerimise režiim (loeb keskkonnamuutujaid + lippe)
+```bash
+omniroute setup                        # Interaktiivne seadistusviisard
+omniroute setup --non-interactive      # CI-/automatiseerimisrežiim (loeb keskkonnamuutujaid ja lippe)
 omniroute setup --password '<value>'   # Määra administraatori parool otse
 omniroute setup --add-provider \
   --provider openai \
   --api-key '<value>' \
-  --test-provider                      # Lisa ja testi pakkuja ühes toimingus
-`
+  --test-provider                      # Lisa ja testi teenusepakkujat ühe toiminguga
+```
 
-Mitteinteraktiivse seadistuse jaoks tunnustatud keskkonnamuutujad:
+Mitteinteraktiivse seadistamise tunnustatud keskkonnamuutujad:
 
-| Muutuja             | Otstarve                                                         |
-| ------------------- | ---------------------------------------------------------------- |
-| `OMNIROUTE_API_KEY` | Pakkuja API võti (seotud lipuga `--api-key` läbi Commander `.env()`) |
-| `DATA_DIR`          | Kirjuta üle OmniRoute andmekataloog                               |
+| Muutuja             | Otstarve                                                                       |
+| ------------------- | ------------------------------------------------------------------------------ |
+| `OMNIROUTE_API_KEY` | Teenusepakkuja API-võti (seotud lipuga `--api-key` Commander-i `.env()` kaudu) |
+| `DATA_DIR`          | OmniRoute’i andmekataloogi alistamine                                          |
 
-Kõiki muid mitteinteraktiivseid sisendeid edastatakse lippudena, mitte keskkonnamuutujatena:
+Kõik muud mitteinteraktiivsed sisendid edastatakse lippudena, mitte keskkonnamuutujatena:
 `--password`, `--provider`, `--provider-name`, `--provider-base-url`, `--default-model`
-(vaata ülal `omniroute setup` valikuid).
+(vt ülal käsu `omniroute setup` suvandeid).
 
 ### Diagnostika
 
 ```bash
-omniroute doctor                       # Kontrolli konfiguratsiooni, andmebaasi, portide, töökeskkonna, mälu, elusolekut
+omniroute doctor                       # Kontrolli konfiguratsiooni, andmebaasi, porte, käituskeskkonda, mälu ja serveri aktiivsust
 omniroute doctor --json                # Masinloetav JSON
-omniroute doctor --no-liveness         # Jäta vahele HTTP tervisekontrolli päring
-omniroute doctor --host 0.0.0.0        # Kirjuta üle elusoleku host
-omniroute doctor --liveness-url <url>  # Tervise lõpp-punkti täielik URL kirjutus
-````
+omniroute doctor --no-liveness         # Jäta HTTP-seisundipäring vahele
+omniroute doctor --host 0.0.0.0        # Alista aktiivsuskontrolli host
+omniroute doctor --liveness-url <url>  # Alista seisundi lõpp-punkti täielik URL
+```
 
-Arst teostab need kontrollid: `Konfiguratsioon`, `Andmebaas`, `Salvestus/krüpteerimine`,
-`Portide kättesaadavus`, `Node töökeskkond`, `Natiivne käivitatav` (better-sqlite3),
-`Mälu` ja `Serveri elusolek`. See väljub mittenullväärtusega, kui mõni kontroll on `ebaõnnestunud`.
+Käsk doctor teeb järgmised kontrollid: `Config`, `Database`, `Storage/encryption`,
+`Port availability`, `Node runtime`, `Native binary` (better-sqlite3),
+`Memory` ja `Server liveness`. Kui mõne kontrolli tulemus on `fail`, lõpetab see nullist erineva väljumiskoodiga.
 
-### Pakkuja haldamine
+### Teenusepakkujate haldamine
 
 ```bash
-omniroute providers available                       # OmniRoute pakkuja kataloog
-omniroute providers available --search openai       # Filtreeri kataloogi id/nime/hüüdnime/kategooria järgi
-omniroute providers available --category api-key    # Filtreeri kategooria järgi (api-key, oauth, tasuta, ...)
+omniroute providers available                       # OmniRoute’i teenusepakkujate kataloog
+omniroute providers available --search openai       # Filtreeri kataloogi ID/nime/aliase/kategooria järgi
+omniroute providers available --category api-key    # Filtreeri kategooria järgi (api-key, oauth, free, ...)
 omniroute providers available --json                # Masinloetav JSON
 
-omniroute providers list                            # Konfigureeritud pakkujaühendused
+omniroute providers list                            # Konfigureeritud teenusepakkujaühendused
 omniroute providers list --json
 
-omniroute providers test <id|name>                  # Testi ühte konfigureeritud ühendust
+omniroute providers test <id|name>                  # Testi üht konfigureeritud ühendust
 omniroute providers test-all                        # Testi kõiki aktiivseid ühendusi
-omniroute providers validate                        # Ainult kohalik struktuurivalideerimine
+omniroute providers validate                        # Ainult lokaalne struktuuri valideerimine
 omniroute providers add <provider> --credential-env PROVIDER_KEY
 omniroute providers import ./providers.json --dry-run --json
-omniroute providers auth <provider>                 # Olemasolev OAuth voo kasutamine
+omniroute providers auth <provider>                 # Olemasolev OAuthi voog
 omniroute providers edit <id|name> --default-model <model>
 omniroute providers remove <id|name> --yes
 ```
 
-`providers add/import/auth/edit/remove` on API-esimene ja töötab seetõttu
-aktiivse kohaliku või kaugkonteksti vastu. Tunnistuste sisend peaks kasutama
-`--credential-stdin` või `--credential-env`; `--dry-run --json` teatab ainult
-redigeeritud kohalolu/kujundit. `providers available` loeb OmniRoute kataloogi;
-`providers list/test/test-all/validate` säilitavad oma kohaliku SQLite käitumise
-ja ei nõua serveri töölemasolu.
+Käsud `providers add/import/auth/edit/remove` kasutavad eeskätt API-t ja töötavad seetõttu
+aktiivse kohaliku või kaugkontekstiga. Identimisteabe sisestamiseks tuleks kasutada
+`--credential-stdin` või `--credential-env`; `--dry-run --json` esitab ainult
+redigeeritud olemasolu-/struktuuriteabe. `providers available` loeb OmniRoute’i kataloogi;
+`providers list/test/test-all/validate` säilitavad oma kohaliku SQLite’i käitumise ega
+nõua serveri töötamist.
+
+Kohandatud OpenAI-ga või Anthropicuga ühilduva sõlme puhul seo identimisteave
+käsu `omniroute nodes add` tagastatud sõlme ID-ga, kasutades käsku `omniroute keys add "$NODE_ID" --stdin`.
+See nõuab töötavat serverit ja aktiivse konteksti haldusautentimist.
+CLI kasutab päringut `POST /api/providers`, mis valideerib sõlme ja kopeerib selle lõpp-punkti
+sätted ühendusse. Puuduv sõlm, autoriseerimistõrge või kättesaamatu
+server tagastab vea ilma kohaliku varuidentimisteabeta.
+
+`nodes add --base-url` määrab sõlme lõpp-punkti; see erineb muutujas
+`OMNIROUTE_BASE_URL` olevast serveri aadressist. OpenAPI failide puhul kasuta käsku
+`omniroute openapi dump --format json --out ./openapi.json`; globaalne `--output`
+valib CLI kuvavormingu, mitte sihtfaili nime.
 
 ### Taastamine ja lähtestamine
 
 ```bash
-omniroute reset-password                # Lähtesta administraatori parool (samuti: omniroute-reset-password)
-omniroute reset-encrypted-columns       # Näita hoiatust + kuiv-testi krüpteeritud tunnuste lähtestamiseks
-omniroute reset-encrypted-columns --force  # tegelikult nulli krüpteeritud tundmed SQLite-is
+omniroute reset-password                # Lähtesta administraatori parool (ka: omniroute-reset-password)
+omniroute reset-encrypted-columns       # Kuva hoiatus + krüpteeritud identimisteabe lähtestamise proovikäivitus
+omniroute reset-encrypted-columns --force  # Määra krüpteeritud identimisteabe väärtuseks SQLite’is tegelikult null
 ```
 
-### Tunnuste eksport (⚠ kasuta ettevaatlikult)
+### Identimisteabe eksportimine (⚠ käsitse ettevaatlikult)
 
 ```bash
-omniroute auth export                                 # Näita hoiatust + kinnitusvärav – juurdepääs puudub andmebaasile
-omniroute auth export --force                          # Ekspordi KÕIKIDE ühenduste DEKRÜPTEERITUD tundmed stdout-ile JSONina
-omniroute auth export --force --id <id>                 # Ekspordi ainult vaste ühendus
-omniroute auth export --force --format env               # Eraldi OMNIROUTE_<PROVIDER>_<FIELD>=<value> read
-omniroute auth export --force --out creds.json           # Kirjuta faili (loodud 0600 õigustega)
+omniroute auth export                                 # Kuva hoiatus + kinnitusvärav — puudub juurdepääs andmebaasile
+omniroute auth export --force                          # Ekspordi KÕIGI ühenduste DEKRÜPTITUD identimisteave JSON-ina standardväljundisse
+omniroute auth export --force --id <id>                 # Ekspordi ainult sobiv ühendus
+omniroute auth export --force --format env               # Väljasta read kujul OMNIROUTE_<PROVIDER>_<FIELD>=<value>
+omniroute auth export --force --out creds.json           # Kirjuta faili (luuakse õigustega 0600)
 ```
 
-`auth export` on **ainult kohalik** (otse SQLite lugemine, ei HTTP marsruuti) ja trükib/kirjutab tahtlikult
-**selgeteksti** `apiKey`/`accessToken`/`refreshToken`/`idToken` väärtusi – see on funktsioon, mitte
-vea. Andmebaasist ei loeta midagi ja midagi ei dekrüpteerita ilma `--force`-ta.
-Stderr-i hoiatusteade trükitakse alati enne mis tahes selgeteksti väljastamist. Nõuab `STORAGE_ENCRYPTION_KEY`
-määramist. Väli, mis ebaõnnestub dekrüpteerimisel (vanan võti, rikutud šifritekst), edastatakse
-`<field>DecryptFailed: true` asemel kogu ekspordi katkestamisest või aluseks oleva vea lekkest.
+`auth export` on **ainult lokaalne** (loeb SQLite'i otse, HTTP-marsruuti pole) ning väljastab/kirjutab tahtlikult
+**lihttekstina** `apiKey`/`accessToken`/`refreshToken`/`idToken` väärtused — see on funktsioon, mitte
+viga. Ilma liputa `--force` ei loeta andmebaasist ega dekrüptita midagi. Enne lihtteksti väljastamist
+kuvatakse stderr-is alati hoiatusbänner. Muutuja `STORAGE_ENCRYPTION_KEY` peab olema
+määratud. Väli, mille dekrüptimine ebaõnnestub (aegunud võti, rikutud šifreeritud tekst), esitatakse kujul
+`<field>DecryptFailed: true`, selle asemel et katkestada kogu eksport või avaldada aluseks olev viga.
 
 ### Muud alamkäsud
 
-Need eeldavad töötavat OmniRoute serverit, välja arvatud juhul, kui on märgitud teisiti:
+Need eeldavad töötavat OmniRoute'i serverit, kui pole märgitud teisiti:
 
 ```bash
-omniroute status                       # Põhjalik töökeskkonna olek
-omniroute logs                         # Voog pallipäevikuid (--json, --search, --follow)
-omniroute config show                  # Näita praegust konfiguratsiooni
+omniroute status                       # Põhjalik käitusolek
+omniroute logs                         # Taotluste logide voogedastus (--json, --search, --follow)
+omniroute config list                  # Seadistatud CLI-tööriistade kuvamine
 
-omniroute provider list                # Saadaolevate pakkujate loend (pakkuja list alias)
-omniroute provider add                 # Registreeri OmniRoute tööriistana pakkujana
-omniroute keys add | list | remove     # Halda API võtmeid
-omniroute models [provider]            # Mudelite loend (--json, --search)
+omniroute provider list                # Saadaolevate pakkujate loetlemine (providers list alias)
+omniroute provider add                 # OmniRoute'i registreerimine tööriistas pakkujana
+omniroute keys add | list | remove     # API-võtmete haldamine
+omniroute models [provider]            # Mudelite loetlemine (--json, --search)
 omniroute combo list | switch | create | delete
 
-omniroute backup                       # Konfiguratsiooni + andmebaasi hetktõmmis
-omniroute restore                      # Taasta eelmisest hetktõmmisest
+omniroute backup                       # Seadistuse ja andmebaasi hetktõmmis
+omniroute restore                      # Taastamine varasemast hetktõmmisest
 
-omniroute health                       # Üksikasjalik tervisekontroll (katkestajad, vahemälu, mälu)
+omniroute health                       # Üksikasjalik seisund (kaitselülitid, vahemälu, mälu)
 omniroute quota                        # Pakkuja kvoodi kasutus
 omniroute cache                        # Vahemälu olek
-omniroute cache clear                  # Tühjenda semantiline + allkirja vahemälu
+omniroute cache clear                  # Semantilise ja signatuurivahemälu tühjendamine
 
-omniroute mcp status | restart         # MCP serveri olek / taaskäivitus
-omniroute a2a status | card            # A2A serveri olek / agendi kaart
+omniroute mcp status | restart         # MCP-serveri olek / taaskäivitamine
+omniroute a2a status | card            # A2A-serveri olek / agendikaart
 
-omniroute tunnel list | create | stop  # Halda turge (cloudflare/tailscale/ngrok)
-omniroute env show | get <k> | set <k> <v>  # Kontrolli / määra keskkonnamuutujaid (ajutiselt)
+omniroute tunnel list | create | stop  # Tunnelite haldamine (cloudflare/tailscale/ngrok)
+omniroute env show | get <k> | set <k> <v>  # Keskkonnamuutujate vaatamine / määramine (ajutine)
 
-omniroute test                         # Pakkuja ühenduvuse suitsutesti
-omniroute update                       # Kontrolli värskendusi
-omniroute completion                   # Loo kesta lõpuleviimine
+omniroute test                         # Pakkuja ühenduvuse kiirtest
+omniroute update                       # Värskenduste kontrollimine
+omniroute completion                   # Käsureakesta automaatse täitmise genereerimine
 ```
 
-### Üldised lipud
+### Levinud lipud
 
-| Lipp                                                                          | Kirjeldus                                     |
-| ----------------------------------------------------------------------------- | --------------------------------------------- |
-| `--no-open`                                                                   | Ära avada automaatselt brauserit käivitamisel |
-| `--port <n>` # Kirjuta üle API port (vaikimisi 20128)                         |
-| `--mcp` # Käivita MCP serverina stdio kaudu (IDE-de jaoks)                    |
-| `--non-interactive` # CI režiim (küsitled puudub; loeb keskkonnast/lippudest) |
-| `--json` # Masinloetav JSON väljund (doctor, providers jne.)                  |
-| `--help`, `-h` # Näita käsispetsiifilist abi                                  |
-| `--version`, `-v` # Prindi installitud versioon                               |
+| Lipp                | Kirjeldus                                             |
+| ------------------- | ----------------------------------------------------- |
+| `--no-open`         | Ära ava käivitamisel brauserit automaatselt           |
+| `--port <n>`        | API-pordi alistamine (vaikimisi 20128)                |
+| `--mcp`             | Käitamine MCP-serverina stdio kaudu (IDE-de jaoks)    |
+| `--non-interactive` | CI-režiim (viipasid pole; loeb keskkonnast/lippudelt) |
+| `--json`            | Masinloetav JSON-väljund (doctor, providers jne)      |
+| `--help`, `-h`      | Käsupõhise abi kuvamine                               |
+| `--version`, `-v`   | Installitud versiooni väljastamine                    |
 
-## Saadaolevad API-lõpp-punktid
+---
 
-| Lõpp-punkt                 | Kirjeldus                          | Kasutatakse                            |
-| -------------------------- | ---------------------------------- | -------------------------------------- |
-| `/v1/chat/completions`     | Standardne vestlus (kõik pakkujad) | Kõik kaasaegsed tööriistad             |
-| `/v1/responses`            | Vastuste API (OpenAI formaat)      | Codex, agentsed töövood                |
-| `/v1/completions`          | Vanemate tekstide lõpuleviimine    | Vanemad tööriistad kasutades `prompt:` |
-| `/v1/embeddings`           | Tekstipeetmised                    | RAG, otsing                            |
-| `/v1/images/generations`   | Pildi genereerimine                | GPT-Image, Flux jne.                   |
-| `/v1/audio/speech`         | Tekstist kõneks                    | ElevenLabs, OpenAI TTS                 |
-| `/v1/audio/transcriptions` | Kõnest tekstiks                    | Deepgram, AssemblyAI                   |
+## Saadaolevad API lõpp-punktid
 
-Valmis kleepimiseks näited tokeniseeritud OmniRoute URL-iga:
+| Lõpp-punkt                 | Kirjeldus                          | Kasutusala                                  |
+| -------------------------- | ---------------------------------- | ------------------------------------------- |
+| `/v1/chat/completions`     | Standardne vestlus (kõik pakkujad) | Kõik tänapäevased tööriistad                |
+| `/v1/responses`            | Responses API (OpenAI vorming)     | Codex, agenttöövood                         |
+| `/v1/completions`          | Pärandtekstiloome                  | Vanemad tööriistad, mis kasutavad `prompt:` |
+| `/v1/embeddings`           | Tekstivektorid                     | RAG, otsing                                 |
+| `/v1/images/generations`   | Piltide genereerimine              | GPT-Image, Flux jne                         |
+| `/v1/audio/speech`         | Tekst kõneks                       | ElevenLabs, OpenAI TTS                      |
+| `/v1/audio/transcriptions` | Kõne tekstiks                      | Deepgram, AssemblyAI                        |
+
+Kohe kasutatavad näited tokeniseeritud OmniRoute’i URL-iga:
 
 ```txt
-Näidis: sk-a3ab3c080beaee3a-69f4a4-070d71af
+Tokeni näide: sk-a3ab3c080beaee3a-69f4a4-070d71af
 
-Standardne OpenAI baas: http://localhost:20128/v1
-VS Code mudelid: http://localhost:20128/api/v1/vscode/sk-a3ab3c080beaee3a-69f4a4-070d71af/models
-Vestlus: http://localhost:20128/api/v1/vscode/sk-a3ab3c080beaee3a-69f4a4-070d71af/chat/completions
-Vastused: http://localhost:20128/api/v1/vscode/sk-a3ab3c080beaee3a-69f4a4-070d71af/responses
+Standardne OpenAI baas-URL: http://localhost:20128/v1
+VS Code'i mudelid: http://localhost:20128/api/v1/vscode/sk-a3ab3c080beaee3a-69f4a4-070d71af/models
+VS Code'i vestlus: http://localhost:20128/api/v1/vscode/sk-a3ab3c080beaee3a-69f4a4-070d71af/chat/completions
+VS Code'i vastused: http://localhost:20128/api/v1/vscode/sk-a3ab3c080beaee3a-69f4a4-070d71af/responses
 Ollama sildid: http://localhost:20128/api/v1/vscode/sk-a3ab3c080beaee3a-69f4a4-070d71af/api/tags
 Ollama vestlus: http://localhost:20128/api/v1/vscode/sk-a3ab3c080beaee3a-69f4a4-070d71af/api/chat
 ```
 
 ---
 
-## Veaotsing
+## Tõrkeotsing
 
-| Viga                                             | Põhjus                              | Lahendus                                                    |
-| ------------------------------------------------ | ----------------------------------- | ----------------------------------------------------------- |
-| `Connection refused`                             | OmniRoute ei tööta                  | `omniroute serve`                                           |
-| `401 Unauthorized`                               | Vale API võti                       | Kontrolli `/dashboard/api-manager`                          |
-| `No combo configured`                            | Aktiivset marsruutimise kombot pole | Seadista `/dashboard/combos`                                |
-| CLI näitab "not installed"                       | Binaarfail ei ole PATH-is           | Kontrolli `which <command>`                                 |
-| Dashboard näitab "not detected" paigalduse järel | Vahemälu aegunud                    | Klõpsa "⟳ Värskenda tuvastust" juhtpaneelil                 |
-| Vana link `/dashboard/cli-tools`                 | Eel-v3.8.6 järjehoidja              | Automaatselt suunatakse ümber `/dashboard/cli-code` (308)   |
-| Vana link `/dashboard/agents`                    | Eel-v3.8.6 järjehoidja              | Automaatselt suunatakse ümber `/dashboard/acp-agents` (308) |
+| Tõrge                                            | Põhjus                                | Lahendus                                                         |
+| ------------------------------------------------ | ------------------------------------- | ---------------------------------------------------------------- |
+| `Connection refused`                             | OmniRoute ei tööta                    | `omniroute serve`                                                |
+| `401 Unauthorized`                               | Vale API-võti                         | Kontrollige jaotises `/dashboard/api-manager`                    |
+| `No combo configured`                            | Aktiivne marsruutimiskombo puudub     | Seadistage see jaotises `/dashboard/combos`                      |
+| CLI kuvab „not installed”                        | Binaarfail ei ole PATH-is             | Kontrollige käsuga `which <command>`                             |
+| Pärast installimist kuvab töölaud „not detected” | Vahemälu on aegunud                   | Klõpsake töölaual „⟳ Refresh detection”                          |
+| Vana link `/dashboard/cli-tools`                 | Versioonile v3.8.6 eelnev järjehoidja | Suunatakse automaatselt aadressile `/dashboard/cli-code` (308)   |
+| Vana link `/dashboard/agents`                    | Versioonile v3.8.6 eelnev järjehoidja | Suunatakse automaatselt aadressile `/dashboard/acp-agents` (308) |
+
+## Järeldusvõtme poliitika haldamine OmniRoute CLI abil
+
+Kasutage autenditud halduskonteksti (vt [Kaugrežiim](../guides/REMOTE-MODE.md)),
+et kontrollida või uuendada olemasolevat järeldusvõtit selle ID järgi:
+
+```bash
+omniroute --output json keys policy show KEY_ID
+omniroute keys policy set KEY_ID --unrestricted
+omniroute --output json keys policy show KEY_ID
+```
+
+`--unrestricted` on parameetri `--model-access-mode all` alias. Uuendamine tühjendab
+mudelite lubatud loendi. See säilitab ulatused, ühendusreeglid, blokeeritud mudelid,
+kiiruspiirangud ja kulupiirangud, mistõttu võivad need muud juhtelemendid päringu
+endiselt tagasi lükata. Selgesõnaline `--allowed-models ""` valib samuti väärtuse
+`all`; kombineerige see parameetriga `--model-access-mode restricted`, et säilitada
+piiratud võti, millel pole lubatud mudeleid. Mittetühi komadega eraldatud loend valib
+väärtuse `restricted`, kui seda pole selgesõnaliselt teisiti määratud. Vastuoluline
+kombinatsioon `all` koos mittetühja lubatud loendiga lükatakse enne päringu saatmist tagasi.
+
+`--rate-limit 30` määrab päringute arvu minutis ja säilitab muude ajavahemike reeglid.
+`--max-cost 5` lubab päevase USD ülempiiri ilma nädalast ülempiiri muutmata;
+`--max-cost 0` eemaldab päevase ülempiiri ning säilitab olemasoleva kasutuspiirangu
+lüliti ja nädalase ülempiiri. Väljajäetud poliitikaväljad jäävad muutmata.
+Kiiruspiirangu muutmisel loetakse esmalt praegune poliitika; vältige sama võtme
+kiiruspiirangute massiivi samaaegset muutmist.
+
+Poliitikakäsud kasutavad autenditud päringuid `GET`/`PATCH /api/keys/{id}` ning
+järgivad aktiivset konteksti ja globaalset suvandit `--api-key`. JSON-väljund sisaldab
+ainult poliitikavälju, mitte salvestatud võtit ega selle maskitud kuju. Ainult
+järeldamiseks mõeldud mandaat ei saa haldusmuudatusi autoriseerida. Vastuse 401/403
+korral tuleb kontrollida haldusmandaati ja konteksti; see ei tõenda kohaliku CLI
+tokeni ega soola tõrget. Eraldiseisva kohaliku autentimislepingu kohta vt
+[CLI token](../security/CLI_TOKEN.md).
