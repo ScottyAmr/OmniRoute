@@ -80,14 +80,13 @@ numeric free-token pools.
 On the Free and Student plans, GitHub does not allow users to pick models. The
 Copilot UI automatically selects a model for each request.
 
-OmniRoute represents this as a single virtual model called **"Copilot (auto
-select)"** (`copilot-auto`). When OmniRoute routes a request through this model,
-it sends the request with `gpt-4o-2024-11-20` as the upstream model ID — the
-model GitHub has historically used as the default. The actual model GitHub uses
-may differ without notice; OmniRoute records the model from the upstream response
-when GitHub returns it.
+OmniRoute represents this as the catalog model **"Auto"** (`auto`). For each
+request routed through it, OmniRoute first asks Copilot's `/auto` endpoint which
+concrete model should serve the turn, then sends the request with that model ID
+and the session token `/auto` returned (`open-sse/executors/github/autoModel.ts`).
+GitHub makes the choice; the model can differ from one request to the next.
 
-Free and Student accounts can only use `copilot-auto`. Explicit models such as
+Free and Student accounts can only use `auto`. Explicit models such as
 `claude-opus-5` or `gpt-5.4` are only shown when the account's live capabilities
 confirm model selection is allowed.
 

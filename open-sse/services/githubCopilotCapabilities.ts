@@ -35,11 +35,11 @@
  * automatic model selection (Free / Student). When at least one model has the
  * flag set, the account may use explicit model selection (paid plans).
  *
- * For auto-only accounts, OmniRoute presents a single virtual model
- * `COPILOT_AUTO_MODEL_ID` that sends `gpt-4o-2024-11-20` to the upstream
- * endpoint — the model ID GitHub historically accepts for Free / Student
- * plan requests. GitHub may still route to a different underlying model
- * at its discretion; do not promise a specific model to the user.
+ * For auto-only accounts, OmniRoute presents the catalog's `auto` model
+ * (`COPILOT_AUTO_MODEL_ID`). The github executor resolves it per request
+ * through Copilot's own `/auto` endpoint (see executors/github/autoModel.ts),
+ * so GitHub picks the concrete model; do not promise a specific model to the
+ * user.
  *
  * ## Quota
  *
@@ -50,15 +50,12 @@
  * as unlimited — it simply cannot be measured.
  */
 
-/** Virtual model ID used when the account is restricted to auto-selection. */
-export const COPILOT_AUTO_MODEL_ID = "copilot-auto";
-
 /**
- * Upstream model ID sent for auto-selection requests. GitHub historically
- * uses GPT-4o as the default for Free / Student plans. Do not promise this
- * to the user — record the model from the upstream response when available.
+ * Model ID used when the account is restricted to auto-selection. Same id as the
+ * executor's `COPILOT_AUTO_MODEL_ID` (executors/github/autoModel.ts): the github
+ * catalog's `auto` entry, resolved per request through Copilot's `/auto` endpoint.
  */
-export const COPILOT_AUTO_UPSTREAM_MODEL_ID = "gpt-4o-2024-11-20";
+export const COPILOT_AUTO_MODEL_ID = "auto";
 
 /** Version string embedded in persisted records. Bump when the shape changes. */
 export const CAPABILITY_WARNING_VERSION = "1.0";
@@ -219,49 +216,52 @@ export function inferQuotaState(data: unknown): CopilotQuotaState {
   const monthly = asRecord(d["monthly_quotas"]);
   const limited = asRecord(d["limited_user_quotas"]);
   if (Object.keys(monthly).length > 0 || Object.keys(limited).length > 0) {
-    // If any quota bucket is explicitly 0 remaining, report exhausted.
-    for (const key of Object.keys(limited)) {
-      const remaining = Number(limited[key] ?? monthly[key]);
-      if (!Number.isNaN(remaining)) {
-        if (remaining === 0) return "exhausted";
-        return "available";
-      }
-    }
-    // monthly_quotas present but no per-key data readable → "unknown" (credits exist)
-    return "unknown";
+    return limitedPlanQuotaState(monthly, limited);
   }
 
   // Paid plan path: `quota_snapshots` object with named buckets
-  const snapshots = asRecord(d["quota_snapshots"]);
-  const keys = Object.keys(snapshots);
-  if (keys.length === 0) {
-    // No quota data at all. If there is a copilot_plan or entitlement field, credits
-    // exist but the amount is unreadable (e.g., newly-created account). Return unknown.
-    const hasPlan =
-      typeof d["copilot_plan"] === "string" ||
-      typeof d["quota"] === "object" ||
-      typeof d["entitlement"] === "object";
-    return hasPlan ? "unknown" : "unknown";
-  }
+  return paidPlanQuotaState(asRecord(d["quota_snapshots"]));
+}
 
-  let allExhausted = true;
-  for (const key of keys) {
-    const snap = asRecord(snapshots[key]);
-    const remaining = Number(snap["remaining"] ?? snap["entitlement"]);
-    const percentRemaining = Number(snap["percent_remaining"]);
-    if (!Number.isNaN(remaining)) {
-      if (remaining > 0) {
-        allExhausted = false;
-        if (!Number.isNaN(percentRemaining) && percentRemaining <= 10) return "low";
-        return "available";
-      }
-    } else if (!Number.isNaN(percentRemaining) && percentRemaining > 0) {
-      allExhausted = false;
-      if (percentRemaining <= 10) return "low";
-      return "available";
-    }
+/** Free / limited plans: the first readable bucket decides; 0 remaining is exhausted. */
+function limitedPlanQuotaState(monthly: RawRecord, limited: RawRecord): CopilotQuotaState {
+  for (const key of Object.keys(limited)) {
+    const remaining = Number(limited[key] ?? monthly[key]);
+    if (!Number.isNaN(remaining)) return remaining === 0 ? "exhausted" : "available";
   }
-  return allExhausted ? "exhausted" : "unknown";
+  // monthly_quotas present but no per-key data readable → "unknown" (credits exist)
+  return "unknown";
+}
+
+/** Paid plans: the first bucket with quota left decides; none left is exhausted. */
+function paidPlanQuotaState(snapshots: RawRecord): CopilotQuotaState {
+  const keys = Object.keys(snapshots);
+  // No quota data at all: credits may exist but the amount is unreadable
+  // (e.g., newly-created account) — never report zero or unlimited.
+  if (keys.length === 0) return "unknown";
+
+  for (const key of keys) {
+    const state = snapshotQuotaState(asRecord(snapshots[key]));
+    if (state) return state;
+  }
+  return "exhausted";
+}
+
+/** State of one quota snapshot bucket, or null when it has nothing left / is unreadable. */
+function snapshotQuotaState(snap: RawRecord): CopilotQuotaState | null {
+  const remaining = Number(snap["remaining"] ?? snap["entitlement"]);
+  const percentRemaining = Number(snap["percent_remaining"]);
+  if (!Number.isNaN(remaining)) {
+    return remaining > 0 ? quotaLevel(percentRemaining) : null;
+  }
+  if (!Number.isNaN(percentRemaining) && percentRemaining > 0) {
+    return quotaLevel(percentRemaining);
+  }
+  return null;
+}
+
+function quotaLevel(percentRemaining: number): CopilotQuotaState {
+  return !Number.isNaN(percentRemaining) && percentRemaining <= 10 ? "low" : "available";
 }
 
 export type DiscoverCopilotCapabilitiesOptions = {
@@ -312,69 +312,27 @@ export async function discoverCopilotCapabilities(
   };
 
   // ── Step 1: Fetch user / entitlement from the GitHub API ────────────────
-  let userApiData: unknown = null;
-  try {
-    const userRes = await fetchImpl("https://api.github.com/copilot_internal/user", {
-      headers: {
-        Authorization: `token ${accessToken}`,
-        Accept: "application/json",
-        "X-GitHub-Api-Version": apiVersion,
-        "User-Agent": userAgent,
-      },
-    });
-    if (userRes.ok) {
-      userApiData = await userRes.json();
-      base.entitlementVerified = true;
-    } else if (userRes.status === 401 || userRes.status === 403 || userRes.status === 404) {
-      // 403/404 from this endpoint typically means Copilot is not enabled for this account.
-      base.entitlementVerified = false;
-      return {
-        ...base,
-        lastCapabilityRefreshAt: new Date().toISOString(),
-      };
-    }
-  } catch {
-    // Network failure — return conservative record without marking refresh time
-    return base;
+  const user = await fetchCopilotUser(fetchImpl, accessToken, apiVersion, userAgent);
+  // Network failure — return conservative record without marking refresh time
+  if (user.kind === "network") return base;
+  if (user.kind === "denied") {
+    // 401/403/404 from this endpoint typically means Copilot is not enabled for this account.
+    return { ...base, lastCapabilityRefreshAt: new Date().toISOString() };
   }
-
-  if (userApiData) {
-    base.plan = inferPlanFromApiResponse(userApiData);
-    base.quotaState = inferQuotaState(userApiData);
-    const d = asRecord(userApiData);
-    // paidOverageEnabled: look for an explicit overage-enabled signal
-    if (typeof d["additional_usage_allowed"] === "boolean") {
-      base.paidOverageEnabled = d["additional_usage_allowed"] as boolean;
-    } else if (typeof d["pay_as_you_go"] === "boolean") {
-      base.paidOverageEnabled = d["pay_as_you_go"] as boolean;
-    }
+  if (user.kind === "ok") base.entitlementVerified = true;
+  if (user.kind === "ok" && user.data) {
+    base.plan = inferPlanFromApiResponse(user.data);
+    base.quotaState = inferQuotaState(user.data);
+    base.paidOverageEnabled = readPaidOverageEnabled(asRecord(user.data));
   }
 
   // ── Step 2: Fetch model picker eligibility from /models ─────────────────
-  if (copilotToken || accessToken) {
-    try {
-      const { getGitHubCopilotChatHeaders } = await import("../config/providerHeaderProfiles.ts");
-      const modelsRes = await fetchImpl("https://api.githubcopilot.com/models", {
-        headers: {
-          ...getGitHubCopilotChatHeaders("application/json"),
-          Authorization: `Bearer ${copilotToken || accessToken}`,
-        },
-      });
-      if (modelsRes.ok) {
-        const modelsData = await modelsRes.json();
-        base.endpointCompatible = true;
-        const modeFromModels = inferModelSelectionMode(modelsData);
-        // Plan-based check takes precedence when plan is definitively known.
-        // For "unknown" plans, trust the model_picker_enabled signal.
-        if (planRequiresAutoModelSelection(base.plan)) {
-          base.modelSelectionMode = "auto";
-        } else {
-          base.modelSelectionMode = modeFromModels;
-        }
-      }
-    } catch {
-      // /models fetch failure: conservative auto mode
-    }
+  // Plan-based enforcement below takes precedence when the plan is definitively
+  // known; for "unknown" plans, trust the model_picker_enabled signal.
+  const modeFromModels = await fetchModelSelectionMode(fetchImpl, copilotToken || accessToken);
+  if (modeFromModels) {
+    base.endpointCompatible = true;
+    base.modelSelectionMode = modeFromModels;
   }
 
   // If plan is definitively auto-only, enforce regardless of /models result.
@@ -386,10 +344,73 @@ export async function discoverCopilotCapabilities(
   return base;
 }
 
+type CopilotUserFetch =
+  | { kind: "ok"; data: unknown }
+  | { kind: "denied" }
+  | { kind: "unavailable" }
+  | { kind: "network" };
+
+/** `GET /copilot_internal/user`, classified for discoverCopilotCapabilities. */
+async function fetchCopilotUser(
+  fetchImpl: typeof fetch,
+  accessToken: string,
+  apiVersion: string,
+  userAgent: string
+): Promise<CopilotUserFetch> {
+  try {
+    const userRes = await fetchImpl("https://api.github.com/copilot_internal/user", {
+      headers: {
+        Authorization: `token ${accessToken}`,
+        Accept: "application/json",
+        "X-GitHub-Api-Version": apiVersion,
+        "User-Agent": userAgent,
+      },
+    });
+    if (userRes.ok) {
+      return { kind: "ok", data: await userRes.json() };
+    }
+    if (userRes.status === 401 || userRes.status === 403 || userRes.status === 404) {
+      return { kind: "denied" };
+    }
+    return { kind: "unavailable" };
+  } catch {
+    return { kind: "network" };
+  }
+}
+
+/** Explicit paid-overage signal from the user payload; null when GitHub does not say. */
+function readPaidOverageEnabled(d: RawRecord): boolean | null {
+  if (typeof d["additional_usage_allowed"] === "boolean") return d["additional_usage_allowed"];
+  if (typeof d["pay_as_you_go"] === "boolean") return d["pay_as_you_go"];
+  return null;
+}
+
+/** Model selection mode from Copilot `/models`; null when it cannot be read. */
+async function fetchModelSelectionMode(
+  fetchImpl: typeof fetch,
+  token: string | null | undefined
+): Promise<CopilotModelSelectionMode | null> {
+  if (!token) return null;
+  try {
+    const { getGitHubCopilotChatHeaders } = await import("../config/providerHeaderProfiles.ts");
+    const modelsRes = await fetchImpl("https://api.githubcopilot.com/models", {
+      headers: {
+        ...getGitHubCopilotChatHeaders("application/json"),
+        Authorization: `Bearer ${token}`,
+      },
+    });
+    if (!modelsRes.ok) return null;
+    return inferModelSelectionMode(await modelsRes.json());
+  } catch {
+    // /models fetch failure: conservative auto mode
+    return null;
+  }
+}
+
 /**
  * Filter a model list according to the account's capability record.
  *
- * For auto-only accounts: returns ONLY the virtual `copilot-auto` entry.
+ * For auto-only accounts: returns ONLY the `auto` model entry.
  * For explicit-capable accounts: returns all models as-is (the live /models
  * endpoint already enforces entitlement filtering).
  */

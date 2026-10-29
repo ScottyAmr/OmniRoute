@@ -34,18 +34,6 @@ export const githubProvider: RegistryEntry = {
   // Limits and capabilities verified against Copilot /models on 2026-09-05.
   // Grok 4.6 was absent; its existing metadata is retained.
   models: [
-    // Virtual model for Copilot Free / Student accounts (auto model selection only).
-    // GitHub does not expose the actual model selection to users on these plans.
-    // OmniRoute maps this to gpt-4o-2024-11-20 upstream (the historical default)
-    // but makes no guarantee about which model GitHub actually uses.
-    // See: docs.github.com/en/copilot/about-github-copilot/subscription-plans-for-github-copilot
-    // (accessed 2026-09-02): "Copilot Free: Auto model selection only".
-    {
-      id: "copilot-auto",
-      name: "Copilot (auto select)",
-      contextLength: 128000,
-      maxOutputTokens: 16384,
-    },
     {
       id: "gpt-6-astra",
       name: "GPT-6 Astra",

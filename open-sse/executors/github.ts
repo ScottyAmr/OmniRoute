@@ -19,10 +19,6 @@ import {
   stripUnsupportedParams,
 } from "../translator/paramSupport.ts";
 import {
-  COPILOT_AUTO_MODEL_ID,
-  COPILOT_AUTO_UPSTREAM_MODEL_ID,
-} from "../services/githubCopilotCapabilities.ts";
-import {
   COPILOT_AUTO_API_VERSION,
   COPILOT_AUTO_TIMEOUT_MS,
   buildAutoSessionKey,
@@ -178,22 +174,6 @@ export class GithubExecutor extends BaseExecutor {
 
     const sourceBody = body && typeof body === "object" ? body : {};
     const modifiedBody = { ...sourceBody };
-
-    // Resolve the virtual `copilot-auto` model to a concrete upstream model ID.
-    // For Free / Student accounts, OmniRoute presents only this virtual model so
-    // users cannot inadvertently select a model they are not entitled to use.
-    // GitHub Copilot's chat/completions endpoint requires an explicit `model`
-    // field in the request body; omitting it returns HTTP 400. We send
-    // COPILOT_AUTO_UPSTREAM_MODEL_ID (gpt-4o-2024-11-20), the model GitHub
-    // accepts on Free / Student plans. GitHub may still apply additional routing
-    // logic on its side — do not guarantee a specific response model to the user.
-    //
-    // RISK: if GitHub retires `gpt-4o-2024-11-20` or changes the accepted model
-    // ID for Free plans, this constant must be updated. Monitor GitHub Copilot
-    // API changelogs and the upstream response `model` field for drift.
-    if (model === COPILOT_AUTO_MODEL_ID) {
-      modifiedBody.model = COPILOT_AUTO_UPSTREAM_MODEL_ID;
-    }
 
     // Claude models arrive here already translated to Anthropic-native shape by
     // chatCore.ts (registry targetFormat: "claude" — see registry/github/index.ts)

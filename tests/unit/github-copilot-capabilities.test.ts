@@ -13,7 +13,6 @@ import assert from "node:assert/strict";
 
 const {
   COPILOT_AUTO_MODEL_ID,
-  COPILOT_AUTO_UPSTREAM_MODEL_ID,
   CAPABILITY_WARNING_VERSION,
   inferPlanFromApiResponse,
   inferModelSelectionMode,
@@ -346,7 +345,7 @@ test("discoverCopilotCapabilities: Free plan enforces auto regardless of model_p
 
 const AUTO_ENTRY = { id: COPILOT_AUTO_MODEL_ID, name: "Copilot (auto select)" };
 
-test("filterModelsForCapabilities: auto-only account → only copilot-auto returned", () => {
+test("filterModelsForCapabilities: auto-only account → only the auto model returned", () => {
   const autoCapabilities = {
     ...buildDefaultCapabilityRecord(),
     modelSelectionMode: "auto" as const,
@@ -435,8 +434,22 @@ test("COPILOT_AUTO_MODEL_ID is non-empty string", () => {
   assert.ok(COPILOT_AUTO_MODEL_ID.length > 0);
 });
 
-test("COPILOT_AUTO_UPSTREAM_MODEL_ID is gpt-4o-2024-11-20 (historical default)", () => {
-  assert.equal(COPILOT_AUTO_UPSTREAM_MODEL_ID, "gpt-4o-2024-11-20");
+// Free / Student auto selection is served by the catalog's `auto` model, which the
+// github executor resolves per request through Copilot's /auto endpoint
+// (open-sse/executors/github/autoModel.ts). The former virtual `copilot-auto` id
+// pinned the retired `gpt-4o-2024-11-20` upstream and is gone.
+test("COPILOT_AUTO_MODEL_ID is the catalog's Copilot /auto model, never a retired id", async () => {
+  const autoModel = await import("../../open-sse/executors/github/autoModel.ts");
+  const { getModelsByProviderId } = await import("../../open-sse/config/providerModels.ts");
+  const { isRetiredGitHubCopilotModelId } =
+    await import("../../open-sse/config/providers/registry/github/retiredModels.ts");
+
+  assert.equal(COPILOT_AUTO_MODEL_ID, autoModel.COPILOT_AUTO_MODEL_ID);
+  assert.ok(autoModel.isCopilotAutoModel(COPILOT_AUTO_MODEL_ID));
+  const catalogIds = getModelsByProviderId("github").map((model) => model.id);
+  assert.ok(catalogIds.includes(COPILOT_AUTO_MODEL_ID), "auto model must be in the github catalog");
+  assert.ok(!catalogIds.includes("copilot-auto"), "the retired virtual id must not return");
+  assert.equal(isRetiredGitHubCopilotModelId("github", COPILOT_AUTO_MODEL_ID), false);
 });
 
 // ── Free-tier catalog exclusion ───────────────────────────────────────────────
